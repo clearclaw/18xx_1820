@@ -1,0 +1,152 @@
+[DEFAULT]
+  WHITE = 1, 1, 1
+  GRAY = 0.663, 0.663, 0.663
+  BLACK = 0, 0, 0
+  L_RED = 1.000, 0.000, 1.000
+  M_RED = 1, 0, 0
+  D_RED = 0.549, 0.090, 0.090
+  L_GREEN = 0.000, 1.000, 0.000
+  M_GREEN = 0.420, 0.557, 0.137
+  D_GREEN = 0.83, 1.0, 0.83
+  L_BLUE = 0.000, 1.000, 1.000
+  M_BLUE = 0.220, 0.690, 0.871
+  D_BLUE = 0.255, 0.412, 0.882
+  YELLOW = 1.0, 1.0, 0.0
+  ORANGE = 1.000, 0.647, 0.000
+  L_BROWN = 0.922, 0.780, 0.620
+  D_BROWN = 0.545, 0.271, 0.075
+  PURPLE = 0.580, 0.000, 0.827
+
+[share]
+  token_count = 1
+  size = 20%
+  note = ""
+  desc = "1 Share"
+  type_colour = transparent
+
+  [[FOO-1]]
+    LIGHT = ${L_GREEN}
+    DARK = ${D_GREEN}
+    title = "My Fake Company"
+    token_name = FOO
+    size = 100%
+    desc = Private
+    note = Director
+    type_colour = ${ORANGE}
+    side_split_count = 0
+
+  [[FOO-2]]
+    LIGHT = ${L_GREEN}
+    DARK = ${D_GREEN}
+    title = "My Fake Company"
+    token_name = FOO
+    size = 50%
+    desc = 2 Shares
+    note = Director
+    type_colour = ${ORANGE}
+    token_count = 2
+    side_split_count = 1
+
+  [[FOO-5]]
+    LIGHT = ${L_GREEN}
+    DARK = ${D_GREEN}
+    title = "My Fake Company"
+    token_name = FOO
+    size = 20%
+    desc = 1 Share
+    side_split_count = 2
+
+    [[[tile_1.1]]]
+      note = Director
+      type_colour = ${ORANGE}
+      token_count = 2
+      size = 40%
+      desc = 2 Shares
+
+  [[FOO-10]]
+    LIGHT = ${L_GREEN}
+    DARK = ${D_GREEN}
+    title = "My Fake Company"
+    token_name = FOO
+    size = 10%
+    desc = 1 Share
+    side_split_count = 3
+
+    [[[tile_1.1]]]
+      note = Director
+      type_colour = ${ORANGE}
+      token_count = 2
+      size = 20%
+      desc = 2 Shares
+
+  [[FOO-20]]
+    LIGHT = ${L_GREEN}
+    DARK = ${D_GREEN}
+    title = "My Fake Company"
+    token_name = FOO
+    size = 5%
+    desc = 1 Share
+    side_split_count = 4
+
+    [[[tile_1.1]]]
+      note = Director
+      type_colour = ${ORANGE}
+      token_count = 2
+      size = 10%
+      desc = 2 Shares
+
+    [[[tile_3.1]]]
+      token_count = 2
+      size = 10%
+      desc = 2 Shares
+
+    [[[tile_3.2]]]
+      token_count = 2
+      size = 10%
+      desc = 2 Shares
+
+    [[[tile_3.3]]]
+      token_count = 2
+      size = 10%
+      desc = 2 Shares
+
+  [[FOO-50a]]
+    LIGHT = ${L_GREEN}
+    DARK = ${D_GREEN}
+    title = "My Fake Company"
+    token_name = FOO
+    size = 2%
+    desc = 1 Share
+    side_split_count = 5
+
+    [[[tile_1.1]]]
+      note = Director
+      type_colour = ${ORANGE}
+      token_count = 2
+      size = 4%
+      desc = 2 Shares
+
+    [[[tile_3.1]]]
+      token_count = 2
+      size = 4%
+      desc = 2 Shares
+
+    [[[tile_3.2]]]
+      token_count = 2
+      size = 4%
+      desc = 2 Shares
+
+    [[[tile_3.3]]]
+      token_count = 2
+      size = 4%
+      desc = 2 Shares
+
+  [[FOO-50b]]
+    LIGHT = ${L_GREEN}
+    DARK = ${D_GREEN}
+    title = "My Fake Company"
+    token_name = FOO
+    size = 4%
+    desc = 2 Shares
+    side_split_count = 5
+    token_count = 2

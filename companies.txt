@@ -1,40 +1,26 @@
 2 and 5 share
 
   Ashton, Stalybridge and Liverpool Junction Railway - https://en.wikipedia.org/wiki/Ashton,_Stalybridge_and_Liverpool_Junction_Railway
-  Avon and Gloucestershire Railway - https://en.wikipedia.org/wiki/Avon_and_Gloucestershire_Railway
-  Birmingham West Suburban Railway - https://en.wikipedia.org/wiki/Birmingham_West_Suburban_Railway
   Birmingham and Derby Junction Railway - https://en.wikipedia.org/wiki/Birmingham_and_Derby_Junction_Railway
   Birmingham and Gloucester Railway - https://en.wikipedia.org/wiki/Birmingham_and_Gloucester_Railway
-  Birmingham and Liverpool Railway Company - https://en.wikipedia.org/wiki/Grand_Junction_Railway
   Blackburn Railway - https://en.wikipedia.org/wiki/Ribble_Valley_Line#Early_history
-  Blackburn and Preston Railway
   Blackburn, Clitheroe and North Western Junction Railway
   Blackburn, Darwen and Bolton Railway - https://en.wikipedia.org/wiki/Ribble_Valley_Line#Early_history
   Bolton and Leigh Railway - https://en.wikipedia.org/wiki/Bolton_and_Leigh_Railway
-  Brighton Lewes and Hastings Railway - https://en.wikipedia.org/wiki/Brighton_Lewes_and_Hastings_Railway
-  Brighton and Chichester Railway - https://en.wikipedia.org/wiki/Brighton_and_Chichester_Railway
-  Bristol Harbour Railway - https://en.wikipedia.org/wiki/Bristol_Harbour_Railway
   Bristol and Exeter Railway - https://en.wikipedia.org/wiki/Bristol_and_Exeter_Railway
-  Bristol and Gloucestershire Railway - https://en.wikipedia.org/wiki/Bristol_and_Gloucestershire_Railway
+  Bristol and Gloucester Railway - https://en.wikipedia.org/wiki/Bristol_and_Gloucester_Railway
   Canterbury and Whitstable Railway aka Crab and Winkle Line - https://en.wikipedia.org/wiki/Canterbury_and_Whitstable_Railway
-  Cheddar Valley Line - https://en.wikipedia.org/wiki/Cheddar_Valley_Line
   Cheltenham and Great Western Union Railway - https://en.wikipedia.org/wiki/Cheltenham_and_Great_Western_Union_Railway
   Cheshire Midland Railway - https://en.wikipedia.org/wiki/Cheshire_Midland_Railway
   Chester and Crewe Railway - https://en.wikipedia.org/wiki/Chester_and_Crewe_Railway
   Chipping Norton Railway - https://en.wikipedia.org/wiki/Chipping_Norton_Railway
   Colne Valley and Halstead Railway - https://en.wikipedia.org/wiki/Colne_Valley_and_Halstead_Railway
-  Croydon and Epsom Railway - https://en.wikipedia.org/wiki/Croydon_and_Epsom_Railway
   Croydon, Merstham and Godstone Railway - https://en.wikipedia.org/wiki/Surrey_Iron_Railway
-  Croydon, Merstham and Godstone Railway - https://en.wikipedia.org/wiki/Surrey_Iron_Railway#Croydon.2C_Merstham_and_Godstone_Railway
   Devon and Somerset Railway - https://en.wikipedia.org/wiki/Devon_and_Somerset_Railway
-  Etherley Incline Railway - https://en.wikipedia.org/wiki/Phoenix_Row
   Fleetwood, Preston and West Riding Junction Railway - https://en.wikipedia.org/wiki/Preston_and_Longridge_Railway
-  Garston and Liverpool Railway - https://en.wikipedia.org/wiki/Garston_and_Liverpool_Railway
   Great Grimsby and Sheffield Junction Railway - https://en.wikipedia.org/wiki/Great_Grimsby_and_Sheffield_Junction_Railway
   Huddersfield and Sheffield Junction Railway
-  Lambourn Valley Railway - https://en.wikipedia.org/wiki/Lambourn_Valley_Railway
   Lancashire Union Railway - https://en.wikipedia.org/wiki/Lancashire_Union_Railway
-  Liverpool and Birmingham Railway Company - https://en.wikipedia.org/wiki/Grand_Junction_Railway
   Liverpool and Bury Railway - https://en.wikipedia.org/wiki/Liverpool_and_Bury_Railway
   Liverpool, Crosby and Southport Railway - https://en.wikipedia.org/wiki/Liverpool,_Crosby_and_Southport_Railway
   Liverpool, Ormskirk and Preston Railway - https://en.wikipedia.org/wiki/Liverpool,_Ormskirk_and_Preston_Railway
@@ -48,41 +34,55 @@
   Manchester and Birmingham Railway - https://en.wikipedia.org/wiki/Manchester_and_Birmingham_Railway
   Manchester and Bolton Railway - https://en.wikipedia.org/wiki/Manchester_and_Bolton_Railway
   Manchester and Leeds Railway - https://en.wikipedia.org/wiki/Manchester_and_Leeds_Railway
-  Manchester and Leeds Railway - https://en.wikipedia.org/wiki/Manchester_and_Leeds_Railway
   Manchester and Southport Railway - https://en.wikipedia.org/wiki/Manchester_and_Southport_Railway
   Manchester and Wigan Railway - https://en.wikipedia.org/wiki/Manchester_and_Wigan_Railway
-  Manchester, Bury and Rossendale Railway - https://en.wikipedia.org/wiki/East_Lancashire_Railway_1844%E2%80%9359
-  Manchester, Sheffield and Lincolnshire Railway - https://en.wikipedia.org/wiki/Stockport_and_Woodley_Junction_Railway
   Manchester, South Junction and Altrincham Railway - https://en.wikipedia.org/wiki/Manchester,_South_Junction_and_Altrincham_Railway
   Mansfield and Pinxton Railway - https://en.wikipedia.org/wiki/Mansfield_and_Pinxton_Railway
-  Merchant's Railway - https://en.wikipedia.org/wiki/Merchant%27s_Railway
   North Western Railway - https://en.wikipedia.org/wiki/%22Little%22_North_Western_Railway
   Northampton and Peterborough Railway - https://en.wikipedia.org/wiki/Northampton_and_Peterborough_Railway
-  Preston and Longridge Railway - https://en.wikipedia.org/wiki/Preston_and_Longridge_Railway
   Preston and Wyre Joint Railway - https://en.wikipedia.org/wiki/Preston_and_Wyre_Joint_Railway
-  Redruth and Chasewater Railway - https://en.wikipedia.org/wiki/Redruth_and_Chasewater_Railway
   Sheffield and Lincolnshire Junction Railway - https://en.wikipedia.org/wiki/Sheffield_and_Lincolnshire_Junction_Railway
-  Sheffield and Rotherham Railway - https://en.wikipedia.org/wiki/Sheffield_and_Rotherham_Railway
   Sheffield, Ashton-under-Lyne and Manchester Railway - https://en.wikipedia.org/wiki/Sheffield,_Ashton-under-Lyne_and_Manchester_Railway
   Sheffield, Rotherham, Barnsley, Wakefield, Huddersfield and Goole Railway - https://en.wikipedia.org/wiki/Sheffield,_Rotherham,_Barnsley,_Wakefield,_Huddersfield_and_Goole_Railway
   Somerset and Dorset Joint Railway  - Somerset Central Railway,  Dorset Central Railway - https://en.wikipedia.org/wiki/Somerset_and_Dorset_Joint_Railway#Somerset_Central_Railway
   South Devon Railway Company - https://en.wikipedia.org/wiki/South_Devon_Railway_Company
   Stockport, Timperley and Altrincham Junction Railway - https://en.wikipedia.org/wiki/Stockport,_Timperley_and_Altrincham_Junction_Railway
   Stockton and Darlington Railway - https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway
-  Stratford and Moreton Tramway - https://en.wikipedia.org/wiki/Stratford_and_Moreton_Tramway
-  Surrey Iron Railway - https://en.wikipedia.org/wiki/Surrey_Iron_Railway
-  Surrey, Sussex, Hants, Wilts & Somerset Railway - https://en.wikipedia.org/wiki/London_and_Brighton_Railway
-  Taff Vale Railway - https://en.wikipedia.org/wiki/Taff_Vale_Railway
   Wakefield, Pontefract and Goole Railway
-  Warrington and Newton Railway - https://en.wikipedia.org/wiki/Warrington_and_Newton_Railway
   West Cheshire Railway - https://en.wikipedia.org/wiki/West_Cheshire_Railway
   West Lancashire Railway - https://en.wikipedia.org/wiki/West_Lancashire_Railway
-  West Somerset Mineral Railway - https://en.wikipedia.org/wiki/West_Somerset_Mineral_Railway
-  West Somerset Railway - https://en.wikipedia.org/wiki/West_Somerset_Railway
-  Wigan Branch Railway Company
-  Wigan and Preston Junction Railway
+-  Avon and Gloucestershire Railway - https://en.wikipedia.org/wiki/Avon_and_Gloucestershire_Railway
+-  Birmingham and Liverpool Railway Company - https://en.wikipedia.org/wiki/Grand_Junction_Railway
+-  Blackburn and Preston Railway
+-  Brighton Lewes and Hastings Railway - https://en.wikipedia.org/wiki/Brighton_Lewes_and_Hastings_Railway
+-  Brighton and Chichester Railway - https://en.wikipedia.org/wiki/Brighton_and_Chichester_Railway
+-  Bristol Harbour Railway - https://en.wikipedia.org/wiki/Bristol_Harbour_Railway
+-  Bristol and Gloucestershire Railway - https://en.wikipedia.org/wiki/Bristol_and_Gloucestershire_Railway
+-  Garston and Liverpool Railway - https://en.wikipedia.org/wiki/Garston_and_Liverpool_Railway
+-  Lambourn Valley Railway - https://en.wikipedia.org/wiki/Lambourn_Valley_Railway
+-  Redruth and Chasewater Railway - https://en.wikipedia.org/wiki/Redruth_and_Chasewater_Railway
+-  Stratford and Moreton Tramway - https://en.wikipedia.org/wiki/Stratford_and_Moreton_Tramway
+-  Surrey Iron Railway - https://en.wikipedia.org/wiki/Surrey_Iron_Railway
+-  Taff Vale Railway - https://en.wikipedia.org/wiki/Taff_Vale_Railway
+-  Warrington and Newton Railway - https://en.wikipedia.org/wiki/Warrington_and_Newton_Railway
+-  West End of London and Crystal Palace Railway - https://en.wikipedia.org/wiki/West_End_of_London_and_Crystal_Palace_Railway
+-  West Somerset Railway - https://en.wikipedia.org/wiki/West_Somerset_Railway
+?  Birmingham West Suburban Railway - https://en.wikipedia.org/wiki/Birmingham_West_Suburban_Railway
+?  Cheddar Valley Line - https://en.wikipedia.org/wiki/Cheddar_Valley_Line
+?  Croydon and Epsom Railway - https://en.wikipedia.org/wiki/Croydon_and_Epsom_Railway
+?  Etherley Incline Railway - https://en.wikipedia.org/wiki/Phoenix_Row
+?  Liverpool and Birmingham Railway Company - https://en.wikipedia.org/wiki/Grand_Junction_Railway
+?  Manchester, Bury and Rossendale Railway - https://en.wikipedia.org/wiki/East_Lancashire_Railway_1844%E2%80%9359
+?  Merchant's Railway - https://en.wikipedia.org/wiki/Merchant%27s_Railway
+?  Preston and Longridge Railway - https://en.wikipedia.org/wiki/Preston_and_Longridge_Railway
+?  Sheffield and Rotherham Railway - https://en.wikipedia.org/wiki/Sheffield_and_Rotherham_Railway
+?  Surrey, Sussex, Hants, Wilts & Somerset Railway - https://en.wikipedia.org/wiki/London_and_Brighton_Railway
+?  West Somerset Mineral Railway - https://en.wikipedia.org/wiki/West_Somerset_Mineral_Railway
+?  Wigan Branch Railway Company - https://en.wikipedia.org/wiki/North_Union_Railway
+?  Wigan and Preston Junction Railway - https://en.wikipedia.org/wiki/North_Union_Railway
 
 5 & 10 share:
+  Bolton, Blackburn, Clitheroe and West Yorkshire Railway - https://en.wikipedia.org/wiki/Ribble_Valley_Line#Early_history
   Birmingham and Bristol Railway - https://en.wikipedia.org/wiki/Birmingham_and_Bristol_Railway
   South Eastern and Chatham Railway - https://en.wikipedia.org/wiki/South_Eastern_and_Chatham_Railway
   London, Brighton and South Coast Railway - https://en.wikipedia.org/wiki/London,_Brighton_and_South_Coast_Railway
@@ -97,7 +97,6 @@
   Lancashire, Derbyshire and East Coast Railway - https://en.wikipedia.org/wiki/Lancashire,_Derbyshire_and_East_Coast_Railway
 
 20 share
-
 
 Cheshire Lines Committee - https://en.wikipedia.org/wiki/Cheshire_Lines_Committee
 Great Northern Railway - https://en.wikipedia.org/wiki/Great_Northern_Railway_(Great_Britain)
