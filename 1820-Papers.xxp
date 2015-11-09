@@ -650,7 +650,6 @@ Station cost: $100"""
     side_split_count = 5
     description = """{{ company.get ("description", "") }}"""
     side_split_stroke_colour = ${WHITE}
-
 {% endfor %}
 
 [token]
