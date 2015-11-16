@@ -1,0 +1,93 @@
+[DEFAULT]
+  WHITE = 1, 1, 1
+  GRAY = 0.467, 0.533, 0.600
+  BLACK = 0, 0, 0
+
+  P_GRAY = 0.863, 0.863, 0.863
+  L_GRAY = 0.663, 0.663, 0.663
+  M_GRAY = 0.310, 0.310, 0.310
+  D_GRAY = 0, 0, 0
+
+  P_RED = 0.941, 0.502, 0.502
+  L_RED = 1.000, 0.388, 0.278
+  M_RED = 1, 0, 0
+  D_RED = 0.549, 0.090, 0.090
+
+  P_GREEN = 0.596, 0.984, 0.596
+  L_GREEN = 0.000, 1.000, 0.000
+  M_GREEN = 0.420, 0.557, 0.137
+  D_GREEN = 0.000, 0.392, 0.000
+
+  P_BLUE = 0.529, 0.808, 0.980
+  L_BLUE = 0.000, 1.000, 1.000
+  M_BLUE = 0.220, 0.690, 0.871
+  D_BLUE = 0.255, 0.412, 0.882
+
+  P_YELLOW = 1.000, 0.980, 0.804
+  L_YELLOW = 1.0, 1.0, 0.0
+  M_YELLOW = 1.000, 0.843, 0.000
+  D_YELLOW = 1.000, 0.549, 0.000
+
+  P_BROWN = 0.871, 0.722, 0.529
+  L_BROWN = 0.804, 0.522, 0.247
+  M_BROWN = 0.522, 0.369, 0.259
+  D_BROWN = 0.361, 0.200, 0.090
+
+  P_PURPLE = 0.851, 0.851, 0.953
+  L_PURPLE = 1.000, 0.000, 1.000
+  M_PURPLE = 0.729, 0.333, 0.827
+  D_PURPLE = 0.545, 0.000, 0.545
+
+[charter]
+  token_count = 1
+  size = 20%
+  note = ""
+  desc = "1 Share"
+  type_colour = transparent
+
+{% for colour1 in ["GRAY", "RED", "GREEN", "BLUE",
+                  "YELLOW", "BROWN", "PURPLE"] %}
+  {% for colour2 in ["GRAY", "RED", "GREEN", "BLUE",
+                    "YELLOW", "BROWN", "PURPLE"] %}
+    {% if colour1 != colour2 %}
+  [[{{ colour1 }}_{{ colour2 }}_DM]]
+    token_bottom_colour = ${D_{{ colour1 }}}
+    token_colour = ${WHITE}
+    token_top_colour = ${M_{{ colour2 }}}
+    stripe_colour = ${P_{{ colour1 }}}
+    title = """{{ colour1 }} {{ colour2 }}"""
+    token_name = DM_{{ colour1[0] }}{{ colour2[0] }}
+    size = 20%
+    desc = Private
+    note = Director
+    type_colour = ${D_YELLOW}
+    side_split_count = 0
+
+  [[{{ colour1 }}_{{ colour2 }}_ML]]
+    token_bottom_colour = ${M_{{ colour1 }}}
+    token_colour = ${WHITE}
+    token_top_colour = ${M_{{ colour2 }}}
+    stripe_colour = ${P_{{ colour1 }}}
+    title = """{{ colour1 }} {{ colour2 }}"""
+    token_name = DM_{{ colour1[0] }}{{ colour2[0] }}
+    size = 20%
+    desc = Private
+    note = Director
+    type_colour = ${D_YELLOW}
+    side_split_count = 0
+
+  [[{{ colour1 }}_{{ colour2 }}_DL]]
+    token_bottom_colour = ${D_{{ colour1 }}}
+    token_colour = ${WHITE}
+    token_top_colour = ${L_{{ colour2 }}}
+    stripe_colour = ${P_{{ colour1 }}}
+    title = """{{ colour1 }} {{ colour2 }}"""
+    token_name = DM_{{ colour1[0] }}{{ colour2[0] }}
+    size = 20%
+    desc = Private
+    note = Director
+    type_colour = ${D_YELLOW}
+    side_split_count = 0
+    {% endif %}
+  {% endfor %}
+{% endfor %}

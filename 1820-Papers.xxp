@@ -12,7 +12,7 @@
     },
     {
       "name": "Blackburn, Clitheroe &\nNorth Western Junction\nRailway",
-      "token": "BC&NWJR",
+      "token": "BCNWJ",
       "token_top": "${D_GREEN}",
       "token_top_stripe": "transparent",
       "token_bottom": "${M_BROWN}",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Cheltenham &\nGreat Western Union\nRailway",
-      "token": "C&GWUR",
+      "token": "CGWUR",
       "token_top": "${M_GREEN}",
       "token_top_stripe": "${L_RED}",
       "token_bottom": "${M_GREEN}",
@@ -331,13 +331,14 @@
     },
     {
       "name": "Sheffield, Rotherham,\nBarnsley, Wakefield,\nHuddersfield & Goole\nRailway",
-      "token": "SRBWHGR",
+      "token": "SRBWH&G",
       "token_top": "${L_BLUE}",
       "token_top_stripe": "transparent",
       "token_bottom": "${D_RED}",
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_RED}",
       "url": "https://en.wikipedia.org/wiki/Sheffield,_Rotherham,_Barnsley,_Wakefield,_Huddersfield_and_Goole_Railway",
+      "token_name_font": '"Times-Roman", 6',
     },
     {
       "name": "Somerset & Dorset\nJoint Railway",
@@ -394,7 +395,7 @@
     },
     {
       "name": "Wrexham, Mold &\nConnah's Quay Railway",
-      "token": "WM&CQR",
+      "token": "WMCQR",
       "token_top": "${L_BROWN}",
       "token_top_stripe": "transparent",
       "token_bottom": "${L_BLUE}",
@@ -416,6 +417,8 @@
 %}
 
 [DEFAULT]
+  print_instruction = "Print one copy of this page."
+
   WHITE = 1, 1, 1
   GRAY = 0.467, 0.533, 0.600
   BLACK = 0, 0, 0
@@ -459,7 +462,7 @@
   desc1 = "Assets, Treasury & Trains"
   note1 = """Purchase price of shares goes to bank.
 Market shares pay dividends to treasury.
-Station cost: $100"""
+Recapitalise for 50% CMV at 50% owned."""
   token_count = 2
 
 {% set page_size = 4 %}
@@ -479,8 +482,216 @@ Station cost: $100"""
       stripe_colour = {{ company.share_stripe }}
       title = """{{ company.name }}"""
       token_name = {{ company.token }}
+      price = $100
+    {% if "token_name_font" in company.keys () %}
+      token_name_font = {{ company.token_name_font }}
+    {% endif %}
   {% endfor %}
 {% endfor %}
+
+[market]
+  tile_colour = ${P_GRAY}
+
+  [[sheet1]]
+
+    [[[tile_1.1]]]
+      desc = "40"
+      desc_colour = ${L_RED}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_2.1]]]
+      desc = "42"
+      desc_colour = ${L_RED}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_3.1]]]
+      desc = "45"
+      desc_colour = ${L_RED}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_4.1]]]
+      desc = "49"
+      desc_colour = ${L_RED}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_5.1]]]
+      desc = "53"
+      desc_colour = ${L_RED}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_6.1]]]
+      desc = "57"
+      desc_colour = ${L_RED}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_7.1]]]
+      desc = "62"
+      desc_colour = ${L_RED}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_8.1]]]
+      desc = "67"
+      tile_colour = ${P_YELLOW}
+      desc_colour = ${L_RED}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_9.1]]]
+      desc = "72"
+      tile_colour = ${P_YELLOW}
+      desc_colour = ${L_RED}
+       tile_stroke_colour = ${L_RED}
+
+    [[[tile_10.1]]]
+      desc = "78"
+      desc_colour = ${L_RED}
+      tile_colour = ${P_YELLOW}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_11.1]]]
+      desc = "84"
+      desc_colour = ${L_RED}
+      tile_colour = ${P_YELLOW}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_12.1]]]
+      desc = "91"
+      desc_colour = ${L_RED}
+      tile_colour = ${P_YELLOW}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_13.1]]]
+      desc = "98"
+      desc_colour = ${L_RED}
+      tile_colour = ${P_YELLOW}
+      tile_stroke_colour = ${L_RED}
+
+    [[[tile_14.1]]]
+      desc = "106"
+      tile_colour = ${P_YELLOW}
+
+    [[[tile_15.1]]]
+      desc = "114"
+      tile_colour = ${P_YELLOW}
+
+    [[[tile_16.1]]]
+      desc = "123"
+      tile_colour = ${P_YELLOW}
+
+    [[[tile_17.1]]]
+      desc = "133"
+
+    [[[tile_18.1]]]
+      desc = "144"
+
+    [[[tile_19.1]]]
+      desc = "156"
+
+    [[[tile_20.1]]]
+      desc = "168"
+
+  [[sheet2]]
+
+    [[[tile_1.1]]]
+      desc = "181"
+
+    [[[tile_2.1]]]
+      desc = "195"
+
+    [[[tile_3.1]]]
+      desc = "211"
+
+    [[[tile_4.1]]]
+      desc = "228"
+
+    [[[tile_5.1]]]
+      desc = "246"
+
+    [[[tile_6.1]]]
+      desc = "266"
+
+    [[[tile_7.1]]]
+      desc = "287"
+
+    [[[tile_8.1]]]
+      desc = "310"
+
+    [[[tile_9.1]]]
+      desc = "335"
+
+    [[[tile_10.1]]]
+      desc = "362"
+
+    [[[tile_11.1]]]
+      desc = "391"
+
+    [[[tile_12.1]]]
+      desc = "422"
+
+    [[[tile_13.1]]]
+      desc = "456"
+
+    [[[tile_14.1]]]
+      desc = "500"
+      tile_colour = ${P_RED}
+
+    [[[tile_15.1]]]
+      desc = ""
+      tile_colour = ${WHITE}
+      tile_stroke_colour = ${WHITE}
+
+    [[[tile_16.1]]]
+      desc = ""
+      tile_colour = ${WHITE}
+      tile_stroke_colour = ${WHITE}
+
+    [[[tile_17.1]]]
+      desc = ""
+      tile_colour = ${WHITE}
+      tile_stroke_colour = ${WHITE}
+
+    [[[tile_18.1]]]
+      desc = ""
+      tile_colour = ${WHITE}
+      tile_stroke_colour = ${WHITE}
+
+    [[[tile_19.1]]]
+      desc = ""
+      tile_colour = ${WHITE}
+      tile_stroke_colour = ${WHITE}
+
+    [[[tile_20.1]]]
+      desc = ""
+      tile_colour = ${WHITE}
+      tile_stroke_colour = ${WHITE}
+
+[private]
+
+  [[yellow]]
+    frame_colour = ${P_YELLOW}
+
+    [[[tile_1.1]]]
+      cost = Cost: $20
+      revenue = Revenue: $5
+      title = Thomas Brassey
+      desc = """Comes with 5 build discount tokens.
+Companies may buy discounts from
+the owning player for $20ea &
+immediately use them to place
+yellow track on a $40 hill
+terrain for free."""
+      close = """Close: In brown phase or when all 5 tokens are sold."""
+
+    [[[tile_1.2]]]
+      cost = Cost: $20
+      revenue = Revenue: $5
+      title = Morton Peto
+      desc = """Comes with 5 build discount tokens.
+Companies may buy discounts from
+the owning player for $20ea &
+immediately use them to place
+yellow track on a $40 water
+terrain for free."""
+      close = """Close: In brown phase or when all 5 tokens are sold."""
 
 [share]
   token_count = 1
@@ -488,6 +699,8 @@ Station cost: $100"""
   note = ""
   desc = "1 Share"
   type_colour = transparent
+  side_split_dash_length = 10
+  side_split_place = centre
 
 {% for company in companies %}
   [[{{ company.token }}-size1]]
@@ -508,6 +721,7 @@ Station cost: $100"""
     frame_colour = ${M_GRAY}
     title_colour = ${WHITE}
     description_colour = ${WHITE}
+    side_split_dash_length = none
 
   [[{{ company.token }}-size2]]
     token_bottom_colour = {{ company.token_bottom }}
@@ -518,8 +732,8 @@ Station cost: $100"""
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
-    size = 50%
-    desc = 1 Share
+    size = 100%
+    desc = 2 Shares
     note = Director
     type_colour = ${D_YELLOW}
     side_split_count = 1
@@ -581,6 +795,7 @@ Station cost: $100"""
     desc = 1 Share
     side_split_count = 4
     description = """{{ company.get ("description", "") }}"""
+    print_instruction = "Print two copies of this page."
 
     [[[tile_1.1]]]
       note = Director
@@ -617,29 +832,14 @@ Station cost: $100"""
     desc = 1 Share
     side_split_count = 5
     description = """{{ company.get ("description", "") }}"""
-    side_split_stroke_colour = ${WHITE}
+    side_split_colour = ${WHITE}
 
     [[[tile_1.1]]]
       note = Director
       type_colour = ${D_YELLOW}
-      token_count = 2
-      size = 4%
-      desc = 2 Shares
-
-    [[[tile_3.1]]]
-      token_count = 2
-      size = 4%
-      desc = 2 Shares
-
-    [[[tile_3.2]]]
-      token_count = 2
-      size = 4%
-      desc = 2 Shares
-
-    [[[tile_3.3]]]
-      token_count = 2
-      size = 4%
-      desc = 2 Shares
+      token_count = 4
+      size = 8%
+      desc = 4 Shares
 
   [[{{ company.token }}-size50b]]
     token_bottom_colour = {{ company.token_bottom }}
@@ -650,14 +850,33 @@ Station cost: $100"""
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
-    size = 2%
-    desc = 1 Share
+    size = 4%
+    desc = 2 Shares
     side_split_count = 5
     description = """{{ company.get ("description", "") }}"""
-    side_split_stroke_colour = ${WHITE}
+    side_split_colour = ${WHITE}
+    token_count = 2
+
+  [[{{ company.token }}-size50c]]
+    token_bottom_colour = {{ company.token_bottom }}
+    token_bottom_stripe_colour = {{ company.token_bottom_stripe }}
+    token_colour = ${WHITE}
+    token_top_colour = {{ company.token_top }}
+    token_top_stripe_colour = {{ company.token_top_stripe }}
+    stripe_colour = {{ company.share_stripe }}
+    title = """{{ company.name }}"""
+    token_name = {{ company.token }}
+    size = 8%
+    desc = 4 Shares
+    side_split_count = 5
+    description = """{{ company.get ("description", "") }}"""
+    side_split_colour = ${WHITE}
+    token_count = 4
+
 {% endfor %}
 
 [token]
+  print_instruction = "Print two copies of this page."
 {% set page_size = 16 %}
 {% set company_count = companies|count %}
 {% set blocks = ((company_count + page_size - 1) / page_size) | int %}
@@ -674,6 +893,142 @@ Station cost: $100"""
       token_top_colour = {{ company.token_top }}
       token_top_stripe_colour = {{ company.token_top_stripe }}
       token_name = {{ company.token }}
+      {% if "token_name_font" in company.keys () %}
+      token_name_font = {{ company.token_name_font }}
+      {% endif %}
     {% endif %}
   {% endfor %}
+  {% if sheet == blocks - 1 %}
+     [[[tile_1.14]]]
+      token_top_colour = ${L_BLUE}
+      token_bottom_colour = ${L_BLUE}
+      token_colour = "${D_BLUE}"
+      token_name = "WATER"
+      token_name_colour = "${WHITE}"
+     [[[tile_1.15]]]
+      token_top_colour = ${L_BROWN}
+      token_bottom_colour = ${L_BROWN}
+      token_colour = "${D_BROWN}"
+      token_name = "HILLS"
+      token_name_colour = "${WHITE}"
+     [[[tile_1.16]]]
+      token_top_colour = ${M_GRAY}
+      token_bottom_colour = ${M_GRAY}
+      token_colour = "${D_GRAY}"
+      token_name = "ROUND"
+      token_name_colour = "${WHITE}"
+   {% endif %}
 {% endfor %}
+
+[train]
+  trade = ""
+
+  [[yellow]]
+    frame_colour = ${M_YELLOW}
+    train = 2
+    cost = Cost: $100
+    rust = Rusted by: BLUE
+    trade_stripe_colour = ${M_GREEN}
+    rust_stripe_colour = ${M_BLUE}
+
+  [[green]]
+    frame_colour = ${M_GREEN}
+    train = 3+
+    cost = Cost: $250
+    rust = Rusted by: BROWN
+    trade_stripe_colour = ${M_BLUE}
+    rust_stripe_colour = ${M_BROWN}
+
+  [[blue]]
+    frame_colour = ${M_BLUE}
+    train = 5+
+    cost = Cost: $450
+    rust = Rusted by: RED
+    trade_stripe_colour = ${M_BROWN}
+    rust_stripe_colour = ${M_RED}
+
+    [[[tile_1.1]]]
+      trade = (OPTIONAL)
+
+  [[brown]]
+    frame_colour = ${M_BROWN}
+    train = 7+
+    cost = Cost: $800
+    rust = Rusted by: GRAY
+    trade_stripe_colour = ${M_RED}
+    rust_stripe_colour = ${M_GRAY}
+
+  [[red]]
+    frame_colour = ${M_RED}
+    train = 5D+
+    cost = "Cost: $1,250"
+    rust = PERMANENT
+    trade_stripe_colour = ${D_GRAY}
+    rust_stripe_colour = ${D_GRAY}
+    train_rust_colour = ${WHITE}
+    rust_colour = ${WHITE}
+
+  [[gray]]
+    frame_colour = ${M_GRAY}
+    train = FLOOD
+    train_font = "Times-Roman", 36
+    cost = "Cost: $2,000"
+    rust = PERMANENT
+    trade_stripe_colour = ${D_GRAY}
+    rust_stripe_colour = ${D_GRAY}
+    trade_colour = ${WHITE}
+    rust_colour = ${WHITE}
+
+  [[player1]]
+    frame_colour = ${M_RED}
+    train = ""
+    cost = ""
+    rust = ""
+    trade_stripe_colour = ${M_BLUE}
+    rust_stripe_colour = ${M_BLUE}
+    train_rust_colour = ${WHITE}
+    rust_colour = ${WHITE}
+
+    [[[tile_1.1]]]
+      train = "1"
+
+    [[[tile_1.2]]]
+      train = "2"
+
+    [[[tile_1.3]]]
+      train = "3"
+
+    [[[tile_2.1]]]
+      train = "4"
+
+    [[[tile_2.2]]]
+      train = "5"
+
+    [[[tile_2.3]]]
+      train = "6"
+
+  [[player2]]
+    frame_colour = ${M_BLUE}
+    train = ""
+    cost = ""
+    rust = ""
+    trade_stripe_colour = ${M_RED}
+    rust_stripe_colour = ${M_RED}
+
+    [[[tile_1.1]]]
+      train = "1"
+
+    [[[tile_1.2]]]
+      train = "2"
+
+    [[[tile_1.3]]]
+      train = "3"
+
+    [[[tile_2.1]]]
+      train = "4"
+
+    [[[tile_2.2]]]
+      train = "5"
+
+    [[[tile_2.3]]]
+      train = "6"
