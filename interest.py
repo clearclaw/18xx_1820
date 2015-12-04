@@ -1,9 +1,10 @@
 #! /usr/bin/env python
 
-value = 39
+value = 38
 rate = 1.08
+fix = 0.0005
 
-for _ in xrange (34):
-  print value
-  value = int ((value * rate) + 0.5)
+for i in xrange (37):
+  print i, value
+  value = int ((value * (rate + (i * fix))) + 0.5)
     

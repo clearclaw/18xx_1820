@@ -2,10 +2,10 @@
     {
       "name": "Birmingham & Derby\nJunction Railway",
       "token": "B&DJR",
-      "token_top": "${L_GRAY}",
-      "token_top_stripe": "transparent",
+      "token_top": "${L_BROWN}",
+      "token_top_stripe": "${L_YELLOW}",
       "token_bottom": "${L_BROWN}",
-      "token_bottom_stripe": "transparent",
+      "token_bottom_stripe": "${M_BLUE}",
       "share_stripe": "${P_BROWN}",
       "description": "First Class carriages were yellow,\nSecond Class blue, and the\nThird Class brown",
       "url": "https://en.wikipedia.org/wiki/Birmingham_and_Derby_Junction_Railway",
@@ -322,11 +322,11 @@
     {
       "name": "Sheffield,\nAshton-under-Lyne\n& Manchester Railway",
       "token": "SA&MR",
-      "token_top": "${D_GRAY}",
-      "token_top_stripe": "${L_YELLOW}",
-      "token_bottom": "${D_GRAY}",
-      "token_bottom_stripe": "${L_YELLOW}",
-      "share_stripe": "${P_GRAY}",
+      "token_top": "${L_GRAY}",
+      "token_top_stripe": "transparent",
+      "token_bottom": "${L_BROWN}",
+      "token_bottom_stripe": "transparent",
+      "share_stripe": "${P_BROWN}",
       "url": "https://en.wikipedia.org/wiki/Sheffield,_Ashton-under-Lyne_and_Manchester_Railway",
     },
     {
@@ -500,37 +500,37 @@ Recapitalise for 50% CMV at 50% owned."""
       tile_stroke_colour = ${L_RED}
 
     [[[tile_2.1]]]
-      desc = "42"
+      desc = "41"
       desc_colour = ${L_RED}
       tile_stroke_colour = ${L_RED}
 
     [[[tile_3.1]]]
-      desc = "45"
+      desc = "44"
       desc_colour = ${L_RED}
       tile_stroke_colour = ${L_RED}
 
     [[[tile_4.1]]]
-      desc = "49"
+      desc = "48"
       desc_colour = ${L_RED}
       tile_stroke_colour = ${L_RED}
 
     [[[tile_5.1]]]
-      desc = "53"
+      desc = "52"
       desc_colour = ${L_RED}
       tile_stroke_colour = ${L_RED}
 
     [[[tile_6.1]]]
-      desc = "57"
+      desc = "56"
       desc_colour = ${L_RED}
       tile_stroke_colour = ${L_RED}
 
     [[[tile_7.1]]]
-      desc = "62"
+      desc = "61"
       desc_colour = ${L_RED}
       tile_stroke_colour = ${L_RED}
 
     [[[tile_8.1]]]
-      desc = "67"
+      desc = "66"
       tile_colour = ${P_YELLOW}
       desc_colour = ${L_RED}
       tile_stroke_colour = ${L_RED}
@@ -542,102 +542,98 @@ Recapitalise for 50% CMV at 50% owned."""
        tile_stroke_colour = ${L_RED}
 
     [[[tile_10.1]]]
-      desc = "78"
+      desc = "85"
       desc_colour = ${L_RED}
       tile_colour = ${P_YELLOW}
       tile_stroke_colour = ${L_RED}
 
     [[[tile_11.1]]]
-      desc = "84"
+      desc = "92"
       desc_colour = ${L_RED}
       tile_colour = ${P_YELLOW}
       tile_stroke_colour = ${L_RED}
 
     [[[tile_12.1]]]
-      desc = "91"
+      desc = "100"
       desc_colour = ${L_RED}
       tile_colour = ${P_YELLOW}
       tile_stroke_colour = ${L_RED}
 
     [[[tile_13.1]]]
-      desc = "98"
-      desc_colour = ${L_RED}
+      desc = "109"
       tile_colour = ${P_YELLOW}
-      tile_stroke_colour = ${L_RED}
 
     [[[tile_14.1]]]
-      desc = "106"
+      desc = "118"
       tile_colour = ${P_YELLOW}
 
     [[[tile_15.1]]]
-      desc = "114"
+      desc = "128"
       tile_colour = ${P_YELLOW}
 
     [[[tile_16.1]]]
-      desc = "123"
+      desc = "139"
       tile_colour = ${P_YELLOW}
 
     [[[tile_17.1]]]
-      desc = "133"
+      desc = "151"
 
     [[[tile_18.1]]]
-      desc = "144"
+      desc = "164"
 
     [[[tile_19.1]]]
-      desc = "156"
+      desc = "179"
 
     [[[tile_20.1]]]
-      desc = "168"
+      desc = "195"
 
   [[sheet2]]
 
     [[[tile_1.1]]]
-      desc = "181"
+      desc = "213"
 
     [[[tile_2.1]]]
-      desc = "195"
+      desc = "232"
 
     [[[tile_3.1]]]
-      desc = "211"
+      desc = "253"
 
     [[[tile_4.1]]]
-      desc = "228"
+      desc = "276"
 
     [[[tile_5.1]]]
-      desc = "246"
+      desc = "301"
 
     [[[tile_6.1]]]
-      desc = "266"
+      desc = "329"
 
     [[[tile_7.1]]]
-      desc = "287"
+      desc = "360"
 
     [[[tile_8.1]]]
-      desc = "310"
+      desc = "394"
 
     [[[tile_9.1]]]
-      desc = "335"
+      desc = "431"
 
     [[[tile_10.1]]]
-      desc = "362"
+      desc = "472"
 
     [[[tile_11.1]]]
-      desc = "391"
+      desc = "517"
 
     [[[tile_12.1]]]
-      desc = "422"
+      desc = "566"
 
     [[[tile_13.1]]]
-      desc = "456"
+      desc = "620"
 
     [[[tile_14.1]]]
-      desc = "500"
-      tile_colour = ${P_RED}
+      desc = "780"
 
     [[[tile_15.1]]]
-      desc = ""
-      tile_colour = ${WHITE}
-      tile_stroke_colour = ${WHITE}
+      desc = "850"
+      tile_colour = ${P_RED}
 
     [[[tile_16.1]]]
       desc = ""
@@ -926,43 +922,82 @@ terrain for free."""
   [[yellow]]
     frame_colour = ${M_YELLOW}
     train = 2
-    cost = Cost: $100
-    rust = Rusted by: BLUE
+    cost = Cost: $80
+    rust = ""
     trade_stripe_colour = ${M_GREEN}
     rust_stripe_colour = ${M_BLUE}
 
-  [[green]]
+  [[yellow+]]
+    frame_colour = ${D_YELLOW}
+    train = 2+
+    cost = Cost: $100
+    rust = ""
+    trade_stripe_colour = ${M_GREEN}
+    rust_stripe_colour = ${M_BLUE}
+
+  [[green+]]
     frame_colour = ${M_GREEN}
     train = 3+
     cost = Cost: $250
-    rust = Rusted by: BROWN
+    rust = ""
     trade_stripe_colour = ${M_BLUE}
     rust_stripe_colour = ${M_BROWN}
 
-  [[blue]]
+  [[green]]
+    frame_colour = ${D_GREEN}
+    train = 3+
+    cost = Cost: $250
+    rust = ""
+    trade_stripe_colour = ${M_BLUE}
+    rust_stripe_colour = ${M_BROWN}
+
+  [[blue+]]
     frame_colour = ${M_BLUE}
     train = 5+
     cost = Cost: $450
-    rust = Rusted by: RED
-    trade_stripe_colour = ${M_BROWN}
+    rust = ""
+    trade_stripe_colour = ${L_BROWN}
     rust_stripe_colour = ${M_RED}
 
-    [[[tile_1.1]]]
-      trade = (OPTIONAL)
+  [[blue]]
+    frame_colour = ${D_BLUE}
+    train = 4+
+    cost = Cost: $450
+    rust = ""
+    trade_stripe_colour = ${L_BROWN}
+    rust_stripe_colour = ${M_RED}
+
+  [[brown+]]
+    frame_colour = ${L_BROWN}
+    train = 7+
+    cost = Cost: $800
+    rust = ""
+    trade_stripe_colour = ${M_RED}
+    rust_stripe_colour = ${M_GRAY}
 
   [[brown]]
     frame_colour = ${M_BROWN}
     train = 7+
     cost = Cost: $800
-    rust = Rusted by: GRAY
+    rust = ""
     trade_stripe_colour = ${M_RED}
     rust_stripe_colour = ${M_GRAY}
 
-  [[red]]
+  [[red+]]
     frame_colour = ${M_RED}
     train = 5D+
     cost = "Cost: $1,250"
-    rust = PERMANENT
+    rust = ""
+    trade_stripe_colour = ${D_GRAY}
+    rust_stripe_colour = ${D_GRAY}
+    train_rust_colour = ${WHITE}
+    rust_colour = ${WHITE}
+
+  [[red]]
+    frame_colour = ${D_RED}
+    train = 5D+
+    cost = "Cost: 1,250"
+    rust = ""
     trade_stripe_colour = ${D_GRAY}
     rust_stripe_colour = ${D_GRAY}
     train_rust_colour = ${WHITE}
@@ -971,9 +1006,11 @@ terrain for free."""
   [[gray]]
     frame_colour = ${M_GRAY}
     train = FLOOD
+    train_colour = ${WHITE}
     train_font = "Times-Roman", 36
     cost = "Cost: $2,000"
-    rust = PERMANENT
+    cost_colour = ${WHITE}
+    rust = ""
     trade_stripe_colour = ${D_GRAY}
     rust_stripe_colour = ${D_GRAY}
     trade_colour = ${WHITE}
