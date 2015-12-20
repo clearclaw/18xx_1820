@@ -6,7 +6,7 @@ mkdir -p build
 pushd build
   # mv ../1820-Rules.pdf ./
   xxpaper ../1820-Papers.xxp $*
-  # rm market_sheet1-nooutline*
+  rm market_*-nooutline* || true
   cp ../1820-Papers.xxp ./
   # cp ../README.txt ./
   for file in *.ps
