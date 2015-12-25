@@ -731,7 +731,9 @@ Recapitalise for 50% CMV at 50% owned."""
     title_colour = ${WHITE}
     description_colour = ${WHITE}
     side_split_dash_length = none
+  {% endif %}
 
+  {% if company.company_type in [3,] %}
   [[{{ company.token }}-size2]]
     token_bottom_colour = {{ company.token_bottom }}
     token_bottom_stripe_colour = {{ company.token_bottom_stripe }}
@@ -748,7 +750,9 @@ Recapitalise for 50% CMV at 50% owned."""
     side_split_count = 1
     description = """{{ company.get ("description", "") }}"""
     token_count = 2
+  {% endif %}
 
+  {% if company.company_type in [3,] %}
   [[{{ company.token }}-size5]]
     token_bottom_colour = {{ company.token_bottom }}
     token_bottom_stripe_colour = {{ company.token_bottom_stripe }}
@@ -771,7 +775,7 @@ Recapitalise for 50% CMV at 50% owned."""
       desc = 2 Shares
   {% endif %}
 
-  {% if company.company_type in [1, 2] %}
+  {% if company.company_type in [2,] %}
   [[{{ company.token }}-size10]]
     token_bottom_colour = {{ company.token_bottom }}
     token_bottom_stripe_colour = {{ company.token_bottom_stripe }}
@@ -792,7 +796,9 @@ Recapitalise for 50% CMV at 50% owned."""
       token_count = 2
       size = 20%
       desc = 2 Shares
+  {% endif %}
 
+  {% if company.company_type in [2,] %}
   [[{{ company.token }}-size20]]
     token_bottom_colour = {{ company.token_bottom }}
     token_bottom_stripe_colour = {{ company.token_bottom_stripe }}
