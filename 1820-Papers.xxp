@@ -136,6 +136,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_PURPLE}",
       "url": "https://en.wikipedia.org/wiki/Preston_and_Longridge_Railway",
+      "token_name_font": '"Times-Roman", 6',
       "company_type": 2,
     },
     {
@@ -218,15 +219,14 @@
       "company_type": 2,
     },
     {
-      "name": "Stockton & Darlington\nRailway",
-      "token": "S&DR",
+      "name": "Stockport, Timperley\n& Altrincham Junction\nRailway",
+      "token": "ST&AR",
       "token_top": "${L_YELLOW}",
       "token_top_stripe": "transparent",
       "token_bottom": "${L_RED}",
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_RED}",
-      "description": "Periculum privatum utilitas publica\nAt private risk for public service",
-      "url": "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway",
+      "url": "https://en.wikipedia.org/wiki/Stockport,_Timperley_and_Altrincham_Junction_Railway",
       "company_type": 2,
     },
     {
@@ -271,9 +271,9 @@
       "name": "Bolton & Leigh\nRailway",
       "token": "B&LR",
       "token_top": "${D_YELLOW}",
-      "token_top_stripe": "${L_PURPLE}",
+      "token_top_stripe": "${L_GREEN}",
       "token_bottom": "${D_YELLOW}",
-      "token_bottom_stripe": "${L_PURPLE}",
+      "token_bottom_stripe": "${L_GREEN}",
       "share_stripe": "${P_YELLOW}",
       "description": "The first public railway in the\nhistoric county of Lancashire",
       "url": "https://en.wikipedia.org/wiki/Bolton_and_Leigh_Railway",
@@ -306,9 +306,9 @@
       "name": "Chipping Norton\nRailway",
       "token": "CNR",
       "token_top": "${D_YELLOW}",
-      "token_top_stripe": "${M_PURPLE}",
+      "token_top_stripe": "${M_RED}",
       "token_bottom": "${D_YELLOW}",
-      "token_bottom_stripe": "${M_PURPLE}",
+      "token_bottom_stripe": "${M_RED}",
       "share_stripe": "${P_YELLOW}",
       "url": "https://en.wikipedia.org/wiki/Chipping_Norton_Railway",
       "company_type": 3,
@@ -327,10 +327,10 @@
     {
       "name": "Cromford & High Peak\nRailway",
       "token": "C&HPR",
-      "token_top": "${D_BLUE}",
-      "token_top_stripe": "${M_RED}",
-      "token_bottom": "${D_BLUE}",
-      "token_bottom_stripe": "${M_RED}",
+      "token_top": "${M_BLUE}",
+      "token_top_stripe": "${L_BROWN}",
+      "token_bottom": "${M_BLUE}",
+      "token_bottom_stripe": "${L_BROWN}",
       "share_stripe": "${P_BLUE}",
       "url": "https://en.wikipedia.org/wiki/Cromford_and_High_Peak_Railway",
       "company_type": 3,
@@ -423,6 +423,7 @@
       "token_bottom_stripe": "${L_RED}",
       "share_stripe": "${P_BROWN}",
       "description": "The Old Worse & Worse",
+      "token_name_font": '"Times-Roman", 6',
       "url": "https://en.wikipedia.org/wiki/Oxford,_Worcester_and_Wolverhampton_Railway",
       "company_type": 3,
     },
@@ -438,17 +439,6 @@
       "company_type": 3,
     },
     {
-      "name": "Stockport, Timperley\n& Altrincham Junction\nRailway",
-      "token": "ST&AR",
-      "token_top": "${M_BLUE}",
-      "token_top_stripe": "${L_RED}",
-      "token_bottom": "${M_BLUE}",
-      "token_bottom_stripe": "${L_RED}",
-      "share_stripe": "${P_BLUE}",
-      "url": "https://en.wikipedia.org/wiki/Stockport,_Timperley_and_Altrincham_Junction_Railway",
-      "company_type": 3,
-    },
-    {
       "name": "Southampton & Dorchester\nRailway",
       "token": "SDR",
       "token_top": "${M_YELLOW}",
@@ -458,6 +448,18 @@
       "share_stripe": "${P_YELLOW}",
       "description": "Castleman's Corkscrew",
       "url": "https://en.wikipedia.org/wiki/Southampton_and_Dorchester_Railway",
+      "company_type": 3,
+    },
+    {
+      "name": "Stockton & Darlington\nRailway",
+      "token": "S&DR",
+      "token_top": "${M_BLUE}",
+      "token_top_stripe": "${M_RED}",
+      "token_bottom": "${M_BLUE}",
+      "token_bottom_stripe": "${M_RED}",
+      "share_stripe": "${P_BLUE}",
+      "description": "Periculum privatum utilitas publica\nAt private risk for public service",
+      "url": "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway",
       "company_type": 3,
     },
   ]
@@ -470,25 +472,20 @@
       "cost": "$100",
       "frame_colour": "${L_YELLOW}",
       "name": "2",
-      "rust": "Rusted by BLUE",
       "rust_stripe": "${L_BLUE}",
       "trade_stripe": "${L_GREEN}",
-      "rust_colour": "${WHITE}",
     },
     {
       "cost": "$80",
       "frame_colour": "${D_YELLOW}",
       "name": "2+",
-      "rust": "Rusted by BLUE",
       "rust_stripe": "${L_BLUE}",
       "trade_stripe": "${L_GREEN}",
-      "rust_colour": "${WHITE}",
     },
     {
       "cost": "$250",
       "frame_colour": "${L_GREEN}",
       "name": "3+",
-      "rust": "Rusted by BROWN",
       "rust_stripe": "${M_BROWN}",
       "trade_stripe": "${L_BLUE}",
     },
@@ -496,7 +493,6 @@
       "cost": "$450",
       "frame_colour": "${L_BLUE}",
       "name": "5+",
-      "rust": "Rusted by RED",
       "rust_stripe": "${M_RED}",
       "trade_stripe": "${M_BROWN}",
       "optional": 1,
@@ -505,7 +501,6 @@
       "cost": "$800",
       "frame_colour": "${M_BROWN}",
       "name": "7+",
-      "rust": "Rusted by GRAY",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${M_RED}",
     },
@@ -513,21 +508,15 @@
       "cost": "$1,250",
       "frame_colour": "${M_RED}",
       "name": "5D+",
-      "rust": "PERMANENT",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${L_GRAY}",
-      "rust_colour": "${WHITE}",
-      "trade_colour": "${WHITE}",
     },
     {
       "cost": "$2,000",
       "frame_colour": "${L_GRAY}",
       "name": "FLOOD",
-      "rust": "PERMANENT",
       "rust_stripe": "${BLACK}",
       "trade_stripe": "${BLACK}",
-      "rust_colour": "${WHITE}",
-      "trade_colour": "${WHITE}",
       "train_font": '"Times-Roman", 36',
     }
   ]
@@ -620,18 +609,13 @@ Recapitalise for 50% CMV at 50% owned."""
     desc = ""
 
     [[[tile_2.2]]]
-      desc = "SR #2B"
+      desc = "SR"
       tile_colour = ${P_GRAY}
       tile_stroke_colour = ${BLACK}
 
     [[[tile_2.3]]]
-      desc = "AR"
+      desc = "PR"
       tile_colour = ${P_RED}
-      tile_stroke_colour = ${BLACK}
-
-    [[[tile_2.4]]]
-      desc = "SR #1"
-      tile_colour = ${P_GRAY}
       tile_stroke_colour = ${BLACK}
 
     [[[tile_2.1]]]
@@ -649,17 +633,17 @@ Recapitalise for 50% CMV at 50% owned."""
       tile_colour = ${P_GREEN}
       tile_stroke_colour = ${BLACK}
 
-    [[[tile_5.1]]]
+    [[[tile_4.2]]]
       desc = "I&T #2"
       tile_colour = ${P_BLUE}
       tile_stroke_colour = ${BLACK}
 
-    [[[tile_6.1]]]
+    [[[tile_4.3]]]
       desc = "OR #3"
       tile_colour = ${P_GREEN}
       tile_stroke_colour = ${BLACK}
 
-    [[[tile_7.1]]]
+    [[[tile_3.3]]]
       desc = "I&T #3"
       tile_colour = ${P_BLUE}
       tile_stroke_colour = ${BLACK}
@@ -718,6 +702,9 @@ Recapitalise for 50% CMV at 50% owned."""
     token_colour = ${WHITE}
     token_top_colour = {{ company.token_top }}
     token_top_stripe_colour = {{ company.token_top_stripe }}
+    {% if "token_name_font" in company.keys () %}
+    token_name_font = {{ company.token_name_font }}
+    {% endif %}
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
@@ -740,6 +727,9 @@ Recapitalise for 50% CMV at 50% owned."""
     token_colour = ${WHITE}
     token_top_colour = {{ company.token_top }}
     token_top_stripe_colour = {{ company.token_top_stripe }}
+    {% if "token_name_font" in company.keys () %}
+    token_name_font = {{ company.token_name_font }}
+    {% endif %}
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
@@ -759,6 +749,9 @@ Recapitalise for 50% CMV at 50% owned."""
     token_colour = ${WHITE}
     token_top_colour = {{ company.token_top }}
     token_top_stripe_colour = {{ company.token_top_stripe }}
+    {% if "token_name_font" in company.keys () %}
+    token_name_font = {{ company.token_name_font }}
+    {% endif %}
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
@@ -782,6 +775,9 @@ Recapitalise for 50% CMV at 50% owned."""
     token_colour = ${WHITE}
     token_top_colour = {{ company.token_top }}
     token_top_stripe_colour = {{ company.token_top_stripe }}
+    {% if "token_name_font" in company.keys () %}
+    token_name_font = {{ company.token_name_font }}
+    {% endif %}
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
@@ -805,6 +801,9 @@ Recapitalise for 50% CMV at 50% owned."""
     token_colour = ${WHITE}
     token_top_colour = {{ company.token_top }}
     token_top_stripe_colour = {{ company.token_top_stripe }}
+    {% if "token_name_font" in company.keys () %}
+    token_name_font = {{ company.token_name_font }}
+    {% endif %}
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
@@ -844,6 +843,9 @@ Recapitalise for 50% CMV at 50% owned."""
     token_colour = ${WHITE}
     token_top_colour = {{ company.token_top }}
     token_top_stripe_colour = {{ company.token_top_stripe }}
+    {% if "token_name_font" in company.keys () %}
+    token_name_font = {{ company.token_name_font }}
+    {% endif %}
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
@@ -866,6 +868,9 @@ Recapitalise for 50% CMV at 50% owned."""
     token_colour = ${WHITE}
     token_top_colour = {{ company.token_top }}
     token_top_stripe_colour = {{ company.token_top_stripe }}
+    {% if "token_name_font" in company.keys () %}
+    token_name_font = {{ company.token_name_font }}
+    {% endif %}
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
@@ -882,6 +887,9 @@ Recapitalise for 50% CMV at 50% owned."""
     token_colour = ${WHITE}
     token_top_colour = {{ company.token_top }}
     token_top_stripe_colour = {{ company.token_top_stripe }}
+    {% if "token_name_font" in company.keys () %}
+    token_name_font = {{ company.token_name_font }}
+    {% endif %}
     stripe_colour = {{ company.share_stripe }}
     title = """{{ company.name }}"""
     token_name = {{ company.token }}
@@ -947,15 +955,9 @@ Recapitalise for 50% CMV at 50% owned."""
     frame_colour = {{ train.frame_colour }}
     train = {{ train.name }}
     cost = "Cost: {{ train.cost }}"
-    rust = "{{ train.rust }}"
+    rust = ""
     trade_stripe_colour = {{ train.trade_stripe }}
     rust_stripe_colour = {{ train.rust_stripe }}
-    {% if "rust_colour" in train.keys () %}
-    rust_colour = {{ train.rust_colour }}
-    {% endif %}
-    {% if "trade_colour" in train.keys () %}
-    trade_colour = {{ train.trade_colour }}
-    {% endif %}
     {% if "train_font" in train.keys () %}
     "train_font" = {{ train.train_font }}
     {% endif %}
