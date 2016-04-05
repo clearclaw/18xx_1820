@@ -232,9 +232,9 @@
     {
       "name": "Wrexham, Mold &\nConnah's Quay Railway",
       "token": "WMCQR",
-      "token_top": "${M_BROWN}",
+      "token_top": "${L_BROWN}",
       "token_top_stripe": "transparent",
-      "token_bottom": "${L_BLUE}",
+      "token_bottom": "${M_BLUE}",
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_BLUE}",
       "url": "https://en.wikipedia.org/wiki/Wrexham,_Mold_and_Connah%27s_Quay_Railway",
@@ -305,10 +305,10 @@
     {
       "name": "Chipping Norton\nRailway",
       "token": "CNR",
-      "token_top": "${D_YELLOW}",
-      "token_top_stripe": "${M_RED}",
-      "token_bottom": "${D_YELLOW}",
-      "token_bottom_stripe": "${M_RED}",
+      "token_top": "${L_YELLOW}",
+      "token_top_stripe": "${BLACK}",
+      "token_bottom": "${L_YELLOW}",
+      "token_bottom_stripe": "${BLACK}",
       "share_stripe": "${P_YELLOW}",
       "url": "https://en.wikipedia.org/wiki/Chipping_Norton_Railway",
       "company_type": 3,
@@ -442,10 +442,10 @@
     {
       "name": "Southampton & Dorchester\nRailway",
       "token": "SDR",
-      "token_top": "${M_YELLOW}",
-      "token_top_stripe": "${L_BLUE}",
-      "token_bottom": "${M_YELLOW}",
-      "token_bottom_stripe": "${L_BLUE}",
+      "token_top": "${D_YELLOW}",
+      "token_top_stripe": "${WHITE}",
+      "token_bottom": "${D_YELLOW}",
+      "token_bottom_stripe": "${WHITE}",
       "share_stripe": "${P_YELLOW}",
       "description": "Castleman's Corkscrew",
       "url": "https://en.wikipedia.org/wiki/Southampton_and_Dorchester_Railway",
@@ -677,7 +677,7 @@ $100"""
 {% set tax_rates = range (10, 80, 10) %}
 {% set tax_count = tax_rates | count %}
 {% set blocks = ((tax_count + page_size - 1) / page_size) | int %}
-  [[tax10]]
+  [[tax]]
     tile_colour = ${P_RED}
     tile_stroke_colour = ${BLACK}
     desc = ""
@@ -696,15 +696,17 @@ $100"""
   [[loan]]
   {% for ndx in range (20) %}
     [[[tile_{{ ndx + 1 }}.1]]]
-      {% if ndx < 10 %}
+      desc = {{ ndx - 10 }}
+      {% if ndx < 5 %}
+      tile_colour = ${L_RED}
+      {% elif ndx < 11 %}
       tile_colour = ${P_RED}
-      desc = "-"
-      {% elif ndx > 10 %}
+      {% elif ndx > 15 %}
+      tile_colour = ${L_BLUE}
+      {% elif ndx > 11 %}
       tile_colour = ${P_BLUE}
-      desc = "+"
-      {% elif ndx == 10 %}
-      tile_colour = ${P_RED}
-      desc = "0"
+      {% elif ndx == 11 %}
+      tile_colour = ${WHITE}
       {% endif %}
   {% endfor %}
 
@@ -712,6 +714,9 @@ $100"""
 {% set stock_values = [40, 43, 47, 51, 55, 60, 65, 71, 78, 86, 95, 105, 116,
                        128, 142, 158, 176, 196, 219, 245, 274, 307, 345,
                        389, 439, 500,] %}
+{#% set stock_values = [40, 43, 47, 51, 55, 60, 65, 71, 78, 86, 95, 105, 116,
+                       128, 141, 156, 173, 192, 213, 237, 264, 295, 330,
+                       369, 414, 465, 523, 589, 664, 750] %#}
 {% set page_size = 14 %}
 {% set stock_count = stock_values | count %}
 {% set blocks = ((stock_count + page_size - 1) / page_size) | int %}
@@ -753,7 +758,8 @@ $100"""
 {% set fees = ["0", "0", "0", "10", "25", "50", "100", "160", "250", "400",
                "650", "1,000", "2,500", "5,000", "5,000", "5,000", "5,000",
                "5,000", "5,000", "5,000", "5,000"] %}
-{% set fee_offsets = [0, 3, 4, 5, 6, 6,] %}
+{% set tax = [10, 20, 30, 30, 40, 50, 50] %}
+{% set fee_offsets = [0, 3, 4, 4, 5, 6,] %}
   [[maintenance]]
     desc = ""
     num_across_x = 20
@@ -816,7 +822,14 @@ limit"""
       desc_font = "Times-Roman", 10
 
      [[[tile_1.9]]]
-      desc = interest
+      desc = """loan
+interest"""
+      desc_position = bottom
+      desc_font = "Times-Roman", 10
+
+     [[[tile_1.10]]]
+      desc = """income
+tax"""
       desc_position = bottom
       desc_font = "Times-Roman", 10
 
@@ -850,14 +863,22 @@ limit"""
       tile_stroke_colour = {{ train_colours[x // 3] }}
   {% endif %}
   {% if x > 14 %}
-      desc = 40
+      desc = 40%
   {% elif x > 11 %}
-      desc = 30
+      desc = 30%
   {% elif x > 8 %}
-      desc = 20
+      desc = 20%
   {% else %}
-      desc = 10
+      desc = 10%
   {% endif %}
+      desc_position = "bottom",
+
+    [[[tile_{{ x + 2 }}.10]]]
+  {% if x % 3 == 0 %}
+      tile_colour = {{ train_colours[x // 3] }}
+      tile_stroke_colour = {{ train_colours[x // 3] }}
+  {% endif %}
+      desc = {{ tax[x // 3 ] }}%
       desc_position = "bottom",
 {% endfor %}
 
@@ -1066,7 +1087,7 @@ limit"""
       token_top_colour = ${L_BLUE}
       token_bottom_colour = ${L_BLUE}
       token_colour = "${D_BLUE}"
-      token_name = "WATER"
+      token_name = "TECH"
       token_name_colour = "${WHITE}"
      [[[tile_1.14]]]
       token_top_colour = ${L_BROWN}
