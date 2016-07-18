@@ -5648,7 +5648,7 @@ The company must immediately pay interest at the current rate on any loans
 \end_deeper
 \end_deeper
 \begin_layout Paragraph
-Per-share purchase price
+Share purchasing
 \end_layout
 
 \begin_layout Itemize
@@ -5685,11 +5685,21 @@ Any remaining monies from the bid are paid to the bank.
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-All treasury, loans, trains in the sold company are transfered to the acquiring
- company.
+\begin_layout Paragraph
+Asset transfers
 \end_layout
 
+\begin_layout Itemize
+All treasury and loans, trains in the sold company are transfered to the
+ acquiring company.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SOMETHING ABOUT COMPLYING WITH THE TRAIN LIMIT.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 If the acquiring company exceeds its loan limit (see and privates can't
  have loans):
@@ -5697,7 +5707,7 @@ If the acquiring company exceeds its loan limit (see and privates can't
 
 \begin_deeper
 \begin_layout Itemize
-The company must immediately pay off all excess loans.
+The company must immediately pay off any excess loans.
 \end_layout
 
 \begin_layout Itemize
@@ -5723,10 +5733,23 @@ Any unplaced station markers of the sold company are converted to station
 \end_layout
 
 \begin_layout Itemize
-All station markers of the sold company on the map are replaces with station
+All station markers of the sold company on the map are replaced with station
  markers of the acquiring company.
 \end_layout
 
+\begin_layout Itemize
+The acquiring company must discard station markers from its charter or from
+ the map until the total number of station markers left is equal to or less
+ than the company's maximum station marker limit (see ).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Any station markers discarded from the map are replaced with Bank of England
+ station markers.
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Game End
 \begin_inset CommandInset label
