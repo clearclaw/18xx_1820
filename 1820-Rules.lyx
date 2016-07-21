@@ -374,7 +374,7 @@ name "sec:Game-Setup"
 \end_layout
 
 \begin_layout Itemize
-Place the map, stock market, cost of business char, round track, revenue
+Place the map, stock market, cost of business chart, round track, revenue
  track, loan markers, company shares and charters, and the supply of track
  tiles where they can be easily seen and accessed by all players.
 \end_layout
@@ -5675,8 +5675,8 @@ The winning bid divided by the number of shares of the sold company owned
 
 \end_deeper
 \begin_layout Itemize
-The acquiring company must buy all the shares of the sold company that are
- owned by players, from those players, for the per-share purchase price.
+The acquiring company buys all the shares of the sold company that are owned
+ by players, from those players, for the per-share purchase price.
 \end_layout
 
 \begin_deeper
@@ -5710,6 +5710,7 @@ If the acquiring company exceeds its loan limit (see and privates can't
 The company must immediately pay off any excess loans.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 If the company cannot pay off the required loans from its treasury:
 \end_layout
@@ -5726,27 +5727,89 @@ The stock price of the acquiring company is moved down one space.
 
 \end_deeper
 \end_deeper
+\end_deeper
 \begin_layout Itemize
-Any unplaced station markers of the sold company are converted to station
- markers of the acquiring company and placed on the acquiring company's
- charter.
-\end_layout
-
-\begin_layout Itemize
-All station markers of the sold company on the map are replaced with station
- markers of the acquiring company.
-\end_layout
-
-\begin_layout Itemize
-The acquiring company must discard station markers from its charter or from
- the map until the total number of station markers left is equal to or less
- than the company's maximum station marker limit (see ).
+Using additional station markers from its full set of 18:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Any station markers discarded from the map are replaced with Bank of England
- station markers.
+For each placed station marker of the sold company, the acquiring company
+ must do one of:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Replace it with one of its own station markers.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Optionally also replacing one of its station markers already on the map
+ with a British Rail station marker.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Replace it with a British Rail station marker.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Any unplaced station markers from the sold company's charter are replaced
+ with unplaced station markers on the acquiring company's charter.
+\end_layout
+
+\begin_layout Itemize
+The acquiring company must discard unplaced station markers from its charter
+ until either:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It has no remaining unplaced station markers.
+\end_layout
+
+\begin_layout Standard
+Or:
+\end_layout
+
+\begin_layout Itemize
+The total number of station markers it collectively has on the map and charter
+ is no larger than its station marker limit.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If the company has discarded all its unplaced station markers and still
+ has more placed station markers than its maximum station limit:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The acquiring company must replace its placed station markers with British
+ Rail station markers until is within the maximum station limit.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The company may optionally replace additional station markers with British
+ Rail station markers, but not below its station marker limit.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+If the company's total number of placed station markers is over the station
+ marker limit and has increased:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The acquiring company must pay a fee of £100 to the bank for each additional
+ station marker it has aqcuired in this transaction over its station marker
+ limit.
 \end_layout
 
 \end_deeper
