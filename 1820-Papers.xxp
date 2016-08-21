@@ -494,28 +494,28 @@
 
 {% set trains = [
     {
-      "cost": "$100",
+      "cost": "$60",
       "frame_colour": "${L_YELLOW}",
       "name": "2",
       "rust_stripe": "${L_BLUE}",
       "trade_stripe": "${L_GREEN}",
     },
     {
-      "cost": "$140",
+      "cost": "$80",
       "frame_colour": "${D_YELLOW}",
       "name": "2+",
       "rust_stripe": "${L_BLUE}",
       "trade_stripe": "${L_GREEN}",
     },
     {
-      "cost": "$250",
+      "cost": "$200",
       "frame_colour": "${L_GREEN}",
       "name": "3+",
       "rust_stripe": "${M_BROWN}",
       "trade_stripe": "${L_BLUE}",
     },
     {
-      "cost": "$450",
+      "cost": "$400",
       "frame_colour": "${L_BLUE}",
       "name": "5+",
       "rust_stripe": "${M_RED}",
@@ -525,12 +525,12 @@
     {
       "cost": "$800",
       "frame_colour": "${M_BROWN}",
-      "name": "7+",
+      "name": "Express",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${M_RED}",
     },
     {
-      "cost": "$1,250",
+      "cost": "$1,600",
       "frame_colour": "${M_RED}",
       "name": "5D+",
       "rust_stripe": "${L_GRAY}",
@@ -673,7 +673,7 @@ $100"""
       desc = "T #3"
       tile_colour = ${P_BLUE}
       tile_stroke_colour = ${BLACK}
-
+{% set tax = [10, 20, 30, 30, 40, 50, 50] %}
 {% set tax_rates = range (10, 80, 10) %}
 {% set tax_count = tax_rates | count %}
 {% set blocks = ((tax_count + page_size - 1) / page_size) | int %}
@@ -711,7 +711,8 @@ $100"""
   {% endfor %}
 
 
-{% set stock_values = [40, 43, 47, 51, 55, 60, 65, 71, 78, 86, 95, 105, 116,
+{% set stock_values = [10,
+                       40, 43, 47, 51, 55, 60, 65, 71, 78, 86, 95, 105, 116,
                        128, 142, 158, 176, 196, 219, 245, 274, 307, 345,
                        389, 439, 500,] %}
 {#% set stock_values = [40, 43, 47, 51, 55, 60, 65, 71, 78, 86, 95, 105, 116,
@@ -737,7 +738,7 @@ $100"""
     {% endif %}
     {% set value = stock_values[index] %}
       desc = {{ value }}
-      {% if value <= 40 %}
+      {% if value <= 30 %}
       tile_colour = ${P_GRAY}
       {% elif value >= 55 and value <= 75 %}
       tile_colour = ${P_YELLOW}
@@ -755,11 +756,24 @@ $100"""
 
 {% set train_colours = ["${P_YELLOW}", "${P_GREEN}", "${P_BLUE}",
                         "${P_BROWN}", "${P_RED}", "${P_GRAY}", "${WHITE}"] %}
-{% set fees = ["0", "0", "0", "10", "25", "50", "100", "160", "250", "400",
+{% set fees = [["0", "0", "0", "10", "25", "50", "100", "160", "250", "400",
                "650", "1,000", "2,500", "5,000", "5,000", "5,000", "5,000",
-               "5,000", "5,000", "5,000", "5,000"] %}
-{% set tax = [10, 20, 30, 30, 40, 50, 50] %}
-{% set fee_offsets = [0, 3, 4, 4, 5, 6,] %}
+               "5,000", "5,000", "5,000", "5,000"],
+	       ["0", "0", "10", "25", "50", "100", "160", "250",
+	       "400","650", "1,000", "2,500", "5,000", "5,000", "5,000",
+	       "5,000", "5,000", "5,000", "5,000", "5,000"],
+	       ["10", "25", "50", "100", "160", "250", "400",
+	       "650", "1,000", "2,500", "5,000", "5,000", "5,000",
+	       "5,000", "5,000", "5,000", "5,000", "5,000"],
+	       ["25", "50", "100", "160", "250", "400", "650",
+	       "1,000", "2,500", "5,000", "5,000", "5,000", "5,000",
+               "5,000", "5,000", "5,000", "5,000"],
+	       ["100", "160", "250", "400", "650", "1,000", "2,500", "5,000",
+	       "5,000", "5,000", "5,000", "5,000", "5,000", "5,000", "5,000"],
+	       ["400", "650", "1,000", "2,500", "5,000", "5,000", "5,000",
+	       "5,000", "5,000", "5,000", "5,000", "5,000"],
+	       ] %}
+{% set fee_offsets = [0, 3, 6, 9, 12, 15,] %}
   [[maintenance]]
     desc = ""
     num_across_x = 20
@@ -827,12 +841,12 @@ interest"""
       desc_position = bottom
       desc_font = "Times-Roman", 10
 
-     [[[tile_1.10]]]
+{#     [[[tile_1.10]]]
       desc = """income
 tax"""
       desc_position = bottom
       desc_font = "Times-Roman", 10
-
+#}
 {% for x in range (19) %}
     [[[tile_{{ x + 2 }}.1]]]
   {% if x % 3 == 0 %}
@@ -873,13 +887,14 @@ tax"""
   {% endif %}
       desc_position = "bottom",
 
-    [[[tile_{{ x + 2 }}.10]]]
+{#    [[[tile_{{ x + 2 }}.10]]]
   {% if x % 3 == 0 %}
       tile_colour = {{ train_colours[x // 3] }}
       tile_stroke_colour = {{ train_colours[x // 3] }}
   {% endif %}
       desc = {{ tax[x // 3 ] }}%
       desc_position = "bottom",
+#}
 {% endfor %}
 
 {% for x in range (19) %}
@@ -889,7 +904,7 @@ tax"""
       tile_colour = {{ train_colours[y] }}
       tile_stroke_colour = ${BLACK}
       {% if x >= fee_offsets[y] %}
-      desc = "{{ fees[x - fee_offsets[y]] }}"
+      desc = "{{ fees[y][x - fee_offsets[y]] }}"
       {% endif %}
       desc_position = "bottom",
    {% elif x % 3 == 0 %}
@@ -1112,9 +1127,10 @@ tax"""
 
 [train]
   trade = ""
-
+  
 {% for train in trains %}
   [[{{ train.name }}]]
+    print_instruction = "Print two copies of this page."
     frame_colour = {{ train.frame_colour }}
     train = {{ train.name }}
     cost = "Cost: {{ train.cost }}"
@@ -1130,56 +1146,19 @@ tax"""
     {% endif %}
 {% endfor %}
 
-  [[player1]]
-    frame_colour = ${M_RED}
+{% for player in range (2) %}
+  {% set base = ["RED", "BLUE",][player] %}
+  {% set colour = ["BLUE", "RED",][player] %}
+  [[player{{ player + 1 }}]]
+    frame_colour = ${M_{{ base }}}
     train = ""
     cost = ""
     rust = ""
-    trade_stripe_colour = ${M_BLUE}
-    rust_stripe_colour = ${M_BLUE}
-    train_rust_colour = ${WHITE}
-    rust_colour = ${WHITE}
+    trade_stripe_colour = ${M_{{ colour }}}
+    rust_stripe_colour = ${M_{{ colour }}}
 
-    [[[tile_1.1]]]
-      train = "1"
-
-    [[[tile_1.2]]]
-      train = "2"
-
-    [[[tile_1.3]]]
-      train = "3"
-
-    [[[tile_2.1]]]
-      train = "4"
-
-    [[[tile_2.2]]]
-      train = "5"
-
-    [[[tile_2.3]]]
-      train = "6"
-
-  [[player2]]
-    frame_colour = ${M_BLUE}
-    train = ""
-    cost = ""
-    rust = ""
-    trade_stripe_colour = ${M_RED}
-    rust_stripe_colour = ${M_RED}
-
-    [[[tile_1.1]]]
-      train = "1"
-
-    [[[tile_1.2]]]
-      train = "2"
-
-    [[[tile_1.3]]]
-      train = "3"
-
-    [[[tile_2.1]]]
-      train = "4"
-
-    [[[tile_2.2]]]
-      train = "5"
-
-    [[[tile_2.3]]]
-      train = "6"
+  {% for ndx in range (6) %}
+    [[[tile_{{ (ndx // 2) + 1  }}.{{ (ndx % 2) + 1 }}]]]
+      train = {{ ndx + 1 }}
+  {% endfor %}
+{% endfor %}

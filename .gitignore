@@ -1,6 +1,7 @@
 *.py[cod]
 *.ps
 *.pdf
+*.dvi
 
 Papers
 *.DS_Store

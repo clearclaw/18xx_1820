@@ -1,5 +1,5 @@
 #! /bin/bash
-set -e -x
+set -e
 
 # lyx --export pdf2 ./1820-Rules.lyx
 mkdir -p build
