@@ -495,14 +495,14 @@
 {% set trains = [
     {
       "cost": "$60",
-      "frame_colour": "${L_YELLOW}",
+      "frame_colour": "${P_YELLOW}",
       "name": "2",
       "rust_stripe": "${L_BLUE}",
       "trade_stripe": "${L_GREEN}",
     },
     {
       "cost": "$80",
-      "frame_colour": "${D_YELLOW}",
+      "frame_colour": "${L_YELLOW}",
       "name": "2+",
       "rust_stripe": "${L_BLUE}",
       "trade_stripe": "${L_GREEN}",
@@ -516,22 +516,23 @@
     },
     {
       "cost": "$400",
-      "frame_colour": "${L_BLUE}",
-      "name": "5+",
+      "frame_colour": "${P_BLUE}",
+      "name": "6+",
       "rust_stripe": "${M_RED}",
       "trade_stripe": "${M_BROWN}",
       "optional": 1,
     },
     {
       "cost": "$800",
-      "frame_colour": "${M_BROWN}",
-      "name": "Express",
+      "frame_colour": "${L_BROWN}",
+      "name": "EXPRESS",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${M_RED}",
+      "train_font": '"Times-Roman", 28',
     },
     {
       "cost": "$1,600",
-      "frame_colour": "${M_RED}",
+      "frame_colour": "${L_RED}",
       "name": "5D+",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${L_GRAY}",
@@ -544,6 +545,158 @@
       "trade_stripe": "${BLACK}",
       "train_font": '"Times-Roman", 36',
     }
+  ]
+%}
+
+{% set privates = [
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": """Robert Stephenson &
+Charles Fox""",
+      "desc": """May be assigned to a company at any time.
+Owning company gains
+an additional place-able
+station marker""",
+      "close": "In brown phase.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "Joseph Locke",
+      "desc": """May be assigned to a company at any time.
+Owning company does does not pay
+terrain costs when building track
+until the next parliament round.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "Charles Blacker Vignoles",
+      "desc": """May be assigned to a company
+during a parliament round.
+Owning company does not pay a
+distance fee for placing an
+additional station marker
+as it floats.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "R. B. Longridge & Company",
+      "desc": """May be assigned to a company at any time.
+Owning company can exchange for
+a currently available train from
+the supply.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "Enoch Train & Company",
+      "desc": """May be assigned to a company at any time.
+Owning company can double the
+revenue of a port for that company
+until the next parliament round.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "Child & Co Bank",
+      "desc": """May be assigned to a company at any time.
+Owning company's stock price falls
+only once per two shares in the pool
+or issued (rounding up).""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "George Hudson",
+      "desc": """Owning player can exchange
+for two shares of a floated company
+from its treasury at any time.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "Vulcan Foundry Company",
+      "desc": """May be assigned to a company at any time.
+Owning company can pay all
+current loan interest & train
+maintenance costs by closing
+the private.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "Coutts & Co.",
+      "desc": """May be assigned to a company at any time.
+Owning company may freely choose
+which if any takeover bid to
+accept or rejecct.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "Bedlington Ironworks",
+      "desc": """May be assigned to a company at any time.
+Owning company may place a
+third track tile at no cost
+when building track.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": """Great Western
+Steamship Company""",
+      "desc": """May be assigned to a company at any time.
+One of the owning company's
+train routes may have a port
+at both ends until the next
+parliament round.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "James Holden",
+      "desc": """May be assigned to a company at any time.
+Owning company may run one of
+its trains to and count reveue
+for two additional stops until
+the next parliament round.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "Isambard Kingdom Brunel",
+      "desc": """May be assigned to a company at any time.
+Owning company may build a track
+connection across a blue barrier
+for no cost.""",
+      "close": "In brown phase or when power used.",
+    },
+    {
+      "cost": 0,
+      "revenue": 0,
+      "title": "John Birkinshaw",
+      "desc": """May be assigned to a company at any time.
+Owning company may build three
+immediately adjacent/connected
+yellow track tiles in one
+operating round, including
+two adjacent connected towns.""",
+      "close": "In brown phase or when power used.",
+    },
   ]
 %}
 
@@ -673,6 +826,24 @@ $100"""
       desc = "T #3"
       tile_colour = ${P_BLUE}
       tile_stroke_colour = ${BLACK}
+
+  [[privates]]
+    num_across_x = 10
+    num_across_y = 1
+    tile_x = 64
+    tile_y = 64
+    tile_colour = ${WHITE}
+    tile_stroke_colour = ${WHITE}
+    desc = ""
+
+{% for ndx in range (privates | count) %}
+
+    [[[tile_{{ ndx + 1 }}.1]]]
+      tile_colour = ${H_GRAY}
+      tile_stroke_colour = ${BLACK}
+      desc = P{{ ndx + 1 }}
+{% endfor %}
+
 {% set tax = [10, 20, 30, 30, 40, 50, 50] %}
 {% set tax_rates = range (10, 80, 10) %}
 {% set tax_count = tax_rates | count %}
@@ -841,12 +1012,12 @@ interest"""
       desc_position = bottom
       desc_font = "Times-Roman", 10
 
-{#     [[[tile_1.10]]]
-      desc = """income
-tax"""
+     [[[tile_1.10]]]
+      desc = """takeover
+premium"""
       desc_position = bottom
       desc_font = "Times-Roman", 10
-#}
+
 {% for x in range (19) %}
     [[[tile_{{ x + 2 }}.1]]]
   {% if x % 3 == 0 %}
@@ -861,6 +1032,8 @@ tax"""
       tile_stroke_colour = {{ train_colours[x // 3] }}
   {% endif %}
   {% if x > 14 %}
+      desc = 2
+  {% elif x > 12 %}
       desc = 3
   {% elif x > 8 %}
       desc = 4
@@ -887,14 +1060,14 @@ tax"""
   {% endif %}
       desc_position = "bottom",
 
-{#    [[[tile_{{ x + 2 }}.10]]]
+    [[[tile_{{ x + 2 }}.10]]]
   {% if x % 3 == 0 %}
       tile_colour = {{ train_colours[x // 3] }}
       tile_stroke_colour = {{ train_colours[x // 3] }}
   {% endif %}
-      desc = {{ tax[x // 3 ] }}%
+      desc = +{{ 5 - ((x - 1) // 3) }}
       desc_position = "bottom",
-#}
+
 {% endfor %}
 
 {% for x in range (19) %}
@@ -912,6 +1085,31 @@ tax"""
       tile_colour = {{ train_colours[x // 3] }}
       tile_stroke_colour = {{ train_colours[x // 3] }}
     {% endif %}
+  {% endfor %}
+{% endfor %}
+
+[private]
+  frame_colour = ${P_GREEN}
+
+{% set page_size = 9 %}
+{% set private_count = privates | count %}
+{% set blocks = ((privates | count + 8) / page_size) | int %}
+{% set tiles = ["1.1", "1.2", "1.3", "2.1", "2.2", "2.3",
+                "3.1", "3.2", "3.3"] %}
+{% for sheet in range (blocks) %}
+  [[sheet{{ sheet + 1 }}]]
+  {% set index = sheet * page_size %}
+  {% for tile in range (page_size) %}
+    {% if index + tile >= private_count %}
+      {% continue %}
+    {% endif %}
+    {% set private = privates[index + tile] %}
+    [[[tile_{{ tiles[tile] }}]]]
+      cost = "Cost: ${{ private.cost }}"
+      revenue = "Revenue: ${{ private.revenue }}"
+      title = """{{ private.title }}"""
+      desc = """{{ private.desc }}"""
+      close = """Close: {{ private.close }}"""
   {% endfor %}
 {% endfor %}
 
@@ -1097,37 +1295,113 @@ tax"""
       {% endif %}
     {% endif %}
   {% endfor %}
-  {% if sheet == blocks - 1 %}
-     [[[tile_1.13]]]
-      token_top_colour = ${L_BLUE}
-      token_bottom_colour = ${L_BLUE}
-      token_colour = "${D_BLUE}"
-      token_name = "TECH"
-      token_name_colour = "${WHITE}"
-     [[[tile_1.14]]]
-      token_top_colour = ${L_BROWN}
-      token_bottom_colour = ${L_BROWN}
-      token_colour = "${D_BROWN}"
-      token_name = "TAX"
-      token_name_colour = "${WHITE}"
-     [[[tile_1.15]]]
-      token_top_colour = ${M_RED}
-      token_bottom_colour = ${M_RED}
-      token_colour = "${M_BLUE}"
-      token_name = "LOANS"
-      token_name_colour = "${WHITE}"
-     [[[tile_1.16]]]
-      token_top_colour = ${M_GRAY}
-      token_bottom_colour = ${M_GRAY}
-      token_colour = "${D_GRAY}"
-      token_name = "ROUND"
-      token_name_colour = "${WHITE}"
-   {% endif %}
+{% endfor %}
+
+{% set tokens = [
+  {
+    "base_colour": "${BLACK}",
+    "stripe_colour": "${L_YELLOW}",
+    "token_name": "PRIVATE",
+    "token_name_colour": "${BLACK}",
+  },
+  {
+    "base_colour": "${BLACK}",
+    "stripe_colour": "${L_YELLOW}",
+    "token_name": "PRIVATE",
+    "token_name_colour": "${BLACK}",
+  },
+  {
+    "base_colour": "${L_GREEN}",
+    "stripe_colour": "${D_GREEN}",
+    "token_name": "5 Shares",
+  },
+  {
+    "base_colour": "${L_GREEN}",
+    "stripe_colour": "${D_GREEN}",
+    "token_name": "5 Shares",
+  },
+  {
+    "base_colour": "${L_GREEN}",
+    "stripe_colour": "${D_GREEN}",
+    "token_name": "5 Shares",
+  },
+  {
+    "base_colour": "${L_GREEN}",
+    "stripe_colour": "${D_GREEN}",
+    "token_name": "5 Shares",
+  },
+  {
+    "base_colour": "${L_GREEN}",
+    "stripe_colour": "${D_GREEN}",
+    "token_name": "5 Shares",
+  },
+  {
+    "base_colour": "${L_GREEN}",
+    "stripe_colour": "${D_GREEN}",
+    "token_name": "5 Shares",
+  },
+  {
+    "base_colour": "${L_BLUE}",
+    "stripe_colour": "${D_BLUE}",
+    "token_name": "10 Shares",
+  },
+  {
+    "base_colour": "${L_BLUE}",
+    "stripe_colour": "${D_BLUE}",
+    "token_name": "10 Shares",
+  },
+  {
+    "base_colour": "${L_BLUE}",
+    "stripe_colour": "${D_BLUE}",
+    "token_name": "10 Shares",
+  },
+  {
+    "base_colour": "${L_BROWN}",
+    "stripe_colour": "${D_BROWN}",
+    "token_name": "20 Shares",
+  },
+  {
+    "base_colour": "${L_BROWN}",
+    "stripe_colour": "${D_BROWN}",
+    "token_name": "20 Shares",
+  },
+  {
+    "base_colour": "${L_RED}",
+    "stripe_colour": "${D_RED}",
+    "token_name": "50 Shares",
+  },
+  {
+    "base_colour": "${L_RED}",
+    "stripe_colour": "${D_RED}",
+    "token_name": "50 Shares",
+  },
+  {
+    "base_colour": "${M_GRAY}",
+    "stripe_colour": "${D_GRAY}",
+    "token_name": "ROUND",
+  },
+  ]
+%}
+
+  [[sizes]]
+  token_name_colour = "${WHITE}"
+  print_instruction = "Print two copies of this page."
+
+{% for ndx in range (tokens | count) %}
+  {% set tok = tokens[ndx] %}
+     [[[tile_1.{{ ndx + 1 }}]]]
+      token_top_colour = {{ tok.base_colour }}
+      token_bottom_colour = {{ tok.base_colour }}
+      token_colour = {{ tok.stripe_colour}}
+      token_name = {{ tok.token_name }}
+  {% if "token_name_colour" in tok.keys () %}
+      token_name_colour = {{ tok.token_name_colour }}
+  {% endif %}
 {% endfor %}
 
 [train]
   trade = ""
-  
+
 {% for train in trains %}
   [[{{ train.name }}]]
     print_instruction = "Print two copies of this page."
