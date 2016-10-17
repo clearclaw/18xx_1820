@@ -548,154 +548,139 @@
   ]
 %}
 
-{% set privates = [
+{% set friends = [
     {
-      "cost": 0,
-      "revenue": 0,
-      "title": """Robert Stephenson &
-Charles Fox""",
-      "desc": """May be assigned to a company at any time.
-Owning company gains
-an additional place-able
-station marker""",
-      "close": "In brown phase.",
+      "title": """Robert Stephenson
+& Charles Fox""",
+      "desc": """Current investments:
+Gain a $100 place-able station marker
+per share held.""",
+      "url": "https://en.wikipedia.org/wiki/Robert_Stephenson, https://en.wikipedia.org/wiki/Charles_Fox_(civil_and_railway_engineer)",
     },
     {
-      "cost": 0,
-      "revenue": 0,
       "title": "Joseph Locke",
-      "desc": """May be assigned to a company at any time.
-Owning company does does not pay
-terrain costs when building track
-until the next parliament round.""",
-      "close": "In brown phase or when power used.",
+      "desc": """Current investments:
+Do not pay hill & marsh terrain
+costs when building track.""",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Locke",
     },
     {
-      "cost": 0,
-      "revenue": 0,
       "title": "Charles Blacker Vignoles",
-      "desc": """May be assigned to a company
-during a parliament round.
-Owning company does not pay a
-distance fee for placing an
-additional station marker
-as it floats.""",
-      "close": "In brown phase or when power used.",
+      "desc": """Current investments:
+Do not pay a distance fee when placing
+an additional station marker while floating.""",
+      "url": "https://en.wikipedia.org/wiki/Charles_Blacker_Vignoles",
     },
     {
-      "cost": 0,
-      "revenue": 0,
-      "title": "R. B. Longridge & Company",
-      "desc": """May be assigned to a company at any time.
-Owning company can exchange for
-a currently available train from
-the supply.""",
-      "close": "In brown phase or when power used.",
+      "title": """R. B. Longridge & Co.""",
+      "desc": """Current investments:
+Have a 50% discount on the purchase of a train
+from the supply, once for each share held.""",
+      "url": "https://en.wikipedia.org/wiki/R._B._Longridge_and_Company",
     },
     {
-      "cost": 0,
-      "revenue": 0,
-      "title": "Enoch Train & Company",
-      "desc": """May be assigned to a company at any time.
-Owning company can double the
-revenue of a port for that company
-until the next parliament round.""",
-      "close": "In brown phase or when power used.",
+      "title": "Enoch Train & Co.",
+      "desc": """Current investments:
+Can double the revenue of a port
+(not London or Liverpool).""",
+      "url": "",
     },
     {
-      "cost": 0,
-      "revenue": 0,
-      "title": "Child & Co Bank",
-      "desc": """May be assigned to a company at any time.
-Owning company's stock price falls
-only once per two shares in the pool
-or issued (rounding up).""",
-      "close": "In brown phase or when power used.",
+      "title": "Child & Co.",
+      "desc": """Current investments:
+Stock price falls only once per
+two shares in the pool or issued
+(rounding up).""",
+      "url": "https://en.wikipedia.org/wiki/Child_%26_Co.",
     },
     {
-      "cost": 0,
-      "revenue": 0,
-      "title": "George Hudson",
-      "desc": """Owning player can exchange
-for two shares of a floated company
-from its treasury at any time.""",
-      "close": "In brown phase or when power used.",
+      "title": "Vulcan Foundry",
+      "desc": """Current investments:
+Can pay either current loan interest or train
+maintenance costs with treasury.""",
+      "url": "https://en.wikipedia.org/wiki/Vulcan_Foundry",
     },
     {
-      "cost": 0,
-      "revenue": 0,
-      "title": "Vulcan Foundry Company",
-      "desc": """May be assigned to a company at any time.
-Owning company can pay all
-current loan interest & train
-maintenance costs by closing
-the private.""",
-      "close": "In brown phase or when power used.",
-    },
-    {
-      "cost": 0,
-      "revenue": 0,
       "title": "Coutts & Co.",
-      "desc": """May be assigned to a company at any time.
-Owning company may freely choose
-which if any takeover bid to
-accept or rejecct.""",
-      "close": "In brown phase or when power used.",
+      "desc": """Current investments:
+May freely choose which if any
+takeover bid to accept or rejecct.""",
+      "url": "https://en.wikipedia.org/wiki/Coutts",
     },
     {
-      "cost": 0,
-      "revenue": 0,
       "title": "Bedlington Ironworks",
-      "desc": """May be assigned to a company at any time.
-Owning company may place a
-third track tile at no cost
-when building track.""",
-      "close": "In brown phase or when power used.",
+      "desc": """Current investements:
+May place or upgrade three track tiles
+in operating rounds.""",
+      "url": "https://en.wikipedia.org/wiki/Bedlington_Ironworks",
     },
     {
-      "cost": 0,
-      "revenue": 0,
       "title": """Great Western
 Steamship Company""",
-      "desc": """May be assigned to a company at any time.
-One of the owning company's
-train routes may have a port
-at both ends until the next
-parliament round.""",
-      "close": "In brown phase or when power used.",
+      "desc": """Current investments:
+May have a port at both ends of a
+train route per share held.""",
+      "url": "https://en.wikipedia.org/wiki/Great_Western_Steamship_Company",
     },
     {
-      "cost": 0,
-      "revenue": 0,
-      "title": "James Holden",
-      "desc": """May be assigned to a company at any time.
-Owning company may run one of
-its trains to and count reveue
-for two additional stops until
-the next parliament round.""",
-      "close": "In brown phase or when power used.",
-    },
-    {
-      "cost": 0,
-      "revenue": 0,
       "title": "Isambard Kingdom Brunel",
-      "desc": """May be assigned to a company at any time.
-Owning company may build a track
-connection across a blue barrier
-for no cost.""",
-      "close": "In brown phase or when power used.",
+      "desc": """Current investments:
+Half the cost of all connections across
+blue barriers is paid to treasury.""",
+      "url": "https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel",
     },
     {
-      "cost": 0,
-      "revenue": 0,
       "title": "John Birkinshaw",
-      "desc": """May be assigned to a company at any time.
-Owning company may build three
-immediately adjacent/connected
-yellow track tiles in one
-operating round, including
-two adjacent connected towns.""",
-      "close": "In brown phase or when power used.",
+      "desc": """Current investments:
+May upgrade any or all yellow city tiles
+connected to its station markers to green
+instead of its normal track build.""",
+      "url": "https://en.wikipedia.org/wiki/John_Birkinshaw",
+    },
+    {
+      "title": "James Holden",
+      "desc": """Current investments:
+May buy a train from the supply & immediately
+run it, once per share held.""",
+      "url": "https://en.wikipedia.org/wiki/James_Holden_(locomotive_engineer)",
+    },
+    {
+      "title": "George Leeman",
+      "desc": """Current investments:
+Can place or acquire a station marker
+for free, once per share held.""",
+      "url": "https://en.wikipedia.org/wiki/George_Leeman",
+    },
+    {
+      "title": "Gas Light & Coke Company",
+      "desc": """Current investments
+Can place yellow big cities as if they were normal cities.""",
+      "url": "https://en.wikipedia.org/wiki/Gas_Light_and_Coke_Company",
+    },
+    {
+      "title": "Samuel Montagu & Co.",
+      "desc": """Current investments:
+Can place a second station marker in London for $200
+and have two independent train routes
+reaching the London Docks.""",
+    },
+    {
+      "title": "Carl Joachim Hambro",
+      "desc": """Current investments:
+Can run a train ending at a big city & the London docks
+and double the revenue of both.""",
+      "url": "https://en.wikipedia.org/wiki/Hambros_Bank",
+    },
+    {
+      "title": "Sassoon David Sassoon",
+      "desc": """Current investments:
+Can run a train ending at a big city & the  Liverpool port
+and double the revenue of both.""",
+    },
+    {
+      "title": "George Hudson",
+      "desc": """Cannot sell shares but can
+buy one share in each stock round at half price.""",
     },
   ]
 %}
@@ -740,6 +725,54 @@ $100"""
     {% endif %}
   {% endfor %}
 {% endfor %}
+
+
+{% set page_size = 6 %}
+{% set friend_count = friends | count %}
+{% set blocks = ((friends | count + 8) / page_size) | int %}
+{% set tiles = ["1.1", "1.2", "1.3", "2.1", "2.2", "2.3",] %}
+{% for sheet in range (blocks) %}
+  [[friend{{ sheet + 1 }}]]
+    num_across_x = 2
+    num_across_y = 3
+    tile_x = 255
+    tile_y = 236
+    desc1 = "Assets & Treasury"
+    desc1_colour = ${WHITE}
+    note1_colour = ${WHITE}
+    token_count = 0
+    token_bottom_colour = ${BLACK}
+    token_bottom_stripe_colour = ${BLACK}
+    token_colour = ${BLACK}
+    token_top_colour = ${BLACK}
+    token_top_stripe_colour = ${BLACK}
+    token_name = ""
+    title_colour = ${WHITE}
+    stripe_colour = ${D_BLUE}
+    box_colour = ${D_RED}
+    frame_colour = ${WHITE}
+
+  {% set index = sheet * page_size %}
+  {% for tile in range (page_size) %}
+    {% if index + tile >= friend_count %}
+      {% continue %}
+    {% endif %}
+    {% set friend = friends[index + tile] %}
+    [[[tile_{{ tiles[tile] }}]]]
+      cost = "Cost: ${{ friend.cost }}"
+      revenue = "Revenue: ${{ friend.revenue }}"
+      title = """{{ friend.title }}"""
+      note1 = """ {{ friend.desc }}
+
+Capitalises at 3x purchase price.
+Can buy & sell shares in PRs, SRs and I&Ts.
+Close in red phase with all treasury and shares
+assigned to owning player."""
+      desc = """{{ friend.desc }}"""
+      close = """Close: {{ friend.close }}"""
+  {% endfor %}
+{% endfor %}
+
 
 [market]
   tile_colour = ${P_GRAY}
@@ -836,7 +869,7 @@ $100"""
     tile_stroke_colour = ${WHITE}
     desc = ""
 
-{% for ndx in range (privates | count) %}
+{% for ndx in range (10) %}
 
     [[[tile_{{ ndx + 1 }}.1]]]
       tile_colour = ${H_GRAY}
@@ -1085,31 +1118,6 @@ premium"""
       tile_colour = {{ train_colours[x // 3] }}
       tile_stroke_colour = {{ train_colours[x // 3] }}
     {% endif %}
-  {% endfor %}
-{% endfor %}
-
-[private]
-  frame_colour = ${P_GREEN}
-
-{% set page_size = 9 %}
-{% set private_count = privates | count %}
-{% set blocks = ((privates | count + 8) / page_size) | int %}
-{% set tiles = ["1.1", "1.2", "1.3", "2.1", "2.2", "2.3",
-                "3.1", "3.2", "3.3"] %}
-{% for sheet in range (blocks) %}
-  [[sheet{{ sheet + 1 }}]]
-  {% set index = sheet * page_size %}
-  {% for tile in range (page_size) %}
-    {% if index + tile >= private_count %}
-      {% continue %}
-    {% endif %}
-    {% set private = privates[index + tile] %}
-    [[[tile_{{ tiles[tile] }}]]]
-      cost = "Cost: ${{ private.cost }}"
-      revenue = "Revenue: ${{ private.revenue }}"
-      title = """{{ private.title }}"""
-      desc = """{{ private.desc }}"""
-      close = """Close: {{ private.close }}"""
   {% endfor %}
 {% endfor %}
 
