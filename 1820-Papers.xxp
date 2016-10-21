@@ -553,36 +553,36 @@
       "title": """Robert Stephenson
 & Charles Fox""",
       "desc": """Current investments:
-Gain a $100 place-able station marker
-per share held.""",
+Gain an additional $100 place-able
+station marker per share held.""",
       "url": "https://en.wikipedia.org/wiki/Robert_Stephenson, https://en.wikipedia.org/wiki/Charles_Fox_(civil_and_railway_engineer)",
     },
     {
       "title": "Joseph Locke",
       "desc": """Current investments:
-Do not pay hill & marsh terrain
-costs when building track.""",
+50% of all terrain costs are paid to this treasury.""",
       "url": "https://en.wikipedia.org/wiki/Joseph_Locke",
     },
     {
       "title": "Charles Blacker Vignoles",
       "desc": """Current investments:
-Do not pay a distance fee when placing
-an additional station marker while floating.""",
+Distance fees are reduced by half for additional station markers
+when floating the company.  Half of any distance fees paid
+go to this treasury.""",
       "url": "https://en.wikipedia.org/wiki/Charles_Blacker_Vignoles",
     },
     {
       "title": """R. B. Longridge & Co.""",
       "desc": """Current investments:
 Have a 50% discount on the purchase of a train
-from the supply, once for each share held.""",
+from the supply, once per game for each share held.""",
       "url": "https://en.wikipedia.org/wiki/R._B._Longridge_and_Company",
     },
     {
       "title": "Enoch Train & Co.",
       "desc": """Current investments:
-Can double the revenue of a port
-(not London or Liverpool).""",
+Can double the revenue of a port (not Liverpool or London),
+one per share held""",
       "url": "",
     },
     {
@@ -596,22 +596,22 @@ two shares in the pool or issued
     {
       "title": "Vulcan Foundry",
       "desc": """Current investments:
-Can pay either current loan interest or train
-maintenance costs with treasury.""",
+Can forgo paying train maintenance for one train,
+once per share held per game.""",
       "url": "https://en.wikipedia.org/wiki/Vulcan_Foundry",
     },
     {
       "title": "Coutts & Co.",
       "desc": """Current investments:
 May freely choose which if any
-takeover bid to accept or rejecct.""",
+takeover bid to accept or reject.""",
       "url": "https://en.wikipedia.org/wiki/Coutts",
     },
     {
       "title": "Bedlington Ironworks",
       "desc": """Current investements:
-May place or upgrade three track tiles
-in operating rounds.""",
+May upgrade two track tiles in addition
+to their normal track build.""",
       "url": "https://en.wikipedia.org/wiki/Bedlington_Ironworks",
     },
     {
@@ -623,17 +623,10 @@ train route per share held.""",
       "url": "https://en.wikipedia.org/wiki/Great_Western_Steamship_Company",
     },
     {
-      "title": "Isambard Kingdom Brunel",
-      "desc": """Current investments:
-Half the cost of all connections across
-blue barriers is paid to treasury.""",
-      "url": "https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel",
-    },
-    {
       "title": "John Birkinshaw",
       "desc": """Current investments:
-May upgrade any or all yellow city tiles
-connected to its station markers to green
+As legal, may upgrade any or all city tiles
+connected to its station markers
 instead of its normal track build.""",
       "url": "https://en.wikipedia.org/wiki/John_Birkinshaw",
     },
@@ -654,33 +647,79 @@ for free, once per share held.""",
     {
       "title": "Gas Light & Coke Company",
       "desc": """Current investments
-Can place yellow big cities as if they were normal cities.""",
+Can place yellow big cities spaced
+as if they were normal cities.""",
       "url": "https://en.wikipedia.org/wiki/Gas_Light_and_Coke_Company",
     },
     {
       "title": "Samuel Montagu & Co.",
       "desc": """Current investments:
-Can place a second station marker in London for $200
+Can place a second station marker in London
 and have two independent train routes
 reaching the London Docks.""",
     },
     {
       "title": "Carl Joachim Hambro",
       "desc": """Current investments:
-Can run a train ending at a big city & the London docks
-and double the revenue of both.""",
+Double the revenues of all towns for routes ending
+in the London Docks.""",
       "url": "https://en.wikipedia.org/wiki/Hambros_Bank",
     },
     {
       "title": "Sassoon David Sassoon",
       "desc": """Current investments:
-Can run a train ending at a big city & the  Liverpool port
-and double the revenue of both.""",
+Double the revenue of one city (not London) for routes
+ending in Liverpool port.""",
+      "url": "https://en.wikipedia.org/wiki/Sassoon_David_Sassoon",
     },
     {
       "title": "George Hudson",
       "desc": """Cannot sell shares but can
-buy one share in each stock round at half price.""",
+buy one share in each parliament or stock round at half price.
+Current investments:
+Can supplement dividends with capital in their treasury.""",
+      "url": "https://en.wikipedia.org/wiki/George_Hudson",
+    },
+    {
+      "title": "Henry Dubs",
+      "desc": """Current investments:
+Can run one train per share held
+as if it were one stop longer.""",
+      "url": "https://en.wikipedia.org/wiki/Henry_D%C3%BCbs",
+    },
+    {
+      "title": "Nelson & Co.",
+      "desc": """Current investments:
+Can buy trains in pairs from the supply, paying for only one,
+that cannot run until the operating round after next.""",
+      "url": "https://en.wikipedia.org/wiki/Neilson_and_Company",
+    },
+    {
+      "title": "Charles Beyer",
+      "desc": """Current investments:
+Can pay one-step lower train maintenance
+on one type of train once per game.""",
+      "url": "https://en.wikipedia.org/wiki/Charles_Beyer",
+    },
+    {
+      "title": "James Pearson",
+      "desc": """Current investments:
+Add $20 to the revenue of all towns.""",
+      "url": "https://en.wikipedia.org/wiki/James_Pearson_(engineer)",
+    },
+    {
+      "title": "John Ramsbottom",
+      "desc": """Current investments:
+Can replace a track tile with an available track-tile of the same type
+and connections to adjacent tiles as part of its normal track-build.
+Half the revenue of any such tile placed is paid to this treasury.""",
+      "url": "https://en.wikipedia.org/wiki/John_Ramsbottom_(engineer)",
+    },
+    {
+      "title": "Isambard Kingdom Brunel",
+      "desc": """Half the cost of all connections across
+blue barriers are paid to this treasury.""",
+      "url": "https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel",
     },
   ]
 %}
@@ -738,8 +777,8 @@ $100"""
     tile_x = 255
     tile_y = 236
     desc1 = "Assets & Treasury"
-    desc1_colour = ${WHITE}
-    note1_colour = ${WHITE}
+    desc1_colour = ${BLACK}
+    note1_colour = ${BLACK}
     token_count = 0
     token_bottom_colour = ${BLACK}
     token_bottom_stripe_colour = ${BLACK}
@@ -749,7 +788,7 @@ $100"""
     token_name = ""
     title_colour = ${WHITE}
     stripe_colour = ${D_BLUE}
-    box_colour = ${D_RED}
+    box_colour = ${H_RED}
     frame_colour = ${WHITE}
 
   {% set index = sheet * page_size %}
@@ -764,10 +803,9 @@ $100"""
       title = """{{ friend.title }}"""
       note1 = """ {{ friend.desc }}
 
-Capitalises at 3x purchase price.
-Can buy & sell shares in PRs, SRs and I&Ts.
-Close in red phase with all treasury and shares
-assigned to owning player."""
+Can buy & sell shares in PRs & SRs.
+Close in red phase with all held shares sold to market and
+half of resulting cash and treasury to owning player."""
       desc = """{{ friend.desc }}"""
       close = """Close: {{ friend.close }}"""
   {% endfor %}
