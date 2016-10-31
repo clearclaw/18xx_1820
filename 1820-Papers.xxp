@@ -548,43 +548,147 @@
   ]
 %}
 
-{% set friends = [
+{% set cousins_yellow = [
     {
-      "title": """Robert Stephenson
-& Charles Fox""",
+      "title": "Coutts & Co.",
       "desc": """Current investments:
-Gain an additional $100 place-able
-station marker per share held.""",
-      "url": "https://en.wikipedia.org/wiki/Robert_Stephenson, https://en.wikipedia.org/wiki/Charles_Fox_(civil_and_railway_engineer)",
+May freely choose which if any
+takeover bid to accept or reject.""",
+      "url": "https://en.wikipedia.org/wiki/Coutts",
+      "face_value": "$120",
     },
     {
       "title": "Joseph Locke",
       "desc": """Current investments:
-50% of all terrain costs are paid to this treasury.""",
+Have a 50% discount on terrain.  Half of any
+terrain costs paid go to this treasury for the
+first share of each investment, and one quarter
+for each additional share.""",
       "url": "https://en.wikipedia.org/wiki/Joseph_Locke",
+      "face_value": "$120",
     },
+    {
+      "title": "James Holden",
+      "desc": """Current investments:
+May buy a train from the supply & immediately
+run it, once per share held.""",
+      "url": "https://en.wikipedia.org/wiki/James_Holden_(locomotive_engineer)",
+      "face_value": "$160",
+    },
+  ]
+%}
+
+{% set cousins_blue = [
     {
       "title": "Charles Blacker Vignoles",
       "desc": """Current investments:
-Distance fees are reduced by half for additional station markers
-when floating the company.  Half of any distance fees paid
-go to this treasury.""",
+Distance fees are reduced by half for additional
+station markers when floating the company.  Half
+of any distance fees paid go to this treasury.""",
       "url": "https://en.wikipedia.org/wiki/Charles_Blacker_Vignoles",
+      "face_value": "$120",
+    },
+    {
+      "title": "Enoch Train & Co.",
+      "desc": """Current investments:
+Can double the revenue of a port \(not Liverpool
+or London\), one per share held,  Half of the
+revenue of the doubled port is paid to this
+treasury each time.""",
+      "url": "",
+      "face_value": "$160",
+    },
+    {
+      "title": """Great Western
+Steamship Company""",
+      "desc": """Current investments:
+May have a port at both ends of a
+train route per share held.""",
+      "url": "https://en.wikipedia.org/wiki/Great_Western_Steamship_Company",
+      "face_value": "$120",
+    },
+    {
+      "title": "Harrison Mudd",
+      "desc": """Current investments:
+May add one port passed by on a train route,
+per share held.  Half the revenue of the
+smallest port is paid to this treasury.""",
+      "url": "https://books.google.com/books?id=fF-vAwAAQBAJ&pg=PA43&lpg=PA43&dq=english+19th+century+fishing+magnate&source=bl&ots=DMSmbM2UKw&sig=6mTXbk5LlduSIAjWAhqnQccLE7k&hl=en&sa=X&ved=0ahUKEwiT4c_tsvXPAhXkwVQKHWqEDvQQ6AEIMTAD#v=onepage&q=english%2019th%20century%20fishing%20magnate&f=false",
+      "face_value": "$160",
+    },
+  ]
+%}
+
+{% set cousins_green = [
+    {
+      "title": "Bedlington Ironworks",
+      "desc": """Current investements:
+May upgrade two track tiles in addition
+to their normal track build.""",
+      "url": "https://en.wikipedia.org/wiki/Bedlington_Ironworks",
+      "face_value": "$200",
+    },
+    {
+      "title": "Gas Light & Coke Company",
+      "desc": """Current investments
+Can place yellow big cities spaced
+as if they were normal cities.""",
+      "url": "https://en.wikipedia.org/wiki/Gas_Light_and_Coke_Company",
+      "face_value": "$160",
+    },
+    {
+      "title": "Samuel Montagu & Co.",
+      "desc": """Current investments:
+Can place a second station marker in London
+and have two independent train routes
+reaching the London Docks.""",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Montagu_%26_Co.",
+      "face_value": "$120",
+    },
+  ]
+%}
+
+{% set cousins_red = [
+    {
+      "title": """Robert Stephenson
+& Charles Fox""",
+      "desc": """Current investments:
+Gain an additional place-able station marker,
+once per game while the share is held. Half of
+the placement cost of the station is paid to
+this treasury when it is placed.""",
+      "url": "https://en.wikipedia.org/wiki/Robert_Stephenson, https://en.wikipedia.org/wiki/Charles_Fox_(civil_and_railway_engineer)",
+      "face_value": "$200",
+    },
+    {
+      "title": "John Birkinshaw",
+      "desc": """Current investments:
+As legal, may upgrade any or all city tiles
+connected to its station markers
+instead of its normal track build.""",
+      "url": "https://en.wikipedia.org/wiki/John_Birkinshaw",
+      "face_value": "$160",
+    },
+    {
+      "title": "George Leeman",
+      "desc": """Current investments:
+Can place or acquire a station marker
+for free, once per share held.""",
+      "url": "https://en.wikipedia.org/wiki/George_Leeman",
+      "face_value": "$120",
     },
     {
       "title": """R. B. Longridge & Co.""",
       "desc": """Current investments:
 Have a 50% discount on the purchase of a train
-from the supply, once per game for each share held.""",
+from the supply, once per company per game.""",
       "url": "https://en.wikipedia.org/wiki/R._B._Longridge_and_Company",
+      "face_value": "$160",
     },
-    {
-      "title": "Enoch Train & Co.",
-      "desc": """Current investments:
-Can double the revenue of a port (not Liverpool or London),
-one per share held""",
-      "url": "",
-    },
+  ]
+%}
+
+{% set cousins_relegated = [
     {
       "title": "Child & Co.",
       "desc": """Current investments:
@@ -599,64 +703,6 @@ two shares in the pool or issued
 Can forgo paying train maintenance for one train,
 once per share held per game.""",
       "url": "https://en.wikipedia.org/wiki/Vulcan_Foundry",
-    },
-    {
-      "title": "Coutts & Co.",
-      "desc": """Current investments:
-May freely choose which if any
-takeover bid to accept or reject.""",
-      "url": "https://en.wikipedia.org/wiki/Coutts",
-    },
-    {
-      "title": "Bedlington Ironworks",
-      "desc": """Current investements:
-May upgrade two track tiles in addition
-to their normal track build.""",
-      "url": "https://en.wikipedia.org/wiki/Bedlington_Ironworks",
-    },
-    {
-      "title": """Great Western
-Steamship Company""",
-      "desc": """Current investments:
-May have a port at both ends of a
-train route per share held.""",
-      "url": "https://en.wikipedia.org/wiki/Great_Western_Steamship_Company",
-    },
-    {
-      "title": "John Birkinshaw",
-      "desc": """Current investments:
-As legal, may upgrade any or all city tiles
-connected to its station markers
-instead of its normal track build.""",
-      "url": "https://en.wikipedia.org/wiki/John_Birkinshaw",
-    },
-    {
-      "title": "James Holden",
-      "desc": """Current investments:
-May buy a train from the supply & immediately
-run it, once per share held.""",
-      "url": "https://en.wikipedia.org/wiki/James_Holden_(locomotive_engineer)",
-    },
-    {
-      "title": "George Leeman",
-      "desc": """Current investments:
-Can place or acquire a station marker
-for free, once per share held.""",
-      "url": "https://en.wikipedia.org/wiki/George_Leeman",
-    },
-    {
-      "title": "Gas Light & Coke Company",
-      "desc": """Current investments
-Can place yellow big cities spaced
-as if they were normal cities.""",
-      "url": "https://en.wikipedia.org/wiki/Gas_Light_and_Coke_Company",
-    },
-    {
-      "title": "Samuel Montagu & Co.",
-      "desc": """Current investments:
-Can place a second station marker in London
-and have two independent train routes
-reaching the London Docks.""",
     },
     {
       "title": "Carl Joachim Hambro",
@@ -695,7 +741,7 @@ that cannot run until the operating round after next.""",
       "url": "https://en.wikipedia.org/wiki/Neilson_and_Company",
     },
     {
-      "title": "Charles Beyer",
+      "title": "Charles Frederick Beyer",
       "desc": """Current investments:
 Can pay one-step lower train maintenance
 on one type of train once per game.""",
@@ -708,18 +754,31 @@ Add $20 to the revenue of all towns.""",
       "url": "https://en.wikipedia.org/wiki/James_Pearson_(engineer)",
     },
     {
+      "title": "Isambard Kingdom Brunel",
+      "desc": """Half the cost of all connections across
+blue barriers are paid to this treasury.""",
+      "url": "https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel",
+    },
+    {
+      "title": "Richard Roberts",
+      "desc": """Current investments:
+Pay 20% less on train maintenance..""",
+      "url": "https://en.wikipedia.org/wiki/Richard_Roberts_(engineer)",
+    },
+    {
+      "title": "Beyer, Peacock and Company",
+      "desc": """Current investments:
+May purchase trains from the supply at a 20% discount.
+Half of any savings are paid to this treasury.""",
+      "url": "https://en.wikipedia.org/wiki/Beyer,_Peacock_and_Company",
+    },
+    {
       "title": "John Ramsbottom",
       "desc": """Current investments:
 Can replace a track tile with an available track-tile of the same type
 and connections to adjacent tiles as part of its normal track-build.
 Half the revenue of any such tile placed is paid to this treasury.""",
       "url": "https://en.wikipedia.org/wiki/John_Ramsbottom_(engineer)",
-    },
-    {
-      "title": "Isambard Kingdom Brunel",
-      "desc": """Half the cost of all connections across
-blue barriers are paid to this treasury.""",
-      "url": "https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel",
     },
   ]
 %}
@@ -765,18 +824,23 @@ $100"""
   {% endfor %}
 {% endfor %}
 
-
 {% set page_size = 6 %}
-{% set friend_count = friends | count %}
-{% set blocks = ((friends | count + 8) / page_size) | int %}
-{% set tiles = ["1.1", "1.2", "1.3", "2.1", "2.2", "2.3",] %}
-{% for sheet in range (blocks) %}
-  [[friend{{ sheet + 1 }}]]
+{% set cousin_colours = ["${H_YELLOW}", "${H_GREEN}", "${H_BLUE}", "${H_RED}",] %}
+{% set cousin_types = ["yellow", "green", "blue", "red",] %}
+{% for cousins in [cousins_yellow, cousins_green, cousins_blue, cousins_red,] %}
+  {% set cousin_colour = cousin_colours[loop.index - 1] %}
+  {% set cousin_typ = cousin_types[loop.index - 1] %}
+  {% set cousin_count = cousins | count %}
+  {% set blocks = ((cousins | count + 6) / page_size) | int %}
+  {% set tiles = ["1.1", "1.2", "1.3", "2.1", "2.2", "2.3",] %}
+  {% for sheet in range (blocks) %}
+  [[cousin-{{ cousin_typ}}{{ sheet + 1 }}]]
     num_across_x = 2
     num_across_y = 3
     tile_x = 255
     tile_y = 236
     desc1 = "Assets & Treasury"
+    desc1_font = "Times-Italic", 14
     desc1_colour = ${BLACK}
     note1_colour = ${BLACK}
     token_count = 0
@@ -785,32 +849,34 @@ $100"""
     token_colour = ${BLACK}
     token_top_colour = ${BLACK}
     token_top_stripe_colour = ${BLACK}
-    token_name = ""
+    token_name_colour = ${WHITE}
     title_colour = ${WHITE}
     stripe_colour = ${D_BLUE}
-    box_colour = ${H_RED}
+    box_colour = {{ cousin_colour }}
     frame_colour = ${WHITE}
 
-  {% set index = sheet * page_size %}
-  {% for tile in range (page_size) %}
-    {% if index + tile >= friend_count %}
-      {% continue %}
-    {% endif %}
-    {% set friend = friends[index + tile] %}
+    {% set index = sheet * page_size %}
+    {% for tile in range (page_size) %}
+      {% if index + tile >= cousin_count %}
+        {% continue %}
+      {% endif %}
+      {% set cousin = cousins[index + tile] %}
     [[[tile_{{ tiles[tile] }}]]]
-      cost = "Cost: ${{ friend.cost }}"
-      revenue = "Revenue: ${{ friend.revenue }}"
-      title = """{{ friend.title }}"""
-      note1 = """ {{ friend.desc }}
+      cost = "Cost: ${{ cousin.cost }}"
+      revenue = "Revenue: ${{ cousin.revenue }}"
+      title = """{{ cousin.title }}"""
+      note1_font = "Times-Roman", 10
+      token_name = {{ cousin.face_value }}
+      note1 = """{{ cousin.desc }}
 
-Can buy & sell shares in PRs & SRs.
-Close in red phase with all held shares sold to market and
+$40 income in each PR.
+Close in red phase: all held shares sold to market &
 half of resulting cash and treasury to owning player."""
-      desc = """{{ friend.desc }}"""
-      close = """Close: {{ friend.close }}"""
+      desc = """{{ cousin.desc }}"""
+      close = """Close: {{ cousin.close }}"""
+    {% endfor %}
   {% endfor %}
 {% endfor %}
-
 
 [market]
   tile_colour = ${P_GRAY}
