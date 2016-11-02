@@ -548,142 +548,162 @@
   ]
 %}
 
-{% set cousins_yellow = [
-    {
-      "title": "Coutts & Co.",
-      "desc": """Current investments:
-May freely choose which if any
-takeover bid to accept or reject.""",
-      "url": "https://en.wikipedia.org/wiki/Coutts",
-      "face_value": "$120",
-    },
-    {
-      "title": "Joseph Locke",
-      "desc": """Current investments:
-Have a 50% discount on terrain.  Half of any
-terrain costs paid go to this treasury for the
-first share of each investment, and one quarter
-for each additional share.""",
-      "url": "https://en.wikipedia.org/wiki/Joseph_Locke",
-      "face_value": "$120",
-    },
-    {
-      "title": "James Holden",
-      "desc": """Current investments:
-May buy a train from the supply & immediately
-run it, once per share held.""",
-      "url": "https://en.wikipedia.org/wiki/James_Holden_(locomotive_engineer)",
-      "face_value": "$160",
-    },
-  ]
-%}
-
 {% set cousins_blue = [
     {
-      "title": "Charles Blacker Vignoles",
-      "desc": """Current investments:
-Distance fees are reduced by half for additional
-station markers when floating the company.  Half
-of any distance fees paid go to this treasury.""",
-      "url": "https://en.wikipedia.org/wiki/Charles_Blacker_Vignoles",
-      "face_value": "$120",
-    },
-    {
       "title": "Enoch Train & Co.",
-      "desc": """Current investments:
-Can double the revenue of a port \(not Liverpool
-or London\), one per share held,  Half of the
-revenue of the doubled port is paid to this
-treasury each time.""",
+      "desc": """
+Investments can double the revenue of a port
+\(not Liverpool or London\), one per share
+held,  Half of the revenue of the first port
+to be doubled is paid to this treasury each time.""",
       "url": "",
-      "face_value": "$160",
+      "face_value": "$130",
     },
     {
       "title": """Great Western
 Steamship Company""",
-      "desc": """Current investments:
-May have a port at both ends of a
-train route per share held.""",
+      "desc": """
+Investments may have a port at both ends
+of a train route per share held.""",
       "url": "https://en.wikipedia.org/wiki/Great_Western_Steamship_Company",
       "face_value": "$120",
     },
     {
       "title": "Harrison Mudd",
-      "desc": """Current investments:
-May add one port passed by on a train route,
-per share held.  Half the revenue of the
-smallest port is paid to this treasury.""",
+      "desc": """
+Investments may add one port passed-by on a
+train route, per share held.  Half the revenue
+of the smallest port included on the route is
+paid to this treasury.""",
       "url": "https://books.google.com/books?id=fF-vAwAAQBAJ&pg=PA43&lpg=PA43&dq=english+19th+century+fishing+magnate&source=bl&ots=DMSmbM2UKw&sig=6mTXbk5LlduSIAjWAhqnQccLE7k&hl=en&sa=X&ved=0ahUKEwiT4c_tsvXPAhXkwVQKHWqEDvQQ6AEIMTAD#v=onepage&q=english%2019th%20century%20fishing%20magnate&f=false",
-      "face_value": "$160",
+      "face_value": "$130",
+    },
+    {
+      "title": "Sassoon David Sassoon",
+      "desc": """
+Investments double the revenue of the off-board
+for routes between a port and an off-board, one
+route for each share held.  Half the revenue of
+the the first port is paid to this treasury,""",
+      "url": "https://en.wikipedia.org/wiki/Sassoon_David_Sassoon",
+      "face_value": "$130",
     },
   ]
 %}
 
 {% set cousins_green = [
     {
+      "title": "Joseph Locke",
+      "desc": """
+Investments have a 50% discount on terrain.  Half
+of any terrain costs paid go to this treasury for
+the first share of each investment, and one quarter
+for each additional share.""",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Locke",
+      "face_value": "$120",
+    },
+    {
       "title": "Bedlington Ironworks",
-      "desc": """Current investements:
-May upgrade two track tiles in addition
-to their normal track build.""",
+      "desc": """
+Investments may upgrade a city track tile in addition
+to their normal track build for half the revenue of
+the upgraded city paid to this treasury.""",
       "url": "https://en.wikipedia.org/wiki/Bedlington_Ironworks",
-      "face_value": "$200",
+      "face_value": "$130",
     },
     {
       "title": "Gas Light & Coke Company",
-      "desc": """Current investments
-Can place yellow big cities spaced
-as if they were normal cities.""",
+      "desc": """
+Investments can place a yellow big city spaced
+as if it were a normal city, once per share held.""",
       "url": "https://en.wikipedia.org/wiki/Gas_Light_and_Coke_Company",
-      "face_value": "$160",
+      "face_value": "$130",
+    },
+    {
+      "title": "John Birkinshaw",
+      "desc": """
+Investments may upgrade any or all city tiles
+connected to its station markers instead of its
+normal track build.""",
+      "url": "https://en.wikipedia.org/wiki/John_Birkinshaw",
+      "face_value": "130",
+    },
+  ]
+%}
+
+{% set cousins_brown = [
+    {
+      "title": """Robert Stephenson
+& Charles Fox""",
+      "desc": """
+Investments gain an additional place-able station
+marker, once per game while the share is held. Half
+of the placement cost of the station is paid to this
+treasury when it is placed.""",
+      "url": "https://en.wikipedia.org/wiki/Robert_Stephenson, https://en.wikipedia.org/wiki/Charles_Fox_(civil_and_railway_engineer)",
+      "face_value": "$130",
+    },
+    {
+      "title": "George Leeman",
+      "desc": """
+Investments can place or acquire a station
+marker for free, once per share held.""",
+      "url": "https://en.wikipedia.org/wiki/George_Leeman",
+      "face_value": "$120",
+    },
+    {
+      "title": "Charles Blacker Vignoles",
+      "desc": """
+Investment's distance fees are reduced by half for
+additional station markers when floating the company.
+Half of any distance fees paid go to this treasury.""",
+      "url": "https://en.wikipedia.org/wiki/Charles_Blacker_Vignoles",
+      "face_value": "$120",
     },
     {
       "title": "Samuel Montagu & Co.",
-      "desc": """Current investments:
-Can place a second station marker in London
-and have two independent train routes
+      "desc": """
+Investments can place a second station marker in
+London and have two independent train routes
 reaching the London Docks.""",
       "url": "https://en.wikipedia.org/wiki/Samuel_Montagu_%26_Co.",
-      "face_value": "$120",
+      "face_value": "$130",
     },
   ]
 %}
 
 {% set cousins_red = [
     {
-      "title": """Robert Stephenson
-& Charles Fox""",
-      "desc": """Current investments:
-Gain an additional place-able station marker,
-once per game while the share is held. Half of
-the placement cost of the station is paid to
-this treasury when it is placed.""",
-      "url": "https://en.wikipedia.org/wiki/Robert_Stephenson, https://en.wikipedia.org/wiki/Charles_Fox_(civil_and_railway_engineer)",
-      "face_value": "$200",
-    },
-    {
-      "title": "John Birkinshaw",
-      "desc": """Current investments:
-As legal, may upgrade any or all city tiles
-connected to its station markers
-instead of its normal track build.""",
-      "url": "https://en.wikipedia.org/wiki/John_Birkinshaw",
-      "face_value": "$160",
-    },
-    {
-      "title": "George Leeman",
-      "desc": """Current investments:
-Can place or acquire a station marker
-for free, once per share held.""",
-      "url": "https://en.wikipedia.org/wiki/George_Leeman",
-      "face_value": "$120",
+      "title": "James Holden",
+      "desc": """
+Investments may buy a train from the supply
+& immediately run it, once per share held.""",
+      "url": "https://en.wikipedia.org/wiki/James_Holden_(locomotive_engineer)",
+      "face_value": "$130",
     },
     {
       "title": """R. B. Longridge & Co.""",
-      "desc": """Current investments:
-Have a 50% discount on the purchase of a train
-from the supply, once per company per game.""",
+      "desc": """
+Investments have a 50% discount on the purchase of
+a train from the supply, once per company per game.""",
       "url": "https://en.wikipedia.org/wiki/R._B._Longridge_and_Company",
-      "face_value": "$160",
+      "face_value": "$130",
+    },
+    {
+      "title": "Coutts & Co.",
+      "desc": """
+Investments may freely choose which if
+any takeover bid to accept or reject.""",
+      "url": "https://en.wikipedia.org/wiki/Coutts",
+      "face_value": "$130",
+    },
+    {
+      "title": "Vulcan Foundry",
+      "desc": """
+Investments can run one train per
+share held as if it were one stop longer.""",
+      "url": "https://en.wikipedia.org/wiki/Vulcan_Foundry",
+      "face_value": "$120",
     },
   ]
 %}
@@ -696,13 +716,6 @@ Stock price falls only once per
 two shares in the pool or issued
 (rounding up).""",
       "url": "https://en.wikipedia.org/wiki/Child_%26_Co.",
-    },
-    {
-      "title": "Vulcan Foundry",
-      "desc": """Current investments:
-Can forgo paying train maintenance for one train,
-once per share held per game.""",
-      "url": "https://en.wikipedia.org/wiki/Vulcan_Foundry",
     },
     {
       "title": "Carl Joachim Hambro",
@@ -729,8 +742,8 @@ Can supplement dividends with capital in their treasury.""",
     {
       "title": "Henry Dubs",
       "desc": """Current investments:
-Can run one train per share held
-as if it were one stop longer.""",
+Can forgo paying train maintenance for one train,
+once per share held per game.""",
       "url": "https://en.wikipedia.org/wiki/Henry_D%C3%BCbs",
     },
     {
@@ -825,11 +838,13 @@ $100"""
 {% endfor %}
 
 {% set page_size = 6 %}
-{% set cousin_colours = ["${H_YELLOW}", "${H_GREEN}", "${H_BLUE}", "${H_RED}",] %}
-{% set cousin_types = ["yellow", "green", "blue", "red",] %}
-{% for cousins in [cousins_yellow, cousins_green, cousins_blue, cousins_red,] %}
+{% set cousin_colours = ["${H_RED}", "${H_GREEN}", "${H_BLUE}", "${H_BROWN}",] %}
+{% set cousin_bars = ["${M_RED}", "${D_GREEN}", "${D_BLUE}", "${D_BROWN}",] %}
+{% set cousin_types = ["red", "green", "blue", "brown",] %}
+{% for cousins in [cousins_red, cousins_green, cousins_blue, cousins_brown,] %}
   {% set cousin_colour = cousin_colours[loop.index - 1] %}
   {% set cousin_typ = cousin_types[loop.index - 1] %}
+  {% set cousin_bar = cousin_bars[loop.index - 1] %}
   {% set cousin_count = cousins | count %}
   {% set blocks = ((cousins | count + 6) / page_size) | int %}
   {% set tiles = ["1.1", "1.2", "1.3", "2.1", "2.2", "2.3",] %}
@@ -851,7 +866,7 @@ $100"""
     token_top_stripe_colour = ${BLACK}
     token_name_colour = ${WHITE}
     title_colour = ${WHITE}
-    stripe_colour = ${D_BLUE}
+    stripe_colour = {{ cousin_bar}}
     box_colour = {{ cousin_colour }}
     frame_colour = ${WHITE}
 
@@ -867,9 +882,10 @@ $100"""
       title = """{{ cousin.title }}"""
       note1_font = "Times-Roman", 10
       token_name = {{ cousin.face_value }}
+      token_name_font = "Times-Roman", 12
       note1 = """{{ cousin.desc }}
 
-$40 income in each PR.
+$40 income in each parliament round.
 Close in red phase: all held shares sold to market &
 half of resulting cash and treasury to owning player."""
       desc = """{{ cousin.desc }}"""
