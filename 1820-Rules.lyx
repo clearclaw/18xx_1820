@@ -170,11 +170,6 @@ Waffly thematic/historical text goes here.
  
 \end_layout
 
-\begin_layout Standard
-In this case the players take the part of merchant investors drive by the
- opportunity to sell for a profit.
-\end_layout
-
 \begin_layout Section
 Components
 \begin_inset CommandInset label
@@ -215,8 +210,8 @@ Many track tiles (yellow, green, brown and gray).
 \end_layout
 
 \begin_layout Itemize
-110 train certificates (30 yellow, 25 gold, 16 green, 10 blue, 10 brown,
- 10 red, 9 gray).
+110 train certificates (30 yellow, 22 green, 10 blue, 10 brown, 10 red,
+ 9 gray).
 \end_layout
 
 \begin_layout Itemize
@@ -238,50 +233,16 @@ Company charter.
 \end_layout
 
 \begin_layout Itemize
-28 share certificates:
+51 share certificates:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Six director's certificates, one for each share count:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-private.
+1 (black) private certificate.
 \end_layout
 
 \begin_layout Itemize
-2-share
-\end_layout
-
-\begin_layout Itemize
-5-share.
-\end_layout
-
-\begin_layout Itemize
-10-share.
-\end_layout
-
-\begin_layout Itemize
-20-share.
-\end_layout
-
-\begin_layout Itemize
-50-share.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Seven 4-share certificates.
-\end_layout
-
-\begin_layout Itemize
-Six 2-share certificates.
-\end_layout
-
-\begin_layout Itemize
-Nine 1-share certificates.
+50 (white) public company certificates.
 \end_layout
 
 \end_deeper
@@ -295,6 +256,16 @@ Nine 1-share certificates.
 
 \begin_layout Itemize
 1 revenue marker.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+16 cousins:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+4 each in blue, brown, green and red.
 \end_layout
 
 \end_deeper
@@ -360,13 +331,8 @@ To help the game progress smoothly, each player should consider their upcoming
 \end_layout
 
 \begin_layout Itemize
-Use of paper, pencils/pens and calculators is recommended to assist players
- in making timely and accurate decisions.
-\end_layout
-
-\begin_layout Itemize
-Use of poker chips or computerised tools for the money handling (e.g.
- spreadsheets) are recommended as a way to speed play.
+Use of paper, pencils/pens, calculators and similar aids is recommended
+ to assist players in making timely and accurate decisions.
 \end_layout
 
 \begin_layout Standard
@@ -409,7 +375,7 @@ Place the round marker on the
 \begin_inset Quotes eld
 \end_inset
 
-Parliament Round
+Stock Round
 \begin_inset Quotes erd
 \end_inset
 
@@ -448,19 +414,11 @@ Bank Pool
 \end_layout
 
 \begin_layout Itemize
-Give all the player markers of a colour to each player.
+Give each player all the player markers of one colour.
 \end_layout
 
 \begin_layout Itemize
-Give each player starting capital according to the number of players (see
- 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Starting-Player-Capital"
-
-\end_inset
-
-).
+Give each player starting capital of £800.
 \end_layout
 
 \begin_layout Itemize
@@ -473,621 +431,1011 @@ Randomly assign the remaining player number cards of one colour, one card
  to each player.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="2">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Players
+\begin_layout Itemize
+Randomly select one cousin of each colour and disard the rest from the game.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
+\begin_deeper
+\begin_layout Itemize
 
-\begin_layout Plain Layout
-Capital
+\emph on
+Players new to 1820 are recommended to use the cousins with a face value
+ of £120.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£1,500
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£1,450
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£1,400
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Starting Player Capital
+\end_deeper
+\begin_layout Section
+Game Overview 
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:Starting-Player-Capital"
+name "sec:game-overview"
 
 \end_inset
 
 
 \end_layout
 
+\begin_layout Subsection
+Game structure
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Game-structure"
+
 \end_inset
 
 
 \end_layout
 
+\begin_layout Itemize
+The game consists of a fixed rotation of rounds:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Stock Round (SR, see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Stock-Rounds"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Operating Round (OR, see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Operating-Rounds"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Issues & Takeover Round (I&T, see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Issue-&-Takeover"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Operating Round (OR, see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Operating-Rounds"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Issues & Takeover Round (I&T, see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Issue-&-Takeover"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Stock
+\begin_inset space ~
+\end_inset
+
+Rounds: Companies may issue more shares and players may float new companies,
+ buy and sell shares of companies, and act on behalf of their cousins (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Stock-Rounds"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Operating
+\begin_inset space ~
+\end_inset
+
+Rounds
+\noun on
+: C
+\noun default
+ompanies operate in descending stock price order: building track and placing
+ stations, running and buying trains, taking and repaying loans, and paying
+ or withholding dividends to shareholders (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Operating-Rounds"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Issue
+\begin_inset space ~
+\end_inset
+
+&
+\begin_inset space ~
+\end_inset
+
+Takeover
+\begin_inset space ~
+\end_inset
+
+Rounds: Companies may decrease their share count, issue shares to the market,
+ and can take-over other companies or be taken over (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Issue-&-Takeover"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The rotating sequence of stock rounds, operating rounds and issue & takeover
+ rounds continues until the end of the game (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The round marker & track and the cost-of-business marker & chart are be
+ used to track of the game's progress through the rounds (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Cost-of-business"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+There are 6 phases named after the colours of the trains they correspond
+ to (yellow, green, blue, brown, red, gray -- see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Game-Phases"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The game starts in yellow phase with the yellow trains (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Game phases change immediately when the first train of a new type is owned
+ by a company or when a train of that type is discarded during an issue
+ & takeover round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:i_and_t_overview"
+
+\end_inset
+
+).
+ New stock prices and available share-counts for starting new companies,
+ track tile types and other changes accompany some game phase changes (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Core concepts
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Core-concepts"
+
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+General
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:General-concepts"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Players may freely negotiate and discuss the game with each other during
+ the game.
+\end_layout
+
+\begin_layout Itemize
+The holdings of players, cousins and companies are public information and
+ must be clearly displayed and viewable by all players at all times.
+\end_layout
+
+\begin_layout Subsection
+Open cry auctions
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Open-cry-auctions"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Any player may bid at any time during the auction by stating a new bid that
+ is higher than all prior bids.
+\end_layout
+
+\begin_layout Itemize
+The auction ends when all players agree that they won't bid further.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A player saying, 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Going, going, gone!
+\emph default
+ 
+\emph on
+Sold to _______ for £...!
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ at a slow pace in a clear voice without being interrupted by a new and
+ larger bid can be used to mark this point.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+
+\emph on
+Note: Players may request and should be granted a brief pause to consider
+ their choices.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+In the event of simultaneous bids, the player with the lower player number
+ card is considered to have bid first.
+\end_layout
+
+\begin_layout Subsection
+Cost of business chart
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Cost-of-business"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The cost of business chart tracks the progression of values in the game:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Loan interest (see ).
+\end_layout
+
+\begin_layout Itemize
+Train limit (see ).
+\end_layout
+
+\begin_layout Itemize
+Maintenance costs per train of each type (see ).
+\end_layout
+
+\begin_layout Itemize
+Hostile takeover premium (see ).
+\end_layout
+
+\begin_layout Itemize
+Available share-counts when floating companies.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The cost of business marker is moved forward:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+At the start of each issue and takeover round (see).
+\end_layout
+
+\begin_layout Itemize
+As trains of new colours are bought, assigned or discarded from the game
+ (see ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The various rates and costs change immediately.
+\end_layout
+
+\begin_layout Itemize
+Trains in the supply of the prior colour are discarded from the game as
+ the marker advances to new colours (see ).
+\end_layout
+
+\begin_layout Itemize
+Companies are obligated to pay the costs indicated by the cost of business
+ chart (see ).
+\end_layout
+
+\begin_layout Itemize
+The game ends if the cost of business marker moves onto the last column
+ of the chart (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Company types
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Company-types"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Companies may have various numbers of shares: 1 share for private companies,
+ or 5, 10, 20, or 50 shares for public companies.
+\end_layout
+
+\begin_layout Itemize
+Companies may start with different numbers of shares depending on the game
+ phase (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Companies may reduce their share count in issue & takeover rounds (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Issue-&-Takeover"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If a company reduces its share count to 1, it becomes a private company
+ and is subject to additional rules (see ).
+\end_layout
+
+\begin_layout Itemize
+Companies may no longer reduce their share count in brown phase and later.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Companies may increase their share count in stock rounds (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Parliament-actions"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Additional capital may be paid to the company treasury as more shares are
+ bought.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Company directors
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Company-directors"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The player that holds the most shares of a company (largest total percentage)
+ is the director of the company and controls all of that company's operations.
+\end_layout
+
+\begin_layout Itemize
+If a player buys shares such that they own a larger percentage of company
+ than the current director:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They become the new company director and take control of the company charter
+ and its assets.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If the current director sells shares such that another player holds a larger
+ percentage of the the company after the sale:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The player now with the most shares of the company takes control of the
+ company charter and its assets.
+\end_layout
+
+\begin_layout Itemize
+In the case of a tie among other players for the most shares after the sale,
+ the next tied player in player number card order from the current director
+ becomes the new director and takes control of the company charter and its
+ assets.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Company liquidation
+\end_layout
+
+\begin_layout Itemize
+Public companies which:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Decline to pay their train maintenance or loan interest.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+And the company director chooses to not cover the shortfall.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+End their operations without a train.
+\end_layout
+
+\begin_layout Itemize
+Otherwise end an operation round with their stock price in the gray £10
+ space of the stock market
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="6">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top" width="0pt">
-<row>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Share
+will be liquidated as a company sale (see ).
 \end_layout
 
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\end_deeper
+\begin_layout Itemize
+Private companies which:
 \end_layout
 
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Certificates
+\begin_deeper
+\begin_layout Itemize
+Decline to pay their train maintenance.
 \end_layout
 
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Itemize
+End their operations without a train.
 \end_layout
 
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Standard
+Are closed immediately and without recompense:
 \end_layout
 
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\begin_layout Itemize
+All placed station markers are replaced with British Rail station markers
+ (see ).
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Count
+\begin_layout Itemize
+The company is removed from play.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Size
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Director's
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4-share
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Private
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-100%
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-50%
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-20%
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10%
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-20-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5%
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2%
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Company share distributions
+\end_deeper
+\begin_layout Subsection
+Company sales 
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:Company-share-distributions"
+name "sub:company-takeovers"
 
 \end_inset
 
 
 \end_layout
 
+\begin_layout Itemize
+Companies can put other companies up for sale:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The company is then sold via an open cry auction.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The minimum bid is the current stock price per share in play (ie held by
+ players or in the bank pool).
+\end_layout
+
+\begin_layout Itemize
+If the winning bid is at least equal to the current stock price per share
+ in play after the stock price has been moved up the number of spaces indicated
+ on the cost of business chart:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The company director is required to accept the winning bid and sell the
+ company at that price.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The company director may freely accept or decline lesser bids at their choice.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Companies can offer themselves for sale:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The minimum bid is the current stock price per share in play (ie held by
+ players or in the bank pool).
+\end_layout
+
+\begin_layout Itemize
+The company director is required to accept the winning bid.
+\end_layout
+
+\begin_layout Itemize
+If there are no bids:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The company is sold to British Rail for £10 per share as if the stock price
+ were in the gray liquidation zone.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Companies which start issue and takeover rounds in the liquidation area
+ of the stock market will be sold:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There is an open cry auction.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The game automatically bids £10 per share.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The company director must accept the winning bid.
+\end_layout
+
+\begin_layout Itemize
+The winning bid is added to any company treasury and used to pay off any
+ outstanding loans.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Any remaining treasury is evenly divided among the shares in play, with
+ shares in the bank pool paying to the bank and shares own by players paying
+ their players.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If the treasury is insufficient to pay off all the loans the holders of
+ all the shares in play must pay off the rest of the loans.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Divide the total remaining debt by the total number of shares in play (rounding
+ down).
+\end_layout
+
+\begin_layout Itemize
+Each player must pay that amount to the bank for each share of the company
+ they hold.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+A company that takes over another company acquires all the bought company's
+ assets (treasury, loans, trains, station markers etc (see ).
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: A company that buys another company in liquidation does not acquire
+ the bought company's loans.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+British Rail 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:british-rail"
+
 \end_inset
 
 
 \end_layout
 
+\begin_layout Itemize
+Stations markers of closed private companies (see ) and liquidated public
+ companies bought by the game (see ) are replaced with British Rail station
+ markers.
+\end_layout
+
+\begin_layout Itemize
+British Rail station markers occupy station market locations and block train
+ routes like company station markers in the normal way (see ).
+\end_layout
+
+\begin_layout Subsection
+Loans
+\end_layout
+
+\begin_layout Itemize
+Companies may have and take loans.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Private companies cannot have or take loans.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Loans are for £200.
+\end_layout
+
+\begin_layout Itemize
+Loans may be taken at any time during the company's turn in an operating
+ round or in order to execute a takeover (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Operating-Rounds"
+
+\end_inset
+
+ & ).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Interest is always paid on loans in the round they are taken.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+As loans are taken or acquired in takeovers, the companies share price is
+ moved down once for each loan taken (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:stock-movement-loans"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A company cannot take a loan that would move its share price into the gray
+ £10 space.
+\end_layout
+
+\begin_layout Itemize
+A company can execute a takeover of a company whose loans would move its
+ share price into the gray £10 space.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+As loans are replaid, the company's share price is moved up, one space per
+ loan repaid (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:stock-movement-loans"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+A company cannot have more loans than the number of shares it has in play
+ (ie owned by players or in the bank pool).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Should a company have more loans than its total share count in play (e.g.
+ due to a takeover or reducing its share count):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The excess loans must be repaid immediately.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Stock price movement
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Stock-price-movement"
+
 \end_inset
 
 
 \end_layout
 
+\begin_layout Subsubsection
+General stock price movement
+\end_layout
+
+\begin_layout Itemize
+The current stock price of company shares is recorded on the stock market
+ with stock price markers.
+\end_layout
+
+\begin_layout Itemize
+If a stock price reaches the bottom space of the stock market, then the
+ price cannot be moved further down.
+\end_layout
+
+\begin_layout Itemize
+If a stock price marker reaches top of the stock market (£500), then the
+ stock price cannot be moved further up and the game will end at the end
+ of that operating round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+When a stock price marker is moved, it is placed under any stock price markers
+ already present in the new location.
+\end_layout
+
+\begin_layout Subsubsection
+End of stock round
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:SR-stock-price"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In operating order (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Public-company-operating-order"
+
+\end_inset
+
+): 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each company's stock price is moved down one space for each share of the
+ company in the bank pool.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the company stock price reaches £10, then it is not moved down further.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If all of the shares of a company (100%) are owned by players, then the
+ company's stock price marker is moved up one space.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Operating round
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:OR-stock-price"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The stock price is moved down two spaces, down one space, or up one space,
+ two spaces or three spaces if the total dividend (the total amount paid
+ to all shares) is zero (and the company didn't have a train, zero (because
+ the company withheld) or smaller than the current stock price, 
+\end_layout
+
+\begin_layout Itemize
+If a company pays a total dividend (the total amount paid out in dividends)
+ during an operating round which is equal to or larger than its stock price,
+ then its stock price marker will move up:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One, two or three spaces if the total dividend is at least equal to, double,
+ or eight times its stock price.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If a company does not pay a dividend then its stock price will move down:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One space.
+\end_layout
+
+\begin_layout Itemize
+A second space if the company did not own a train.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Loans
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:stock-movement-loans"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For each loan a company takes or receves as part of a takeover, its stock
+ price is moved down one space.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A company cannot take a loan if it would move its stock price into the gray
+ £10 space.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+But it can acquire a loan in a takeover that would move its stock price
+ into the gray £10 space.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+For each loan a company pays off, its stock price is moved up one space.
+\end_layout
+
+\begin_layout Itemize
+If company has too many loans (more than its share count in play (number
+ of shares held by players or in the bank pool)) after a takeover:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The excess loans must be immediately paid off.
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Float table
 wide true
@@ -1096,7 +1444,7 @@ status open
 
 \begin_layout Description
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="8">
+<lyxtabular version="3" rows="7" columns="8">
 <features rotate="0" booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="middle" width="0.6in">
 <column alignment="center" valignment="middle" width="0.6in">
@@ -1194,7 +1542,7 @@ Yellow
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+2+
 \end_layout
 
 \end_inset
@@ -1212,7 +1560,7 @@ Unlimited
 \begin_inset Text
 
 \begin_layout Plain Layout
-£100
+£80
 \end_layout
 
 \end_inset
@@ -1248,81 +1596,7 @@ Yellow
 \begin_inset Text
 
 \begin_layout Plain Layout
-5-share
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Gold
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2+
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Unlimited
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£120
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yellow
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yellow
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5-share
+5 share
 \end_layout
 
 \end_inset
@@ -1351,7 +1625,7 @@ Green
 \begin_inset Text
 
 \begin_layout Plain Layout
-16
+20
 \end_layout
 
 \end_inset
@@ -1360,7 +1634,7 @@ Green
 \begin_inset Text
 
 \begin_layout Plain Layout
-£250
+£200
 \end_layout
 
 \end_inset
@@ -1396,7 +1670,7 @@ Green and below
 \begin_inset Text
 
 \begin_layout Plain Layout
-5-share
+10 share
 \end_layout
 
 \end_inset
@@ -1425,7 +1699,7 @@ Blue
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+12
 \end_layout
 
 \end_inset
@@ -1434,7 +1708,7 @@ Blue
 \begin_inset Text
 
 \begin_layout Plain Layout
-£450
+£400
 \end_layout
 
 \end_inset
@@ -1470,7 +1744,7 @@ Blue and below
 \begin_inset Text
 
 \begin_layout Plain Layout
-5 & 10 share
+10 & 20 share
 \end_layout
 
 \end_inset
@@ -1544,7 +1818,7 @@ Brown and below
 \begin_inset Text
 
 \begin_layout Plain Layout
-5 & 10 share
+10 & 20 share
 \end_layout
 
 \end_inset
@@ -1582,7 +1856,7 @@ Red
 \begin_inset Text
 
 \begin_layout Plain Layout
-£1,250
+£1,600
 \end_layout
 
 \end_inset
@@ -1618,7 +1892,7 @@ Brown and below
 \begin_inset Text
 
 \begin_layout Plain Layout
-5 & 10 share
+20 & 50 share
 \end_layout
 
 \end_inset
@@ -1692,7 +1966,7 @@ Brown and below
 \begin_inset Text
 
 \begin_layout Plain Layout
-5 & 10 share
+50 share
 \end_layout
 
 \end_inset
@@ -1729,717 +2003,450 @@ name "tab:Game-Phases"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float table
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0.6in">
+<column alignment="center" valignment="top" width="0.6in">
+<column alignment="center" valignment="top" width="0.6in">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Track Points
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Station Markers
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Share Count
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yellow Phase
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rest of Game
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Float
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Limit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maximum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+private
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Company Sizes
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Company-Sizes"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-Overview
+Stock Rounds
 \begin_inset CommandInset label
 LatexCommand label
-name "sec:game-overview"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Game structure
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Game-structure"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The game consists of a fixed rotation of rounds:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Parliament Round (PR, see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Parliament-Round"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-Stock Round (SR, see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Stock-Rounds"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-Operating Round (OR, see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Operating-Rounds"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-Issues & Takeover Round (I&T, see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Issue-&-Takeover"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-Operating Round (OR, see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Operating-Rounds"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-Issues & Takeover Round (I&T, see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Issue-&-Takeover"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-...repeat, starting with a new parliament round...
-\end_layout
-
-\begin_layout Description
-Parliament
-\begin_inset space ~
-\end_inset
-
-Rounds: Players may float new companies and companies may issue more shares
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Parliament-Round"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Stock
-\begin_inset space ~
-\end_inset
-
-Rounds: Players may buy and sell shares of companies, possibly taking and
- losing control of companies (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Stock-Rounds"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Operating
-\begin_inset space ~
-\end_inset
-
-Rounds
-\noun on
-: C
-\noun default
-ompanies operate in descending stock price order: building track and placing
- stations, running and buying trains, taking and repaying loans, and paying
- or withholding dividends to shareholders (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Operating-Rounds"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Issue
-\begin_inset space ~
-\end_inset
-
-&
-\begin_inset space ~
-\end_inset
-
-Takeover
-\begin_inset space ~
-\end_inset
-
-Rounds: Companies may decrease their share count and can take-over other
- companies (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Issue-&-Takeover"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The rotating sequence of parliament rounds, stock rounds, operating rounds
- and issue & takeover rounds continues until the end of the game (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Game-end"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-The round marker & track and the cost-of-business marker & chart are be
- used to track of the game's progress through the rounds (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Cost-of-business"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-There are 6 phases named after the colours of the trains they correspond
- to (yellow, green, blue, brown, red, gray -- see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
-):
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The game starts in yellow phase with the yellow trains (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Game-Phases"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Gold 
-\begin_inset Quotes eld
-\end_inset
-
-2+
-\begin_inset Quotes erd
-\end_inset
-
- trains are considered yellow in all regards outside of when they are available
- for purchase (see ).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Game phases change immediately when the first train of a new type is bought
- by a company, or when a player assigns a train of that colour to a company,
- or when a train if that type is discarded during an issue & takeover round
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:i_and_t_overview"
-
-\end_inset
-
-).
- New stock prices for starting new companies, track tile types and other
- changes accompany some game phase changes (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Game-Phases"
-
-\end_inset
-
- and 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\begin_layout Subsection
-Core concepts
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Core-concepts"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-General
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:General-concepts"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Players may freely negotiate and discuss the game with each other during
- the game.
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-Exception: Negotiation or discussion of future train prices or usage, lobbies,
- lobby funding, and starting new companies are explicitly disallowed at
- all times.
- Additionally, negotiation or discussion of possible future company actions
- are explicitly disallowed during parliament rounds.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The holdings of players and companies are public information and must be
- clearly displayed and viewable by all players at all times.
-\end_layout
-
-\begin_layout Subsubsection
-Turn order
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:concepts-turn-order"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Lobby funding in parliament rounds and player actions in stock rounds are
- done in rotating player number card order, starting with the #1 player
- number card.
-\end_layout
-
-\begin_layout Itemize
-If a player passes:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-They take the lowest numbered available player number card of the other
- colour.
-\end_layout
-
-\begin_layout Itemize
-When players act in the round, they return any player number card of the
- other colour they have to the supply.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The player with the next larger number card of the other colour then swaps
- their card for the returned card, repeating as necessary for the other
- players such that the other player number cards show the order in which
- those players passed and ceased acting in the round.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-If a player passes, they may act in the round on their next or a later turn.
-\end_layout
-
-\begin_layout Itemize
-The round ends when all players pass in order.
-\end_layout
-
-\begin_layout Itemize
-The player order for the following stock round is set during the parliament
- round in the order in which players cease acting in the lobbying portion
- of the parliament round (see ).
-\end_layout
-
-\begin_layout Itemize
-The player order for the following parliament round is set during the stock
- round in the order in which players cease acting in the stock round (see
- ).
-\end_layout
-
-\begin_layout Subsubsection
-Open cry auctions
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Open-cry-auctions"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Any player may bid at any time during the auction by stating a new bid that
- is higher than all prior bids.
-\end_layout
-
-\begin_layout Itemize
-The auction ends when all players agree that they won't bid further.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A player saying, 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
-Going, going, gone!
-\emph default
- 
-\emph on
-Sold to _______ for £...!
-\emph default
-
-\begin_inset Quotes erd
-\end_inset
-
- at a slow pace in a clear voice without being interrupted by a new and
- larger bid can be used to mark this point.
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-
-\emph on
-Note: Players may request and should be granted a brief pause to consider
- their choices.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-In the event of simultaneous bids, the player with the lower player number
- card is considered to have bid first.
-\end_layout
-
-\begin_layout Subsubsection
-Cost of business chart
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Cost-of-business"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The cost of business chart tracks the progression of costs in the game:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Loan interest (see ).
-\end_layout
-
-\begin_layout Itemize
-Train limit (see ).
-\end_layout
-
-\begin_layout Itemize
-Maintenance costs per train of each type (see ).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The cost of business marker is moved forward:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-At the start of each issue and takeover round (see).
-\end_layout
-
-\begin_layout Itemize
-As trains of new colours are bought or assigned (see ).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The various rates and costs change immediately.
-\end_layout
-
-\begin_layout Itemize
-Trains in the supply of the prior colour are discarded from the game as
- the marker advances to new colours (see ).
-\end_layout
-
-\begin_layout Itemize
-The game ends if the cost of business marker moves off the end of the chart
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Game-end"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Subsubsection
-Company types
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Company-types"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Companies may have various numbers of shares: private (1 share), 2, 5, 10,
- 20, or 50 shares (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Company-share-distributions"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Companies start with 5 or 10 shares (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Game-Phases"
-
-\end_inset
-
- and 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-5-share companies can be started in any parliament round.
-\end_layout
-
-\begin_layout Itemize
-10 share companies can be started in parliament rounds in blue phase or
- later.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Companies may reduce their share count in issue & takeover rounds (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Issue-&-Takeover"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A fee must be paid to the bank when reducing a company's share count.
-\end_layout
-
-\begin_layout Itemize
-If a company reduces its share count to 1, it becomes a private company
- and is subject to additional rules (see ).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Companies may increase their share count in parliament rounds (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Parliament-actions"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Additional capital is paid to the company treasury as a company increases
- its share count.
-\end_layout
-
-\end_deeper
-\begin_layout Subsubsection
-Share transactions
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Share-Transactions"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Some share certificates represent multiple shares (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Company-share-distributions"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Other than the director's certificate, these have no significance outside
- of the number of shares they represent.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-When buying, selling or exchanging shares a player may require that players
- exchange shares certificates amonst themselves, the bank pool and the IPO
- (trading their numbers of certificates up or down for the same number of
- shares held) as needed to enable an individual transaction.
-\end_layout
-
-\begin_layout Subsubsection
-Loans
-\end_layout
-
-\begin_layout Itemize
-Companies may have and take loans.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Private companies cannot have or take loans.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Loans are for £200.
-\end_layout
-
-\begin_layout Itemize
-Loans may be taken at any time during the company's turn in an operating
- round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Operating-Rounds"
-
-\end_inset
-
-) prior to the .
-\end_layout
-
-\begin_layout Itemize
-As loans are taken or acquired in takeovers, the companies share price is
- moved down once for each loan taken (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:stock-movement-loans"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A company cannot take a loan that would move its share price into the gray
- £40 space.
-\end_layout
-
-\begin_layout Itemize
-A company can execute a takeover of a company whose loans would move its
- share price into the gray £40 space.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-As loans are replaid, the company's share price is moved up, one space per
- loan repaid (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:stock-movement-loans"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-A company cannot have more loans than its total share count (and private
- companies cannot have any loans at all).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Should a company have more loans than its total share count (e.g.
- due to a takeover or reducing its share count):
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The excess loans must be paid off immediately.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Section
-Parliament Rounds 
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Parliament-Round"
+name "sec:Stock-Rounds"
 
 \end_inset
 
@@ -2458,41 +2465,177 @@ name "sub:Parliament-overview"
 \end_layout
 
 \begin_layout Itemize
-Parliament rounds consist of three steps:
+Stock rounds consist of five steps, done in order:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-Auction of future trains (first four parliament rounds only).
+Player income
 \end_layout
 
 \begin_layout Enumerate
-Funding lobbyists (see ).
+Cousin auction (first stock round only)
 \end_layout
 
 \begin_layout Enumerate
-Parliament actions (see ):
+Future train auction (first four stock rounds only).
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Floating new companies.
+\begin_layout Enumerate
+Stock actions (may include floating new companies).
 \end_layout
 
-\begin_layout Itemize
-Companies issuing more shares.
+\begin_layout Enumerate
+Stock price adjustments (see ).
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Description
-Note: Negotiation or discussion of future train prices or usage, lobbies,
- lobby funding, company floats, or the possible future activities of companies
- are explicitly disallowed during parliament rounds.
+\begin_layout Subsection
+Player income
+\end_layout
+
+\begin_layout Itemize
+Players receive £800 from the bank at the start of each stock round until
+ after the first operating round in brown phase.
 \end_layout
 
 \begin_layout Subsection
-Future trains
+Cousin auction
+\end_layout
+
+\begin_layout Subsubsection
+Overview
+\end_layout
+
+\begin_layout Itemize
+In player number card rotation, starting with #1, each player may either:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pass.
+\end_layout
+
+\begin_layout Itemize
+Place a bid on a cousin.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A player may pass and act later in the auction.
+\end_layout
+
+\begin_layout Itemize
+The auction ends when all players pass in rotation.
+\end_layout
+
+\begin_layout Subsubsection
+Bidding on a cousin
+\end_layout
+
+\begin_layout Itemize
+Players indicate bids by placing their bid along with their player marker
+ on the cousin card.
+\end_layout
+
+\begin_layout Itemize
+Bids must be:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+At least £20.
+\end_layout
+
+\begin_layout Itemize
+A multiple of £20.
+\end_layout
+
+\begin_layout Itemize
+Larger than any current bid for that cousin if any.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Any lower bid for the cousin is returned to its player along with the player
+ marker.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Only three cousins may be bid on at any time.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A player may bid on the fourth cousin with a bid that is larger than the
+ lowest bid currently on any cousin.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In this case the now lowest bid is returned to its player along with the
+ player marker.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the case of multiple tied lowest bids, all the lowest tied bids are returned
+ to their players along with their player markers.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Subsubsection
+End of the auction
+\end_layout
+
+\begin_layout Itemize
+When all players pass in rotation:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each player takes the cousins with their bids and pays their bid to the
+ bank.
+\end_layout
+
+\begin_layout Itemize
+If there were no bids for any of the cousins, then they are all discarded
+ from the game.
+\end_layout
+
+\begin_layout Itemize
+The remaining cousins are offered to each player in ascending order of remaining
+ cash:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If multiple players have the same remaining cash, then those players are
+ ordered by their player number cards.
+\end_layout
+
+\begin_layout Itemize
+The purchase price is the lowest winning bid made for any of the other three
+ cousins.
+\end_layout
+
+\begin_layout Itemize
+Any remaining cousins are discarded from the game.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Money equal to the difference between the face value of the cousin and the
+ bid (in either direction) is given to the cousin from the bank as its treasury.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Future train auction
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Future-trains"
@@ -2503,7 +2646,33 @@ name "sub:Future-trains"
 \end_layout
 
 \begin_layout Subsubsection
-Future train auctions
+Overview
+\end_layout
+
+\begin_layout Itemize
+The first three stock rounds start with an auction of two future trains:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A yellow and a green train.
+\end_layout
+
+\begin_layout Enumerate
+A blue and a brown train.
+\end_layout
+
+\begin_layout Enumerate
+Two red trains.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Subsequent stock rounds do not auction future trains.
+\end_layout
+
+\begin_layout Subsubsection
+Auction
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:future-train-auction"
@@ -2513,28 +2682,6 @@ name "sub:future-train-auction"
 
 \end_layout
 
-\begin_layout Itemize
-The first four parliament rounds start with an auction of two future trains:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-A yellow and a green train.
-\end_layout
-
-\begin_layout Enumerate
-A green and a blue train.
-\end_layout
-
-\begin_layout Enumerate
-A blue and a brown train.
-\end_layout
-
-\begin_layout Enumerate
-A brown and a red train.
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 The trains are auctioned in an open cry auction (see 
 \begin_inset CommandInset ref
@@ -2547,6 +2694,10 @@ reference "sub:Open-cry-auctions"
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+The minimum bid is £20 and all bids must be a multiple of £20.
+\end_layout
+
 \begin_layout Itemize
 The winning bidder takes one or both remaining trains, paying their winning
  bid to the bank for each train they take.
@@ -2571,10 +2722,22 @@ The winning bidder may participate in the second auction.
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-If no players bid during a future train auction, the future trains are discarded
- from the game.
+If no players bid during a future train auction, the remaining future trains
+ for that round are discarded from the game.
 \end_layout
 
+\begin_layout Itemize
+Winning bids are paid from the player's available cash.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: The winning bids for the yellow and green future trains sold
+ in the first stock round are deducted from the income those players will
+ receive in the second stock round of the game (see ).
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection
 Future train use
 \begin_inset CommandInset label
@@ -2627,6 +2790,110 @@ The assignment counts as a train purchase and the game and cost of business
 
 \end_deeper
 \begin_layout Subsection
+Stock actions
+\end_layout
+
+\begin_layout Subsubsection
+Overview
+\end_layout
+
+\begin_layout Itemize
+In rotating player number card order starting with the lowest player number
+ card, players may either act for themselves, or for any of the cousins
+ they control and do any or all of the following in order:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Sell any number of held shares of one or more companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Any one of the following:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+(Player only) Fund or increase the funding of a lobby (see ).
+\end_layout
+
+\begin_layout Enumerate
+(Player only) Increase the share-count of a company for which they are the
+ director (see ).
+\end_layout
+
+\begin_layout Enumerate
+(Player or cousin) Buy a single share from a company treasury, cousin or
+ bankpool (see ).
+\end_layout
+
+\begin_layout Enumerate
+(Player only) Have one of the companies they control buy any number of its
+ own shares from the bank pool.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sell any number of held shares of one or more companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This process continues until all of the players in order either do not fund
+ a lobby or increase the funding of a lobby, or increase the share-count
+ of a company.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Players then float new companies in descending order of their lobbies (see
+ ).
+\end_layout
+
+\begin_layout Itemize
+The stock round process then continues in rotating player number card order,
+ except that the lobby and share-count actions are no longer available in
+ that stock round.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Player purchases are limited to their available cash.
+\end_layout
+
+\begin_layout Itemize
+The stock round ends when all player's pass in order.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stock prices of companies with shares remaining in the bank pool are adjusted
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:SR-stock-price"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
 Funding lobbyists
 \begin_inset CommandInset label
 LatexCommand label
@@ -2638,33 +2905,26 @@ name "sub:Funding-lobbyists"
 \end_layout
 
 \begin_layout Itemize
-In rotating player number card order each player must do one of (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:concepts-turn-order"
-
-\end_inset
-
-):
+A player funds a lobbyest by:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Fund a lobbyist by putting a sum of money under one of their lobbyist markers.
+Placing a sum of money under one of their lobbyist markers.
+\end_layout
+
+\begin_layout Standard
+or:
 \end_layout
 
 \begin_layout Itemize
-Increase the funding of one of their previously funded lobbyists by adding
- more money under one of their lobbyiest markers.
-\end_layout
-
-\begin_layout Itemize
-Pass.
+Increase the funding of a previously funded lobbyists by adding more money
+ under the lobbyiest marker.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-All funding amounts must be unique, a multiple of £5, and at least £20.
+All funding amounts must be unique, a multiple of £10, and at least £20.
 \end_layout
 
 \begin_layout Itemize
@@ -2673,117 +2933,111 @@ Funded lobbies are kept in a sorted line such that all players can clearly
  in the sequence are.
 \end_layout
 
-\begin_layout Subsection
-Parliament actions
+\begin_layout Subsubsection
+Increase share-count 
 \begin_inset CommandInset label
 LatexCommand label
-name "sub:Parliament-actions"
+name "par:Issue-more-shares"
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+The player must be the director of the selected company.
+\end_layout
+
+\begin_layout Itemize
+The company must not have floated in this stock round.
+\end_layout
+
+\begin_layout Itemize
+The available issue sizes are shown in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Share-Certificates"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+To issue more shares: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The company director selects the new share count (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Company-share-distributions"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Additional shares are added to the company treasury to match the new share-count
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Company-share-distributions"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+The director arranges for 40% of the company at the new size to have been
+ bought from the company treasury:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This may be any combination of players and cousins chosen at the director's
+ discretion.
+\end_layout
+
+\begin_layout Itemize
+Shares are bought in the normal manner at the current stock price (see ).
+\end_layout
+
+\begin_layout Itemize
+If 40% of the company is already collectively held by players or in the
+ bank pool, then no additional shares may be purchased be purchased in this
+ action.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+10% of the company, or 1 share (whicheveris the larger) is placed in the
+ bank pool without recompense to the company.
+\end_layout
+
+\begin_layout Enumerate
+If the company increased its share-count to more than the next available
+ larger size:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An additional 10% of the company is placed in the bank pool without recompense
+ to the company.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+If more than 60% of the company shares remain in company treasury after
+ all purchases are done, then the entire transaction fails, and all monies
+ and components are returned to their prior positions.
 \end_layout
 
 \begin_layout Subsubsection
-Overview
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:parliament-action-overview"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-In descending order of funding amounts:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-All funding money is discarded to the bank.
-\end_layout
-
-\begin_layout Itemize
-The funding player must do one of:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Float a new company.
-\end_layout
-
-\begin_layout Itemize
-Issue more shares.
-\end_layout
-
-\begin_layout Itemize
-Pass.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Paragraph
-Buying shares in parliament rounds 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Buying-shares-in-parliament-rounds"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The director may purchase additional shares in a single transaction until
- they own 50% of the company (60% for a 5-share company).
-\end_layout
-
-\begin_layout Itemize
-All players may then purchase as many shares of the new company as they
- wish in a single transaction.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The company director may not purchase shares of the company from the IPO
- if they already own 60% of that company.
-\end_layout
-
-\begin_layout Itemize
-Shares are purchased for their current stock price per share, with the purchase
- price paid to the bank.
-\end_layout
-
-\begin_layout Itemize
-Players may sell shares of companies that have completed an operating round
- in order to raise money for share purchases (see ).
-\end_layout
-
-\begin_layout Itemize
-Player purchases are limited to their available cash.If the company is over-subsc
-ribed (more players want to purchase more shares than there are in the company),
- then:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The remaining shares are sold one at a time in rotating player number card
- order to the players, starting with the #1 player number card, until all
- players pass or no certificates remain to be purchased.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-If more than 50% of the company shares remain in the IPO after all purchases
- are done, then the entire transaction fails, all monies and components
- are returned to their prior positions and the lobbyist is returned to the
- player without recompense.
-\end_layout
-
-\begin_layout Paragraph
 Float a new company
 \begin_inset CommandInset label
 LatexCommand label
@@ -2795,7 +3049,18 @@ name "par:Float-a-new"
 \end_layout
 
 \begin_layout Itemize
-The lobbying player:
+Once all players in order do not fund or increase the funding of a lobbyest,
+ or increase the share-count of a company, the ordered line of lobbies are
+ resolved in descending order of funding:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+All lobby funds are discarded to the bank.
+\end_layout
+
+\begin_layout Enumerate
+Each player, in the order of their player markers in the line of lobbies:
 \end_layout
 
 \begin_deeper
@@ -2804,55 +3069,9 @@ Selects a currently unused company.
 \end_layout
 
 \begin_layout Enumerate
-Places the home station in any one of:
+Selects an available share-count (see ):
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-An open station circle on a track tile already on the board.
-\end_layout
-
-\begin_layout Itemize
-An open station circle on a yellow track tile placed per the normal constraints
- (see ).
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-Note: The placement is free (terrain costs are not paid).
- 
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-On a track tile already on the board with no available station circles,
- in an open station circle created by upgrading the track tile once:
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-Note: The current game phase must allow the upgrade and the tile may not
- be upgraded if another company had floated and placed that tile at that
- location earlier in the parliament round.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Enumerate
-Selects a share count:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-5 shares in yellow or green phase.
- 
-\end_layout
-
-\begin_layout Itemize
-5 or 10 shares in blue, brown, red or gray phase.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 Selects a legal starting price for the company and places the company's
  stock price marker at that price on the stock market (see 
@@ -2884,43 +3103,27 @@ reference "sec:Game-Phases"
 
 \end_deeper
 \begin_layout Enumerate
-Places the company's shares for the selected share count in the IPO (see).
+Places the company's shares for the selected share count in the the company
+ treasury (see).
 \end_layout
 
 \begin_layout Enumerate
-Must purchase the director's certificate of the company.
-\end_layout
-
-\begin_layout Enumerate
-Players may then purchase additional shares of the company as per 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Buying-shares-in-parliament-rounds"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-Takes the company charter and places on it:
+Arranges for 40% of the company to be bought from the company treasury:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Money from the bank equal to five (5) or ten (10) times the selected stock
- price for the company on the charter for 5- and 10-share companies respectively.
+This may be any combination of players and cousins chosen at the player's
+ discretion.
 \end_layout
 
 \begin_layout Itemize
-One station marker.
+Shares are bought in the normal manner at the current stock price (see ).
 \end_layout
 
-\end_deeper
-\end_deeper
 \begin_layout Itemize
-If more than 50% of the company shares remain in the IPO after all purchases
- are done then:
+If more than 60% of the company shares remain in the company treasury after
+ all purchases are done then:
 \end_layout
 
 \begin_deeper
@@ -2931,218 +3134,73 @@ The entire transaction fails, all monies and components are returned to
 \end_layout
 
 \end_deeper
-\begin_layout Paragraph
-Issue more shares
-\begin_inset CommandInset label
-LatexCommand label
-name "par:Issue-more-shares"
-
-\end_inset
-
-
+\end_deeper
+\begin_layout Enumerate
+The director of the company then:
 \end_layout
 
-\begin_layout Itemize
-The lobbying player must be the director of the selected company.
-\end_layout
-
-\begin_layout Itemize
-The company must not have floated in this parliament round.
-\end_layout
-
-\begin_layout Itemize
-The available issue sizes and resulting certificate distributions are shown
- in 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Share-Certificates"
-
-\end_inset
-
-.
+\begin_deeper
+\begin_layout Enumerate
+Takes control of the company charter and two station markers.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Private companies cannot issue more than 1 additional share.
+If the company floated with 20 shares, then it also gets a third station
+ marker.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Places one or more of its station markers in any open station circles:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+On a track tile already on the board.
+\end_layout
+
+\begin_layout Itemize
+On a yellow track tile placed per the normal constraints (see ).
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Note: The placement is free (terrain costs are not paid).
  
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
-Public companies (2 or more shares) may issure more shares to reach any
- available larger size (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Company-share-distributions"
+On a track tile already on the board with no available station circles,
+ created by upgrading the track tile once:
+\end_layout
 
-\end_inset
-
-).
+\begin_deeper
+\begin_layout Description
+Note: The current game phase must allow the upgrade and the tile may not
+ be upgraded if another company had floated and placed that tile at that
+ location earlier in the parliament round.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-To issue more shares: 
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-The company director selects the new share count (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Company-share-distributions"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-Additional shares are added to the IPO to match the new share distribution
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Company-share-distributions"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-The director must exchange their current director's certificate for the
- director's certificate for the new share count.
+If multiple home stations are placed together:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-If the new director's certificate has more shares then the prior director's
- certificate, then the director must turn in, or purchase and then turn
- in, additional shares of the company to match the new director's certificate
- share count.
+The player must pay a fee to the bank of £80 for each hex-edge in the shortest
+ path between the stations that does not cross a blue barrier or leave the
+ board.
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
-Players may then purchase additional shares of the company as per 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Buying-shares-in-parliament-rounds"
-
-\end_inset
-
-.
-\end_layout
-
 \end_deeper
-\begin_layout Itemize
-If more than 50% of the company shares remain in the IPO after all ourchases
- are done, then the entire transaction fails, all monies and components
- are returned to their prior positions and the lobbyist is returned to the
- player without recompense.
-\end_layout
-
-\begin_layout Paragraph
-Pass
-\begin_inset CommandInset label
-LatexCommand label
-name "par:Parliament-pass"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The player retrieves their player marker without recompense.
-\end_layout
-
-\begin_layout Section
-Stock Rounds
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Stock-Rounds"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Overview
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Stock-Round-Overview"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-In rotating player number card order each player must pass or do any or
- all of the following in the following order (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:concepts-turn-order"
-
-\end_inset
-
-):
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Sell some number of shares of one or more companies (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Selling-shares"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-Buy a single certificate from the IPO or the bank pool (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Buying-shares"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-Sell some number of shares of one or more companies (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Selling-shares"
-
-\end_inset
-
-).
-\end_layout
-
 \end_deeper
-\begin_layout Itemize
-Player purchases are limited to their available cash.
-\end_layout
-
-\begin_layout Itemize
-At the end of a stock round the stock prices of companies with shares in
- the bank pool are adjusted (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:SR-stock-price"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Subsection
+\end_deeper
+\end_deeper
+\begin_layout Subsubsection
 Selling shares
 \begin_inset CommandInset label
 LatexCommand label
@@ -3154,28 +3212,12 @@ name "sub:Selling-shares"
 \end_layout
 
 \begin_layout Itemize
-Players can sell shares that they own:
+Players and cousins can sell shares they own:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Which are not the director's certificate (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Company-directors"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-In stock rounds other than the first stock round of the game.
-\end_layout
-
-\begin_layout Itemize
-Of companies that have floated and completed at least one operation round
- (see 
+Of companies that have completed at least one operation round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Starting-or-floating"
@@ -3203,12 +3245,12 @@ Sold certificates are placed in the bank pool.
 \end_layout
 
 \begin_layout Itemize
-The selling player receives the stock price of the share(s) in cash from
- the bank.
+The selling player or cousin receives the stock price of the share(s) in
+ cash from the bank.
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
+\begin_layout Subsubsection
 Buying shares
 \begin_inset CommandInset label
 LatexCommand label
@@ -3220,315 +3262,68 @@ name "sub:Buying-shares"
 \end_layout
 
 \begin_layout Itemize
-Only one stock certificate can be bought per player-turn or action in the
- stock round.
+Players and cousins can buy only one share per player-turn or action in
+ the stock round.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-If the available stock certificates represent multiple shares, and there
- is protest by another player:
+A player or cousin cannot buy a certificate of a public company from a company
+ treasury or cousin if they already hold 60% or more of that company.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Players buying shares of that company must buy the shares one-per-turn (see
- 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Share-Transactions"
+Each share is considered separately for the 60% limit.
+\end_layout
 
-\end_inset
-
-).
+\begin_layout Itemize
+A player or cousin can buy shares past 60% ownership of a public company
+ from the bank pool.
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-A player cannot buy a certificate of a public company from the IPO if they
- hold 60% or more of that company.
+A player or cousin cannot buy a certificate of a company if they have sold
+ one or more shares of that company in the current stock round.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-When buying from the IPO, each share is considered separately for the 60%
- limit.
+They may buy certificates of that company in future stock rounds.
 \end_layout
 
 \begin_layout Itemize
-A player can buy shares past 60% ownership of a public company from the
- bank pool.
+Players and cousins are not restricted by the shares the other has sold.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Players can buy non-director's certificates of companies only if they have
- been floated (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Float-a-new"
-
-\end_inset
-
-).
+Monies paid for shares from a company treasury are paid to that company
+ treasury.
 \end_layout
 
 \begin_layout Itemize
-A player cannot buy a certificate of a company if they have sold one or
- more shares of that company in the current stock round or immediately prior
- parliament round.
+Monies paid for shares from the bank pool are paid to the bank pool.
+\end_layout
+
+\begin_layout Itemize
+Companies can buy any or all of their shares from the bank pool in a single
+ purchase with money from their treasury.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-They may buy certificates of that company in future parliament and stock
- rounds.
+The company can take loans to fund such a purchase (see ).
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-The purchase price for certificates is the current stock price of that company,
- multiplied by the number of shares represented by the certificates purchased.
+The purchase price for shares is the current stock price of that company
+ and is paid to the bank.
 \end_layout
 
-\begin_layout Itemize
-The purchase price is paid to the bank.
-\end_layout
-
-\begin_layout Subsection
-Company directors
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Company-directors"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The player that holds the most shares of a company (largest total percentage)
- is the director of the company, has the director's share of the company
- and controls all of that company's operations.
-\end_layout
-
-\begin_layout Itemize
-If a player buys shares such that they own a larger percentage of company
- than the current director:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-They become the new company director by exchanging company certificates
- equalling the number of shares on the director's certificate for the director's
- certificate and taking control of the company charter and its assets.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The director's share can never be sold, only transferred to another player
- or taken over by another company.
-\end_layout
-
-\begin_layout Itemize
-In order to transfer director control of a company via share sales:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-The director's share must be exchanged for certificates of the company of
- equal number of shares of the player with the most shares of the company
- after the sale, assigning control of the company and its charter and assets
- to that player.
-\end_layout
-
-\begin_layout Enumerate
-The previous director must sell sufficient shares of the company such that
- they own fewer shares of the company than the new director after the sale.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In the case of a tie among other players for the most shares after the sale,
- the next tied player in player number card order from the current director
- becomes the new director and receives the director's certificate.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Subsection
-Stock price movement
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Stock-price-movement"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-General stock price movement
-\end_layout
-
-\begin_layout Itemize
-The current stock price of company shares is recorded on the stock market
- with stock price markers.
-\end_layout
-
-\begin_layout Itemize
-If a stock price reaches the bottom space of the stock market, then the
- price cannot be moved further down.
-\end_layout
-
-\begin_layout Itemize
-If a stock price marker reaches top of the stock market (£500), then the
- stock price cannot be moved further up and the game will end at the end
- of that operating round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Game-end"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-When a stock price marker is moved, it is placed under any stock price markers
- already present in the new location.
-\end_layout
-
-\begin_layout Subsubsection
-End of stock round
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:SR-stock-price"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-In operating order (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Public-company-operating-order"
-
-\end_inset
-
-): 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Each company's stock price is moved down one space for each share of the
- company in the bank pool.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-If the company stock price reaches £43 (immediately above the gray £40 space),
- then it is not moved down further.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-If all of the shares of a company (100%) are owned by players, then the
- company's stock price marker is moved up one space.
-\end_layout
-
-\end_deeper
-\begin_layout Subsubsection
-Operating round
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:OR-stock-price"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-If a company pays a dividend during an operating round, then its stock price
- marker will move up:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-up one, two or three spaces if the total dividend is at least equal to,
- double, or quadruple its stock price.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-If a company does not pay a dividend then its stock price will move down:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-One space.
-\end_layout
-
-\begin_layout Itemize
-A second space if the company did not own a train.
-\end_layout
-
-\end_deeper
-\begin_layout Subsubsection
-Loans
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:stock-movement-loans"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-For each loan a company takes loans either willingly or receves them as
- part of a takeover, its stock price is moved down one space for each loan.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A company cannot take a loan if it would move its stock price into the gray
- £40 space.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-But it can acquire a loan in a takeover that would move its stock price
- into the gray £40 space, or fail to move further down from the gray £40
- space.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-For each loan a company pays off, its stock price is moved up one space.
-\end_layout
-
-\begin_layout Itemize
-If company has too many loans (more than its share count) after a takeover:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The excess loans must be immediately paid off.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The stock price is not moved in this case.
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Section
 Operating Rounds
 \begin_inset CommandInset label
@@ -3552,7 +3347,7 @@ name "sub:Public-company-operating-order"
 \end_layout
 
 \begin_layout Itemize
-Companies operate in order of descending stock price.
+Public companies operate in order of descending stock price.
 \end_layout
 
 \begin_deeper
@@ -3563,8 +3358,13 @@ The stock price markers of companies in the same space of the stock market
 
 \end_deeper
 \begin_layout Itemize
+Private companies operate after all public companies, in order of their
+ formation.
+\end_layout
+
+\begin_layout Itemize
 As companies operate, their stock price markers are turned upside down and
- moved to their new stock price location (see  
+ moved to their new stock price location (public companies, see  
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:OR-stock-price"
@@ -3649,6 +3449,14 @@ reference "sub:Place-station-marker"
 \end_layout
 
 \begin_layout Enumerate
+
+\emph on
+(Private companies only)
+\emph default
+ Buy trains from the supply.
+\end_layout
+
+\begin_layout Enumerate
 Run train(s) (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -3660,7 +3468,7 @@ reference "sub:Run-train(s)"
 \end_layout
 
 \begin_layout Enumerate
-Pay or half-pay or withhold dividends (see 
+Pay or withhold dividends (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Pay-or-withhold"
@@ -3685,7 +3493,7 @@ Optional
 \begin_layout Enumerate
 
 \emph on
-(May be optional)
+(Optional)
 \emph default
  Buy train(s) (see 
 \begin_inset CommandInset ref
@@ -3709,8 +3517,8 @@ Pay loan interest.
 \end_layout
 
 \begin_layout Description
-Exception: Companies may take loans at any time in their operations (see
- 
+Exception: Public companies may take loans at any time in their operations
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:stock-movement-loans"
@@ -3756,15 +3564,22 @@ name "par:build-track-overview"
 \end_layout
 
 \begin_layout Itemize
-A public company may place or upgrade up to two track tiles in each operating
+Public companies may place or upgrade up to two track tiles in each operating
  round
 \end_layout
 
 \begin_layout Itemize
-A private company may place or upgrade up to four track tiles in each operating
+Private companies may place or upgrade up to four track tiles in each operating
  round.
 \end_layout
 
+\begin_deeper
+\begin_layout Description
+Exception: Private companies may place or upgrade only up to two track tiles
+ in each operating round in yellow phase.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Track tiles are limited to those available in the supply.
 \end_layout
@@ -3830,7 +3645,7 @@ Once a track tile of a given type is placed in a hexagon, only track tiles
 
 \begin_layout Itemize
 Map hexagons marked with city circles are considered to be cities even if
- a city track tile hasn't been palced there.
+ a city track tile hasn't been placed there.
 \end_layout
 
 \begin_layout Paragraph
@@ -3923,7 +3738,7 @@ reference "sec:Map-Explanation"
 \end_layout
 
 \begin_layout Itemize
-Some hexes edges are blocked until blue phase (see 
+Some hexes edges are blocked by blue barriers (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Map-Explanation"
@@ -3935,7 +3750,7 @@ reference "sec:Map-Explanation"
 
 \begin_deeper
 \begin_layout Itemize
-Track may not be pointed at those edges until blue phase.
+Track may not be pointed at those edges in yellow phase.
 \end_layout
 
 \begin_layout Itemize
@@ -3945,8 +3760,8 @@ The company that makes the connection across that edge must pay the additional
 
 \end_deeper
 \begin_layout Itemize
-Track tiles can be placed on the towns, cities and rural hexagons of the
- map and cannot be placed on red off-board hexagons, or gray pre-built hexagons
+Track tiles can be placed on the city and rural hexagons of the map and
+ cannot be placed on red off-board hexagons, or gray pre-built hexagons
  (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -4015,8 +3830,10 @@ name "par:Small-city-track"
 \end_layout
 
 \begin_layout Itemize
-Small city track tiles may be placed on Preston (B6) or any rural hexagon
- which is not adjacent to another city (ie does not share a hexagon edge).
+Small city track tiles may be placed on Preston (B6) or Margate (N18), either
+ or both Hull (C16) or Grimsby (D16), or any rural hexagon which is not
+ adjacent to another city (ie does not share a hexagon edge with a city
+ tile or hex).
  
 \end_layout
 
@@ -4046,8 +3863,9 @@ B
 \begin_inset Quotes erd
 \end_inset
 
- (Birmingham (G7), (Dover (O17) and Liverpool (C5)) which is at least two
- hexes away from any other city (ie two empty hexes between the two).
+ (Birmingham (G7), (Dover (O17), Liverpool (C5) or either one but not both
+ of Hull (C16) or Grimsby (D16)) which is at least two hexes away from any
+ other city (ie two empty hexes between the two).
  
 \end_layout
 
@@ -4080,10 +3898,6 @@ Another town track tile.
 
 \begin_layout Itemize
 London (M13).
-\end_layout
-
-\begin_layout Itemize
-A city (any type) which is already adjacent to a town track tile.
 \end_layout
 
 \end_deeper
@@ -4183,39 +3997,13 @@ reference "tab:Public-Companies"
 \end_layout
 
 \begin_layout Enumerate
-Pay for the marker from its treasury.
+Pay for the station marker from its treasury (£40 in yellow phase, £100
+ for the rest of the game).
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-The cost is the revenue value of the location multiplied by the total number
- of locations on the map that the company has station markers after placing
- the station marker.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
-Depending on the type of marker placed:
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-Exchange
-\begin_inset space ~
-\end_inset
-
-marker: Place a station marker atop one of the company's already placed
- station markers, indicating that it is now an exchange marker.
-\end_layout
-
-\begin_layout Description
-Station
-\begin_inset space ~
-\end_inset
-
-marker: Place a station marker in an empty city circle which can trace a
- line of track to either one of the company's home station(s) or to a previously
- placed station marker of that company without:
+Place a station marker in an empty city circle which can trace a line of
+ track to one of the company's other station markers without:
 \end_layout
 
 \begin_deeper
@@ -4224,32 +4012,10 @@ Passing through a city all of whose station-marker spaces are filled with
  other companies' station markers.
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Exception: Exchange markers do not block the route.
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 Crossing any hexagon-edge twice.
 \end_layout
 
-\begin_layout Description
-Exception: A station marker may be placed using the power of the 
-\noun on
-Schielands Hoge Zeedijk
-\noun default
- private company without satisfying the above limits (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Green-Private-Companies"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Itemize
@@ -4258,42 +4024,25 @@ A company cannot place:
 
 \begin_deeper
 \begin_layout Itemize
-An exchange marker if it already has one on the map.
-\end_layout
-
-\begin_layout Itemize
-An exchange marker on a hexagon which already contains another company's
- exchange marker.
-\end_layout
-
-\begin_layout Itemize
-More than one marker (exchange or station, not counting its home station(s))
- per operating round.
+More than one station marker per operating round.
 \end_layout
 
 \begin_layout Itemize
 More than one station marker in the same hexagon.
 \end_layout
 
-\begin_layout Itemize
-A station marker in the last available city circle of a hexagon that is
- also the home station of a company, if that company has not already operated
- and placed its home station(s).
-\end_layout
-
-\begin_layout Itemize
-A station marker at Deventer/Apeldoorn (G16) until the
+\begin_deeper
+\begin_layout Description
+Exception: The 
 \noun on
- Nederlandsch-Westfaalsche Spoorweg
+Samuel Montagu & Co.
+
 \noun default
- has placed its home station.
+ cousin may allow a company to place two station markers in London (M13)
+ (see ).
 \end_layout
 
-\begin_layout Itemize
-An exchange or station marker if it has placed or upgraded a second track
- tile in this round.
-\end_layout
-
+\end_deeper
 \end_deeper
 \begin_layout Subsubsection
 Run train(s)
@@ -4366,8 +4115,8 @@ Note: Track tiles such as #16, #19, #20 etc and parts of #43, #44, #45 &
 
 \end_deeper
 \begin_layout Itemize
-Enter a town or unblocked city from one direction and exit in any other
- connected direction.
+Enter an unblocked city from one direction and exit in any other connected
+ direction.
 \end_layout
 
 \end_deeper
@@ -4404,7 +4153,8 @@ OO
 \begin_inset Quotes erd
 \end_inset
 
- track tiles (see   
+ track tiles or multiple cities on the yellow and gree Manchester (D6) track
+ tiles (see   
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Track-types"
@@ -4416,7 +4166,7 @@ reference "sub:Track-types"
 
 \end_deeper
 \begin_layout Itemize
-Begin and end in a port (see 
+Both begin and end in a port (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Map-Explanation"
@@ -4427,7 +4177,7 @@ reference "sec:Map-Explanation"
 \end_layout
 
 \begin_layout Itemize
-Begin and end in London (see 
+Both begin and end in London (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Map-Explanation"
@@ -4445,8 +4195,8 @@ The routes of multiple trains run by the same company during an operating
 
 \begin_deeper
 \begin_layout Itemize
-The routes can meet or cross at towns or cities provided that they use entirely
- separate sections of track.
+The routes can meet or cross at cities provided that they use entirely separate
+ sections of track.
 \end_layout
 
 \begin_deeper
@@ -4465,9 +4215,8 @@ reference "sub:Train-types"
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-The total number and variety of towns and cities in the route run by a train
- cannot exceed the range of the type of train (specified on its certificate
- - see 
+The total number of cities in the route run by a train cannot exceed the
+ range of the type of train (specified on its certificate - see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Game-Phases"
@@ -4541,7 +4290,7 @@ At least one of the revenue locations counted for each train must contain
 \end_layout
 
 \begin_layout Itemize
-The revenue value of off-boards is based on the game phase:
+The revenue value of off-boards and ports are based on the game phase:
 \end_layout
 
 \begin_deeper
@@ -4559,8 +4308,8 @@ reference "sec:Game-Phases"
 
 \begin_deeper
 \begin_layout Itemize
-An off-board's revenue value applies from its game-phase until superseded
- by a value for a later game-phase.
+An off-board's or port's revenue value applies from its game-phase until
+ superseded by a value for a later game-phase.
 \end_layout
 
 \end_deeper
@@ -4579,7 +4328,7 @@ run
 \end_layout
 
 \begin_layout Subsubsection
-Pay or half-pay or withhold dividends
+Pay or withhold dividends
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Pay-or-withhold"
@@ -4591,8 +4340,8 @@ name "sub:Pay-or-withhold"
 
 \begin_layout Itemize
 The director of a public company has the sole discretion whether the company's
- total revenue is paid out in dividends to its shareholders, half-paid or
- withheld in the company's treasury.
+ total revenue is paid out in dividends to its shareholders or withheld
+ in the company's treasury.
 \end_layout
 
 \begin_layout Itemize
@@ -4607,8 +4356,8 @@ Each player receives as dividends from the bank the percentage of the total
 \end_layout
 
 \begin_layout Itemize
-Shares in the bank pool pay their fraction of the total revenue as a dividend
- from the bank to the company treasury.
+Shares in the company treasury pay their fraction of the total revenue as
+ a dividend from the bank to the company treasury.
 \end_layout
 
 \begin_layout Itemize
@@ -4703,7 +4452,7 @@ If the company cannot pay the maintenance on its trains from its treasury:
 
 \begin_deeper
 \begin_layout Itemize
-The company director must cover any shortfall from his cash.
+The company director may cover any shortfall from his cash.
 \end_layout
 
 \begin_deeper
@@ -4725,6 +4474,10 @@ reference "sec:End-of-the"
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+If the company director chooses to not cover the shortfall, then the 
+\end_layout
+
 \end_deeper
 \end_deeper
 \begin_layout Subsubsection
@@ -4805,7 +4558,7 @@ Exception: If the buying company is a private company:
 \begin_deeper
 \begin_layout Itemize
 The purchase price must not be less than the purchase cost of the train
- from the supply, minus the current maintenance cost of that train.
+ from the supply, minus the current maintenance cost of that train, or 
 \end_layout
 
 \end_deeper
@@ -5765,7 +5518,7 @@ name "sub:Game-end"
 \end_layout
 
 \begin_layout Standard
-1820 can end in three ways:
+1820 can end in four ways:
 \end_layout
 
 \begin_layout Enumerate
@@ -5777,6 +5530,11 @@ reference "sub:Emergency-train-buying"
 \end_inset
 
 ), the game ends immediately.
+\end_layout
+
+\begin_layout Enumerate
+If no players control any companies after a stock round or issue & takeover
+ round, the game ends immediately
 \end_layout
 
 \begin_layout Enumerate
@@ -5804,9 +5562,8 @@ reference "sub:Stock-price-movement"
 
 \end_deeper
 \begin_layout Enumerate
-The marker on the cost of business chart moves off the end of the chart
- when moved forward in an issue and takeover round, then the game ends immediate
-ly.
+The marker on the cost of business chart moves onto the 19th column of the
+ cost of business chart, then the game ends immediately.
 \end_layout
 
 \begin_layout Subsection
@@ -5827,15 +5584,11 @@ A player’s score is their net worth: the sum total of personal cash and
 
 \begin_deeper
 \begin_layout Itemize
-Company assets (tokens, trains and capital) have no significance to final
- scores.
+Company assets (tokens, trains and capital), private companies and future
+ trains have no significance to final scores.
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-Private companies are worth their stock market value.
-\end_layout
-
 \begin_layout Itemize
 All shares are valued at their stock price when the game ended.
 \end_layout
@@ -5866,10 +5619,13 @@ name "part:Acknowledgments"
 
 \begin_layout Standard
 The designer would like to thank Francis Tresham for the design and development
- of the wonderful field of 18xx games, Daniel Barnes, Bruce Murphy, and
- Shelby Noonan their bounteous supply of notions, complaints and sounding
- board in equal measures.
- Additional thanks go to the many play-testers.
+ of the wonderful field of 18xx games, Daniel Barnes, Bruce Murphy and Shelby
+ Noonan their bounteous supply of notions, complaints and sounding board
+ in equal measures.
+ In particular, Bruce Murphy prompted the cousins and what developed into
+ the cost of business chart, and Shelby Noonan suggested what became the
+ future trains.
+ Additional thanks go to the many other play-testers.
  I have been honoured to design games for and with such wonderful people.
 \end_layout
 
