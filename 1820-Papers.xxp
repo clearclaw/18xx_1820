@@ -2,7 +2,16 @@
 
 Mid-Hants Railway 'Watercress Line'
 https://en.wikipedia.org/wiki/Watercress_Line
- 
+
+Midland and Great Northern Joint Railway
+"Muddle & Get Nowhere"
+https://en.wikipedia.org/wiki/Midland_and_Great_Northern_Joint_Railway
+
+Charnwood Forest Railway
+The Bluebell Line
+Bread and Herring Line
+https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
+
 #} 
 
 {% set companies_mono = [
@@ -536,6 +545,14 @@ https://en.wikipedia.org/wiki/Watercress_Line
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${M_RED}",
       "train_font": '"Times-Roman", 28',
+    },
+    {
+      "cost": "$400",
+      "frame_colour": "${L_PURPLE}",
+      "name": "H2",
+      "rust_stripe": "${L_GRAY}",
+      "trade_stripe": "${L_GRAY}",
+      "rust": "(No Maintenance)",
     },
     {
       "cost": "$1,600",
@@ -1564,6 +1581,7 @@ sizes"""
 
 [train]
   trade = ""
+  rust = ""
 
 {% for train in trains %}
   [[{{ train.name }}]]
@@ -1571,11 +1589,13 @@ sizes"""
     frame_colour = {{ train.frame_colour }}
     train = {{ train.name }}
     cost = "Cost: {{ train.cost }}"
-    rust = ""
     trade_stripe_colour = {{ train.trade_stripe }}
     rust_stripe_colour = {{ train.rust_stripe }}
+    {% if "rust" in train.keys () %}
+    rust = {{ train.rust }}
+    {% endif %}
     {% if "train_font" in train.keys () %}
-    "train_font" = {{ train.train_font }}
+    train_font = {{ train.train_font }}
     {% endif %}
     {% if "optional" in train.keys () %}
     [[[tile_1.1]]]
