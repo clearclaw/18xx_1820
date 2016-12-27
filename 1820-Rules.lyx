@@ -8,6 +8,7 @@
 theorems-ams
 eqs-within-sections
 figs-within-sections
+tabs-within-sections
 \end_modules
 \maintain_unincluded_children false
 \language english
@@ -33,7 +34,7 @@ figs-within-sections
 \spacing single
 \use_hyperref false
 \papersize letterpaper
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -52,7 +53,7 @@ figs-within-sections
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 1
+\use_refstyle 0
 \index Index
 \shortcut idx
 \color #008000
@@ -61,10 +62,10 @@ figs-within-sections
 \topmargin 3cm
 \rightmargin 1.5cm
 \bottommargin 3cm
-\footskip 3cm
+\footskip 2cm
 \columnsep 1cm
 \secnumdepth 5
-\tocdepth 4
+\tocdepth 5
 \paragraph_separation skip
 \defskip medskip
 \quotes_language english
@@ -190,7 +191,7 @@ name "sec:Components"
 \end_layout
 
 \begin_layout Itemize
-1 cost of business chart and marker.
+1 Cost of Business chart and marker.
 \end_layout
 
 \begin_layout Itemize
@@ -198,7 +199,7 @@ name "sec:Components"
 \end_layout
 
 \begin_layout Itemize
-1 stock market.
+1 Stock Market chart.
 \end_layout
 
 \begin_layout Itemize
@@ -278,11 +279,11 @@ Company charter.
 
 \end_deeper
 \begin_layout Itemize
-30 loan markers.
+40 loan markers.
 \end_layout
 
 \begin_layout Itemize
-25 British Rail station markers.
+40 British Rail station markers.
 \end_layout
 
 \begin_layout Itemize
@@ -350,7 +351,7 @@ name "sec:Game-Setup"
 \end_layout
 
 \begin_layout Itemize
-Assemble the map and place it and the stock market, cost of business chart,
+Assemble the map and place it and the Stock Market, Cost of Business chart,
  bank pool, private track, round track, revenue track, loan markers, company
  shares & charters, and the supply of track tiles where they can be easily
  seen and accessed by all players.
@@ -369,8 +370,8 @@ Stock Round
 \end_layout
 
 \begin_layout Itemize
-Place the cost of business marker on the #1 space of the round track on
- the cost of business chart.
+Place the Cost of Business marker on the #1 space of the round track on
+ the Cost of Business chart.
 \end_layout
 
 \begin_layout Itemize
@@ -404,7 +405,7 @@ Randomly select one cousin of each colour and discard the rest from the
 \begin_layout Itemize
 
 \emph on
-Players new to 1820 are recommended to only use the cousins with a value
+Players new to 1820 are recommended to only use the cousins with a price
  of £120.
 \end_layout
 
@@ -559,7 +560,7 @@ reference "sec:Issue-&-Takeover"
 
 \end_deeper
 \begin_layout Itemize
-The rotating sequence of Stock Rounds, Operating Rounds and Issue & Takeover
+The rotating sequence of Stock Rounds, Operating Rounds and Issues & Takeover
  Rounds continues until the end of the game (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -616,7 +617,7 @@ reference "tab:Game-Phases"
 
 \begin_layout Itemize
 Game phases change immediately when the first train of a new type is owned
- by a company or when a train of that type is discarded during an Issue
+ by a company or when a train of that type is discarded during an Issues
  & Takeover Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -1840,7 +1841,7 @@ name "sec:Stock-Rounds"
 \end_layout
 
 \begin_layout Subsection
-Stock round overview
+Stock Round overview
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Parliament-overview"
@@ -2356,7 +2357,7 @@ If the future train-type has not yet been purchased from the supply when
 
 \begin_deeper
 \begin_layout Itemize
-The assignment counts as a train purchase and cost of business marker and
+The assignment counts as a train purchase and Cost of Business marker and
  game are moved to the new phase (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -2495,12 +2496,12 @@ Lobby, share-count and heritage railway actions are no longer available
 \end_layout
 
 \begin_layout Itemize
-When players elect to pass in the stock round, they take the lowest numbered
+When players elect to pass in the Stock Round, they take the lowest numbered
  available player number card of the other colour.
 \end_layout
 
 \begin_layout Itemize
-When players act in the stock round, they return any player number card
+When players act in the Stock Round, they return any player number card
  of the other colour they have to the supply.
 \end_layout
 
@@ -2509,12 +2510,12 @@ When players act in the stock round, they return any player number card
 The player with the next larger number card of the other colour then swaps
  their card for the returned card, repeating as necessary for the other
  players such that the other player number cards show the order in which
- those players passed and ceased acting in the stock round.
+ those players passed and ceased acting in the Stock Round.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-The stock round ends when all the player number cards of the other colour
+The Stock Round ends when all the player number cards of the other colour
  have been taken (all players have passed in rotation).
 \end_layout
 
@@ -2563,7 +2564,7 @@ The player number cards of the current colour are returned to the supply.
 \begin_deeper
 \begin_layout Itemize
 The player number cards of the other colour will determine the player order
- in the next stock round.
+ in the next Stock Round.
 \end_layout
 
 \end_deeper
@@ -2803,7 +2804,7 @@ reference "sec:Stock-Market"
 \end_layout
 
 \begin_layout Itemize
-Moves the private company's marker from the private track to the stock market
+Moves the private company's marker from the private track to the Stock Market
  at that stock price.
 \end_layout
 
@@ -2946,7 +2947,7 @@ The company must have been floated in a prior Stock Round.
 
 \end_deeper
 \begin_layout Itemize
-Company shares are sold for the current stock market price per share.
+Company shares are sold for the current Stock Market price per share.
 \end_layout
 
 \begin_deeper
@@ -3060,8 +3061,8 @@ name "par:Buy-shares-from-Bank-Pool"
 \end_layout
 
 \begin_layout Itemize
-The company may buy any number of its own shares, or of heritage railway
- company's shares, from the bank pool at the current stock price.
+The company may buy any number of its own shares, or heritage railway company's
+ shares, from the bank pool at the current stock price.
 \end_layout
 
 \begin_deeper
@@ -3184,7 +3185,7 @@ Not be the only station markers on the map for the founding public company.
 \end_deeper
 \begin_layout Enumerate
 The director selects a legal par price and places the stock price marker
- of the new company at that price on the stock market (see 
+ of the new company at that price on the Stock Market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Stock-Market"
@@ -3348,7 +3349,7 @@ reference "sub:Floating-a-new-public"
 \end_deeper
 \end_deeper
 \begin_layout Subsubsection
-Floating a new public company 
+Float a new public company 
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Floating-a-new-public"
@@ -3380,7 +3381,7 @@ reference "tab:Company-Sizes"
 
 \begin_layout Enumerate
 Selects a legal par price for the company and places the company's stock
- price marker at that price on the stock market (see 
+ price marker at that price on the Stock Market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Game-Phases"
@@ -3598,7 +3599,7 @@ Each company's stock price is moved down one space for each 10% of the company
 
 \begin_deeper
 \begin_layout Itemize
-If the company stock price reaches the bottom of the stock market, then
+If the company stock price reaches the bottom of the Stock Market, then
  it is not moved down further.
 \end_layout
 
@@ -3637,7 +3638,7 @@ Public companies operate in descending order of stock price.
 
 \begin_deeper
 \begin_layout Itemize
-The stock price markers of companies in the same space of the stock market
+The stock price markers of companies in the same space of the Stock Market
  are stacked in the order they'll operate, from the top down.
 \end_layout
 
@@ -4264,7 +4265,7 @@ The company is obligated to pay the current maintenance cost for each of
 \begin_deeper
 \begin_layout Itemize
 The maintenance cost for each train is shown in the column above the marker
- on the cost of business chart (see 
+ on the Cost of Business chart (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Cost-of-business"
@@ -4321,6 +4322,10 @@ reference "sub:In-liquidation"
 \end_layout
 
 \end_deeper
+\begin_layout Description
+Note: H2 trains do not have any maintenance costs.
+\end_layout
+
 \end_deeper
 \begin_layout Subsubsection
 Discard train(s)
@@ -4497,7 +4502,7 @@ reference "sec:Game-Phases"
 
 \end_inset
 
-) and are tracked on the cost of business chart (see 
+) and are tracked on the Cost of Business chart (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Cost-of-business"
@@ -4575,8 +4580,8 @@ The company is obligated to pay the current loan interest for each loan
 
 \begin_deeper
 \begin_layout Itemize
-The loan interest rate is shown in the column above the marker on the cost
- of business chart (see 
+The loan interest rate is shown in the column above the marker on the Cost
+ of Business chart (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Cost-of-business"
@@ -4684,7 +4689,7 @@ The company stock price is moved up one space for each loan repaid.
 
 \end_deeper
 \begin_layout Section
-Issue & Takeover Rounds
+Issues & Takeover Rounds
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Issue-&-Takeover"
@@ -4695,7 +4700,7 @@ name "sec:Issue-&-Takeover"
 \end_layout
 
 \begin_layout Subsection
-Issue & takeover overview
+Issues & Takeover overview
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:i_and_t_overview"
@@ -4711,7 +4716,7 @@ The following steps are done in order:
 
 \begin_deeper
 \begin_layout Enumerate
-Advance the cost of business marker by one space (see 
+Advance the Cost of Business marker by one space (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Cost-of-business"
@@ -4804,7 +4809,7 @@ Note: Players may request and should be granted a brief pause to consider
 
 \end_deeper
 \begin_layout Enumerate
-Companies in liquidation at the start of the Issue & Takeover Round are
+Companies in liquidation at the start of the Issues & Takeover Round are
  liquidated (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -4817,7 +4822,7 @@ reference "sub:Liquidations"
 
 \begin_deeper
 \begin_layout Itemize
-Companies which enter liquidation during the Issue & Takeover Round are
+Companies which enter liquidation during the Issues & Takeover Round are
  not liquidated.
 \end_layout
 
@@ -4955,7 +4960,7 @@ If the company has reduced size to a private company (1 share):
 
 \begin_deeper
 \begin_layout Itemize
-The company's stock price marker is removed from the stock market to the
+The company's stock price marker is removed from the Stock Market to the
  highest open space on the private track (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -5208,20 +5213,20 @@ Not have:
 
 \begin_deeper
 \begin_layout Itemize
-Reduced its share-count in that Issue & Takeover Round.
+Reduced its share-count in that Issues & Takeover Round.
 \end_layout
 
 \begin_layout Itemize
-Already taken-over another company in that Issue & Takeover Round.
+Already taken-over another company in that Issues & Takeover Round.
 \end_layout
 
 \begin_layout Itemize
-Already been offered for takeover in that Issue & Takeover Round.
+Already been offered for takeover in that Issues & Takeover Round.
 \end_layout
 
 \begin_layout Description
 Exception: A company that has reduced its share-count and/or taken over
- another company in that Issue & Takeover Round can put itself up for takeover.
+ another company in that Issues & Takeover Round can put itself up for takeover.
 \end_layout
 
 \end_deeper
@@ -5304,7 +5309,7 @@ forcing bid
 \end_inset
 
  is equal to the current stock value of the offered company after it is
- moved up the stock market the number of times shown on the cost of business
+ moved up the Stock Market the number of times shown on the Cost of Business
  chart for the takeover premium, multiplied by the number of shares of the
  company in play (see 
 \begin_inset CommandInset ref
@@ -5388,7 +5393,7 @@ The takeover has failed and the takeover transaction immediately ends.
 
 \begin_layout Itemize
 The offered company cannot be offered for takeover by another company in
- that Issue & Takeover Round.
+ that Issues & Takeover Round.
 \end_layout
 
 \end_deeper
@@ -5654,6 +5659,10 @@ reference "sub:Train-Limit"
 \end_layout
 
 \end_deeper
+\begin_layout Enumerate
+The sold company is returned to the supply.
+\end_layout
+
 \end_deeper
 \end_deeper
 \begin_layout Subsection
@@ -5836,7 +5845,7 @@ The game ends immediately.
 \end_deeper
 \begin_layout Enumerate
 If no players control any private or public companies after a Stock Round
- or Issue & Takeover Round:
+ or Issues & Takeover Round:
 \end_layout
 
 \begin_deeper
@@ -5884,7 +5893,7 @@ reference "sub:Stock-price-movement"
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-The marker on the cost of business chart moves onto the last 
+The marker on the Cost of Business chart moves onto the last 
 \begin_inset Quotes eld
 \end_inset
 
@@ -5892,7 +5901,7 @@ END
 \begin_inset Quotes erd
 \end_inset
 
- column of the cost of business chart during an Issue & Takeover Round:
+ column of the Cost of Business chart during an Issues & Takeover Round:
 \end_layout
 
 \begin_deeper
@@ -5965,7 +5974,7 @@ The designer would like to thank Francis Tresham for the design and development
  Noonan their bounteous supply of inspiration, notions, complaints and sounding
  board in equal measures.
  In particular, Bruce Murphy prompted the cousins and what developed into
- the cost of business chart and Shelby Noonan suggested what became the
+ the Cost of Business chart and Shelby Noonan suggested what became the
  future trains.
  Additional thanks go to the many other play-testers too numerous to list.
  I have been honoured to design games for and with such wonderful people.
@@ -6132,12 +6141,12 @@ The cousin's director chooses the order in the case of multiple companies.
 
 \end_deeper
 \begin_layout Itemize
-If this occurs during an Issue & Takeover Round:
+If this occurs during an Issues & Takeover Round:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The companies are liquidated in that Issue & Takeover Round.
+The companies are liquidated in that Issues & Takeover Round.
 \end_layout
 
 \end_deeper
@@ -6219,7 +6228,7 @@ The defaulting player is barred from bidding in the new auction.
 
 \end_deeper
 \begin_layout Subsection
-Cost of business chart
+Cost of Business chart
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Cost-of-business"
@@ -6230,7 +6239,7 @@ name "sub:Cost-of-business"
 \end_layout
 
 \begin_layout Itemize
-The cost of business chart tracks the progression of values in the game:
+The Cost of Business chart tracks the progression of values in the game:
 \end_layout
 
 \begin_deeper
@@ -6302,12 +6311,12 @@ reference "sub:Game-end-criteria"
 
 \end_deeper
 \begin_layout Itemize
-The cost of business marker is moved forward:
+The Cost of Business marker is moved forward:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-At the start of each Issue & Takeover Round (see 
+At the start of each Issues & Takeover Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Issue-&-Takeover"
@@ -6347,7 +6356,7 @@ reference "sub:i_and_t_overview"
 \end_layout
 
 \begin_layout Itemize
-Companies are obligated to pay the costs indicated by the cost of business
+Companies are obligated to pay the costs indicated by the Cost of Business
  chart (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -6359,7 +6368,7 @@ reference "sub:Cost-of-business"
 \end_layout
 
 \begin_layout Itemize
-The game ends immediately if the cost of business marker moves onto the
+The game ends immediately if the Cost of Business marker moves onto the
  last column of the chart (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -6441,7 +6450,7 @@ name "sub:In-liquidation"
 
 \begin_layout Itemize
 A public company whose stock price is in the gray liquidation area of the
- stock market is described as 
+ Stock Market is described as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -6477,7 +6486,7 @@ moved or put into liquidation
 \end_inset
 
  when its stock price marker is moved to the gray liquidation area of the
- stock market.
+ Stock Market.
 \end_layout
 
 \begin_deeper
@@ -7691,7 +7700,7 @@ reference "sub:Buy-train(s)"
 \end_layout
 
 \begin_layout Itemize
-Cannot offer other companies for takeover in Issue & Takeover Rounds (see
+Cannot offer other companies for takeover in Issues & Takeover Rounds (see
  
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -7704,7 +7713,7 @@ reference "sec:Issue-&-Takeover"
 
 \begin_deeper
 \begin_layout Itemize
-But can bid on companies that are offered or liquidated in Issue & Takeover
+But can bid on companies that are offered or liquidated in Issues & Takeover
  Rounds (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -7849,7 +7858,7 @@ reference "sub:Build-track"
 \end_layout
 
 \begin_layout Itemize
-May reduce their share count in Issue & Takeover Rounds (see 
+May reduce their share count in Issues & Takeover Rounds (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Issue-&-Takeover"
@@ -8033,6 +8042,17 @@ Cannot:
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+Place or upgrade track tiles with a terrain or blue barrier cost (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Track-placement-&-upgrades"
+
+\end_inset
+
+).
+\end_layout
+
 \begin_layout Itemize
 Place station markers.
 \end_layout
@@ -8373,7 +8393,7 @@ Not pay any train maintenance or loan interest.
 
 \end_deeper
 \begin_layout Itemize
-In Issue & Takeover Rounds, the company will:
+In Issues & Takeover Rounds, the company will:
 \end_layout
 
 \begin_deeper
@@ -8386,7 +8406,7 @@ Not bid in takeover or liquidation auctions.
 \end_layout
 
 \begin_layout Itemize
-Put itself up for takeover at the first opportunity in an Issue & Takeover
+Put itself up for takeover at the first opportunity in an Issues & Takeover
  Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -8465,7 +8485,7 @@ reference "sub:Company-directors"
 
 \begin_deeper
 \begin_layout Itemize
-A player cannot pass in a stock round if one of their cousins is director
+A player cannot pass in a Stock Round if one of their cousins is director
  of a company and can sell one or more shares of that company (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -8892,7 +8912,7 @@ reference "sub:Floating-a-new-public"
 \end_inset
 
 ) are retro-actively reduced by half if the cousin buys a share of the new
- company in the same stock round in which the company is floated (the bank
+ company in the same Stock Round in which the company is floated (the bank
  returns the money to the company director).
  
 \end_layout
@@ -8912,7 +8932,7 @@ be
 
 used: In the 
 \emph on
-floating a new public company
+float a new public company
 \emph default
  or 
 \emph on
@@ -8957,7 +8977,7 @@ cousin: Half of any distance fees paid by the company's director for the
 \end_layout
 
 \begin_layout Description
-Price: £130
+Price: £120
 \end_layout
 
 \begin_layout Subsubsection
@@ -9516,7 +9536,7 @@ be
 \begin_inset space ~
 \end_inset
 
-used: During an Issue & Takeover round when the company is being sold or
+used: During an Issues & Takeover round when the company is being sold or
  liquidated (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -9969,7 +9989,50 @@ reference "sub:Train-Limit"
 ).
 \end_layout
 
+\begin_layout Itemize
+In each Operating Round, companies are obligated to pay maintenance costs
+ for their trains (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Pay-train-maintenance"
+
+\end_inset
+
+ ).
+\end_layout
+
 \begin_deeper
+\begin_layout Itemize
+Train maintenance costs are determined by the Cost of Business chart (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Cost-of-business"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The companies are liquidated or closed if the train maintenance is not fully
+ paid (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Pay-train-maintenance"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:In-liquidation"
+
+\end_inset
+
+).
+\end_layout
+
 \begin_layout Description
 Note: Cousins (see 
 \begin_inset CommandInset ref
@@ -10325,16 +10388,8 @@ FLOOD
 \begin_inset space ~
 \end_inset
 
-trains: Do not have a 
-\begin_inset Quotes eld
-\end_inset
-
-route
-\begin_inset Quotes erd
-\end_inset
-
- in the sense of a single line of track per se, but run all the revenue
- centers that:
+trains: Cover a "network" of locations rather than a linear "route", and
+ run all the revenue centers that:
 \end_layout
 
 \begin_deeper
@@ -10382,8 +10437,8 @@ That can simultaneously a trace a line of track to one of the owning company's
 
 \begin_deeper
 \begin_layout Itemize
-Without re-using any track between different off-board spike to selected
- station marker connections.
+Without re-using any track in the between the different off-board spikes
+ and the connected station markers.
 \end_layout
 
 \end_deeper
@@ -10691,7 +10746,7 @@ name "sec:Stock-Market"
 \end_layout
 
 \begin_layout Subsection
-Stock market overview
+Stock Market overview
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Stock-Market-Overview"
@@ -10702,7 +10757,7 @@ name "sub:Stock-Market-Overview"
 \end_layout
 
 \begin_layout Itemize
-The stock market consists of three regions:
+The Stock Market consists of three regions:
 \end_layout
 
 \begin_deeper
@@ -10796,13 +10851,13 @@ reference "sub:In-liquidation"
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Companies have a stock price which is tracked on the stock market with a
+Companies have a stock price which is tracked on the Stock Market with a
  stock price marker.
 \end_layout
 
 \begin_layout Itemize
 When a company is floated, its stock price marker is placed on the matching
- location on the stock market (see 
+ location on the Stock Market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Floating-a-new-public"
@@ -10853,17 +10908,17 @@ name "sub:General-stock-price"
 \end_layout
 
 \begin_layout Itemize
-The current stock price of company shares is recorded on the stock market
+The current stock price of company shares is recorded on the Stock Market
  with stock price markers.
 \end_layout
 
 \begin_layout Itemize
-If a stock price reaches the bottom space of the stock market, then the
+If a stock price reaches the bottom space of the Stock Market, then the
  price cannot be moved further down.
 \end_layout
 
 \begin_layout Itemize
-If a stock price marker reaches top of the stock market (£500), then the
+If a stock price marker reaches top of the Stock Market (£500), then the
  stock price cannot be moved further up and the game will end at the end
  of that Operating Round (see 
 \begin_inset CommandInset ref
@@ -10873,11 +10928,6 @@ reference "sub:Game-end-criteria"
 \end_inset
 
 ).
-\end_layout
-
-\begin_layout Itemize
-When a stock price marker is moved, it is placed under any stock price markers
- already present in the new location.
 \end_layout
 
 \begin_layout Itemize
@@ -10899,8 +10949,14 @@ reference "sec:Loans"
 ).
 \end_layout
 
+\begin_layout Itemize
+When a stock price marker is moved, it is placed under any face-up stock
+ price markers and on top of any face-down stock price markers already present
+ in the new location.
+\end_layout
+
 \begin_layout Subsubsection
-End of stock round
+End of Stock Round
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:SR-stock-price"
@@ -10929,8 +10985,8 @@ Each company's stock price is moved down one space for each 10% of the company
 
 \begin_deeper
 \begin_layout Itemize
-If the company stock price reaches the gray liquidation area of the stock
- market, then it is not moved down further.
+If the company stock price reaches the gray liquidation area of the Stock
+ Market, then it is not moved down further.
 \end_layout
 
 \end_deeper
@@ -11089,7 +11145,7 @@ reference "sub:Pay-loan-interest"
 
 \begin_deeper
 \begin_layout Itemize
-The loan interest rate is tracked on the cost of business chart (see 
+The loan interest rate is tracked on the Cost of Business chart (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Cost-of-business"

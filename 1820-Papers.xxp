@@ -1250,7 +1250,7 @@ sizes"""
       tile_colour = {{ train_colours[(x + 1) // 3] }}
       tile_stroke_colour = {{ train_colours[(x + 1) // 3] }}
   {% endif %}
-      desc = +{{ 5 - ((x) // 3) }}
+      desc = +{{ (10 - ((x * 2) // 3)) | int }}
       desc_position = "bottom",
 
     [[[tile_{{ x + 2 }}.11]]]
