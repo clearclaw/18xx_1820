@@ -11115,12 +11115,14 @@ If the liquidated company treasury is insufficient to repay all its loans:
 The shortfall is divided by the number of shares in play (rounding down)
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Cousins and players must pay that much to the bank for each share of the
  liquidated company they hold and may sell shares of other companies to
  do so.
 \end_layout
 
+\end_deeper
 \end_deeper
 \end_deeper
 \end_body
