@@ -321,13 +321,6 @@ Players should act simultaneously when doing so would not otherwise affect
  each other.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Part
 Rules
 \begin_inset CommandInset label
@@ -586,21 +579,7 @@ reference "sub:Cost-of-business"
 
 \begin_layout Itemize
 There are 6 phases named after the colours of the trains they correspond
- to (yellow, green, blue, brown, red, gray -- see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
- and 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Game-Phases"
-
-\end_inset
-
-):
+ to (yellow, green, blue, brown, red, gray):
 \end_layout
 
 \begin_deeper
@@ -629,13 +608,6 @@ reference "sub:i_and_t_overview"
  New stock prices and available share-counts for starting new companies,
  track tile types and other changes accompany some game phase changes (see
  
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
- and 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Game-Phases"
@@ -1261,574 +1233,6 @@ name "tab:Game-Phases"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float table
-wide true
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="7">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0.6in">
-<column alignment="center" valignment="top" width="0.6in">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0.6in">
-<column alignment="center" valignment="top" width="0.5in">
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Station Markers
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Company Type
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Track Points
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Float
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Limit
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Maximum
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Cost
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Overage
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Private
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2/4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£40/£100
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£100
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£40/£100
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£100
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£100
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£100
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-20-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-15
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£100
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£100
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-50-share
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-18
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£100
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-£100
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Heritage
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Company Sizes
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Company-Sizes"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Stock Rounds
 \begin_inset CommandInset label
@@ -1926,13 +1330,6 @@ name "sub:Player-income"
 \begin_layout Itemize
 Players receive £800 from the bank at the start of each Stock Round until
  (but not after) the death of Queen Victoria (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
- & 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Game-Phases"
@@ -2861,7 +2258,7 @@ reference "sub:Buying-shares"
 \begin_deeper
 \begin_layout Itemize
 This may be any combination of players and cousins chosen at the director's
- discretion (and who must agree and buy those shares (see 
+ discretion (and who must agree and buy those shares -- see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Buying-shares"
@@ -2875,7 +2272,7 @@ reference "sub:Negotiation-&-Holdings"
 
 \end_inset
 
-)).
+).
 \end_layout
 
 \begin_deeper
@@ -3222,7 +2619,7 @@ reference "sub:Buying-shares"
 \begin_deeper
 \begin_layout Itemize
 This may be any combination of players and cousins chosen at the director's
- discretion (and who must agree and buy those shares (see 
+ discretion (and who must agree and buy those shares -- see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Buying-shares"
@@ -3236,7 +2633,7 @@ reference "sub:Negotiation-&-Holdings"
 
 \end_inset
 
-)).
+).
 \end_layout
 
 \begin_deeper
@@ -3384,13 +2781,6 @@ Selects a legal par price for the company and places the company's stock
  price marker at that price on the Stock Market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
 reference "sec:Stock-Market"
 
 \end_inset
@@ -3408,7 +2798,7 @@ The available starting stock prices are limited by the current game phase
  (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "sec:Stock-Market"
 
 \end_inset
 
@@ -3525,7 +2915,7 @@ reference "sub:Buying-shares"
 \begin_deeper
 \begin_layout Itemize
 This may be any combination of players and cousins chosen at the director's
- discretion (and who must agree and buy those shares (see 
+ discretion (and who must agree and buy those shares -- see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Buying-shares"
@@ -3539,7 +2929,7 @@ reference "sub:Negotiation-&-Holdings"
 
 \end_inset
 
-)).
+).
 \end_layout
 
 \end_deeper
@@ -3945,7 +3335,7 @@ reference "sec:Map-Explanation"
 Track may not be pointed at those edges until after yellow phase (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
@@ -3968,7 +3358,7 @@ Note: Connections across blue barriers cannot be made until after yellow
  phase (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
@@ -4066,8 +3456,8 @@ name "sub:Run-train(s)"
 \end_layout
 
 \begin_layout Itemize
-The revenue of a company is the total of the revenues of all its trains
- (see 
+A company's income or revenue is the sum of the revenues of all the trains
+ the company owns during this step (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Trains-and-Running-Trains"
@@ -4359,11 +3749,11 @@ A company is not at its train limit may buy a train that would not cause
  purchase takes effect (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
- and 
+ & 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Train-Limit"
@@ -4492,13 +3882,6 @@ Game phase changes are caused by train purchases of new colours (see
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Game-Phases"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
 
 \end_inset
 
@@ -6239,7 +5622,15 @@ name "sub:Cost-of-business"
 \end_layout
 
 \begin_layout Itemize
-The Cost of Business chart tracks the progression of values in the game:
+The Cost of Business chart tracks the progression of values in the game
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Cost-of-Business-Chart-Graphic"
+
+\end_inset
+
+):
 \end_layout
 
 \begin_deeper
@@ -6377,6 +5768,50 @@ reference "sub:Game-end-criteria"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename market_maintenance-outline-letter.png
+	lyxscale 75
+	width 18cm
+	scaleBeforeRotation
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cost of Business chart 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cost-of-Business-Chart-Graphic"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -6562,13 +5997,6 @@ reference "tab:Game-Phases"
 
 \end_inset
 
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
 ).
 \end_layout
 
@@ -6687,6 +6115,47 @@ hexagons: All other hexagons are rural.
  a matching terrain cost of £40.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename M20.png
+	lyxscale 10
+	width 18cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Game map 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Game-map"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 Terrain is marked with a wavy line (river) or triangle (hills) along with
@@ -6699,14 +6168,14 @@ Revenue locations are marked with their revenue as a number in a small white
 gray) at which they start applying (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
  & 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "par:Company-Revenue"
+reference "sub:Run-train(s)"
 
 \end_inset
 
@@ -6720,13 +6189,6 @@ Some hexagon edges are marked with a blue barrier (typically a bay, large
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Game-Phases"
-
-\end_inset
-
-, 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
 
 \end_inset
 
@@ -7009,11 +6471,11 @@ Later in the game green, brown and gray track tiles become available (see
  
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
- and 
+ & 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Upgrading-track"
@@ -7385,7 +6847,7 @@ Starting in green phase:
 Companies may upgrade yellow track tiles to green track tiles (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
@@ -7402,7 +6864,7 @@ Starting in brown phase:
 Companies may also upgrade green track tiles to brown track tiles (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
@@ -7419,7 +6881,7 @@ Starting in gray phase:
 Companies may also upgrade brown track tiles to gray track tiles (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
@@ -7554,6 +7016,574 @@ reference "sub:Liquidations"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="7">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0.6in">
+<column alignment="center" valignment="top" width="0.6in">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0.6in">
+<column alignment="center" valignment="top" width="0.5in">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Station Markers
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Company Type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Track Points
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Float
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Limit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maximum
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Overage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Private
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2/4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£40/£100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5-share
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£40/£100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10-share
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20-share
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50-share
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+£100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Heritage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Company Sizes
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Company-Sizes"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -7825,13 +7855,6 @@ reference "tab:Game-Phases"
 
 \end_inset
 
- and 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
 ).
 \end_layout
 
@@ -7870,8 +7893,8 @@ reference "sec:Issue-&-Takeover"
 
 \begin_deeper
 \begin_layout Itemize
-If a public company reduces its share count to 1, it becomes a private company
- and is subject to additional rules (see 
+/If a public company reduces its share count to 1, it becomes a private
+ company and is subject to additional rules (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Company-types"
@@ -8241,13 +8264,6 @@ reference "tab:Game-Phases"
 
 \end_inset
 
- and 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
 ).
 \end_layout
 
@@ -8268,11 +8284,11 @@ A company that has not reached its train limit may buy a train that would
  by the purchase takes effect (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
- and 
+ &  
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Train-Limit"
@@ -8362,10 +8378,17 @@ reference "sub:Actions-for-a-cousin-or-player"
 \end_layout
 
 \begin_layout Itemize
-If a cousin is the director of a public company (see 
+If a cousin is the director of a company (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Public-companies"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Heritage-railway-companies"
 
 \end_inset
 
@@ -8373,6 +8396,45 @@ reference "sub:Public-companies"
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+In Stock Rounds the cousin will:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If possible sell shares of the company sufficient to no longer be the director
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Company-directors"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Note: A player cannot pass in a Stock Round if one of their cousins is director
+ of a company and can sell one or more shares of that company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Itemize
 In Operating Rounds the company will:
 \end_layout
@@ -8387,6 +8449,27 @@ Not place any track or station markers or incur any costs or take or repay
 Run any trains for maximum income and withhold the dividends.
 \end_layout
 
+\begin_deeper
+\begin_layout Description
+Exception: If the company is a heritage railway company, the cousin will
+ run its train for maximum income and pay dividends (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Trains-and-Running-Trains"
+
+\end_inset
+
+& 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Pay-or-withhold"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Not pay any train maintenance or loan interest.
 \end_layout
@@ -8406,90 +8489,23 @@ Not bid in takeover or liquidation auctions.
 \end_layout
 
 \begin_layout Itemize
+If director of a public company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Public-companies"
+
+\end_inset
+
+): 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 Put itself up for takeover at the first opportunity in an Issues & Takeover
  Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Takeovers"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-If a cousin is the director of a heritage railway company (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Heritage-railway-companies"
-
-\end_inset
-
-), then:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In Operating Rounds the company will:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Not place any track or station markers or incur any costs.
-\end_layout
-
-\begin_layout Itemize
-Run its train for maximum income and pay dividends (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Trains-and-Running-Trains"
-
-\end_inset
-
-& 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Pay-or-withhold"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-In Stock Rounds the cousin will:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-If possible sell shares of the heritage railway company sufficient to no
- longer be the director (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Selling-shares"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Company-directors"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A player cannot pass in a Stock Round if one of their cousins is director
- of a company and can sell one or more shares of that company (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Selling-shares"
 
 \end_inset
 
@@ -8532,7 +8548,7 @@ Companies no longer have the cousin's ability if the cousin no longer holds
 Cousins close at the beginning of red phase (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-Phases"
+reference "tab:Game-Phases"
 
 \end_inset
 
@@ -9972,14 +9988,7 @@ reference "tab:Game-Phases"
 
 \end_inset
 
-, 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-Phases"
-
-\end_inset
-
- and 
+ & 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Train-Limit"
@@ -10288,7 +10297,7 @@ A route must contain at least two revenue centers that are towns, cities
 \end_layout
 
 \begin_layout Subsection
-Running trains by train type 
+Running trains by train-type 
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Route-definitions-by-train-type"
@@ -10491,249 +10500,6 @@ Double the revenue of all port connections immediately adjacent to either
 
 \end_deeper
 \end_deeper
-\begin_layout Subsection
-Ports 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Ports"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Ports overview
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Port-Overview"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Ports are the blue hexagons with revenue tracks around the edge of the map
- (see 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Map-Explanation"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Trains can include ports on their routes:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-If the company owning the train has a station marker connected to the port
- in the immediately adjacent hexagon.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-And that station marker is part of that train's route.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-Cousins (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Cousins"
-
-\end_inset
-
-) such as 
-\noun on
-Enoch Train & Co
-\noun default
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Counsin-Enoch-Train-&"
-
-\end_inset
-
-), 
-\noun on
-Great Western Steamship
-\noun default
- Company (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Cousin-Great-Western-Steamship"
-
-\end_inset
-
-) and 
-\noun on
-Harrison Mudd
-\noun default
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Cousin-Harrison-Mudd"
-
-\end_inset
-
-) may alter how ports are handled on train's routes.
-\end_layout
-
-\begin_layout Subsubsection
-Ports for 
-\emph on
-N
-\emph default
-+, EXPRESS & 
-\emph on
-N
-\emph default
-+D trains
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Ports-for-N+"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-N
-\emph default
-+, EXPRESS & 
-\emph on
-N
-\emph default
-+D trains can only include ports at one end of their route.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Exception: The 
-\noun on
-Great Western Steamship Company
-\noun default
- cousin can allow companies to have ports at both ends of their train routes.
-\end_layout
-
-\begin_layout Itemize
-Exception: The 
-\noun on
-Harrison Mudd
-\noun default
- cousin can allow companies to include ports at cities in the middle and
- ends of their routes.
-\end_layout
-
-\end_deeper
-\begin_layout Subsubsection
-Ports for H2 trains
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Ports-for-H2"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-H2 trains account revenue for all connections to ports immediately adjacent
- and connected to their station markers (see Bournemouth/Poole (O3) & Margate
- (N18)).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The ports do not have to be at the ends of the train's route.
-\end_layout
-
-\end_deeper
-\begin_layout Subsubsection
-Ports for FLOOD trains
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Ports-for-FLOOD"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-FLOOD trains also collect revenue for all ports (not connections) immediately
- adjacent and connected to the station markers on the FLOOD train's route:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Multiplied by the number of off-board spikes:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Which can simultaneously trace an independent line of track (no track re-use)
- to one of the company owning the train's station markers.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Which can in turn trace a line of track to the station marker selected for
- the FLOOD train (possibly re-using track and possibly via the company's
- other station markers).
-\end_layout
-
-\end_deeper
-\end_deeper
-\end_deeper
-\begin_layout Subsection
-Company revenue 
-\begin_inset CommandInset label
-LatexCommand label
-name "par:Company-Revenue"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Itemize
-A company's income or revenue is the sum of the revenues of all the trains
- the company owned during its 
-\begin_inset Quotes eld
-\end_inset
-
-Run Trains
-\begin_inset Quotes erd
-\end_inset
-
- step (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Run-train(s)"
-
-\end_inset
-
-) during the Operating Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Route-definitions-by-train-type"
-
-\end_inset
-
-).
-\end_layout
-
 \begin_layout Section
 Stock Market
 \begin_inset CommandInset label
@@ -10779,6 +10545,13 @@ par
  prices for newly floated companies in those game phases (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand formatted
 reference "sub:Resolving-lobbies"
 
 \end_inset
@@ -10818,7 +10591,7 @@ reference "sub:Game-end-criteria"
 
 \end_deeper
 \begin_layout Enumerate
-A stock price of £10 with a gray background.
+A stock price of £10 with a gray background:
 \end_layout
 
 \begin_deeper
@@ -11350,156 +11123,5 @@ Cousins and players must pay that much to the bank for each share of the
 
 \end_deeper
 \end_deeper
-\begin_layout Section
-Game Phases
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Game-Phases"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Yellow phase
-\end_layout
-
-\begin_layout Itemize
-The game begins in yellow phase.
-\end_layout
-
-\begin_layout Itemize
-Yellow pars are available.
-\end_layout
-
-\begin_layout Itemize
-Yellow track tiles are available.
-\end_layout
-
-\begin_layout Itemize
-Yellow trains are available.
-\end_layout
-
-\begin_layout Itemize
-Train limit is 6.
-\end_layout
-
-\begin_layout Subsection
-Green phase
-\end_layout
-
-\begin_layout Itemize
-Green phase starts with the purchase or assignment of the first green train.
-\end_layout
-
-\begin_layout Itemize
-Green and yellow pars are available.
-\end_layout
-
-\begin_layout Itemize
-Green and yellow track tiles are available.
-\end_layout
-
-\begin_layout Itemize
-Green trains are available.
-\end_layout
-
-\begin_layout Itemize
-Train limit is 5.
-\end_layout
-
-\begin_layout Subsection
-Blue phase
-\end_layout
-
-\begin_layout Itemize
-Blue phase starts with the purchase or assignment of the first blue train.
-\end_layout
-
-\begin_layout Itemize
-Blue, green and yellow pars are available.
-\end_layout
-
-\begin_layout Itemize
-Green and yellow track tiles are available.
-\end_layout
-
-\begin_layout Itemize
-Blue trains are available.
-\end_layout
-
-\begin_layout Itemize
-Train limit is 5.
-\end_layout
-
-\begin_layout Subsection
-Brown phase
-\end_layout
-
-\begin_layout Itemize
-Brown phase starts with the purchase or assignment of the first brown train.
-\end_layout
-
-\begin_layout Itemize
-Brown, blue, green and yellow pars are available.
-\end_layout
-
-\begin_layout Itemize
-Brown, green and yellow track tiles are available.
-\end_layout
-
-\begin_layout Itemize
-Brown trains are available.
-\end_layout
-
-\begin_layout Itemize
-Train limit is 5.
-\end_layout
-
-\begin_layout Subsection
-Red phase
-\end_layout
-
-\begin_layout Itemize
-Red phase starts with the purchase or assignment of the first red train.
-\end_layout
-
-\begin_layout Itemize
-Brown, blue, green and yellow pars are available.
-\end_layout
-
-\begin_layout Itemize
-Brown, green and yellow track tiles are available.
-\end_layout
-
-\begin_layout Itemize
-Red trains are available.
-\end_layout
-
-\begin_layout Itemize
-Train limit is 4.
-\end_layout
-
-\begin_layout Subsection
-Gray phase
-\end_layout
-
-\begin_layout Itemize
-Gray phase starts with the purchase of the first gray train.
-\end_layout
-
-\begin_layout Itemize
-Brown, blue, green and yellow pars are available.
-\end_layout
-
-\begin_layout Itemize
-Gray, brown, green and yellow track tiles are available.
-\end_layout
-
-\begin_layout Itemize
-Train limit is 3.
-\end_layout
-
 \end_body
 \end_document
