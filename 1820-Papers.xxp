@@ -1,4 +1,4 @@
-{#  
+{#
 
 Mid-Hants Railway 'Watercress Line'
 https://en.wikipedia.org/wiki/Watercress_Line
@@ -12,7 +12,7 @@ The Bluebell Line
 Bread and Herring Line
 https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
 
-#} 
+#}
 
 {% set companies_mono = [
     {
@@ -578,8 +578,9 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
       "desc": """
 Investments can double the revenue of a port
 \(not Liverpool or London\), one per share
-held,  Half of the revenue of the first port
-to be doubled is paid to this treasury each time.""",
+held, maximum 3,  Half of the revenue of the
+largest port to be doubled is paid to this
+treasury each time.""",
       "url": "",
       "face_value": "$130",
     },
@@ -588,7 +589,9 @@ to be doubled is paid to this treasury each time.""",
 Steamship Company""",
       "desc": """
 Investments may have a port at both ends
-of a train route per share held.""",
+of a train route per share held, maximum 3.
+Half of the smallest port is paid to this
+treasury each time""",
       "url": "https://en.wikipedia.org/wiki/Great_Western_Steamship_Company",
       "face_value": "$120",
     },
@@ -596,9 +599,9 @@ of a train route per share held.""",
       "title": "Harrison Mudd",
       "desc": """
 Investments may add one port passed-by on a
-train route, per share held.  Half the revenue
-of the smallest port included on the route is
-paid to this treasury.""",
+train route, per share held, maximum 3.  Half
+the revenue of the smallest port included on
+a route is paid to this treasury.""",
       "url": "https://books.google.com/books?id=fF-vAwAAQBAJ&pg=PA43&lpg=PA43&dq=english+19th+century+fishing+magnate&source=bl&ots=DMSmbM2UKw&sig=6mTXbk5LlduSIAjWAhqnQccLE7k&hl=en&sa=X&ved=0ahUKEwiT4c_tsvXPAhXkwVQKHWqEDvQQ6AEIMTAD#v=onepage&q=english%2019th%20century%20fishing%20magnate&f=false",
       "face_value": "$130",
     },
@@ -608,7 +611,7 @@ paid to this treasury.""",
 Investments double the revenue of the off-board
 for routes between a port and an off-board, one
 route for each share held.  Half the revenue of
-the the first port is paid to this treasury,""",
+the largest port is paid to this treasury,""",
       "url": "https://en.wikipedia.org/wiki/Sassoon_David_Sassoon",
       "face_value": "$130",
     },
@@ -619,8 +622,8 @@ the the first port is paid to this treasury,""",
     {
       "title": "Joseph Locke",
       "desc": """
-Investments have a 50% discount on terrain.  Half
-of any terrain costs paid go to this treasury for
+Investments have a 50% discount on terrain & barriers.
+Half of any terrain costs paid go to this treasury for
 the first share of each investment, and one quarter
 for each additional share.""",
       "url": "https://en.wikipedia.org/wiki/Joseph_Locke",
@@ -630,8 +633,8 @@ for each additional share.""",
       "title": "Bedlington Ironworks",
       "desc": """
 Investments may upgrade a city track tile in addition
-to their normal track build for half the revenue of
-the upgraded city paid to this treasury.""",
+to their normal track build. Half the revenue of
+the upgraded city is paid to this treasury.""",
       "url": "https://en.wikipedia.org/wiki/Bedlington_Ironworks",
       "face_value": "$130",
     },
@@ -639,7 +642,9 @@ the upgraded city paid to this treasury.""",
       "title": "Gas Light & Coke Company",
       "desc": """
 Investments can place a yellow big city spaced
-as if it were a normal city, once per share held.""",
+as if it were a normal city, once per company.
+The value of the big city tile is paid to this
+treasury each time.""",
       "url": "https://en.wikipedia.org/wiki/Gas_Light_and_Coke_Company",
       "face_value": "$130",
     },
@@ -660,10 +665,11 @@ normal track build.""",
       "title": """Robert Stephenson
 & Charles Fox""",
       "desc": """
-Investments gain an additional place-able station
-marker, once per game while the share is held. Half
-of the placement cost of the station is paid to this
-treasury when it is placed.""",
+Investments can gain and immediately place an
+additional station marker, once for each 2
+shares held, maximum 4. Half of the placement
+cost of the station is paid to this treasury
+when it is placed.""",
       "url": "https://en.wikipedia.org/wiki/Robert_Stephenson, https://en.wikipedia.org/wiki/Charles_Fox_(civil_and_railway_engineer)",
       "face_value": "$130",
     },
@@ -671,7 +677,10 @@ treasury when it is placed.""",
       "title": "George Leeman",
       "desc": """
 Investments can place or acquire a station
-marker for free, once per share held.""",
+marker for free, once per share held,
+maximum 3.  Half the cost of placing a
+station marker is paid to  this treasury
+each time.""",
       "url": "https://en.wikipedia.org/wiki/George_Leeman",
       "face_value": "$120",
     },
@@ -689,7 +698,8 @@ Half of any distance fees paid go to this treasury.""",
       "desc": """
 Investments can place a second station marker in
 London and have two independent train routes
-reaching the London Docks.""",
+reaching the London Docks.  The current revenue
+of London is paid to this treasury each time.""",
       "url": "https://en.wikipedia.org/wiki/Samuel_Montagu_%26_Co.",
       "face_value": "$130",
     },
@@ -709,7 +719,7 @@ Investments may buy a train from the supply
       "title": """R. B. Longridge & Co.""",
       "desc": """
 Investments have a 50% discount on the purchase of
-a train from the supply, once per company per game.""",
+a train from the supply, once per company.""",
       "url": "https://en.wikipedia.org/wiki/R._B._Longridge_and_Company",
       "face_value": "$130",
     },
@@ -724,8 +734,10 @@ any takeover bid to accept or reject.""",
     {
       "title": "Vulcan Foundry",
       "desc": """
-Investments can run one train per
-share held as if it were one stop longer.""",
+Investments can run one train per share held
+(maximum 3) as if it were one stop longer.
+Half the revenue of the added city is paid to
+this treasury each time.""",
       "url": "https://en.wikipedia.org/wiki/Vulcan_Foundry",
       "face_value": "$120",
     },
@@ -1286,9 +1298,9 @@ sizes"""
       tile_stroke_colour = ${BLACK}
   {% if y in (1, 11) %}
       desc = "END"
-  {% else %}    
+  {% else %}
       desc = ""
-  {% endif %}    
+  {% endif %}
       desc_position = "bottom",
       desc_colour = ${WHITE}
 {% endfor %}

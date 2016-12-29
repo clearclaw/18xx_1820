@@ -398,8 +398,8 @@ Randomly select one cousin of each colour and discard the rest from the
 \begin_layout Itemize
 
 \emph on
-Players new to 1820 are recommended to only use the cousins with a price
- of £120.
+Players new to 1820 are recommended to only use cousins with a price of
+ £120.
 \end_layout
 
 \end_deeper
@@ -3117,7 +3117,7 @@ reference "sub:Build-track"
 \emph on
 (Optional)
 \emph default
- Place station marker (
+ Place station marker (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Place-station-marker"
@@ -8627,14 +8627,14 @@ used: In the
 \emph on
 run trains(s)
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Run-train(s)"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -8650,8 +8650,8 @@ the
 \begin_inset space ~
 \end_inset
 
-cousin: Half the revenue of the largest doubled port is paid by the bank
- to the cousin's treasury each time.
+cousin: Half the revenue of the largest port to be doubled is paid by the
+ bank to the cousin's treasury each time.
 \end_layout
 
 \begin_layout Description
@@ -8703,14 +8703,14 @@ used: In the
 \emph on
 run trains(s)
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Run-train(s)"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -8726,8 +8726,8 @@ the
 \begin_inset space ~
 \end_inset
 
-cousin: The revenue of the port with the smallest revenue on each affected
- route is paid by the bank to the cousin's treasury each time.
+cousin: Half the revenue of the smallest port on each affected route is
+ paid by the bank to the cousin's treasury each time.
 \end_layout
 
 \begin_layout Description
@@ -8786,14 +8786,14 @@ used: In the
 \emph on
 run trains(s)
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Run-train(s)"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -8809,8 +8809,8 @@ the
 \begin_inset space ~
 \end_inset
 
-cousin: The revenue of the smallest port on each affected train's route
- is paid by the bank to the cousin's treasury each time.
+cousin: The revenue of the smallest port on an affected train's route is
+ paid by the bank to the cousin's treasury each time.
 \end_layout
 
 \begin_layout Description
@@ -8869,14 +8869,14 @@ used: In the
 \emph on
 run trains(s)
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Run-train(s)"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -8892,8 +8892,8 @@ the
 \begin_inset space ~
 \end_inset
 
-cousin: Half the revenue of the port at the end of the route is paid by
- the bank to the cousin's treasury each time.
+cousin: Half the revenue of the largest port at the end of an affected route
+ is paid by the bank to the cousin's treasury each time.
 \end_layout
 
 \begin_layout Description
@@ -8954,7 +8954,7 @@ float a new public company
 \emph on
 buy shares
 \emph default
- (see 
+ steps during a Stock Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Floating-a-new-public"
@@ -8968,7 +8968,7 @@ reference "sub:Buying-shares"
 
 \end_inset
 
-) steps during a Stock Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9051,14 +9051,14 @@ used: In the
 \emph on
 run trains(s)
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Run-train(s)"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9131,14 +9131,14 @@ used: In the
 \emph on
 place station marker
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Place-station-marker"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9181,7 +9181,14 @@ Granted
 
 ability: Investments can place a second station marker in London (M13) without
  the previous station marker in London (M13) being replaced by a British
- Rail station marker.
+ Rail station marker (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Place-station-marker"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Description
@@ -9201,14 +9208,14 @@ used: In the
 \emph on
 place station marker
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Place-station-marker"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9253,7 +9260,21 @@ Granted
 \end_inset
 
 ability: Investments can upgrade a city track tile in addition to their
- normal track build.
+ normal track build (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Build-track"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Track-placement-&-upgrades"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Description
@@ -9271,16 +9292,16 @@ be
 
 used: In the 
 \emph on
-build track 
+build track
 \emph default
-(see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Build-track"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9346,16 +9367,16 @@ be
 
 used: In the 
 \emph on
-build track 
+build track
 \emph default
-(see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Build-track"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9470,16 +9491,16 @@ be
 
 used: In the 
 \emph on
-build track 
+build track
 \emph default
-(see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Build-track"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9634,14 +9655,14 @@ used: Just before the
 \emph on
 run trains(s)
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Run-train(s)"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9711,14 +9732,14 @@ used: In the
 \emph on
 buy trains(s)
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Buy-train(s)"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9786,14 +9807,14 @@ used: In the
 \emph on
 run trains(s)
 \emph default
- (see 
+ step of the company's turn in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Run-train(s)"
 
 \end_inset
 
-) step of the company's turn in an Operating Round.
+).
 \end_layout
 
 \begin_layout Description
@@ -9809,8 +9830,8 @@ the
 \begin_inset space ~
 \end_inset
 
-cousin: The bank pays £20 to the cousin's treasury for each affected train
- when it runs.
+cousin: The bank pays half the revenue of the addition city to the cousin's
+ treasury for each affected train when it runs.
 \end_layout
 
 \begin_layout Description
