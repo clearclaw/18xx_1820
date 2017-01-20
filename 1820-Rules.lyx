@@ -219,8 +219,8 @@ Many track tiles (yellow, green, brown and gray).
 \end_layout
 
 \begin_layout Itemize
-110 train certificates (30 yellow, 22 green, 10 blue, 10 brown, 10 red,
- 9 gray, 5 purple).
+96 train certificates (30 yellow, 18 green, 10 blue, 10 brown, 10 red, 9
+ gray, 9 purple).
 \end_layout
 
 \begin_layout Itemize
@@ -442,7 +442,7 @@ reference "sec:Operating-Rounds"
 \end_layout
 
 \begin_layout Enumerate
-Issues & Takeover Round (see 
+Issue & Takeover Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Issue-&-Takeover"
@@ -464,7 +464,7 @@ reference "sec:Operating-Rounds"
 \end_layout
 
 \begin_layout Enumerate
-Issues & Takeover Round (see 
+Issue & Takeover Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Issue-&-Takeover"
@@ -553,7 +553,7 @@ reference "sec:Issue-&-Takeover"
 
 \end_deeper
 \begin_layout Itemize
-The rotating sequence of Stock Rounds, Operating Rounds and Issues & Takeover
+The rotating sequence of Stock Rounds, Operating Rounds and Issue & Takeover
  Rounds continues until the end of the game (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -596,7 +596,7 @@ reference "tab:Game-Phases"
 
 \begin_layout Itemize
 Game phases change immediately when the first train of a new type is owned
- by a company or when a train of that type is discarded during an Issues
+ by a company or when a train of that type is discarded during an Issue
  & Takeover Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -4072,7 +4072,7 @@ The company stock price is moved up one space for each loan repaid.
 
 \end_deeper
 \begin_layout Section
-Issues & Takeover Rounds
+Issue & Takeover Rounds
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Issue-&-Takeover"
@@ -4083,7 +4083,7 @@ name "sec:Issue-&-Takeover"
 \end_layout
 
 \begin_layout Subsection
-Issues & Takeover overview
+Issue & Takeover overview
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:i_and_t_overview"
@@ -4192,7 +4192,7 @@ Note: Players may request and should be granted a brief pause to consider
 
 \end_deeper
 \begin_layout Enumerate
-Companies in liquidation at the start of the Issues & Takeover Round are
+Companies in liquidation at the start of the Issue & Takeover Round are
  liquidated (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -4205,7 +4205,7 @@ reference "sub:Liquidations"
 
 \begin_deeper
 \begin_layout Itemize
-Companies which enter liquidation during the Issues & Takeover Round are
+Companies which enter liquidation during the Issue & Takeover Round are
  not liquidated.
 \end_layout
 
@@ -4596,20 +4596,20 @@ Not have:
 
 \begin_deeper
 \begin_layout Itemize
-Reduced its share-count in that Issues & Takeover Round.
+Reduced its share-count in that Issue & Takeover Round.
 \end_layout
 
 \begin_layout Itemize
-Already taken-over another company in that Issues & Takeover Round.
+Already taken-over another company in that Issue & Takeover Round.
 \end_layout
 
 \begin_layout Itemize
-Already been offered for takeover in that Issues & Takeover Round.
+Already been offered for takeover in that Issue & Takeover Round.
 \end_layout
 
 \begin_layout Description
 Exception: A company that has reduced its share-count and/or taken over
- another company in that Issues & Takeover Round can put itself up for takeover.
+ another company in that Issue & Takeover Round can put itself up for takeover.
 \end_layout
 
 \end_deeper
@@ -4776,7 +4776,7 @@ The takeover has failed and the takeover transaction immediately ends.
 
 \begin_layout Itemize
 The offered company cannot be offered for takeover by another company in
- that Issues & Takeover Round.
+ that Issue & Takeover Round.
 \end_layout
 
 \end_deeper
@@ -5228,7 +5228,7 @@ The game ends immediately.
 \end_deeper
 \begin_layout Enumerate
 If no players control any private or public companies after a Stock Round
- or Issues & Takeover Round:
+ or Issue & Takeover Round:
 \end_layout
 
 \begin_deeper
@@ -5284,7 +5284,7 @@ END
 \begin_inset Quotes erd
 \end_inset
 
- column of the Cost of Business chart during an Issues & Takeover Round:
+ column of the Cost of Business chart during an Issue & Takeover Round:
 \end_layout
 
 \begin_deeper
@@ -5524,12 +5524,12 @@ The cousin's director chooses the order in the case of multiple companies.
 
 \end_deeper
 \begin_layout Itemize
-If this occurs during an Issues & Takeover Round:
+If this occurs during an Issue & Takeover Round:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The companies are liquidated in that Issues & Takeover Round.
+The companies are liquidated in that Issue & Takeover Round.
 \end_layout
 
 \end_deeper
@@ -5707,7 +5707,7 @@ The Cost of Business marker is moved forward:
 
 \begin_deeper
 \begin_layout Itemize
-At the start of each Issues & Takeover Round (see 
+At the start of each Issue & Takeover Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Issue-&-Takeover"
@@ -7730,7 +7730,7 @@ reference "sub:Buy-train(s)"
 \end_layout
 
 \begin_layout Itemize
-Cannot offer other companies for takeover in Issues & Takeover Rounds (see
+Cannot offer other companies for takeover in Issue & Takeover Rounds (see
  
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -7743,7 +7743,7 @@ reference "sec:Issue-&-Takeover"
 
 \begin_deeper
 \begin_layout Itemize
-But can bid on companies that are offered or liquidated in Issues & Takeover
+But can bid on companies that are offered or liquidated in Issue & Takeover
  Rounds (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -7881,7 +7881,7 @@ reference "sub:Build-track"
 \end_layout
 
 \begin_layout Itemize
-May reduce their share count in Issues & Takeover Rounds (see 
+May reduce their share count in Issue & Takeover Rounds (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Issue-&-Takeover"
@@ -8476,7 +8476,7 @@ Not pay any train maintenance or loan interest.
 
 \end_deeper
 \begin_layout Itemize
-In Issues & Takeover Rounds, the company will:
+In Issue & Takeover Rounds, the company will:
 \end_layout
 
 \begin_deeper
@@ -8501,7 +8501,7 @@ reference "sub:Public-companies"
 
 \begin_deeper
 \begin_layout Itemize
-Put itself up for takeover at the first opportunity in an Issues & Takeover
+Put itself up for takeover at the first opportunity in an Issue & Takeover
  Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -9573,7 +9573,7 @@ be
 \begin_inset space ~
 \end_inset
 
-used: During an Issues & Takeover round when the company is being sold or
+used: During an Issue & Takeover round when the company is being sold or
  liquidated (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -10328,12 +10328,17 @@ name "sub:Route-definitions-by-train-type"
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Subsubsection
 N+
 \begin_inset space ~
 \end_inset
 
-trains: Run a single continuous line of track joining multiple revenue locations.
+trains
+\end_layout
+
+\begin_layout Itemize
+N+ trains run a single continuous line of track joining multiple revenue
+ locations.
 \end_layout
 
 \begin_deeper
@@ -10345,6 +10350,7 @@ N
  cities or off-boards on the route.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 There may be any number of towns on the route:
 \end_layout
@@ -10365,8 +10371,13 @@ Revenue: The sum of all the revenue centers on the route.
 \end_layout
 
 \end_deeper
-\begin_layout Description
-EXPRESS: Run a single continuous line of track joining multiple revenue
+\end_deeper
+\begin_layout Subsubsection
+EXPRESS trains
+\end_layout
+
+\begin_layout Itemize
+EXPRESS trains run a single continuous line of track joining multiple revenue
  locations.
 \end_layout
 
@@ -10375,6 +10386,7 @@ EXPRESS: Run a single continuous line of track joining multiple revenue
 Containing any number of cities, towns and off-boards.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 A port immediately adjacent and connected to a station marker at one and
  only one end of the route can be counted as part of the route.
@@ -10386,12 +10398,18 @@ Revenue: The sum of all the revenue centers on the route, excluding any
 \end_layout
 
 \end_deeper
-\begin_layout Description
+\end_deeper
+\begin_layout Subsubsection
 N+D
 \begin_inset space ~
 \end_inset
 
-trains: Run a single continuous line of track joining multiple revenue locations.
+trains
+\end_layout
+
+\begin_layout Itemize
+N+D trains run a single continuous line of track joining multiple revenue
+ locations.
 \end_layout
 
 \begin_deeper
@@ -10399,6 +10417,7 @@ trains: Run a single continuous line of track joining multiple revenue locations
 Containing any number of cities, towns and off-boards.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 A port immediately adjacent and connected to a station marker at one and
  only one end of the route can be counted as part of the route.
@@ -10413,13 +10432,18 @@ N
 \end_layout
 
 \end_deeper
-\begin_layout Description
+\end_deeper
+\begin_layout Subsubsection
 FLOOD
 \begin_inset space ~
 \end_inset
 
-trains: Cover a "network" of locations rather than a linear "route", and
- run all the revenue centers that:
+trains
+\end_layout
+
+\begin_layout Itemize
+FLOOD trains cover a "network" of locations rather than a linear "route",
+ and run all the revenue centers that:
 \end_layout
 
 \begin_deeper
@@ -10428,6 +10452,7 @@ Are connected by a line of track to a specific one of the owning company's
  station markers (selected by the owning company director):
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 Or:
 \end_layout
@@ -10475,13 +10500,18 @@ Without re-using any track in the between the different off-board spikes
 \end_deeper
 \end_deeper
 \end_deeper
-\begin_layout Description
+\end_deeper
+\begin_layout Subsubsection
 H2
 \begin_inset space ~
 \end_inset
 
-trains: A single continuous line of track joining the two cities with the
- owning company's station markers.
+trains
+\end_layout
+
+\begin_layout Itemize
+H2 trains run a single continuous line of track joining the two cities with
+ the owning company's station markers.
 \end_layout
 
 \begin_deeper
@@ -10494,7 +10524,6 @@ There may be any number of towns on the route:
 Before, between and after the cities.
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 Any ports immediately adjacent and connected to either station marker are
  also counted as part of the route, once for each port connection.
@@ -10519,6 +10548,7 @@ Double the revenue of all port connections immediately adjacent to either
  & Margate (N18)).
 \end_layout
 
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Section

@@ -1,31 +1,4 @@
-{#
-
-Mid-Hants Railway 'Watercress Line'
-https://en.wikipedia.org/wiki/Watercress_Line
-
-Midland and Great Northern Joint Railway
-"Muddle & Get Nowhere"
-https://en.wikipedia.org/wiki/Midland_and_Great_Northern_Joint_Railway
-
-Charnwood Forest Railway
-The Bluebell Line
-Bread and Herring Line
-https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
-
-#}
-
 {% set companies_mono = [
-    {
-      "name": "Bristol & Gloucester\nRailway",
-      "token": "B&GR",
-      "token_top": "${D_GREEN}",
-      "token_top_stripe": "transparent",
-      "token_bottom": "${D_GREEN}",
-      "token_bottom_stripe": "transparent",
-      "share_stripe": "${P_GREEN}",
-      "url": "https://en.wikipedia.org/wiki/Bristol_and_Gloucester_Railway",
-      "company_type": 1,
-    },
     {
       "name": "Cheshire Midland\nRailway",
       "token": "CMR",
@@ -47,18 +20,6 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
       "share_stripe": "${P_PURPLE}",
       "description": "The Whelley",
       "url": "https://en.wikipedia.org/wiki/Lancashire_Union_Railway",
-      "company_type": 1,
-    },
-    {
-      "name": "London & Birmingham\nRailway",
-      "token": "L&BR",
-      "token_top": "${M_BLUE}",
-      "token_top_stripe": "transparent",
-      "token_bottom": "${M_BLUE}",
-      "token_bottom_stripe": "transparent",
-      "share_stripe": "${P_BLUE}",
-      "description": "The greatest public work\never executed either in\nancient or modern times",
-      "url": "https://en.wikipedia.org/wiki/London_and_Birmingham_Railway",
       "company_type": 1,
     },
     {
@@ -85,25 +46,15 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
       "company_type": 1,
     },
     {
-      "name": "Manchester & Birmingham\nRailway",
-      "token": "M&BR",
+      "name": "London & Birmingham\nRailway",
+      "token": "L&BR",
       "token_top": "${D_GRAY}",
       "token_top_stripe": "transparent",
       "token_bottom": "${D_GRAY}",
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_GRAY}",
-      "url": "https://en.wikipedia.org/wiki/Manchester_and_Birmingham_Railway",
-      "company_type": 1,
-    },
-    {
-      "name": "Manchester & Leeds\nRailway",
-      "token": "M&LR",
-      "token_top": "${D_YELLOW}",
-      "token_top_stripe": "transparent",
-      "token_bottom": "${D_YELLOW}",
-      "token_bottom_stripe": "transparent",
-      "share_stripe": "${P_YELLOW}",
-      "url": "https://en.wikipedia.org/wiki/Manchester_and_Leeds_Railway",
+      "description": "The greatest public work\never executed either in\nancient or modern times",
+      "url": "https://en.wikipedia.org/wiki/London_and_Birmingham_Railway",
       "company_type": 1,
     },
     {
@@ -132,29 +83,6 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
 %}
 
 {% set companies_bicolour = [
-    {
-      "name": "Blackburn, Clitheroe &\nNorth Western Junction\nRailway",
-      "token": "BCNWJ",
-      "token_top": "${D_GREEN}",
-      "token_top_stripe": "transparent",
-      "token_bottom": "${M_BROWN}",
-      "token_bottom_stripe": "transparent",
-      "share_stripe": "${P_BROWN}",
-      "url": "https://en.wikipedia.org/wiki/Ribble_Valley_Line#Early_history",
-      "company_type": 2,
-    },
-    {
-      "name": "Fleetwood, Preston\n& West Riding\nJunction Railway",
-      "token": "FP&WRR",
-      "token_top": "${L_GREEN}",
-      "token_top_stripe": "transparent",
-      "token_bottom": "${M_PURPLE}",
-      "token_bottom_stripe": "transparent",
-      "share_stripe": "${P_PURPLE}",
-      "url": "https://en.wikipedia.org/wiki/Preston_and_Longridge_Railway",
-      "token_name_font": '"Times-Roman", 7',
-      "company_type": 2,
-    },
     {
       "name": "Halesworth, Beccles\n& Hadiscoe Railway",
       "token": "HB&HR",
@@ -208,18 +136,6 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_BROWN}",
       "url": "https://en.wikipedia.org/wiki/Sheffield,_Ashton-under-Lyne_and_Manchester_Railway",
-      "company_type": 2,
-    },
-    {
-      "name": "Sheffield, Rotherham,\nBarnsley, Wakefield,\nHuddersfield & Goole\nRailway",
-      "token": "SRBWH&G",
-      "token_top": "${L_BLUE}",
-      "token_top_stripe": "transparent",
-      "token_bottom": "${D_RED}",
-      "token_bottom_stripe": "transparent",
-      "share_stripe": "${P_RED}",
-      "url": "https://en.wikipedia.org/wiki/Sheffield,_Rotherham,_Barnsley,_Wakefield,_Huddersfield_and_Goole_Railway",
-      "token_name_font": '"Times-Roman", 6',
       "company_type": 2,
     },
     {
@@ -374,14 +290,15 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
       "company_type": 3,
     },
     {
-      "name": "London & Croydon\nRailway",
-      "token": "L&CR",
+      "name": "Mid-Hants Railway",
+      "token": "MHR",
       "token_top": "${D_PURPLE}",
       "token_top_stripe": "${WHITE}",
       "token_bottom": "${D_PURPLE}",
       "token_bottom_stripe": "${WHITE}",
       "share_stripe": "${P_PURPLE}",
-      "url": "https://en.wikipedia.org/wiki/London_and_Croydon_Railway",
+      "description": "The Watercress Line",
+      "url": "https://en.wikipedia.org/wiki/Watercress_Line",
       "company_type": 3,
     },
     {
@@ -421,14 +338,15 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
       "company_type": 3,
     },
     {
-      "name": "Norwich & Brandon\nRailway",
-      "token": "N&BR",
+      "name": "Charnwood Forest\nRailway",
+      "token": "CFR",
       "token_top": "${L_BROWN}",
       "token_top_stripe": "${L_PURPLE}",
       "token_bottom": "${L_BROWN}",
       "token_bottom_stripe": "${L_PURPLE}",
       "share_stripe": "${P_BROWN}",
-      "url": "https://en.wikipedia.org/wiki/Norwich_%26_Brandon_Railway",
+      "description": "The Bluebell Line\nThe Bread & Herring Line",
+      "url": "https://en.wikipedia.org/wiki/Charnwood_Forest_Railway",
       "company_type": 3,
     },
     {
@@ -445,14 +363,15 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
       "company_type": 3,
     },
     {
-      "name": "Preston & Wyre Joint\nRailway",
-      "token": "P&WR",
+      "name": "Midland & Great Northern\nJoint Railway",
+      "token": "M&GN",
       "token_top": "${L_GRAY}",
       "token_top_stripe": "${D_GRAY}",
       "token_bottom": "${L_GRAY}",
       "token_bottom_stripe": "${D_GRAY}",
       "share_stripe": "${P_GRAY}",
-      "url": "https://en.wikipedia.org/wiki/Preston_and_Wyre_Joint_Railway",
+      "description": "Muddle & Get Nowhere",
+      "url": "https://en.wikipedia.org/wiki/Midland_and_Great_Northern_Joint_Railway",
       "company_type": 3,
     },
     {
@@ -477,6 +396,112 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
       "share_stripe": "${P_BLUE}",
       "description": "Periculum privatum utilitas publica\nAt private risk for public service",
       "url": "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway",
+      "company_type": 3,
+    },
+  ]
+%}
+
+{% set companies_removed = [
+    {
+      "name": "Manchester & Leeds\nRailway",
+      "token": "M&LR",
+      "token_top": "${D_YELLOW}",
+      "token_top_stripe": "transparent",
+      "token_bottom": "${D_YELLOW}",
+      "token_bottom_stripe": "transparent",
+      "share_stripe": "${P_YELLOW}",
+      "url": "https://en.wikipedia.org/wiki/Manchester_and_Leeds_Railway",
+      "company_type": 1,
+    },
+    {
+      "name": "Bristol & Gloucester\nRailway",
+      "token": "B&GR",
+      "token_top": "${D_GREEN}",
+      "token_top_stripe": "transparent",
+      "token_bottom": "${D_GREEN}",
+      "token_bottom_stripe": "transparent",
+      "share_stripe": "${P_GREEN}",
+      "url": "https://en.wikipedia.org/wiki/Bristol_and_Gloucester_Railway",
+      "company_type": 1,
+    },
+    {
+      "name": "Manchester & Birmingham\nRailway",
+      "token": "M&BR",
+      "token_top": "${D_GRAY}",
+      "token_top_stripe": "transparent",
+      "token_bottom": "${D_GRAY}",
+      "token_bottom_stripe": "transparent",
+      "share_stripe": "${P_GRAY}",
+      "url": "https://en.wikipedia.org/wiki/Manchester_and_Birmingham_Railway",
+      "company_type": 1,
+    },
+    {
+      "name": "Blackburn, Clitheroe &\nNorth Western Junction\nRailway",
+      "token": "BCNWJ",
+      "token_top": "${D_GREEN}",
+      "token_top_stripe": "transparent",
+      "token_bottom": "${M_BROWN}",
+      "token_bottom_stripe": "transparent",
+      "share_stripe": "${P_BROWN}",
+      "url": "https://en.wikipedia.org/wiki/Ribble_Valley_Line#Early_history",
+      "company_type": 2,
+    },
+    {
+      "name": "Fleetwood, Preston\n& West Riding\nJunction Railway",
+      "token": "FP&WRR",
+      "token_top": "${L_GREEN}",
+      "token_top_stripe": "transparent",
+      "token_bottom": "${M_PURPLE}",
+      "token_bottom_stripe": "transparent",
+      "share_stripe": "${P_PURPLE}",
+      "url": "https://en.wikipedia.org/wiki/Preston_and_Longridge_Railway",
+      "token_name_font": '"Times-Roman", 7',
+      "company_type": 2,
+    },
+    {
+      "name": "Sheffield, Rotherham,\nBarnsley, Wakefield,\nHuddersfield & Goole\nRailway",
+      "token": "SRBWH&G",
+      "token_top": "${L_BLUE}",
+      "token_top_stripe": "transparent",
+      "token_bottom": "${D_RED}",
+      "token_bottom_stripe": "transparent",
+      "share_stripe": "${P_RED}",
+      "url": "https://en.wikipedia.org/wiki/Sheffield,_Rotherham,_Barnsley,_Wakefield,_Huddersfield_and_Goole_Railway",
+      "token_name_font": '"Times-Roman", 6',
+      "company_type": 2,
+    },
+
+    {
+      "name": "London & Croydon\nRailway",
+      "token": "L&CR",
+      "token_top": "${D_PURPLE}",
+      "token_top_stripe": "${WHITE}",
+      "token_bottom": "${D_PURPLE}",
+      "token_bottom_stripe": "${WHITE}",
+      "share_stripe": "${P_PURPLE}",
+      "url": "https://en.wikipedia.org/wiki/London_and_Croydon_Railway",
+      "company_type": 3,
+    },
+    {
+      "name": "Preston & Wyre Joint\nRailway",
+      "token": "P&WR",
+      "token_top": "${L_GRAY}",
+      "token_top_stripe": "${D_GRAY}",
+      "token_bottom": "${L_GRAY}",
+      "token_bottom_stripe": "${D_GRAY}",
+      "share_stripe": "${P_GRAY}",
+      "url": "https://en.wikipedia.org/wiki/Preston_and_Wyre_Joint_Railway",
+      "company_type": 3,
+    },
+    {
+      "name": "Norwich & Brandon\nRailway",
+      "token": "N&BR",
+      "token_top": "${L_BROWN}",
+      "token_top_stripe": "${L_PURPLE}",
+      "token_bottom": "${L_BROWN}",
+      "token_bottom_stripe": "${L_PURPLE}",
+      "share_stripe": "${P_BROWN}",
+      "url": "https://en.wikipedia.org/wiki/Norwich_%26_Brandon_Railway",
       "company_type": 3,
     },
   ]
@@ -552,6 +577,8 @@ https://en.wikipedia.org/wiki/Charnwood_Forest_Railway
       "name": "H2",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${L_GRAY}",
+      "train_colour": "${L_GRAY}",
+      "cost_colour": "${L_GRAY}",
       "rust": "(No Maintenance)",
     },
     {
@@ -1116,19 +1143,19 @@ half of resulting cash and treasury to owning player."""
 
 {% set train_colours = ["${P_YELLOW}", "${P_GREEN}", "${P_BLUE}",
                         "${P_BROWN}", "${P_RED}", "${P_GRAY}", "${WHITE}"] %}
-{% set fees = [["0", "0", "0", "10", "25", "50", "100", "160", "250", "400",
+{% set fees = [["0", "0", "10", "25", "50", "100", "160", "250", "400",
                "650", "1,000", "2,500", "5,000", "5,000", "5,000", "5,000",
                "5,000", "5,000", "5,000", "5,000"],
-	       ["0", "0", "10", "25", "50", "100", "160", "250",
+	       ["0", "10", "25", "50", "100", "160", "250",
 	       "400","650", "1,000", "2,500", "5,000", "5,000", "5,000",
 	       "5,000", "5,000", "5,000", "5,000", "5,000"],
-	       ["10", "25", "50", "100", "160", "250", "400",
+	       ["25", "50", "100", "160", "250", "400",
 	       "650", "1,000", "2,500", "5,000", "5,000", "5,000",
 	       "5,000", "5,000", "5,000", "5,000", "5,000"],
-	       ["25", "50", "100", "160", "250", "400", "650",
+	       ["50", "100", "160", "250", "400", "650",
 	       "1,000", "2,500", "5,000", "5,000", "5,000", "5,000",
                "5,000", "5,000", "5,000", "5,000"],
-	       ["100", "160", "250", "400", "650", "1,000", "2,500", "5,000",
+	       ["160", "250", "400", "650", "1,000", "2,500", "5,000",
 	       "5,000", "5,000", "5,000", "5,000", "5,000", "5,000", "5,000"],
 	       ["400", "650", "1,000", "2,500", "5,000", "5,000", "5,000",
 	       "5,000", "5,000", "5,000", "5,000", "5,000"],
@@ -1353,6 +1380,7 @@ sizes"""
 
 {% for company in companies %}
   [[{{ company.token }}-sheet1]]
+    print_instruction = "Print 6 copies of this page."
     token_bottom_colour = {{ company.token_bottom }}
     token_bottom_stripe_colour = {{ company.token_bottom_stripe }}
     token_colour = ${WHITE}
@@ -1368,100 +1396,6 @@ sizes"""
     desc = 1 Share
     description = """{{ company.get ("description", "") }}"""
     token_count = 1
-
-    [[[tile_1.1]]]
-      note = Director
-      type_colour = ${PRESIDENT_STRIPE}
-      token_count = 2
-      size = 100%
-      desc = 2 Shares
-
-    [[[tile_1.2]]]
-      note = Director
-      type_colour = ${PRESIDENT_STRIPE}
-      token_count = 2
-      size = 40%
-      desc = 2 Shares
-
-    [[[tile_1.3]]]
-      note = Director
-      type_colour = ${PRESIDENT_STRIPE}
-      token_count = 2
-      size = 20%
-      desc = 2 Shares
-
-  [[{{ company.token }}-sheet2]]
-    token_bottom_colour = {{ company.token_bottom }}
-    token_bottom_stripe_colour = {{ company.token_bottom_stripe }}
-    token_colour = ${WHITE}
-    token_top_colour = {{ company.token_top }}
-    token_top_stripe_colour = {{ company.token_top_stripe }}
-    {% if "token_name_font" in company.keys () %}
-    token_name_font = {{ company.token_name_font }}
-    {% endif %}
-    stripe_colour = {{ company.share_stripe }}
-    title = """{{ company.name }}"""
-    token_name = {{ company.token }}
-    size = """10%\n4%"""
-    desc = 2 Shares
-    description = """{{ company.get ("description", "") }}"""
-    token_count = 2
-
-    [[[tile_1.1]]]
-      note = Director
-      type_colour = ${PRESIDENT_STRIPE}
-      token_count = 4
-      size = 20%
-      desc = 4 Shares
-
-    [[[tile_1.2]]]
-      note = Director
-      type_colour = ${PRESIDENT_STRIPE}
-      token_count = 5
-      size = 10%
-      desc = 5 Shares
-
-    [[[tile_3.1]]]
-      token_count = 1
-      size = """10%\n5%\n2%"""
-      desc = 1 Share
-
-    [[[tile_3.2]]]
-      token_count = 1
-      size = """10%\n5%\n2%"""
-      desc = 1 Share
-
-    [[[tile_3.3]]]
-      token_count = 1
-      size = """2%"""
-      desc = 1 Share
-
-  [[{{ company.token }}-sheet3]]
-    token_bottom_colour = {{ company.token_bottom }}
-    token_bottom_stripe_colour = {{ company.token_bottom_stripe }}
-    token_colour = ${WHITE}
-    token_top_colour = {{ company.token_top }}
-    token_top_stripe_colour = {{ company.token_top_stripe }}
-    {% if "token_name_font" in company.keys () %}
-    token_name_font = {{ company.token_name_font }}
-    {% endif %}
-    stripe_colour = {{ company.share_stripe }}
-    title = """{{ company.name }}"""
-    token_name = {{ company.token }}
-    size = 8%
-    desc = 4 Shares
-    description = """{{ company.get ("description", "") }}"""
-    token_count = 4
-
-    [[[tile_1.1]]]
-      token_count = 2
-      size = 4%
-      desc = 2 Shares
-
-    [[[tile_1.2]]]
-      token_count = 2
-      size = 4%
-      desc = 2 Shares
 {% endfor %}
 
 [token]
@@ -1608,6 +1542,18 @@ sizes"""
     {% endif %}
     {% if "train_font" in train.keys () %}
     train_font = {{ train.train_font }}
+    {% endif %}
+    {% if "train_colour" in train.keys () %}
+    train_colour = {{ train.train_colour }}
+    {% endif %}
+    {% if "trade_colour" in train.keys () %}
+    trade_colour = {{ train.trade_colour }}
+    {% endif %}
+    {% if "rust_colour" in train.keys () %}
+    rust_colour = {{ train.rust_colour }}
+    {% endif %}
+    {% if "cost_colour" in train.keys () %}
+    cost_colour = {{ train.cost_colour }}
     {% endif %}
     {% if "optional" in train.keys () %}
     [[[tile_1.1]]]
