@@ -23,7 +23,7 @@
       "company_type": 1,
     },
     {
-      "name": "London & Southampton\nRailway",
+      "name": "London\n& Southampton\nRailway",
       "token": "LSR",
       "token_top": "${L_YELLOW}",
       "token_top_stripe": "transparent",
@@ -46,7 +46,7 @@
       "company_type": 1,
     },
     {
-      "name": "London & Birmingham\nRailway",
+      "name": "London\n& Birmingham\nRailway",
       "token": "L&BR",
       "token_top": "${D_GRAY}",
       "token_top_stripe": "transparent",
@@ -117,7 +117,7 @@
       "company_type": 2,
     },
     {
-      "name": "Sheffield & Lincolnshire\nJunction Railway",
+      "name": "Sheffield\n& Lincolnshire\nJunction Railway",
       "token": "S&LR",
       "token_top": "${M_YELLOW}",
       "token_top_stripe": "transparent",
@@ -162,7 +162,7 @@
       "company_type": 2,
     },
     {
-      "name": "Wrexham, Mold &\nConnah's Quay Railway",
+      "name": "Wrexham, Mold &\nConnah's Quay\nRailway",
       "token": "WMCQR",
       "token_top": "${L_BROWN}",
       "token_top_stripe": "transparent",
@@ -212,7 +212,7 @@
       "company_type": 3,
     },
     {
-      "name": "Canterbury & Whitstable\nRailway",
+      "name": "Canterbury\n& Whitstable\nRailway",
       "token": "C&WR",
       "token_top": "${D_GREEN}",
       "token_top_stripe": "${L_GRAY}",
@@ -257,7 +257,7 @@
       "company_type": 3,
     },
     {
-      "name": "Cromford & High Peak\nRailway",
+      "name": "Cromford\n& High Peak\nRailway",
       "token": "C&HPR",
       "token_top": "${M_BLUE}",
       "token_top_stripe": "${L_BROWN}",
@@ -279,7 +279,7 @@
       "company_type": 3,
     },
     {
-      "name": "Leicester & Swannington\nRailway",
+      "name": "Leicester\n& Swannington\nRailway",
       "token": "L&SR",
       "token_top": "${M_GRAY}",
       "token_top_stripe": "${L_GREEN}",
@@ -350,7 +350,7 @@
       "company_type": 3,
     },
     {
-      "name": "Oxford, Worcester &\nWolverhampton Railway",
+      "name": "Oxford, Worcester\n& Wolverhampton\nRailway",
       "token": "OW&WR",
       "token_top": "${M_BROWN}",
       "token_top_stripe": "${L_RED}",
@@ -363,7 +363,7 @@
       "company_type": 3,
     },
     {
-      "name": "Midland & Great Northern\nJoint Railway",
+      "name": "Midland &\nGreat Northern\nJoint Railway",
       "token": "M&GN",
       "token_top": "${L_GRAY}",
       "token_top_stripe": "${D_GRAY}",
@@ -375,7 +375,7 @@
       "company_type": 3,
     },
     {
-      "name": "Southampton & Dorchester\nRailway",
+      "name": "Southampton\n& Dorchester\nRailway",
       "token": "SDR",
       "token_top": "${D_YELLOW}",
       "token_top_stripe": "${WHITE}",
