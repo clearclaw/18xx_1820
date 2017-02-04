@@ -44,4 +44,5 @@ nosetests.xml
 \#*
 
 build/*
+build*
 .ipynb_checkpoints/*

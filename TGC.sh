@@ -10,7 +10,7 @@ pushd build
   do
     ps2pdf $file
     base="${file%%.*}.pdf"
-    target="${base}[all,10].png"
+    target="${base%%.*}[all,10].png"
     convert -density 300 ${base} -quality 90 "$target"
     convert -rotate 90 ${target} ${target}
     echo $target
