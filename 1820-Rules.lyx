@@ -2342,6 +2342,17 @@ Cousins and players can sell shares they own:
 The company must have been floated in a prior Stock Round.
 \end_layout
 
+\begin_layout Itemize
+The company cannot be in liquidation (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:In-liquidation"
+
+\end_inset
+
+).
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 Company shares are sold for the current Stock Market price per share.
@@ -2398,7 +2409,14 @@ Only one share may be bought in each action.
 
 \begin_layout Itemize
 A cousin or player cannot buy a share of a company if they already hold
- 60% of that company.
+ 60% of that company or if that company is in liquidation (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:In-liquidation"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Itemize
@@ -2472,6 +2490,10 @@ The purchased shares are placed in the company's treasury.
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+A company cannot buy its own shares from the bank pool if it is in liquidation.
+\end_layout
+
 \begin_layout Itemize
 If the resulting number of shares in play (see 
 \begin_inset CommandInset ref
@@ -3818,7 +3840,8 @@ The purchase price must not be more than the purchase cost of the train
 \end_deeper
 \begin_layout Itemize
 The company director may freely contribute toward the purchase of a train
- within the above limits.
+ within the above limits for private companies and for public companies
+ that don't currently own a train.
 \end_layout
 
 \begin_deeper
@@ -5977,6 +6000,18 @@ reference "sub:Takeovers"
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Shares of companies in liquidation cannot be bought or sold, only liquidated
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Liquidations"
+
+\end_inset
+
+).
+\end_layout
+
 \begin_layout Subsection
 Death of Queen Victoria
 \begin_inset CommandInset label
@@ -10366,11 +10401,11 @@ A port immediately adjacent and connected to a station marker at one and
  only one end of the route can be counted as part of the route.
 \end_layout
 
+\end_deeper
 \begin_layout Description
 Revenue: The sum of all the revenue centers on the route.
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Subsubsection
 EXPRESS trains
@@ -10392,12 +10427,12 @@ A port immediately adjacent and connected to a station marker at one and
  only one end of the route can be counted as part of the route.
 \end_layout
 
+\end_deeper
 \begin_layout Description
 Revenue: The sum of all the revenue centers on the route, excluding any
  towns.
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Subsubsection
 N+D
@@ -10423,6 +10458,7 @@ A port immediately adjacent and connected to a station marker at one and
  only one end of the route can be counted as part of the route.
 \end_layout
 
+\end_deeper
 \begin_layout Description
 Revenue: The sum of all the towns, possible port and the best 
 \emph on
@@ -10431,7 +10467,6 @@ N
  cities or off-boards on the route, all doubled.
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Subsubsection
 FLOOD
@@ -10474,6 +10509,7 @@ Note: FLOOD trains can re-use track already used by the same FLOOD train
  track used by another train owned by the same company.
 \end_layout
 
+\end_deeper
 \begin_layout Description
 Revenue: The sum of all the revenue centers on the route:
 \end_layout
@@ -10496,7 +10532,6 @@ Without re-using any track in the between the different off-board spikes
  and the connected station markers.
 \end_layout
 
-\end_deeper
 \end_deeper
 \end_deeper
 \end_deeper
@@ -10529,6 +10564,7 @@ Any ports immediately adjacent and connected to either station marker are
  also counted as part of the route, once for each port connection.
 \end_layout
 
+\end_deeper
 \begin_layout Description
 Revenue: The sum of:
 \end_layout
@@ -10538,6 +10574,7 @@ Revenue: The sum of:
 £10 each for cities containing the owning company's station markers.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Quadruple the revenue of each town tile on the route.
 \end_layout
