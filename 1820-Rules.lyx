@@ -219,8 +219,8 @@ Many track tiles (yellow, green, brown and gray).
 \end_layout
 
 \begin_layout Itemize
-96 train certificates (30 yellow, 18 green, 10 blue, 10 brown, 10 red, 9
- gray, 9 purple).
+96 train certificates (27 yellow, 18 green, 16 blue, 8 brown, 6 red, 9 gray,
+ 9 purple).
 \end_layout
 
 \begin_layout Itemize
@@ -390,8 +390,7 @@ money equalling £
 \end_layout
 
 \begin_layout Itemize
-Randomly select one cousin of each colour and discard the rest from the
- game.
+Select one cousin of each colour and discard the rest from the game.
 \end_layout
 
 \begin_deeper
@@ -807,7 +806,7 @@ Green
 \begin_inset Text
 
 \begin_layout Plain Layout
-22
+18
 \end_layout
 
 \end_inset
@@ -881,7 +880,7 @@ Blue
 \begin_inset Text
 
 \begin_layout Plain Layout
-12
+16
 \end_layout
 
 \end_inset
@@ -959,11 +958,11 @@ H2
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+8
 \begin_inset Newline newline
 \end_inset
 
-6
+9
 \end_layout
 
 \end_inset
@@ -1049,11 +1048,11 @@ H2
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+6
 \begin_inset Newline newline
 \end_inset
 
-6
+9
 \end_layout
 
 \end_inset
@@ -1062,7 +1061,7 @@ H2
 \begin_inset Text
 
 \begin_layout Plain Layout
-£1,60
+£1,600
 \begin_inset Newline newline
 \end_inset
 
@@ -1143,7 +1142,7 @@ H2
 \begin_inset Newline newline
 \end_inset
 
-6
+9
 \end_layout
 
 \end_inset
@@ -1553,8 +1552,8 @@ name "sub:Future-Overview"
 \end_layout
 
 \begin_layout Itemize
-The first three Stock Rounds of the game start with an auction of two future
- trains (see 
+The first three Stock Rounds of the game start with an auction of one or
+ two future trains (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Game-Phases"
@@ -1608,7 +1607,7 @@ stock
 \begin_inset space ~
 \end_inset
 
-round: Two red trains.
+round: One red train.
 \end_layout
 
 \end_deeper
@@ -2795,6 +2794,13 @@ reference "tab:Company-Sizes"
 
 \end_inset
 
+ & 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Cost-of-business"
+
+\end_inset
+
 ):
 \end_layout
 
@@ -3446,25 +3452,6 @@ The previously placed station marker is replaced with a British Rail station
  the company charter.
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Exception: The 
-\noun on
-Samuel Montagu & Co.
-
-\noun default
- cousin can allow a company to have two station markers in London (M13)
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Sousin-Samuel-Montagu-&"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Subsubsection
 Run train(s)
@@ -3793,24 +3780,6 @@ Trains can be bought from the supply for face value, or from another company
 \begin_deeper
 \begin_layout Description
 Exception: Heritage railway companies cannot buy or sell trains.
-\end_layout
-
-\begin_layout Description
-Note: Cousins such as 
-\noun on
-R.
- B.
- Longridge & Co.
-
-\noun default
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Cousin-R.-B.-Longridge"
-
-\end_inset
-
-) may affect the price of trains bought from the supply.
 \end_layout
 
 \end_deeper
@@ -4753,25 +4722,6 @@ The director of the offered company may freely accept or decline winning
  bids less than the forcing bid.
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Note: The 
-\noun on
-Coutts & Co.
-
-\noun default
- cousin may allow a company to accept an otherwise losing bid if the winning
- bid is less than the forcing bid amount (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Cousin-Coutts-&-Co."
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 The director of the offered company must accept a winning bid equal to or
  larger than the forcing bid.
@@ -8617,83 +8567,6 @@ Blue cousins
 \end_layout
 
 \begin_layout Subsubsection
-Enoch Train & Co.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Counsin-Enoch-Train-&"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Granted
-\begin_inset space ~
-\end_inset
-
-ability: Investments can double the revenue of a port (not Liverpool (C5)
- or London (M13)) when running trains (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Run-train(s)"
-
-\end_inset
-
-); one port per share of the company currently held by the cousin, maximum
- 3.
-\end_layout
-
-\begin_layout Description
-Ability
-\begin_inset space ~
-\end_inset
-
-may
-\begin_inset space ~
-\end_inset
-
-be
-\begin_inset space ~
-\end_inset
-
-used: In the 
-\emph on
-run trains(s)
-\emph default
- step of the company's turn in an Operating Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Run-train(s)"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Revenue
-\begin_inset space ~
-\end_inset
-
-to
-\begin_inset space ~
-\end_inset
-
-the
-\begin_inset space ~
-\end_inset
-
-cousin: Half the revenue of the largest port to be doubled is paid by the
- bank to the cousin's treasury each time.
-\end_layout
-
-\begin_layout Description
-Price: £130
-\end_layout
-
-\begin_layout Subsubsection
 Great Western Steamship Company
 \begin_inset CommandInset label
 LatexCommand label
@@ -8767,89 +8640,6 @@ cousin: Half the revenue of the smallest port on each affected route is
 
 \begin_layout Description
 Price: £120
-\end_layout
-
-\begin_layout Subsubsection
-Harrison Mudd 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Cousin-Harrison-Mudd"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Granted
-\begin_inset space ~
-\end_inset
-
-ability: Investments can include a port on a train's route that is immediately
- adjacent and connected to a station marker on the route (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Run-train(s)"
-
-\end_inset
-
-), but which is not at the end of the train's route (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Route-definitions-by-train-type"
-
-\end_inset
-
-), one port per share of the company currently held by the cousin, maximum
- 3.
-\end_layout
-
-\begin_layout Description
-Ability
-\begin_inset space ~
-\end_inset
-
-may
-\begin_inset space ~
-\end_inset
-
-be
-\begin_inset space ~
-\end_inset
-
-used: In the 
-\emph on
-run trains(s)
-\emph default
- step of the company's turn in an Operating Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Run-train(s)"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Revenue
-\begin_inset space ~
-\end_inset
-
-to
-\begin_inset space ~
-\end_inset
-
-the
-\begin_inset space ~
-\end_inset
-
-cousin: The revenue of the smallest port on an affected train's route is
- paid by the bank to the cousin's treasury each time.
-\end_layout
-
-\begin_layout Description
-Price: £130
 \end_layout
 
 \begin_layout Subsubsection
@@ -9032,10 +8822,10 @@ Price: £120
 \end_layout
 
 \begin_layout Subsubsection
-George Leeman
+Charles Fox
 \begin_inset CommandInset label
 LatexCommand label
-name "sub:Cousin-George-Leeman"
+name "sub:Cousin-Charles-Fox"
 
 \end_inset
 
@@ -9117,247 +8907,8 @@ cousin: £50 is paid by the bank to the cousin's treasury for each such station
 Price: £130
 \end_layout
 
-\begin_layout Subsubsection
-Robert Stephenson & Charles Fox 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Cousin-Robert-Stephenson-&"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Granted
-\begin_inset space ~
-\end_inset
-
-ability: Investments can gain and immediately place an additional station
- marker (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Place-station-marker"
-
-\end_inset
-
-), over and in addition to the station markers the company floated with
- or acquired through takeovers or liquidations, one station marker for each
- two shares of the company held by the cousin at the time of placing the
- station marker, maximum 2 additional station markers per company (4 shares
- held).
- 
-\end_layout
-
-\begin_layout Description
-Ability
-\begin_inset space ~
-\end_inset
-
-may
-\begin_inset space ~
-\end_inset
-
-be
-\begin_inset space ~
-\end_inset
-
-used: In the 
-\emph on
-place station marker
-\emph default
- step of the company's turn in an Operating Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Place-station-marker"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Revenue
-\begin_inset space ~
-\end_inset
-
-to
-\begin_inset space ~
-\end_inset
-
-the
-\begin_inset space ~
-\end_inset
-
-cousin: £50 is paid by the bank to the cousin's treasury for each such station
- marker placed.
-\end_layout
-
-\begin_layout Description
-Price: £130
-\end_layout
-
-\begin_layout Subsubsection
-Samuel Montagu & Co.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Sousin-Samuel-Montagu-&"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Granted
-\begin_inset space ~
-\end_inset
-
-ability: Investments can place a second station marker in London (M13) without
- the previous station marker in London (M13) being replaced by a British
- Rail station marker (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Place-station-marker"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Ability
-\begin_inset space ~
-\end_inset
-
-may
-\begin_inset space ~
-\end_inset
-
-be
-\begin_inset space ~
-\end_inset
-
-used: In the 
-\emph on
-place station marker
-\emph default
- step of the company's turn in an Operating Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Place-station-marker"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Revenue
-\begin_inset space ~
-\end_inset
-
-to
-\begin_inset space ~
-\end_inset
-
-the
-\begin_inset space ~
-\end_inset
-
-cousin: The bank pays the current revenue value of London (M13) to the cousin's
- treasury when this is done.
-\end_layout
-
-\begin_layout Description
-Price: £130
-\end_layout
-
 \begin_layout Subsection
 Green cousins
-\end_layout
-
-\begin_layout Subsubsection
-Bedlington Ironworks 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Cousin-Bedlington-Ironworks"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Granted
-\begin_inset space ~
-\end_inset
-
-ability: Investments can upgrade a city track tile in addition to their
- normal track build (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Build-track"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Track-placement-&-upgrades"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Ability
-\begin_inset space ~
-\end_inset
-
-may
-\begin_inset space ~
-\end_inset
-
-be
-\begin_inset space ~
-\end_inset
-
-used: In the 
-\emph on
-build track
-\emph default
- step of the company's turn in an Operating Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Build-track"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Revenue
-\begin_inset space ~
-\end_inset
-
-to
-\begin_inset space ~
-\end_inset
-
-the
-\begin_inset space ~
-\end_inset
-
-cousin: Half the revenue of the upgraded city is paid from the bank to the
- cousin's treasury.
-\end_layout
-
-\begin_layout Description
-Price: £130
 \end_layout
 
 \begin_layout Subsubsection
@@ -9429,54 +8980,6 @@ the
 
 cousin: The bank pays £30 to the cousin's treasury as each such big city
  tile is placed.
-\end_layout
-
-\begin_layout Description
-Price: £130
-\end_layout
-
-\begin_layout Subsubsection
-John Birkinshaw 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Cousin-John-Birkinshaw"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Granted
-\begin_inset space ~
-\end_inset
-
-ability: Investments can upgrade any or all city tiles connected by lines
- of track to its station markers instead of its normal track build (see
- 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Upgrading-track"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Revenue
-\begin_inset space ~
-\end_inset
-
-to
-\begin_inset space ~
-\end_inset
-
-the
-\begin_inset space ~
-\end_inset
-
-cousin: None.
 \end_layout
 
 \begin_layout Description
@@ -9569,77 +9072,6 @@ Red cousins
 \end_layout
 
 \begin_layout Subsubsection
-Coutts & Co.
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Cousin-Coutts-&-Co."
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Granted
-\begin_inset space ~
-\end_inset
-
-ability: Investments can freely choose which if any takeover bid to accept
- or reject if the winning bid is less than the forcing bid (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Takeover-Auction"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Ability
-\begin_inset space ~
-\end_inset
-
-may
-\begin_inset space ~
-\end_inset
-
-be
-\begin_inset space ~
-\end_inset
-
-used: During an Issue & Takeover round when the company is being sold or
- liquidated (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Issue-&-Takeover"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Revenue
-\begin_inset space ~
-\end_inset
-
-to
-\begin_inset space ~
-\end_inset
-
-the
-\begin_inset space ~
-\end_inset
-
-cousin: None.
-\end_layout
-
-\begin_layout Description
-Price: £130
-\end_layout
-
-\begin_layout Subsubsection
 James Holden 
 \begin_inset CommandInset label
 LatexCommand label
@@ -9694,83 +9126,6 @@ run trains(s)
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Run-train(s)"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Revenue
-\begin_inset space ~
-\end_inset
-
-to
-\begin_inset space ~
-\end_inset
-
-the
-\begin_inset space ~
-\end_inset
-
-cousin: None.
-\end_layout
-
-\begin_layout Description
-Price: £130
-\end_layout
-
-\begin_layout Subsubsection
-R.
- B.
- Longridge & Co.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Cousin-R.-B.-Longridge"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Granted
-\begin_inset space ~
-\end_inset
-
-ability: Investments have a 50% discount on the purchase of a train from
- the supply, once per company (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Buy-train(s)"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Ability
-\begin_inset space ~
-\end_inset
-
-may
-\begin_inset space ~
-\end_inset
-
-be
-\begin_inset space ~
-\end_inset
-
-used: In the 
-\emph on
-buy trains(s)
-\emph default
- step of the company's turn in an Operating Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Buy-train(s)"
 
 \end_inset
 
@@ -10099,26 +9454,7 @@ reference "sub:In-liquidation"
 \end_layout
 
 \begin_layout Description
-Note: Cousins (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Cousins"
-
-\end_inset
-
-) such as 
-\noun on
-Enoch Train & Co.
-
-\noun default
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Counsin-Enoch-Train-&"
-
-\end_inset
-
-) and 
+Note: The 
 \noun on
 Vulcan Foundr
 \noun default
