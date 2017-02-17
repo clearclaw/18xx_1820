@@ -269,12 +269,12 @@ Company charter.
 
 \end_deeper
 \begin_layout Itemize
-16 cousins:
+8 cousins:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-4 in each of blue, brown, green and red.
+2 in each of blue, brown, green and red.
 \end_layout
 
 \end_deeper
@@ -1335,6 +1335,13 @@ reference "tab:Game-Phases"
 
 \end_inset
 
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Death-Of-Victoria"
+
+\end_inset
+
 ).
 \end_layout
 
@@ -1866,7 +1873,14 @@ reference "sub:Death-Of-Victoria"
 
 \end_inset
 
-) Float a heritage railway company.
+) Float a heritage railway company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Float-heritage-company"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper

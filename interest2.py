@@ -5,7 +5,9 @@ rate = 1.08
 fix = 0.0021
 old = value
 
-for i in xrange (26):
+r = rate - fix
+for i in xrange (32):
   print "#%2d" % i, "Value: %3d" % value, "Gain: %f" % (float (value) / float (old))
   old = value
-  value = int ((value * (rate + (i * fix))) + 0.5)
+  r += (fix if i <= 13 else - (fix * 1.64))
+  value = int ((value * r) + 0.5)

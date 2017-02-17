@@ -587,13 +587,6 @@
 
 {% set trains = [
     {
-      "cost": "$60",
-      "frame_colour": "${P_YELLOW}",
-      "name": "2",
-      "rust_stripe": "${L_BLUE}",
-      "trade_stripe": "${L_GREEN}",
-    },
-    {
       "cost": "$80",
       "frame_colour": "${L_YELLOW}",
       "name": "2+",
@@ -613,7 +606,6 @@
       "name": "6+",
       "rust_stripe": "${M_RED}",
       "trade_stripe": "${M_BROWN}",
-      "optional": 1,
     },
     {
       "cost": "$800",
@@ -621,6 +613,7 @@
       "name": "EXPRESS",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${M_RED}",
+      "TGC_micro_train_font": '"Times-Roman", 16',
       "train_font": '"Times-Roman", 28',
     },
     {
@@ -632,6 +625,7 @@
       "train_colour": "${L_GRAY}",
       "cost_colour": "${L_GRAY}",
       "rust": "(No Maintenance)",
+      "train_font": '"Times-Roman", 48',
     },
     {
       "cost": "$1,600",
@@ -639,6 +633,7 @@
       "name": "5D+",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${L_GRAY}",
+      "TGC_micro_train_font": '"Times-Roman", 36',
     },
     {
       "cost": "$2,000",
@@ -646,6 +641,7 @@
       "name": "FLOOD",
       "rust_stripe": "${BLACK}",
       "trade_stripe": "${BLACK}",
+      "TGC_micro_train_font": '"Times-Roman", 22',
       "train_font": '"Times-Roman", 36',
     }
   ]
@@ -1150,12 +1146,16 @@ half of resulting cash and treasury to owning player."""
   {% endfor %}
 
 
+{% set old_stock_values = [10,
+                           40, 43, 47, 51, 55, 60, 65, 71, 78, 86, 95, 105, 116,
+                           128, 142, 158, 176, 196, 219, 245, 274, 307, 345,
+                           389, 439, 500,] %}
 {% set stock_values = [10,
                        40, 43, 47, 51, 55, 60, 65, 71, 78, 86, 95, 105, 116,
-                       128, 142, 158, 176, 196, 219, 245, 274, 307, 345,
-                       389, 439, 500,] %}
-{#% set stock_values = [40, 43, 47, 51, 55, 60, 65, 71, 78, 86, 95, 105, 116,
-                       128, 141, 156, 173, 192, 213, 237, 264, 295, 330,
+                       128, 142, 157, 173, 1906, 208, 227, 247, 268, 289,
+                       311, 334, 357, 381, 405, 429, 453, 477, 500,] %}
+{#% set stock_values = [40, 43, 47, 51, 55, 60, 65, 71, 78, 86, 95, 105, 116, 128,
+                       141, 156, 173, 192, 213, 237, 264, 295, 330,
                        369, 414, 465, 523, 589, 664, 750] %#}
 {% set page_size = 14 %}
 {% set stock_count = stock_values | count %}
@@ -1603,6 +1603,9 @@ sizes"""
     {% endif %}
     {% if "rust_colour" in train.keys () %}
     rust_colour = {{ train.rust_colour }}
+    {% endif %}
+    {% if "rust_font" in train.keys () %}
+    rust_font = {{ train.rust_font }}
     {% endif %}
     {% if "cost_colour" in train.keys () %}
     cost_colour = {{ train.cost_colour }}
