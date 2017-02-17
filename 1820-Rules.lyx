@@ -490,9 +490,9 @@ Stock
 \begin_inset space ~
 \end_inset
 
-Rounds: Companies may increase their share-count, float heritage railway
- companies and players may float new companies, buy and sell shares of companies
-, and act on behalf of their cousins (see 
+Rounds: Companies may increase their share-count and players may float new
+ companies, buy and sell shares of companies, and act on behalf of their
+ cousins (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Stock-Rounds"
@@ -1861,28 +1861,6 @@ Fund a lobby or increase the funding of a lobby.
 Increase the share-count of a company.
 \end_layout
 
-\begin_layout Itemize
-(
-\emph on
-After the death of Queen Victoria only, see 
-\emph default
-
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Death-Of-Victoria"
-
-\end_inset
-
-) Float a heritage railway company (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Float-heritage-company"
-
-\end_inset
-
-).
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
 The Stock Round is then interrupted and any lobbies are resolved (see 
@@ -1901,8 +1879,7 @@ The Stock Round then continues in player number card rotation, except that:
 
 \begin_deeper
 \begin_layout Itemize
-Lobby, share-count and heritage railway actions are no longer available
- in that Stock Round.
+Lobby and share-count actions are no longer available in that Stock Round.
 \end_layout
 
 \begin_layout Itemize
@@ -2171,17 +2148,6 @@ The company must have been floated in a prior Stock Round.
 \end_layout
 
 \begin_layout Itemize
-The company cannot be a heritage railway company (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Heritage-railway-companies"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
 The available share-counts are shown in 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -2446,11 +2412,6 @@ They may buy shares of that company in future Stock Rounds.
 Cousins and players are not restricted by the shares the other has sold.
 \end_layout
 
-\begin_layout Itemize
-Cousins and players are not restricted from owning more than 60% of heritage
- railway companies.
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
 Monies paid for shares bought from a company treasury are paid to that company
@@ -2489,8 +2450,8 @@ name "par:Buy-shares-from-Bank-Pool"
 \end_layout
 
 \begin_layout Itemize
-The company may buy any number of its own shares, or heritage railway company's
- shares, from the bank pool at the current stock price.
+The company may buy any number of its own shares from the bank pool at the
+ current stock price.
 \end_layout
 
 \begin_deeper
@@ -2547,187 +2508,6 @@ reference "sec:Loans"
 \end_inset
 
 ).
-\end_layout
-
-\end_deeper
-\begin_layout Paragraph
-Float a new heritage railway company
-\begin_inset CommandInset label
-LatexCommand label
-name "par:Float-heritage-company"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-After the death of Queen Victoria (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Death-Of-Victoria"
-
-\end_inset
-
-) public companies may float heritage railway companies:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Two station markers of the company on the board are replaced with the station
- markers of a currently unused company.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The replaced station markers are returned to the founding public company's
- charter.
-\end_layout
-
-\begin_layout Itemize
-The selected stations markers must:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Be in small cities (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Small-city-track"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Not be in cities which already contain a station marker of a heritage railway
- company.
-\end_layout
-
-\begin_layout Itemize
-Be directly connected by a line of track without an intervening city.
-\end_layout
-
-\begin_layout Itemize
-Not be the only station markers on the map for the founding public company.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Enumerate
-The director selects a legal par price and places the stock price marker
- of the new company at that price on the Stock Market (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Stock-Market"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The marker is placed below any other stock markers already at that price.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Five of the new heritage railway company's shares are placed in the founding
- public company's treasury.
-\end_layout
-
-\begin_layout Enumerate
-The director of the founding public company ensures that 40% of the heritage
- railway company is bought from the company treasury at the current stock
- price (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Buying-shares"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-This may be any combination of players and cousins chosen at the director's
- discretion (and who must agree and buy those shares -- see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Buying-shares"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Negotiation-&-Holdings"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The purchase price of the shares is paid to the founding public company's
- treasury.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Enumerate
-The founding public company must purchase a single H2 train from the supply
- for the new heritage railway company (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Route-definitions-by-train-type"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The H2 train is immediately assigned to the heritage railway company.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-The director of the new heritage railway company company then takes control
- of the heritage railway company's charter (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Company-directors"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-Note: The heritage railway company does not get any place-able station markers
- or treasury.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-If more than 60% of the heritage railway company shares remain in the founding
- public company's treasury after all purchases are done or the founding
- public company fails to purchase an H2 train for the new heritage railway
- company:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The entire transaction fails, all monies and components are returned to
- their prior positions.
 \end_layout
 
 \end_deeper
@@ -3306,17 +3086,16 @@ name "sub:Build-track"
 \end_layout
 
 \begin_layout Itemize
-In each Operating Round:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Private and public companies may:
+In each Operating Round private and public companies may:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Place one or two yellow track tiles.
+\end_layout
+
+\begin_layout Standard
+or:
 \end_layout
 
 \begin_layout Itemize
@@ -3328,25 +3107,6 @@ Green phase or later
  
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-Heritage
-\begin_inset space ~
-\end_inset
-
-railway
-\begin_inset space ~
-\end_inset
-
-companies may:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Place or upgrade one track tile per Operating Round.
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 A company placing a track tile on a river (marked with a wavy line) or hill
@@ -3565,8 +3325,8 @@ The company must withhold all dividends.
 
 \end_deeper
 \begin_layout Description
-Note: Private companies and heritage railway companies cannot withhold dividends
- and so must always pay dividends.
+Note: Private companies cannot withhold dividends and so must always pay
+ dividends.
 \end_layout
 
 \end_deeper
@@ -3603,11 +3363,6 @@ Shares in a company treasury receive any remaining income.
 \begin_layout Description
 Note: The total dividend to the share-holder is rounded, not the dividend
  per share.
-\end_layout
-
-\begin_layout Description
-Note: Unsold heritage railway company shares are held by the founding public
- company's treasury.
 \end_layout
 
 \end_deeper
@@ -3791,12 +3546,6 @@ Trains can be bought from the supply for face value, or from another company
  for any price agreed upon by the directors of both companies (minimum £1).
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Exception: Heritage railway companies cannot buy or sell trains.
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 If a private company is buying a train from a public company:
 \end_layout
@@ -4445,8 +4194,7 @@ name "sub:Issue-shares"
 \end_layout
 
 \begin_layout Itemize
-Private companies, heritage railway companies and public companies (see
- 
+Private companies and public companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Company-types"
@@ -4556,7 +4304,7 @@ reference "sub:In-liquidation"
 \end_layout
 
 \begin_layout Itemize
-Not a private or heritage railway company (see 
+Not a private company (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Company-types"
@@ -4841,17 +4589,10 @@ All assets in the sold company's treasury are transferred to the acquiring
 
 \begin_deeper
 \begin_layout Enumerate
-Cash and heritage railway shares in the treasury of the sold company are
- added to the treasury of the acquiring company.
+Cash in the treasury of the sold company are added to the treasury of the
+ acquiring company.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-If the acquiring company is a private company the heritage railway shares
- are given to the director of the acquiring company.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 Loans held by the sold company are transferred to the acquiring company:
 \end_layout
@@ -5056,8 +4797,7 @@ The bank is the offering company.
 \end_layout
 
 \begin_layout Itemize
-Only any heritage railway shares in the liquidated company's treasury, station
- markers on the map and any trains in the company are sold.
+Only station markers on the map and any trains in the company are sold.
 \end_layout
 
 \begin_deeper
@@ -5155,11 +4895,6 @@ The acquiring company is the bank.
 \end_layout
 
 \begin_layout Itemize
-Heritage railway shares held by the liquidated company are put in the bank
- pool.
-\end_layout
-
-\begin_layout Itemize
 The liquidated company's station markers on the map are replaced with British
  Rail station markers.
 \end_layout
@@ -5219,10 +4954,6 @@ If no players control any private or public companies after a Stock Round
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Heritage railway companies are not considered.
-\end_layout
-
 \begin_layout Itemize
 The game ends immediately
 \end_layout
@@ -6005,18 +5736,6 @@ Players cease receiving player income in Stock Rounds after the death of
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Player-income"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Heritage railways can only be started after the death of Queen Victoria
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Float-heritage-company"
 
 \end_inset
 
@@ -6962,7 +6681,7 @@ name "sub:company-overview"
 \end_layout
 
 \begin_layout Itemize
-There are three types of companies:
+There are two types of companies:
 \end_layout
 
 \begin_deeper
@@ -6972,10 +6691,6 @@ Public companies.
 
 \begin_layout Enumerate
 Private companies.
-\end_layout
-
-\begin_layout Enumerate
-Heritage railway companies.
 \end_layout
 
 \end_deeper
@@ -7025,7 +6740,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="7">
+<lyxtabular version="3" rows="7" columns="7">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0.6in">
 <column alignment="center" valignment="top" width="0.6in">
@@ -7489,71 +7204,6 @@ Private
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Heritage
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-</row>
 </lyxtabular>
 
 \end_inset
@@ -7950,151 +7600,6 @@ reference "sub:Floating-a-new-public"
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-May start heritage railway companies after the death of Queen Victoria (see
- 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Death-Of-Victoria"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\begin_layout Subsection
-Heritage railway companies 
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Heritage-railway-companies"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Heritage railway companies:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-May be started after the death of Queen Victoria (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Death-Of-Victoria"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Have 5 shares and a stock price.
-\end_layout
-
-\begin_layout Itemize
-Do not have a treasury.
-\end_layout
-
-\begin_layout Itemize
-Are floated already owning a train (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Float-heritage-company"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Have a train limit of 1 (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Train-Limit"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Have only 2 station markers (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Float-heritage-company"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Which must be in small cities.
-\end_layout
-
-\begin_layout Itemize
-Which must be directly connected to each other by track (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Heritage-railway-companies"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Can place or upgrade one track tile per Operating Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Build-track"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Cannot:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Place or upgrade track tiles with a terrain or blue barrier cost (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Track-placement-&-upgrades"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Place station markers.
-\end_layout
-
-\begin_layout Itemize
-Buy or sell trains.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Must pay and cannot withhold dividends (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Pay-or-withhold"
-
-\end_inset
-
-).
-\end_layout
-
 \end_deeper
 \begin_layout Subsection
 Company directors
@@ -8448,27 +7953,6 @@ Not place any track or station markers or incur any costs or take or repay
 Run any trains for maximum income and withhold the dividends.
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Exception: If the company is a heritage railway company, the cousin will
- run its train for maximum income and pay dividends (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Trains-and-Running-Trains"
-
-\end_inset
-
-& 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Pay-or-withhold"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 Not pay any train maintenance or loan interest.
 \end_layout
@@ -9656,11 +9140,6 @@ Great Western Steamship Company
  cousin can allow a company to have a port at both ends of a route.
 \end_layout
 
-\begin_layout Description
-Exception: Heritage railway companies can have ports at both ends of their
- routes.
-\end_layout
-
 \end_deeper
 \end_deeper
 \begin_layout Itemize
@@ -10300,7 +9779,7 @@ Public companies may have and take loans.
 
 \begin_deeper
 \begin_layout Itemize
-Private companies and heritage railways cannot have or take loans.
+Private companies cannot have or take loans.
 \end_layout
 
 \begin_deeper
