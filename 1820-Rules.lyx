@@ -247,11 +247,11 @@ Company charter.
 
 \begin_deeper
 \begin_layout Itemize
-1 (black) private certificate.
+1 (black background) private certificate.
 \end_layout
 
 \begin_layout Itemize
-50 (white) share certificates.
+50 (white background) share certificates.
 \end_layout
 
 \end_deeper
@@ -269,12 +269,30 @@ Company charter.
 
 \end_deeper
 \begin_layout Itemize
-8 cousins:
+9 cousins:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-2 in each of blue, brown, green and red.
+2 in each of blue, brown and red.
+\end_layout
+
+\begin_layout Itemize
+3 green.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+44 British Rail share certificates:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+14 5-share certificates.
+\end_layout
+
+\begin_layout Itemize
+30 single share certificates.
 \end_layout
 
 \end_deeper
@@ -540,7 +558,7 @@ Takeover
 \end_inset
 
 Rounds: Companies may decrease their share count, issue shares to the market,
- and can takeover other companies or be taken over (see 
+ and can takeover other companies or be acquired (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Issue-&-Takeover"
@@ -1328,7 +1346,8 @@ name "sub:Player-income"
 
 \begin_layout Itemize
 Players receive £800 from the bank at the start of each Stock Round until
- (but not after) the death of Queen Victoria (see 
+ (and including) the Stock Round immediately after the death of Queen Victoria
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Game-Phases"
@@ -2267,6 +2286,18 @@ reference "sub:Company-directors"
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Players currently holding shares of the company may sell them at this point,
+ before the company finishes increasing its share count (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+).
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 Shares equaling 10% of the company, or 1 share (whichever is the larger)
@@ -2319,6 +2350,10 @@ Cousins and players can sell shares they own:
 \begin_deeper
 \begin_layout Itemize
 The company must have been floated in a prior Stock Round.
+\end_layout
+
+\begin_layout Itemize
+The company must not have increased its share count in that Stock Round.
 \end_layout
 
 \begin_layout Itemize
@@ -2695,7 +2730,7 @@ reference "sub:Track-restrictions"
 
 \end_deeper
 \begin_layout Description
-Note: Companies cannot be started in London.
+Note: Companies cannot be started in London (M13).
 \end_layout
 
 \end_deeper
@@ -2805,7 +2840,7 @@ reference "sub:Public-company-operating-order"
 
 \begin_deeper
 \begin_layout Itemize
-Each company's stock price is moved down one space for each 10% of the company
+Each company's stock price is moved down one space for each 5% of the company
  or share, whichever is the smaller, in the bank pool.
 \end_layout
 
@@ -2813,6 +2848,18 @@ Each company's stock price is moved down one space for each 10% of the company
 \begin_layout Itemize
 If the company stock price reaches the bottom of the Stock Market, then
  it is not moved down further.
+\end_layout
+
+\begin_layout Description
+Exception: The British Rail stock price is not moved down for shares in
+ the bank pool (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:British-Rail"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper
@@ -2845,7 +2892,21 @@ name "sub:Public-company-operating-order"
 \end_layout
 
 \begin_layout Itemize
-Public companies operate in descending order of stock price.
+Public companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Public-companies"
+
+\end_inset
+
+) and British Rail (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:British-Rail"
+
+\end_inset
+
+) operate in descending order of stock price.
 \end_layout
 
 \begin_deeper
@@ -2856,8 +2917,9 @@ The stock price markers of companies in the same space of the Stock Market
 
 \end_deeper
 \begin_layout Itemize
-As public companies operate, their stock price markers are turned upside-down
- and moved to their new stock price location (see  
+As public companies and British Rail operate, their stock price markers
+ are turned upside-down and moved to their new stock price location (see
+  
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:OR-stock-price"
@@ -3055,6 +3117,17 @@ reference "sub:Pay-loan-interest"
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Loans"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Exception: British Rail operates differently (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:British-Rail"
 
 \end_inset
 
@@ -3283,17 +3356,6 @@ Exception: The white track in M17 indicates that a company with a station
  track in M17.
 \end_layout
 
-\begin_layout Description
-Exception: The 
-\noun on
-Samuel Montagu & Co.
-
-\noun default
- cousin can allow a company to have more than one station marker in London
- and thus each train route including them can also re-use the track in M17
- to include the London Docks (M19) on each route.
-\end_layout
-
 \end_deeper
 \end_deeper
 \begin_layout Subsubsection
@@ -3389,7 +3451,7 @@ Equal to or larger than its stock price:
 \begin_deeper
 \begin_layout Itemize
 Its stock price marker will move up one, two or three spaces if the total
- dividend is at least equal to, double, or eight times its stock price.
+ dividend is at least equal to, double, or four times its stock price.
 \end_layout
 
 \end_deeper
@@ -4017,7 +4079,7 @@ Takes over another company.
 \end_layout
 
 \begin_layout Itemize
-Is taken over.
+Is acquired.
 \end_layout
 
 \begin_layout Itemize
@@ -4031,6 +4093,32 @@ Passes.
 \end_deeper
 \end_deeper
 \end_deeper
+\begin_layout Itemize
+Companies that are acquired in a takeover or liquidated (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Takeover-Auction"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Liquidations"
+
+\end_inset
+
+) are returned to the supply and may floated as new companies in later Stock
+ Rounds (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Floating-a-new-public"
+
+\end_inset
+
+).
+\end_layout
+
 \begin_layout Subsection
 Reduce share-count
 \begin_inset CommandInset label
@@ -4109,6 +4197,26 @@ reference "sub:private-companies"
 ).
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+If multiple private companies are formed in the same round:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Their order on the private track is their operating order of the previously
+ public company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Public-company-operating-order"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Itemize
 The single share held by the director is replaced with a black private certifica
 te (see 
@@ -4227,7 +4335,7 @@ After the shares have been issued:
 
 \begin_deeper
 \begin_layout Itemize
-The stock prices of those companies are moved down one space for each 10%
+The stock prices of those companies are moved down one space for each 5%
  of the company (rounding up) or share issued, whichever is the smaller.
 \end_layout
 
@@ -4319,10 +4427,25 @@ Exception: If the company put itself up for takeover:
 \end_layout
 
 \begin_layout Itemize
-The bank automatically makes a bid of half of the current stock price multiplied
- by the number of shares of the company in play.
+The bank automatically makes a bid of half of the current stock price (before
+ the death of Queen Victoria or the full stock price (after the death of
+ Queen Victoria) multiplied by the number of shares of the company in play
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Death-Of-Victoria"
+
+\end_inset
+
+).
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+The bank's bid is made before any other companies may bid.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 The offered company must:
@@ -4354,7 +4477,7 @@ Reduced its share-count in that Issue & Takeover Round.
 \end_layout
 
 \begin_layout Itemize
-Already taken-over another company in that Issue & Takeover Round.
+Already acquired another company in that Issue & Takeover Round.
 \end_layout
 
 \begin_layout Itemize
@@ -4362,8 +4485,8 @@ Already been offered for takeover in that Issue & Takeover Round.
 \end_layout
 
 \begin_layout Description
-Exception: A company that has reduced its share-count and/or taken over
- another company in that Issue & Takeover Round can put itself up for takeover.
+Exception: A company that has reduced its share-count and/or acquired another
+ company in that Issue & Takeover Round can put itself up for takeover.
 \end_layout
 
 \end_deeper
@@ -4552,31 +4675,29 @@ The acquiring company buys all the shares of the sold company held by players
 
 \begin_deeper
 \begin_layout Itemize
-If the acquiring company is a private company:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The acquiring company may pay for the shares it buys with shares held by
- its its player.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
 If the acquiring company is a public company:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The acquiring company may pay for the shares it buys with shares from its
- treasury.
+The acquiring company may take loans (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Loan-Overview"
+
+\end_inset
+
+see ) or may issue its shares (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Issue-shares"
+
+\end_inset
+
+) as needed to raise money for the purchase.
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-The shares are used at their current stock value.
-\end_layout
-
 \begin_layout Itemize
 Any remaining monies from the bid are discarded to the bank.
 \end_layout
@@ -5075,8 +5196,8 @@ The designer would like to thank Francis Tresham for the design and development
  Noonan their bounteous supply of inspiration, notions, complaints and sounding
  board in equal measures.
  In particular, Bruce Murphy prompted the cousins and what developed into
- the Cost of Business chart and Shelby Noonan suggested what became the
- future trains.
+ the Cost of Business chart, Daniel Barnes helped with the loan system and
+ Shelby Noonan suggested what became the future trains.
  Additional thanks go to the many other play-testers too numerous to list.
  I have been honoured to design games for and with such wonderful people.
 \end_layout
@@ -5731,8 +5852,8 @@ reference "tab:Game-Phases"
 \end_layout
 
 \begin_layout Itemize
-Players cease receiving player income in Stock Rounds after the death of
- Queen Victoria (see 
+Players cease receiving player income after the Stock Round after the death
+ of Queen Victoria (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Player-income"
@@ -6616,6 +6737,24 @@ When upgrading a track tile:
 The type of the track tile cannot be changed.
 \end_layout
 
+\begin_deeper
+\begin_layout Description
+Exception: The 
+\noun on
+Gas Light & Coke Company
+\noun default
+ cousin can allow a company to change a small city into a big city (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Cousin-Gas-Light-&"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Connections of pairs of hexagon edges by lines of track must be preserved.
 \end_layout
@@ -7500,7 +7639,7 @@ May start with different numbers of shares depending on the game phase (see
  
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "tab:Game-Phases"
+reference "sub:Cousin-Joseph-Locke"
 
 \end_inset
 
@@ -7630,23 +7769,229 @@ They become the new company director and take control of the company charter
 
 \end_deeper
 \begin_layout Itemize
-If the current director sells shares such that another player holds a larger
- percentage of the company after the sale:
+If the current director sells shares such that another player or cousin
+ holds a larger percentage of the company after the sale:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The player now with the most shares of the company takes control of the
- company charter and its assets.
+The player or cousin now with the most shares of the company takes control
+ of the company charter and its assets.
 \end_layout
 
 \begin_layout Itemize
-In the case of a tie among other players for the most shares after the sale,
- the next tied player in player number card order from the current director
+In the case of a tie among other players or cousins for the most shares
+ after the sale:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The next tied player in player number card order from the current director
  becomes the new director and takes control of the company charter and its
  assets.
 \end_layout
 
+\begin_layout Itemize
+The seller's choice of tied cousin becomes the new director and takes control
+ of the company charter and its assets (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Upgrading-track"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+British Rail 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:British-Rail"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+British Rail:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Does not have a charter, treasury or a director.
+\end_layout
+
+\begin_layout Itemize
+Cannot own or buy trains.
+\end_layout
+
+\begin_layout Itemize
+Station markers replace:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Station markers discarded during company takeovers (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Takeover-procedure"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Station markers of liquidated companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Liquidations"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The other station markers when a company that places a station marker on
+ a hexagon that already has a station marker from that company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Place-station-marker"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Note: British Rail may have more than one station marker in the same hexagon.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Becomes available when Queen Victoria dies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Death-Of-Victoria"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It is parred at 
+\lang british
+£
+\lang english
+95 (the highest green par price) on the stock market (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-Market-Overview"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Itemize
+All the British Rail shares are placed in the bank pool.
+\end_layout
+
+\begin_layout Itemize
+All empty station marker locations in London (M13) and Chatham (M15) are
+ filled with British Rail station markers.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Shares may be bought and sold in subsequent Stock Rounds (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The 5-share British Rail certificates are used to trade up sets of single
+ shares in order to enable later transactions.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Operates in Operating Rounds in the normal order (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Public-company-operating-order"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The first three track tiles with unoccupied station marker locations are
+ filled with British Rail station markers in order of their distance from
+ London (M13):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Starting clockwise around London from Margate (N20).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+British Rail's income is three times the sum of:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The revenues of each British Rail station marker location.
+\end_layout
+
+\begin_layout Itemize
+The revenues of all immediately adjacent ports.
+\end_layout
+
+\begin_layout Itemize
+The revenues of all off-boards with an unblocked track connection to a British
+ Rail station marker.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+British Rail dividends are paid and the stock price is moved in the normal
+ way as if it were a public company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Pay-or-withhold"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Subsection
 Station limit
@@ -7889,13 +8234,6 @@ reference "sub:Public-companies"
 
 \end_inset
 
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Heritage-railway-companies"
-
-\end_inset
-
 ), then:
 \end_layout
 
@@ -8088,7 +8426,89 @@ reference "sub:Run-train(s)"
 
 \end_inset
 
-); one train per share of the company currently held by the cousin, maximum
+); one route per share of the company currently held by the cousin.
+\end_layout
+
+\begin_layout Description
+Ability
+\begin_inset space ~
+\end_inset
+
+may
+\begin_inset space ~
+\end_inset
+
+be
+\begin_inset space ~
+\end_inset
+
+used: In the 
+\emph on
+run trains(s)
+\emph default
+ step of the company's turn in an Operating Round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Run-train(s)"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Revenue
+\begin_inset space ~
+\end_inset
+
+to
+\begin_inset space ~
+\end_inset
+
+the
+\begin_inset space ~
+\end_inset
+
+cousin: Half the revenue of the smallest port on each such route is paid
+ by the bank to the cousin's treasury each time.
+\end_layout
+
+\begin_layout Description
+Price: £120
+\end_layout
+
+\begin_layout Subsubsection
+Sassoon David Sassoon
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Cousin-Sassoon-David-Sassoon"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Granted
+\begin_inset space ~
+\end_inset
+
+ability: Investments can double the revenue of the off-board for train routes
+ including a port and an off-board (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Run-train(s)"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Route-definitions-by-train-type"
+
+\end_inset
+
+), one route per share of the company currently held by the cousin, maximum
  3.
 \end_layout
 
@@ -8132,91 +8552,8 @@ the
 \begin_inset space ~
 \end_inset
 
-cousin: Half the revenue of the smallest port on each affected route is
- paid by the bank to the cousin's treasury each time.
-\end_layout
-
-\begin_layout Description
-Price: £120
-\end_layout
-
-\begin_layout Subsubsection
-Sassoon David Sassoon
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:Cousin-Sassoon-David-Sassoon"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Granted
-\begin_inset space ~
-\end_inset
-
-ability: Investments can double the revenue of the off-board for train routes
- including a port and an off-board (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Run-train(s)"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Route-definitions-by-train-type"
-
-\end_inset
-
-), one train route per share of the company currently held by the cousin,
- maximum 3.
-\end_layout
-
-\begin_layout Description
-Ability
-\begin_inset space ~
-\end_inset
-
-may
-\begin_inset space ~
-\end_inset
-
-be
-\begin_inset space ~
-\end_inset
-
-used: In the 
-\emph on
-run trains(s)
-\emph default
- step of the company's turn in an Operating Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sub:Run-train(s)"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Revenue
-\begin_inset space ~
-\end_inset
-
-to
-\begin_inset space ~
-\end_inset
-
-the
-\begin_inset space ~
-\end_inset
-
-cousin: Half the revenue of the largest port at the end of an affected route
- is paid by the bank to the cousin's treasury each time.
+cousin: Half the revenue of the port on each such route is paid by the bank
+ to the cousin's treasury each time.
 \end_layout
 
 \begin_layout Description
@@ -8292,12 +8629,15 @@ reference "sub:Buying-shares"
 \end_inset
 
 ).
+ 
 \end_layout
 
+\begin_deeper
 \begin_layout Description
 Note: The company's director cannot refuse the discount.
 \end_layout
 
+\end_deeper
 \begin_layout Description
 Revenue
 \begin_inset space ~
@@ -8320,7 +8660,7 @@ Price: £120
 \end_layout
 
 \begin_layout Subsubsection
-Charles Fox
+Robert Stephenson & Charles Fox
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Cousin-Charles-Fox"
@@ -8349,11 +8689,9 @@ reference "sub:Takeover-procedure"
 
 \end_inset
 
-) for free, one station marker per share of the company currently held by
- the cousin.
- This can be done a maximum of 3 times per company, once for 1 share held
- by the cousin, a second time for 2 shares held, and a third for 3 shares
- held.
+) for free, one station marker per share per game.
+ This can be once for one share held, a second time for two shares held,
+ and a third time for 3 shares held.
  
 \end_layout
 
@@ -8410,6 +8748,82 @@ Green cousins
 \end_layout
 
 \begin_layout Subsubsection
+Bedlington Ironworks 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Counsin-Bedlington-Ironworks"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Granted
+\begin_inset space ~
+\end_inset
+
+ability: Investments can upgrade a city track tile in addition to their
+ normal track build (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Upgrading-track"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Ability
+\begin_inset space ~
+\end_inset
+
+may
+\begin_inset space ~
+\end_inset
+
+be
+\begin_inset space ~
+\end_inset
+
+used: In the 
+\emph on
+build track 
+\emph default
+step during an Operating Round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Build-track"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Description
+Revenue
+\begin_inset space ~
+\end_inset
+
+to
+\begin_inset space ~
+\end_inset
+
+the
+\begin_inset space ~
+\end_inset
+
+cousin: Half the revenue of the upgraded city is paid by the bank to the
+ cousin's treasury.
+\end_layout
+
+\begin_layout Description
+Price: £120
+\end_layout
+
+\begin_layout Subsubsection
 Gas Light & Coke Company
 \begin_inset CommandInset label
 LatexCommand label
@@ -8430,6 +8844,16 @@ ability: Investments can place a yellow big city spaced as if it were a
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "par:Big-City-track"
+
+\end_inset
+
+), or upgrade a yellow small city tile to a green big city tile (see 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -8476,8 +8900,8 @@ the
 \begin_inset space ~
 \end_inset
 
-cousin: The bank pays £30 to the cousin's treasury as each such big city
- tile is placed.
+cousin: The value of the big city tile is paid by the bank to the cousin's
+ treasury each time.
 \end_layout
 
 \begin_layout Description
@@ -8500,8 +8924,9 @@ Granted
 \begin_inset space ~
 \end_inset
 
-ability: Investments have a 50% discount on terrain costs and on track connectio
-ns across blue barriers when placing track (see 
+ability: Investments have a 50% discount on terrain & barrier costs.
+ The discount claimed by the company is paid by the bank to this treasury
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Track-placement-&-upgrades"
@@ -8556,9 +8981,8 @@ the
 \begin_inset space ~
 \end_inset
 
-cousin: Half the terrain and barrier costs paid by investments are paid
- by the bank to the cousin's treasury for the first share of the company
- held by the cousin, and one quarter more for each additional share.
+cousin: The discount claimed by the company is paid by the bank to this
+ treasury .
 \end_layout
 
 \begin_layout Description
@@ -8598,8 +9022,7 @@ reference "sub:Run-train(s)"
 \end_inset
 
 ).
- This can be done a maximum of twice per company, once for 1 share held
- by the cousin and a second time for 3 shares held.
+ This can be done once per company per game.
  
 \end_layout
 
@@ -8674,8 +9097,7 @@ reference "sub:Route-definitions-by-train-type"
 
 \end_inset
 
-), once per train, one train per share of the company held by the cousin,
- maximum 3.
+), once per train, one train per share of the company held by the cousin.
 \end_layout
 
 \begin_layout Description
@@ -8718,7 +9140,7 @@ the
 \begin_inset space ~
 \end_inset
 
-cousin: The bank pays half the revenue of the addition city to the cousin's
+cousin: The bank pays half the revenue of the additional city to the cousin's
  treasury for each affected train when it runs.
 \end_layout
 
@@ -9316,7 +9738,6 @@ Are connected by a line of track to a specific one of the owning company's
  station markers (selected by the owning company director):
 \end_layout
 
-\begin_deeper
 \begin_layout Standard
 Or:
 \end_layout
@@ -9324,7 +9745,7 @@ Or:
 \begin_layout Itemize
 Are ports immediately adjacent and connected to one of the owning company's
  station markers that is in turn connected by a line of track to the selected
- station marker are counted as part of the route.
+ station marker:
 \end_layout
 
 \begin_layout Standard
@@ -9338,7 +9759,6 @@ Note: FLOOD trains can re-use track already used by the same FLOOD train
  track used by another train owned by the same company.
 \end_layout
 
-\end_deeper
 \begin_layout Description
 Revenue: The sum of all the revenue centers on the route:
 \end_layout
@@ -9551,13 +9971,6 @@ When a company is floated, its stock price marker is placed on the matching
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Floating-a-new-public"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Float-heritage-company"
 
 \end_inset
 
