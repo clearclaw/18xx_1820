@@ -964,10 +964,6 @@ Brown
 
 \begin_layout Plain Layout
 8+
-\begin_inset Newline newline
-\end_inset
-
-H2
 \end_layout
 
 \end_inset
@@ -977,10 +973,6 @@ H2
 
 \begin_layout Plain Layout
 8
-\begin_inset Newline newline
-\end_inset
-
-9
 \end_layout
 
 \end_inset
@@ -990,10 +982,6 @@ H2
 
 \begin_layout Plain Layout
 £800
-\begin_inset Newline newline
-\end_inset
-
-£400
 \end_layout
 
 \end_inset
@@ -1003,10 +991,6 @@ H2
 
 \begin_layout Plain Layout
 4
-\begin_inset Newline newline
-\end_inset
-
--
 \end_layout
 
 \end_inset
@@ -1054,10 +1038,6 @@ Red
 
 \begin_layout Plain Layout
 5D+
-\begin_inset Newline newline
-\end_inset
-
-H2
 \end_layout
 
 \end_inset
@@ -1067,10 +1047,6 @@ H2
 
 \begin_layout Plain Layout
 6
-\begin_inset Newline newline
-\end_inset
-
-9
 \end_layout
 
 \end_inset
@@ -1080,10 +1056,6 @@ H2
 
 \begin_layout Plain Layout
 £1,600
-\begin_inset Newline newline
-\end_inset
-
-£400
 \end_layout
 
 \end_inset
@@ -1093,10 +1065,6 @@ H2
 
 \begin_layout Plain Layout
 3
-\begin_inset Newline newline
-\end_inset
-
--
 \end_layout
 
 \end_inset
@@ -1144,10 +1112,6 @@ Gray
 
 \begin_layout Plain Layout
 FLOOD
-\begin_inset Newline newline
-\end_inset
-
-H2
 \end_layout
 
 \end_inset
@@ -1156,10 +1120,6 @@ H2
 \begin_inset Text
 
 \begin_layout Plain Layout
-9
-\begin_inset Newline newline
-\end_inset
-
 9
 \end_layout
 
@@ -1170,10 +1130,6 @@ H2
 
 \begin_layout Plain Layout
 £2,000
-\begin_inset Newline newline
-\end_inset
-
-£400
 \end_layout
 
 \end_inset
@@ -1183,10 +1139,6 @@ H2
 
 \begin_layout Plain Layout
 2
-\begin_inset Newline newline
-\end_inset
-
--
 \end_layout
 
 \end_inset
@@ -2612,11 +2564,8 @@ The player that owns the lobby marker:
 
 \begin_deeper
 \begin_layout Enumerate
-Selects a currently unused company.
-\end_layout
-
-\begin_layout Enumerate
-Selects a currently available share-count (see 
+Selects a currently unused company and a currently available share-count
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Company-Sizes"
@@ -2630,9 +2579,34 @@ reference "sub:Cost-of-business"
 
 \end_inset
 
-):
+) and takes the company's:
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Charter.
+\end_layout
+
+\begin_layout Itemize
+Shares matching the share-count.
+\end_layout
+
+\begin_layout Itemize
+2 station markers.
+\end_layout
+
+\begin_layout Itemize
+A stock price marker.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $(Optional)$
+\end_inset
+
+ A revenue marker for the revenue track.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Selects a legal par price for the company and places the company's stock
  price marker at that price on the Stock Market (see 
@@ -2674,7 +2648,11 @@ Places one or two station markers in any open station circles on the map:
 
 \begin_deeper
 \begin_layout Itemize
-The placed station markers must be placed in one of: 
+Any remaining station marker is placed on the company charter.
+\end_layout
+
+\begin_layout Itemize
+The station markers put on the map must be placed in one of: 
 \end_layout
 
 \begin_deeper
@@ -3552,10 +3530,6 @@ reference "sub:In-liquidation"
 \end_layout
 
 \end_deeper
-\begin_layout Description
-Note: H2 trains do not have any maintenance costs.
-\end_layout
-
 \end_deeper
 \begin_layout Subsubsection
 Discard train(s)
@@ -7236,7 +7210,7 @@ Private
 \begin_inset Text
 
 \begin_layout Plain Layout
-3
+2
 \end_layout
 
 \end_inset
@@ -7301,7 +7275,7 @@ Private
 \begin_inset Text
 
 \begin_layout Plain Layout
-3
+2
 \end_layout
 
 \end_inset
@@ -7698,12 +7672,7 @@ Public companies may not reduce their share count in brown phase or later.
 
 \end_deeper
 \begin_layout Itemize
-Start with:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-2 station markers if they start with 5 or 10 shares (see 
+Start with 2 station markers (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Company-Sizes"
@@ -7720,18 +7689,20 @@ reference "sub:Floating-a-new-public"
 ).
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-3 station markers if they start with 20 or 50 shares (see 
+Companies may acquire more station markers by taking over other companies
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "tab:Company-Sizes"
+reference "sub:Takeovers"
 
 \end_inset
 
  & 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sub:Floating-a-new-public"
+reference "sub:companies-station-limit"
 
 \end_inset
 
@@ -7956,7 +7927,7 @@ The first three track tiles with unoccupied station marker locations are
 
 \begin_deeper
 \begin_layout Itemize
-Starting clockwise around London from Margate (N20).
+Starting clockwise around London from Margate (N18).
 \end_layout
 
 \end_deeper
@@ -8005,7 +7976,7 @@ name "sub:companies-station-limit"
 \end_layout
 
 \begin_layout Itemize
-Companies float with 2 or 3 station markers (see 
+Companies float with 2 station markers (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Company-Sizes"
@@ -8848,16 +8819,13 @@ reference "par:Big-City-track"
 \end_inset
 
 ), or upgrade a yellow small city tile to a green big city tile (see 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Track-placement-&-upgrades"
 
 \end_inset
 
-), once per company.
+), once per company per game.
 \end_layout
 
 \begin_layout Description
@@ -8926,7 +8894,7 @@ Granted
 
 ability: Investments have a 50% discount on terrain & barrier costs.
  The discount claimed by the company is paid by the bank to this treasury
- (see 
+ each time (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Track-placement-&-upgrades"
@@ -8964,10 +8932,12 @@ reference "sub:Build-track"
 ).
 \end_layout
 
+\begin_deeper
 \begin_layout Description
 Note: The company's director cannot refuse the discount.
 \end_layout
 
+\end_deeper
 \begin_layout Description
 Revenue
 \begin_inset space ~
@@ -9394,11 +9364,11 @@ General route definition (
 \emph on
 N
 \emph default
-+, EXPRESS, 
++, EXPRESS & 
 \emph on
 N
 \emph default
-+D & H2 trains) 
++D) 
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:General-Route-definition"
@@ -9413,11 +9383,11 @@ For
 \emph on
 N
 \emph default
-+, EXPRESS, 
++, EXPRESS & 
 \emph on
 N
 \emph default
-+D & H2 trains, a route is a single continuous line of track that:
++D trains, a route is a single continuous line of track that:
 \end_layout
 
 \begin_deeper
@@ -9785,58 +9755,6 @@ Without re-using any track in the between the different off-board spikes
 \end_deeper
 \end_deeper
 \end_deeper
-\begin_layout Subsubsection
-H2
-\begin_inset space ~
-\end_inset
-
-trains
-\end_layout
-
-\begin_layout Itemize
-H2 trains run a single continuous line of track joining the two cities with
- the owning company's station markers.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-There may be any number of towns on the route:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Before, between and after the cities.
-\end_layout
-
-\begin_layout Itemize
-Any ports immediately adjacent and connected to either station marker are
- also counted as part of the route, once for each port connection.
-\end_layout
-
-\end_deeper
-\begin_layout Description
-Revenue: The sum of:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-£10 each for cities containing the owning company's station markers.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Quadruple the revenue of each town tile on the route.
-\end_layout
-
-\begin_layout Itemize
-Double the revenue of all port connections immediately adjacent to either
- or both of the station markers on the route (see Bournemouth/Poole (O3)
- & Margate (N18)).
-\end_layout
-
-\end_deeper
-\end_deeper
-\end_deeper
 \begin_layout Section
 Stock Market
 \begin_inset CommandInset label
@@ -10123,7 +10041,7 @@ Equal to or larger than its stock price:
 \begin_deeper
 \begin_layout Itemize
 Its stock price marker will move up one, two or three spaces if the total
- dividend is at least equal to, double, or eight times its stock price.
+ dividend is at least equal to, double, or four times its stock price.
 \end_layout
 
 \end_deeper

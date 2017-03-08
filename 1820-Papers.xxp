@@ -206,11 +206,11 @@
     {
       "name": "Charnwood Forest\nRailway",
       "token": "CFR",
-      "token_top": "${L_BROWN}",
-      "token_top_stripe": "${L_PURPLE}",
-      "token_bottom": "${L_BROWN}",
-      "token_bottom_stripe": "${L_PURPLE}",
-      "share_stripe": "${P_BROWN}",
+      "token_top": "${L_GREEN}",
+      "token_top_stripe": "${WHITE}",
+      "token_bottom": "${D_GREEN}",
+      "token_bottom_stripe": "${WHITE}",
+      "share_stripe": "${P_GREEN}",
       "description": "The Bluebell Line\nThe Bread & Herring Line",
       "url": "https://en.wikipedia.org/wiki/Charnwood_Forest_Railway",
       "company_type": 3,
@@ -324,9 +324,9 @@
       "name": "Colne Valley\n& Halstead Railway",
       "token": "CVHR",
       "token_top": "${L_PURPLE}",
-      "token_top_stripe": "${BLACK}",
-      "token_bottom": "${L_PURPLE}",
-      "token_bottom_stripe": "${BLACK}",
+      "token_top_stripe": "${L_YELLOW}",
+      "token_bottom": "${D_PURPLE}",
+      "token_bottom_stripe": "transparent",
       "share_stripe": "${P_PURPLE}",
       "url": "https://en.wikipedia.org/wiki/Colne_Valley_and_Halstead_Railway",
       "company_type": 3,
@@ -675,7 +675,7 @@ Steamship Company""",
 Investments can have a port at both ends
 of a train route; one route per share held.
 Half of the smallest port on each such route
-is paid byt the bank  to this treasury
+is paid by the bank to this treasury
 each time""",
       "url": "https://en.wikipedia.org/wiki/Great_Western_Steamship_Company",
       "face_value": "$120",
@@ -688,7 +688,7 @@ each time""",
 Investments can double the revenue of the off-board
 for routes between a port and an off-board, one
 route for each share held. Half the revenue
-of the smallest port on each such route is paid by
+of the port on each such route is paid by
 the bank to this treasury each time.""",
       "url": "https://en.wikipedia.org/wiki/Sassoon_David_Sassoon",
       "face_value": "$130",
@@ -703,8 +703,9 @@ the bank to this treasury each time.""",
       "title": "Charles Blacker Vignoles",
       "desc": """
 Investment's distance fees are reduced by half for
-additional station markers when floating the company.
-Half of any distance fees paid go to this treasury.""",
+an additional placed station marker when floating
+the company. Half of any distance fees paid go to
+this treasury.""",
       "url": "https://en.wikipedia.org/wiki/Charles_Blacker_Vignoles",
       "face_value": "$120",
       "stripe_colour": "${D_BROWN}",
@@ -714,10 +715,10 @@ Half of any distance fees paid go to this treasury.""",
       "title": """Robert Stephenson
 & Charles Fox""",
       "desc": """
-Investments can place and available station marker
-or acquire a station marker for free, once per share
-held per game (maximum 3).  The bank pays $50 to
-this treasury each time.""",
+Investments can place an available station marker
+or acquire a station marker for free, once per
+share held per game (maximum 3).  The bank pays
+$50 to this treasury each time.""",
       "url": "https://en.wikipedia.org/wiki/Robert_Stephenson, https://en.wikipedia.org/wiki/Charles_Fox_(civil_and_railway_engineer)",
       "face_value": "$130",
       "stripe_colour": "${D_BROWN}",
@@ -743,7 +744,7 @@ the upgraded city is paid to this treasury.""",
       "desc": """
 Investments have a 50% discount on terrain & barrier
 costs. The discount claimed by the company is paid
-by the bank to this treasury.",
+by the bank to this treasury each time.",
       "url": "https://en.wikipedia.org/wiki/Joseph_Locke",
       "face_value": "$120",
       "stripe_colour": "${D_GREEN}",
@@ -756,8 +757,8 @@ by the bank to this treasury.",
 Investments can place a yellow big city spaced
 as if it were a normal city, or upgrade a yellow
 small city tile to a green big city tile, once per
-company.  The value of the big city tile is paid
-to this treasury each time.""",
+company per game.  The value of the big city tile
+is paid to this treasury each time.""",
       "url": "https://en.wikipedia.org/wiki/Gas_Light_and_Coke_Company",
       "face_value": "$130",
       "stripe_colour": "${D_GREEN}",
@@ -771,7 +772,7 @@ to this treasury each time.""",
       "title": "James Holden",
       "desc": """
 Investments can buy a train from the supply
-& immediately run it, once per game per company.""",
+& immediately run it, once per company per game.""",
       "url": "https://en.wikipedia.org/wiki/James_Holden_(locomotive_engineer)",
       "face_value": "$130",
       "stripe_colour": "${M_RED}",
@@ -979,10 +980,13 @@ Half the revenue of any such tile placed is paid to this treasury.""",
 
 [charter]
   desc1 = "Assets, Treasury & Trains"
-  note1 = """Purchase price of shares goes to bank.
-Market shares pay dividends to treasury.
-Recapitalise for 50% CMV at 50% owned."""
   token_count = 2
+  note1 = """Shares start in treasury.
+Purchase price of shares goes to treasury.
+Treasury shares pay dividends to treasury.
+Bank pool shares pay dividends to bank.
+Round dividends for shareholders
+& against the company."""
 
 {% set page_size = 4 %}
 {% set company_count = companies | count %}
@@ -1004,7 +1008,7 @@ Recapitalise for 50% CMV at 50% owned."""
       token_top_stripe_colour = {{ company.token_top_stripe }}
       stripe_colour = {{ company.share_stripe }}
       title = """{{ company.name }}"""
-      token_name = {{ company.token }}
+      token_name = {{ company.token or "" }}
       price1 = free
       price2 = """$40
 $100"""
