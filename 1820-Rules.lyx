@@ -3,6 +3,13 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage{draftwatermark}
+\SetWatermarkText{\textsc{Prototype}}
+\SetWatermarkColor[rgb]{0,1,0 }
+\SetWatermarkFontSize{1cm}
+\SetWatermarkScale{5}
+\end_preamble
 \use_default_options true
 \begin_modules
 theorems-ams
@@ -219,8 +226,7 @@ Many track tiles (yellow, green, brown and gray).
 \end_layout
 
 \begin_layout Itemize
-96 train certificates (27 yellow, 18 green, 16 blue, 8 brown, 6 red, 9 gray,
- 9 purple).
+96 train certificates (27 yellow, 16 green, 14 blue, 6 brown, 4 red, 9 gray).
 \end_layout
 
 \begin_layout Itemize
@@ -824,7 +830,7 @@ Green
 \begin_inset Text
 
 \begin_layout Plain Layout
-18
+16
 \end_layout
 
 \end_inset
@@ -898,7 +904,7 @@ Blue
 \begin_inset Text
 
 \begin_layout Plain Layout
-16
+14
 \end_layout
 
 \end_inset
@@ -972,7 +978,7 @@ Brown
 \begin_inset Text
 
 \begin_layout Plain Layout
-8
+6
 \end_layout
 
 \end_inset
@@ -1046,7 +1052,7 @@ Red
 \begin_inset Text
 
 \begin_layout Plain Layout
-6
+4
 \end_layout
 
 \end_inset
@@ -7828,7 +7834,7 @@ reference "sub:Liquidations"
 \end_layout
 
 \begin_layout Itemize
-The other station markers when a company that places a station marker on
+The other station marker when a company that places a station marker on
  a hexagon that already has a station marker from that company (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -7883,7 +7889,8 @@ All empty station marker locations in London (M13) and Chatham (M15) are
 
 \end_deeper
 \begin_layout Itemize
-Shares may be bought and sold in subsequent Stock Rounds (see 
+British Rail shares may be bought and sold in subsequent Stock Rounds (see
+ 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Selling-shares"
@@ -7941,12 +7948,9 @@ The revenues of each British Rail station marker location.
 \end_layout
 
 \begin_layout Itemize
-The revenues of all immediately adjacent ports.
-\end_layout
-
-\begin_layout Itemize
-The revenues of all off-boards with an unblocked track connection to a British
- Rail station marker.
+The revenue of each off-board with at least one unblocked track connection
+ to a British Rail station marker.
+ 
 \end_layout
 
 \end_deeper
@@ -10110,7 +10114,7 @@ Public companies may have and take loans.
 
 \begin_deeper
 \begin_layout Itemize
-Private companies cannot have or take loans.
+Private companies and cousins cannot have or take loans.
 \end_layout
 
 \begin_deeper
