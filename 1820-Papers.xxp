@@ -634,18 +634,8 @@
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${M_RED}",
       "TGC_micro_train_font": '"Times-Roman", 16',
-      "train_font": '"Times-Roman", 28',
-    },
-    {
-      "cost": "$400",
-      "frame_colour": "${L_PURPLE}",
-      "name": "H2",
-      "rust_stripe": "${L_GRAY}",
-      "trade_stripe": "${L_GRAY}",
-      "train_colour": "${L_GRAY}",
-      "cost_colour": "${L_GRAY}",
-      "rust": "(No Maintenance)",
-      "train_font": '"Times-Roman", 48',
+      "train_font": '"Times-Roman", 16',
+      "default_train_font": '"Times-Roman", 28',
     },
     {
       "cost": "$1,600",
@@ -654,6 +644,7 @@
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${L_GRAY}",
       "TGC_micro_train_font": '"Times-Roman", 36',
+      "train_font": '"Times-Roman", 36',
     },
     {
       "cost": "$2,000",
@@ -662,7 +653,8 @@
       "rust_stripe": "${BLACK}",
       "trade_stripe": "${BLACK}",
       "TGC_micro_train_font": '"Times-Roman", 22',
-      "train_font": '"Times-Roman", 36',
+      "train_font": '"Times-Roman", 22',
+      "default_train_font": '"Times-Roman", 36',
     }
   ]
 %}
@@ -1149,7 +1141,6 @@ half of resulting cash and treasury to owning player."""
     desc = ""
 
 {% for ndx in range (10) %}
-
     [[[tile_{{ ndx + 1 }}.1]]]
       tile_colour = ${H_GRAY}
       tile_stroke_colour = ${BLACK}
@@ -1599,6 +1590,7 @@ sizes"""
   ]
 %}
 
+{#
   [[sizes]]
   token_name_colour = "${WHITE}"
   print_instruction = "Print two copies of this page."
@@ -1614,6 +1606,7 @@ sizes"""
       token_name_colour = {{ tok.token_name_colour }}
   {% endif %}
 {% endfor %}
+#}
 
 [train]
   trade = ""
