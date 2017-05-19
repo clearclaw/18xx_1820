@@ -1,7 +1,13 @@
 #! /bin/bash
 set -e
 
+TMPRULES=1820-Rules.pdf-$$
 lyx --export pdf2 ./1820-Rules.lyx
+mv 1820-Rules.pdf $TMPRULES
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=1820-Rules.pdf $TMPRULES --TEST 1820-TrackTileSheet.pdf
+# pdfjam --outfile 1820-Rules-A4.pdf --paper a4paper 1820-Rules-letter.pdf
+rm $TMPRULES
+
 dir_root=`pwd`
 mkdir -p build
 pushd build
@@ -21,17 +27,17 @@ pushd build
     mkdir $paper
     pushd $paper
       dir_paper=$dir_build/$paper
-      mv $dir_build/*-${paper}.pdf ./
+      mv $dir_build/*-${paper}.pdf ./ || true
       # cp ../../README.txt ./
       for type in outline nooutline
       do
         mkdir $type
         pushd $type
           dir_type=$dir_paper/$type
-          cp $dir_paper/charter* ./
-          cp $dir_paper/market* ./
-          cp $dir_paper/token* ./
-          cp $dir_paper/*-${type}-* ./
+          cp $dir_paper/charter* ./ || true
+          cp $dir_paper/market* ./ || true
+          cp $dir_paper/token* ./ || true
+          cp $dir_paper/*-${type}-* ./ || true
         popd
         name=1820_$type-$paper
         mv $type $name
@@ -40,10 +46,20 @@ pushd build
     popd
   done
   rm -rf letter A4
-  cp $dir_root/1820-Papers.xxp ./
-  cp $dir_root/1820-Rules.pdf ./
-  for f in map tracktiles tilesheet
+  for f in Papers.xxp Rules.pdf TrackTileSheet.pdf TrackTiles.pdf
   do
-    cp $dir_root/1820_${f}.pdf .
+    cp $dir_root/1820-${f} .
   done
+  
+  cp ${dir_root}/M20.ps 1820-Map-A1.ps
+  for size in letter legal A4
+  do
+    fname="1820-Map-${size}.ps"
+    poster -v -i 1450x1700p -s 1.0 -m ${size} -o ${fname} 1820-Map-A1.ps
+    ps2pdf $fname 
+    rm $fname
+  done
+  ps2pdf 1820-Map-A1.ps
+  rm 1820-Map-A1.ps
+  
 popd

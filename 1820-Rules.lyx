@@ -9,6 +9,26 @@
 \SetWatermarkColor[rgb]{0,1,0 }
 \SetWatermarkFontSize{1cm}
 \SetWatermarkScale{5}
+
+\usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+\usepackage[UKenglish]{datetime}
+\usepackage{lastpage}
+
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\fancyhead[C]{1820 Rules}
+\fancyhead[LE,RO]{\textit{ \nouppercase{\leftmark}} }
+\fancyhead[LO,RE]{\textit{ \nouppercase{\rightmark}} }
+
+\fancyfoot[LE,RO]{\today\  \currenttime}
+\fancyfoot[C]{Page: \thepage\  of  \pageref{LastPage}}
+
+\pagestyle{fancy}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -294,11 +314,11 @@ Company charter.
 
 \begin_deeper
 \begin_layout Itemize
-14 5-share certificates.
+30 single share certificates.
 \end_layout
 
 \begin_layout Itemize
-30 single share certificates.
+14 5-share certificates.
 \end_layout
 
 \end_deeper
@@ -5175,9 +5195,9 @@ The designer would like to thank Francis Tresham for the design and development
  of the wonderful field of 18xx games; Daniel Barnes, Bruce Murphy and Shelby
  Noonan their bounteous supply of inspiration, notions, complaints and sounding
  board in equal measures.
- In particular, Bruce Murphy prompted the cousins and what developed into
- the Cost of Business chart, Daniel Barnes helped with the loan system and
- Shelby Noonan suggested what became the future trains.
+ In particular, Bruce Murphy proposed the initial concepts that became the
+ cousins and Cost of Business chart, Daniel Barnes helped with the loan
+ system and Shelby Noonan suggested what became the future trains.
  Additional thanks go to the many other play-testers too numerous to list.
  I have been honoured to design games for and with such wonderful people.
 \end_layout
@@ -5942,9 +5962,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename M20.png
+	filename 1820_map-small.png
 	lyxscale 10
-	width 18cm
+	width 7in
 
 \end_inset
 
@@ -6851,6 +6871,34 @@ reference "sub:Liquidations"
 ).
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Companies that have been acquired or liquidated (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Takeovers"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Liquidations"
+
+\end_inset
+
+) are returned to the supply and may be floated in future stock rounds as
+ new companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Floating-a-new-public"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Float table
 wide true
@@ -7929,7 +7977,7 @@ reference "sub:Public-company-operating-order"
 \begin_layout Enumerate
 The first three track tiles with unoccupied station marker locations are
  filled with British Rail station markers in order of their distance from
- London (M13):
+ London (M13) if possible:
 \end_layout
 
 \begin_deeper
@@ -7937,16 +7985,43 @@ The first three track tiles with unoccupied station marker locations are
 Starting clockwise around London from Margate (N18).
 \end_layout
 
+\begin_layout Itemize
+British Rail may have multiple station markers in the same hexagon.
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
-British Rail's income is three times the sum of:
+British Rail's income is the sum of:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The revenues of each British Rail station marker location.
+The revenue of each British Rail station marker location.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Multiple station markers in London and OO
+\begin_inset space ~
+\end_inset
+
+cities are counted individually.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The revenue of each port immediately adjacent and connected to a British
+ Rail station marker.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Note: The London Docks (M19) are considered immediately adjacent to both
+ London (M13) and Chatham (M15), but are not counted multiple times for
+ multiple British Rail station markers in London (M13).
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 The revenue of each off-board with at least one unblocked track connection
  to a British Rail station marker.
@@ -9770,6 +9845,50 @@ name "sec:Stock-Market"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename 1820-StockMarket.png
+	lyxscale 50
+	width 7in
+	scaleBeforeRotation
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Stock Market 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Stock-Market"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Stock Market overview
 \begin_inset CommandInset label
@@ -10364,7 +10483,15 @@ If the liquidated company treasury is insufficient to repay all its loans:
 
 \begin_deeper
 \begin_layout Itemize
-The shortfall is divided by the number of shares in play (rounding down)
+The shortfall is divided by the number of shares in play (rounding down,
+ see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Shares-in-play"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_deeper
