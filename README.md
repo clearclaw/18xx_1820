@@ -11,19 +11,19 @@ An 18xx game set in England.  Novel properties include:
 - **Future trains:** Currently unavailable trains are sold at auction
   to players (not companies) in the early stock rounds.
 
-- **Cousins:** A sort of player-controled private company that can
-  both buy and sell shares and which grants a special power to the
-  companies it invests in.
+- **Cousins:** Cousins are a sort of player-controled private company
+  that can both buy and sell shares and which grants a special power
+  to the companies it invests in.
 
 - **Free track system:** Cities & towns appear anywhere on the map
   (subject to simple spacing rules).
 
 - **Share counts:** Companies can be private, 5-share, 10-share,
-  20-share or 50-share and may (and do) move up and down on that scale
-  during the game.
+  20-share or 50-share and may move up and down on that scale during
+  the game.
 
-- **Takeovers & liquidations:** Companies buy other companies (often)
-  and companies fail or are liquidated and taken over by the will-be
+- **Takeovers & liquidations:** Companies may buy other companies and
+  companies fail or are liquidated and taken over by the will-be
   British Rail.
 
 - **Trains:** Trains never rust, they just get more and more and very
@@ -33,8 +33,11 @@ Game files can be found under:
 
   http://kanga.nu/~claw/1820/
 
-Experienced players (experienced with 1820) have completed games in
-about 7 hours.
+Not-very-fast players experienced with 1820 have completed games in
+about 7 hours.  Inexperienced players will likely take a lot longer.
+Because of the significant degree of changes from 18xx canon, it is
+recommended that new players only play up to the third stock round in
+their first game.
 
 ## Game components
 
@@ -75,8 +78,9 @@ best fits your printing capacity:
 - **1820-Map-letter.pdf** - 9 US letter sized pages.
 
 The multi-page formats have small overlaps between the sections, which
-allows them to be more easily laminated and then taped together into
-an accurate non-gappy map which also folds up neatly for storage.
+allows them to be more easily laminated or mounted and then taped
+together into an accurate non-gappy map which also folds up neatly for
+storage.
 
 #### Shares
 
