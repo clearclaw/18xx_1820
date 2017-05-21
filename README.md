@@ -57,11 +57,11 @@ Ensure that you print without scaling.  Do not select "scale to fit"
 or "fit to page".  Print everything with "no scale" or "100% scale".
 
 **Note:** In many cases the provided art will produce more components
-than needed (eg trains).  Discard the extras.
+than needed (e.g. trains).  Discard the extras.
 
 #### Outline versus nooutline
 
-Most files (eg shares trains and player cards) are formatted for
+Most files (e.g. shares trains and player cards) are formatted for
 cutting with an Ellison Prestige Pro test die.  Use the "nooutline"
 files for those components if you are using such a die.  For
 everything else use the "outline" files which have thin lines
