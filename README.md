@@ -19,8 +19,8 @@ An 18xx game set in England.  Novel properties include:
 
 - **Takeovers & liquidations:** Companies buy other companies.  Often.
 
-- Trains: Trains never rust, they just get more and more and very much
-  more expensive to own.
+- **Trains:** Trains never rust, they just get more and more and very
+  much more expensive to own.
 
 ## Game components
 
