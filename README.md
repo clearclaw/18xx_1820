@@ -122,9 +122,9 @@ For a 50 share company the differences are:
   - 18 station markers
 
 This gives enough for each player to be pre-allocated two 50-share
-companies (you can also pre-allocate 4 additional companies to each
+companies.  You can also pre-allocate 4 additional companies to each
 player -- I do -- but you may find players "borrowing" each other's
-companies now and then as the company rush gets really going).
+companies now and then as the company rush gets really going.
 
 If you follow that pattern you'll need a total of 520 token bits:
 
@@ -161,10 +161,10 @@ dye:
 #### Loans
 
 I do not provide component art for loans.  You'll have to use
-something of your own devising.  I use blank scrabble tiles dyed a
-bright red (see the URL for loans above for notes on how to easily and
-cheaply colour/dye wood). Wood cubes or plastic square tiles from
-educational supply stores would also work well.
+something of your own devising.  I use blank wooden scrabble tiles
+dyed a bright red (see the URL for loans above for notes on how to
+easily and cheaply colour/dye wood). Wood cubes or plastic square
+tiles from educational supply stores would also work well.
 
   https://www.amazon.com/ETA-hand2mind-Plastic-Color-Square/dp/B01J6FPZU4
 
@@ -181,7 +181,7 @@ across and fills a single page before moving to the next page.  Use
 the one (or neither) that you prefer.
 
 Note that while the total revenue of a final company with a FLOOD
-train can be up into the multiple $thousands, neither of the revenue
+train can be up into the multiple thousands, neither of the revenue
 charts go that high.  Umm, sorry!
 
 ## Bank
@@ -193,3 +193,14 @@ of 20,000 is enough.
 **Note:** 1820 is particularly demanding on small middle-value
 denominations.  If using poker chips, value-20 chips are strongly
 recommended.  Many values and costs in the game are multiples of 20.
+
+The bank distribution I use::
+
+           Count    Value   Total    Total
+    White     75        1      75       75
+    Red       77        5     385      460
+    Gray     117       20   2,340    2,800
+    Black     62      100   6,200    9,000
+    Purple    40      500  20,000   29,000
+    Orange    20     2000  40,000   69,000
+             391
