@@ -181,3 +181,9 @@ charts go that high.  Umm, sorry!
 ## Bank
 
 There is no set bank size in 1820.  A bank of 40,000 should suffice.
+If you do the final rounds of the game on paper as we do, then a bank
+of 20,000 is enough.
+
+**Note:** 1820 is particularly demanding on small middle-value
+denominations.  If using poker chips, value-20 chips are strongly
+recommended.  Many values and costs in the game are multiples of 20.
