@@ -13,16 +13,16 @@ An 18xx game set in England.  Novel properties include:
 
 - **Cousins:** Cousins are a sort of player-controled private company
   that can both buy and sell shares and which grants a special power
-  to the companies it invests in.
+  to the companies they invest in.
 
-- **Free track system:** Cities & towns appear anywhere on the map
-  (subject to simple spacing rules).
+- **Free track system:** Cities & towns appear anywhere on the map,
+  subject to simple spacing rules.
 
 - **Share counts:** Companies can be private, 5-share, 10-share,
-  20-share or 50-share and may move up and down on that scale during
+  20-share or 50-share, and may move up and down on that scale during
   the game.
 
-- **Takeovers & liquidations:** Companies may buy other companies and
+- **Takeovers & liquidations:** Companies may buy other companies, and
   companies fail or are liquidated and taken over by the will-be
   British Rail.
 
@@ -35,9 +35,9 @@ Game files can be found under:
 
 Not-very-fast (ahem) players experienced with 1820 have completed
 games in about 7 hours.  Inexperienced players will likely take a lot
-longer.  Because of the significant degree of changes from 18xx canon,
-I recommended that new players only play up to the third stock round
-in their first game.
+longer.  Because of the number of changes from 18xx canon, and the
+resulting steep learning curve, I recommended that new players only
+play up to the third stock round in their first game.
 
 ## Game components
 
@@ -74,27 +74,39 @@ best fits your printing capacity:
 
 - **1820-Map-A1.pdf**	- A single A1 page -- use with a large format printer.
 - **1820-Map-A4.pdf**	- 8 A4 pages.
-- **1820-Map-legal.pdf** - 6 US Legal sized pages.
+- **1820-Map-legal.pdf** - 6 US legal sized pages.
 - **1820-Map-letter.pdf** - 9 US letter sized pages.
 
 The multi-page formats have small overlaps between the sections, which
 allows them to be more easily laminated or mounted and then taped
-together into an accurate non-gappy map which also folds up neatly for
+together into an accurate gapless map which also folds up neatly for
 storage.
 
 #### Shares
 
 There are 30 companies in 1820.  I've seen as many as 27 in
 simultaneous use in a single game.  If you ever see a game of 1820
-which wanted more than 30 companies I'd love to hear about it!
+which required more than 30 companies I'd love to hear about it!
 
-Nominally all the companies are identical.  They all have a charter,
+Nominally, all the companies are identical.  They all have a charter,
 50 public shares, a private certificate, 18 station markers, a stock
-marker, and a revenue marker.  In practice I don't make all the
-companies full size.  Instead I make a small set of them go all the
-way to 50 shares etc and then leave the rest with only the components
-for being up to a 10-share company.  This greatly reduces component
-count, storage pace, cost and manufacturing effort.
+marker, and a revenue marker.  Because in practice the number of
+20-share and 50-share companies in simultaneous play is limited, it is
+not necessary to produce every component for all companies.  For my
+own use, I produce components for the following 10 companies to only
+10 shares, This greatly reduces component count, storage pace, cost
+and manufacturing effort.
+
+  - B&DJR
+  - B&GR
+  - CNR
+  - L&BR
+  - L&GR
+  - LO&PR
+  - LSR
+  - OW&WR
+  - S&DR
+  - SRBWH&G
 
 For a 10-share company you need:
 
@@ -109,26 +121,12 @@ For a 50 share company the differences are:
   - 50 public certificates/shares (white background)
   - 18 station markers
 
-I make the following 10 companies to support 50-shares, optimising for
-visual distinctness and clarity on the board:
-
-  - B&DJR
-  - B&GR
-  - CNR
-  - L&BR
-  - L&GR
-  - LO&PR
-  - LSR
-  - OW&WR
-  - S&DR
-  - SRBWH&G
-
 This gives enough for each player to be pre-allocated two 50-share
 companies (you can also pre-allocate 4 additional companies to each
 player -- I do -- but you may find players "borrowing" each other's
-companies now and then as the company rush gets really going.
+companies now and then as the company rush gets really going).
 
-If you follow that pattern you'll need a total of 520 tooken bits:
+If you follow that pattern you'll need a total of 520 token bits:
 
   - 280 for 20 10-share public companies.
   - 200 for 10 50-share companies.
