@@ -33,11 +33,11 @@ Game files can be found under:
 
   http://kanga.nu/~claw/1820/
 
-Not-very-fast players experienced with 1820 have completed games in
-about 7 hours.  Inexperienced players will likely take a lot longer.
-Because of the significant degree of changes from 18xx canon, it is
-recommended that new players only play up to the third stock round in
-their first game.
+Not-very-fast (ahem) players experienced with 1820 have completed
+games in about 7 hours.  Inexperienced players will likely take a lot
+longer.  Because of the significant degree of changes from 18xx canon,
+I recommended that new players only play up to the third stock round
+in their first game.
 
 ## Game components
 
@@ -59,7 +59,7 @@ or "fit to page".  Print everything with "no scale" or "100% scale".
 **Note:** In many cases the provided art will produce more components
 than needed (eg trains).  Discard the extras.
 
-#### Outline versus nooutline:
+#### Outline versus nooutline
 
 Most files (eg shares trains and player cards) are formatted for
 cutting with an Ellison Prestige Pro test die.  Use the "nooutline"
@@ -182,7 +182,7 @@ that snakes back and forth across multiple pages and one that snakes
 across and fills a single page before moving to the next page.  Use
 the one (or neither) that you prefer.
 
-**Note:** While the total revenue of a final company with a FLOOD
+Note that while the total revenue of a final company with a FLOOD
 train can be up into the multiple $thousands, neither of the revenue
 charts go that high.  Umm, sorry!
 
