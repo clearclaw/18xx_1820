@@ -1,171 +1,155 @@
+====
 1820
 ====
 
-An 18xx game set in England.
+Overview
+========
 
+An 18xx game set in England.  Novel properties include:
 
+- Future trains: Currently and increasingly unavailable trains are
+  sold in advance in the early stock rounds.
+- Cousins: Like a private companu that can both buy and sell shares
+  and which grants a special power to the companies it invests in.
+- Free track system: Cities & towns appear anywhere on the map
+  (subject to simple spacing rules).
+- Share counts: Companies can be private, 5-share, 10-share, 20-share
+  or 50-share and can and do move up and down on that scale during the
+  game.
+- Takeovers and liquidations: Companies buy other companies.  Often.
+- Trains: Trains never rust, they just get more and more and very much
+  more expensive to own.
 
-::
+-------------
+Game components
+---------------
 
-  $ pip install logtool
+While you can cerntainly make and cut out all the trains and trains
+yourself, there are rather a lot of them.  To save effort (if not
+money) those components are also available from The Game Crafter at:
 
-log\_call
----------
+  <URL GOES HERE>
 
-A decorator for function and method definitions that logs at DEBUG
-level a variety of data about every call made to that entrypoint.
+The rest you'll have to make by hand.
 
-Intended to supercede @log_func and log_func_noargs (see below).  See
-log\_func for example output.
+Most components are avaiable formatted for either A4 or US letter
+siuzed paper.  A few, like the rules, track tiles, tile sheet, etc are
+only available formatted for US letter but will print just fine on A4.
 
-Optional arguments:
+Ensure that you print without scaling.  Do not select "scale to fit"
+or "fit to page".  Print everything with "no scale" or "100% scale".
 
-log\_enter
-  Log entrance to the decorated method.  Defaults to True.
-log\_args
-  Log the arguments passed to the decorated method.  Defaults to True.
-log\_exit
-  Log exit/returns from the decorated method along with the execution time. Defaults to True.
-log\_rc
-  Log the value returned by the decorated method.  Defaults to True.
-log\_trace
-  Log each line of the decorated method as it is executed.  Defaults to False.
-log\_level
-  Log level to use for the logginf of the call.  Defaults to logging.DBEUG.
+Note: In many cases the provided art will produce more components than
+needed (eg trains).  Discard the extras -- they aren't needed.
 
-::
+Outline versus nooutline:
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  @logtool.log_call
-  def a_method (...):
-   ...etc...
+Most files (eg shares trains and player cards) are formatted for
+cutting with an Ellison Prestige Pro test die.  Use the "nooutline"
+files for those components if you are using such a die.  Eor
+everything else use the "outline" files which have thin lines
+outlining each component as a cutting guide.
 
-::
+Map
+~~~
 
-  @logtool.log_call (log_args = False, log_rc = False)
-  def big_complex_data (...):
-   ...etc...
+There are four possible files for making the map.  Choose the one that
+bet fits your printing capacity:
 
-log\_func
----------
+- 1820-Map-A1.pdf	- A single A1 page -- use with a large format printer.
+- 1820-Map-A4.pdf	- 8 A4 pages.
+- 1820-Map-legal.pdf - 6 US Legal sized pages.
+- 1820-Map-letter.pdf - 9 US letter sized pages.
 
-A decorator for function and method definitions that logs at DEBUG level
-every call to that function or method along with its arguments.
+The multi-page formats have small overlaps between the sections, which
+allows them to be more easily laminated and then taped together into
+an accurate non-gappy map which also folds up neatly for storage.
 
-eg
+Shares
+~~~~~~
 
-::
+There are 30 companies in 1820.  I've seen as many as 27 in
+simultaneous use in a single game.  If you ever see a game of 1820
+which wanted more than 30 companies I'd love to hear about it!
 
-    @logtool.log_wrap
-    def my_method (self, *args):
-      ...stuff here...
+Nominally all the companies are identical.  They all have a charter,
+50 public shares, a private certificate, 18 station markers, a stock
+marker, and a revenue marker.  In practice I don't make all the
+companies full size.  Instead I make a small set of them go all the
+way to 50 shares etc and then leave the rest with only the components
+for being up to a 10-share company.  This greatly reduces component
+count, storage pace, cost and manufacturing effort.
 
-Resulting log entry from a real production usage (with a few of the
-argumentvalues redacted):
+For a 10-share company you need:
 
-::
+  - Private certificate/xshare (black background).
+  - 10 public certificates/shares (white background)
+  - 12 station markers
+  - 1 stock marker
+  - 1 revenue marker
 
-    Entered: function:test_tool.toolwrapper:email_report ((<test_tool.meshtool.Wrapper object at 0x7f19d4879c10>, path(u'../file.ext'), 'address@domain.com', 'address@domain.com', 'Interesting subject header') {})
+For a 50 share company the differences are:
 
-The {} at the end shows that there were no named arguments passed to
-that call, else they would be shown there.
+  - 50 public certificates/shares (white background)
+  - 18 station markers
 
-log\_func\_noargs
------------------
+I make the following 10 companies to support 50-shares, optimising for
+visual distinctness and clarity on the board:
 
-A decorator for function and method definitions that logs at DEBUG level
-every call to that function or method but without any arguments. This
-can be useful when traversing and dumping the arguments would be
-execssively expensive, or would potentially create infinite loops.
+  - B&DJR
+  - B&GR
+  - CNR
+  - L&BR
+  - L&GR
+  - LO&PR
+  - LSR
+  - OW*WR
+  - S&DR
+  - SRBWH&G
 
-eg
+This gives enough for each player to be pre-allocated two 50-share
+companies (you can also pre-allocate 4 additional companies to each
+player -- I do -- but you may find players "borrowing" each other's
+companies now and then as the company rush gets really going.
 
-::
+For a 10-share company you'll need to print two copies of the public
+certificates file for that company (as there are 9 certificates per
+page).  For a 50-share company you'll need to print 6 copies of that
+file (and thus be left with 4 "extra" certificates).
 
-    @logtool.log_wrap_noargs
-    def my_method (self, *args):
-      ...stuff here...
+Station markers & similar Tokens
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-log\_fault
-----------
+Print the tokens on full page label paper, cut into strips and punch
+using a 1/2" punch such as the following:
 
-Logs an exception in a standardised form, including the source file and
-line number of the exception, and if logging at DEBUG level, also logs a
-stack trace along with all the variables in each stack frame. eg
+  Paper Shapers Small Punch-1/2-Inch
+  https://www.amazon.com/gp/product/B000XAKWPK
 
-In WARN or higher mode:
+I then stick them to wood plugs from a Home Depot/Lowes/DIY/similar
+store.  You can also use coloured wood discs from a game bits store,
+but they tend to be a bit too large for the city circles and thus
+don't fit well in crowded areas.
 
-::
+  http://www.homedepot.com/p/General-Tools-1-2-in-Flat-Head-Plugs-315012/202252112
 
-    CRITICAL <log_fault_impl:log_fault(24)> FAULT: /usr/local/lib/python2.7/dist-packages/workerd-0.1.26_gbb342e2-py2.7.egg/workerd/do.py(243): IOError(28, 'No space left on device')
+Note: There are no stickers for the British Rail tokens.  You;ll need
+about 40 for British Rail.  In order to differentiate them from normal
+company tokens, I dyed mine a dark blue using cheap clothing dye:
 
-When logging at DEBUG:
+  https://www.boardgamegeek.com/thread/335295
 
-::
+Loans
+~~~~~
 
-    CRITICAL <log_fault_impl:log_fault(24)> FAULT: /usr/local/lib/python2.7/dist-packages/workerd-0.1.26_gbb342e2-py2.7.egg/workerd/do.py(243): IOError(28, 'No space left on device')
-    DEBUG <log_fault_impl:log_fault(26)> Locals by frame, innermost last:
-    DEBUG <log_fault_impl:log_fault(30)> Frame run in /usr/local/lib/python2.7/dist-packages/workerd-0.1.26_gbb342e2-py2.7.egg/workerd/do.py at line 248
-    DEBUG <log_fault_impl:log_fault(40)>                 self = <workerd.do.Do object at 0x7f5709e3d490>
-    DEBUG <log_fault_impl:log_fault(40)>                    e = [Errno 28] No space left on device
-    DEBUG <log_fault_impl:log_fault(40)>                   rc = 0
-    DEBUG <log_fault_impl:log_fault(30)> Frame wrapper_args in build/bdist.linux-x86_64/egg/mppy/log_wrap.py at line 27
-    DEBUG <log_fault_impl:log_fault(40)>                 args = (<workerd.do.Do object at 0x7f5709e3d490>,)
-    DEBUG <log_fault_impl:log_fault(40)>                   fn = <function do_job at 0x7f570a2936e0>
-    DEBUG <log_fault_impl:log_fault(40)>               kwargs = {}
-    DEBUG <log_fault_impl:log_fault(30)> Frame do_job in /usr/local/lib/python2.7/dist-packages/workerd-0.1.26_gbb342e2-py2.7.egg/workerd/do.py at line 227
-    DEBUG <log_fault_impl:log_fault(40)>                  toc = 1410867312.58
-    DEBUG <log_fault_impl:log_fault(40)>                 self = <workerd.do.Do object at 0x7f5709e3d490>
-    DEBUG <log_fault_impl:log_fault(40)>                  tic = 1410842559.54
-    DEBUG <log_fault_impl:log_fault(40)>                   rc = -99
-    DEBUG <log_fault_impl:log_fault(30)> Frame __setitem__ in build/bdist.linux-x86_64/egg/mppy/jsondict.py at line 69
-    DEBUG <log_fault_impl:log_fault(40)>                 self = {u'status': u'pending', u'notified_for': u'pending
-    DEBUG <log_fault_impl:log_fault(40)>                  key = execution_time
-    DEBUG <log_fault_impl:log_fault(40)>                  val = 24753.043578
-    DEBUG <log_fault_impl:log_fault(40)>               kwargs = {}
-    DEBUG <log_fault_impl:log_fault(30)> Frame wrapper in build/bdist.linux-x86_64/egg/mppy/jsondict.py at line 80
-    DEBUG <log_fault_impl:log_fault(40)>                 self = {u'status': u'pending', u'notified_for': u'pending
-    DEBUG <log_fault_impl:log_fault(40)>               kwargs = {}
-    DEBUG <log_fault_impl:log_fault(40)>                 attr = <bound method JsonDict.save of {u'status': u'pendi
-    DEBUG <log_fault_impl:log_fault(40)>                 args = ()
-    DEBUG <log_fault_impl:log_fault(40)>           was_loaded = True
-    DEBUG <log_fault_impl:log_fault(30)> Frame save in build/bdist.linux-x86_64/egg/mppy/jsondict.py at line 46
-    DEBUG <log_fault_impl:log_fault(40)>                force = False
-    DEBUG <log_fault_impl:log_fault(40)>                 self = {u'status': u'pending', u'notified_for': u'pending
-    DEBUG <log_fault_impl:log_fault(40)>                   fd = 5
-    DEBUG <log_fault_impl:log_fault(40)>                   fn = /var/spool/matterport/workerd/generate_mesh/d34fea
+I do not provide any component art for loans.  I use blank scrabble
+tiles dyed a bright red (see the URL above for loans). Wood cubes or
+plastic square tiles from educational supply stores would also work
+well.
 
-time\_str
----------
+  https://www.amazon.com/ETA-hand2mind-Plastic-Color-Square/dp/B01J6FPZU4
 
-Simply returns a time\_t (seconds since the epoch, possibly fractional)
-in a simple consistent string form suitable for logfiles, reports and
-the like.
-
-See below under ``now`` for an example.
-
-now
----
-
-Reurns a tuple of the current time as a time\_t, and its matching
-time\_str. Getting the two together allows the string to be used for
-logs and the like, and the time_t to be used as a numeric.  eg:
-
-::
-
-    $ ipython
-    Python 2.7.6 (default, Mar 22 2014, 22:59:56)
-    Type "copyright", "credits" or "license" for more information.
-
-    IPython 1.2.1 -- An enhanced Interactive Python.
-    ?         -> Introduction and overview of IPython's features.
-    %quickref -> Quick reference.
-    help      -> Python's own help system.
-    object?   -> Details about 'object', use 'object??' for extra details.
-
-    In [1]: import logtool
-
-    In [2]: logtool.now ()
-    Out[2]: (1411075417, '21:23:37 Thu 18 Sep 2014 Z+0000')
-
-    In [3]: logtool.time_str (logtool.now ()[0])
-    Out[3]: '14:23:42 Thu 18 Sep 2014 Z+0000'
+You'll likely find your loan usage varying wildly across your initial
+games.  Wisdom aside, 37 is the highest loan count I've ever seen in a
+game.
