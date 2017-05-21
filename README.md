@@ -22,6 +22,10 @@ An 18xx game set in England.  Novel properties include:
 - **Trains:** Trains never rust, they just get more and more and very
   much more expensive to own.
 
+Game files can be found under:
+
+  http://kanga.nu/~claw/1820/
+
 ## Game components
 
 While you can certainly make and cut out all the trains and trains
@@ -118,9 +122,8 @@ file (and thus be left with 4 "extra" certificates).
 ### Station markers & similar Tokens
 
 Print the tokens on full page label paper, cut into strips and punch
-using a 1/2" punch such as the following:
+using a 1/2" punch such as the following from Paper Shapers:
 
-  Paper Shapers Small Punch-1/2-Inch
   https://www.amazon.com/gp/product/B000XAKWPK
 
 I then stick them to wood plugs from a Home Depot/Lowes/DIY/similar
@@ -140,9 +143,9 @@ dye:
 ### Loans
 
 I do not provide any component art for loans.  I use blank scrabble
-tiles dyed a bright red (see the URL above for loans). Wood cubes or
-plastic square tiles from educational supply stores would also work
-well.
+tiles dyed a bright red (see the URL for loans above for notes on how
+to colour/dye wood). Wood cubes or plastic square tiles from
+educational supply stores would also work well.
 
   https://www.amazon.com/ETA-hand2mind-Plastic-Color-Square/dp/B01J6FPZU4
 
