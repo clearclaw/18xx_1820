@@ -32,7 +32,7 @@ While you can certainly make and cut out all the trains and trains
 yourself, there are rather a lot of them.  To save effort (if not
 money) those components are also available from The Game Crafter at:
 
-  <URL GOES HERE>
+  URL GOES HERE
 
 The rest you'll have to make by hand.
 
