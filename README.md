@@ -165,3 +165,19 @@ educational supply stores would also work well.
 You'll likely find your loan usage varying wildly across your initial
 games.  Wisdom aside, 37 is the highest loan count I've ever seen in a
 game.
+
+#### Revenue Charts
+
+While I don't find revenue tracks useful, most especially not in 1820,
+two forms of revenue charts are provided for those that like them: one
+that snakes back and forth across multiple pages and one that snakes
+across and fills a single page before moving to the next page.  Use
+the one (or neither) that you prefer.
+
+**Note:** While the total revenue of a final company with a FLOOD
+train can be up into the multiple $thousands, neither of the revenue
+charts go that high.  Umm, sorry!
+
+## Bank
+
+There is no set bank size in 1820.  A bank of 40,000 should suffice.
