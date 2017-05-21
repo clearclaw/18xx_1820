@@ -142,10 +142,10 @@ dye:
 
 ### Loans
 
-I do not provide any component art for loans.  I use blank scrabble
-tiles dyed a bright red (see the URL for loans above for notes on how
-to colour/dye wood). Wood cubes or plastic square tiles from
-educational supply stores would also work well.
+I do not provide component art for loans.  I use blank scrabble tiles
+dyed a bright red (see the URL for loans above for notes on how to
+colour/dye wood). Wood cubes or plastic square tiles from educational
+supply stores would also work well.
 
   https://www.amazon.com/ETA-hand2mind-Plastic-Color-Square/dp/B01J6FPZU4
 
