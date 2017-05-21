@@ -11,7 +11,7 @@ An 18xx game set in England.  Novel properties include:
 - **Future trains:** Currently unavailable trains are sold at auction
   to players (not companies) in the early stock rounds.
 
-- **Cousins:** A sort-of player-controled private company that can
+- **Cousins:** A sort of player-controled private company that can
   both buy and sell shares and which grants a special power to the
   companies it invests in.
 
@@ -19,7 +19,7 @@ An 18xx game set in England.  Novel properties include:
   (subject to simple spacing rules).
 
 - **Share counts:** Companies can be private, 5-share, 10-share,
-  20-share or 50-share and can and do move up and down on that scale
+  20-share or 50-share and may (and do) move up and down on that scale
   during the game.
 
 - **Takeovers & liquidations:** Companies buy other companies (often)
@@ -38,7 +38,7 @@ about 7 hours.
 
 ## Game components
 
-While you can certainly make and cut out all the trains and trains
+While you can certainly make and cut out all the shares and trains
 yourself, there are rather a lot of them.  To save effort (if not
 money) those components are also available from The Game Crafter at:
 
