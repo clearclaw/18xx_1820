@@ -4,16 +4,21 @@
 
 An 18xx game set in England.  Novel properties include:
 
-- Future trains: Currently and increasingly unavailable trains are
+- *Future trains:* Currently and increasingly unavailable trains are
   sold in advance in the early stock rounds.
-- Cousins: Like a private companu that can both buy and sell shares
+
+- *Cousins:* Like a private companu that can both buy and sell shares
   and which grants a special power to the companies it invests in.
-- Free track system: Cities & towns appear anywhere on the map
+
+- *Free track system:* Cities & towns appear anywhere on the map
   (subject to simple spacing rules).
-- Share counts: Companies can be private, 5-share, 10-share, 20-share
-  or 50-share and can and do move up and down on that scale during the
-  game.
-- Takeovers and liquidations: Companies buy other companies.  Often.
+
+- *Share counts:* Companies can be private, 5-share, 10-share,
+  20-share or 50-share and can and do move up and down on that scale
+  during the game.
+
+- *Takeovers & liquidations:* Companies buy other companies.  Often.
+
 - Trains: Trains never rust, they just get more and more and very much
   more expensive to own.
 
