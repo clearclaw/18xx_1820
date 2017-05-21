@@ -39,8 +39,8 @@ only available formatted for US letter but will print just fine on A4.
 Ensure that you print without scaling.  Do not select "scale to fit"
 or "fit to page".  Print everything with "no scale" or "100% scale".
 
-Note: In many cases the provided art will produce more components than
-needed (eg trains).  Discard the extras -- they aren't needed.
+**Note:** In many cases the provided art will produce more components
+than needed (eg trains).  Discard the extras -- they aren't needed.
 
 ### Outline versus nooutline:
 
@@ -130,9 +130,10 @@ don't fit well in crowded areas.
 
   http://www.homedepot.com/p/General-Tools-1-2-in-Flat-Head-Plugs-315012/202252112
 
-Note: There are no stickers for the British Rail tokens.  You'll need
-about 40 for British Rail.  In order to differentiate them from normal
-company tokens, I dyed mine a dark blue using cheap clothing dye:
+**Note:** There are no stickers for the British Rail tokens.  You'll
+need about 40 for British Rail.  In order to differentiate them from
+normal company tokens, I dyed mine a dark blue using cheap clothing
+dye:
 
   https://www.boardgamegeek.com/thread/335295
 
