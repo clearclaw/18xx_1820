@@ -33,11 +33,11 @@ Game files can be found under:
 
   http://kanga.nu/~claw/1820/
 
-Not-very-fast (ahem) players experienced with 1820 have completed
-games in about 7 hours.  Inexperienced players will likely take a lot
-longer.  Because of the number of changes from 18xx canon, and the
-resulting steep learning curve, I recommended that new players only
-play up to the third stock round in their first game.
+Not-very-fast players experienced with 1820 have completed games in
+about 7 hours.  Inexperienced players will likely take a lot longer.
+Because of the number of changes from 18xx canon, and the resulting
+steep learning curve, I recommended that new players only play up to
+the third stock round in their first game.
 
 ## Game components
 
@@ -182,7 +182,7 @@ the one (or neither) that you prefer.
 
 Note that while the total revenue of a final company with a FLOOD
 train can be up into the multiple thousands, neither of the revenue
-charts go that high.  Umm, sorry!
+charts go that high.
 
 ## Bank
 
