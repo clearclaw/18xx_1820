@@ -1443,17 +1443,10 @@ A player may bid on the fourth cousin with a bid that is larger than the
 
 \begin_deeper
 \begin_layout Itemize
-In this case the now smallest bid is returned to its player along with the
- player marker.
+In this case the now smallest bid or bids are returned to their player(s)
+ along with the player marker(s).
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-In the case of multiple tied lowest bids, the smallest tied bids are returned
- to their players along with their player markers.
-\end_layout
-
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Subsubsection
@@ -8338,7 +8331,7 @@ Not place any track or station markers or incur any costs or take or repay
 \end_layout
 
 \begin_layout Itemize
-Run any trains for maximum income and withhold the dividends.
+Run any trains held by the company for maximum income and withhold the dividends.
 \end_layout
 
 \begin_layout Itemize
@@ -8372,8 +8365,8 @@ reference "sub:Public-companies"
 
 \begin_deeper
 \begin_layout Itemize
-Put itself up for takeover at the first opportunity in an Issue & Takeover
- Round (see 
+Put that company up for takeover or liquidation at the first opportunity
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Takeovers"
