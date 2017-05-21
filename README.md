@@ -1,5 +1,9 @@
 # 1820
 
+A pretty/web form of this document can be found at:
+
+  https://github.com/clearclaw/18xx_1820/blob/master/README.md
+
 ## Overview
 
 An 18xx game set in England.  Novel properties include:
