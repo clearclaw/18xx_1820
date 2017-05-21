@@ -118,6 +118,12 @@ companies (you can also pre-allocate 4 additional companies to each
 player -- I do -- but you may find players "borrowing" each other's
 companies now and then as the company rush gets really going.
 
+If you follow that pattern you'll need a total of 520 tooken bits:
+
+  - 280 for 20 10-share public companies.
+  - 200 for 10 50-share companies.
+  - 40 for British Rail.
+
 For a 10-share company you'll need to print two copies of the public
 certificates file for that company (as there are 9 certificates per
 page).  For a 50-share company you'll need to print 6 copies of that
