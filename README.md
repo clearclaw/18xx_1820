@@ -21,9 +21,9 @@ An 18xx game set in England.  Novel properties include:
   20-share or 50-share and can and do move up and down on that scale
   during the game.
 
-- **Takeovers & liquidations:** Companies buy other companies and
-  companies fail and are taken over (often) by the will-be British
-  Rail.
+- **Takeovers & liquidations:** Companies buy other companies (often)
+  and companies fail or are liquidated and taken over by the will-be
+  British Rail.
 
 - **Trains:** Trains never rust, they just get more and more and very
   much more expensive to own.
