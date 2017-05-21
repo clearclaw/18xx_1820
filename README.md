@@ -8,11 +8,12 @@ A pretty/web form of this document can be found at:
 
 An 18xx game set in England.  Novel properties include:
 
-- **Future trains:** Currently and increasingly unavailable trains are
-  sold in advance in the early stock rounds.
+- **Future trains:** Currently unavailable trains are sold at auction
+  to players (not companies) in the early stock rounds.
 
-- **Cousins:** Like a private company that can both buy and sell shares
-  and which grants a special power to the companies it invests in.
+- **Cousins:** A sort-of player-controled private company that can
+  both buy and sell shares and which grants a special power to the
+  companies it invests in.
 
 - **Free track system:** Cities & towns appear anywhere on the map
   (subject to simple spacing rules).
@@ -31,6 +32,9 @@ An 18xx game set in England.  Novel properties include:
 Game files can be found under:
 
   http://kanga.nu/~claw/1820/
+
+Experienced players (experienced with 1820) have completed games in
+about 7 hours.
 
 ## Game components
 
