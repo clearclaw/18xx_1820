@@ -61,5 +61,7 @@ pushd build
   done
   ps2pdf 1820-Map-A1.ps
   rm 1820-Map-A1.ps
-  
+
+  cp $dir_root/README.md .
+
 popd

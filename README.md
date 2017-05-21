@@ -46,7 +46,7 @@ or "fit to page".  Print everything with "no scale" or "100% scale".
 **Note:** In many cases the provided art will produce more components
 than needed (eg trains).  Discard the extras -- they aren't needed.
 
-### Outline versus nooutline:
+#### Outline versus nooutline:
 
 Most files (eg shares trains and player cards) are formatted for
 cutting with an Ellison Prestige Pro test die.  Use the "nooutline"
@@ -54,7 +54,7 @@ files for those components if you are using such a die.  For
 everything else use the "outline" files which have thin lines
 outlining each component as a cutting guide.
 
-### Map
+#### Map
 
 There are four possible files for making the map.  Choose the one that
 best fits your printing capacity:
@@ -68,7 +68,7 @@ The multi-page formats have small overlaps between the sections, which
 allows them to be more easily laminated and then taped together into
 an accurate non-gappy map which also folds up neatly for storage.
 
-### Shares
+#### Shares
 
 There are 30 companies in 1820.  I've seen as many as 27 in
 simultaneous use in a single game.  If you ever see a game of 1820
@@ -119,7 +119,7 @@ certificates file for that company (as there are 9 certificates per
 page).  For a 50-share company you'll need to print 6 copies of that
 file (and thus be left with 4 "extra" certificates).
 
-### Station Markers & Similar Tokens
+#### Station Markers & Similar Tokens
 
 Print the tokens on full page label paper, cut into strips and punch
 using a 1/2" punch such as the following from Paper Shapers:
@@ -140,7 +140,7 @@ dye:
 
   https://www.boardgamegeek.com/thread/335295
 
-### Loans
+#### Loans
 
 I do not provide component art for loans.  You'll have to use
 something of your own devising.  I use blank scrabble tiles dyed a
