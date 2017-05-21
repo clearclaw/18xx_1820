@@ -54,7 +54,7 @@ Ensure that you print without scaling.  Do not select "scale to fit"
 or "fit to page".  Print everything with "no scale" or "100% scale".
 
 **Note:** In many cases the provided art will produce more components
-than needed (eg trains).  Discard the extras -- they aren't needed.
+than needed (eg trains).  Discard the extras.
 
 #### Outline versus nooutline:
 
