@@ -55,10 +55,10 @@ outlining each component as a cutting guide.
 There are four possible files for making the map.  Choose the one that
 bet fits your printing capacity:
 
-- 1820-Map-A1.pdf	- A single A1 page -- use with a large format printer.
-- 1820-Map-A4.pdf	- 8 A4 pages.
-- 1820-Map-legal.pdf - 6 US Legal sized pages.
-- 1820-Map-letter.pdf - 9 US letter sized pages.
+- **1820-Map-A1.pdf**	- A single A1 page -- use with a large format printer.
+- **1820-Map-A4.pdf**	- 8 A4 pages.
+- **1820-Map-legal.pdf** - 6 US Legal sized pages.
+- **1820-Map-letter.pdf** - 9 US letter sized pages.
 
 The multi-page formats have small overlaps between the sections, which
 allows them to be more easily laminated and then taped together into
