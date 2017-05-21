@@ -119,7 +119,7 @@ certificates file for that company (as there are 9 certificates per
 page).  For a 50-share company you'll need to print 6 copies of that
 file (and thus be left with 4 "extra" certificates).
 
-### Station markers & similar Tokens
+### Station Markers & Similar Tokens
 
 Print the tokens on full page label paper, cut into strips and punch
 using a 1/2" punch such as the following from Paper Shapers:
@@ -142,10 +142,11 @@ dye:
 
 ### Loans
 
-I do not provide component art for loans.  I use blank scrabble tiles
-dyed a bright red (see the URL for loans above for notes on how to
-colour/dye wood). Wood cubes or plastic square tiles from educational
-supply stores would also work well.
+I do not provide component art for loans.  You'll have to use
+something of your own devising.  I use blank scrabble tiles dyed a
+bright red (see the URL for loans above for notes on how to easily and
+cheaply colour/dye wood). Wood cubes or plastic square tiles from
+educational supply stores would also work well.
 
   https://www.amazon.com/ETA-hand2mind-Plastic-Color-Square/dp/B01J6FPZU4
 
