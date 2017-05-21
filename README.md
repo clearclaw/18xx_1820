@@ -194,7 +194,7 @@ of 20,000 is enough.
 denominations.  If using poker chips, value-20 chips are strongly
 recommended.  Many values and costs in the game are multiples of 20.
 
-The bank distribution I use::
+The bank distribution I use:
 
            Count    Value   Total    Total
     White     75        1      75       75
