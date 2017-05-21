@@ -7,7 +7,7 @@ An 18xx game set in England.  Novel properties include:
 - **Future trains:** Currently and increasingly unavailable trains are
   sold in advance in the early stock rounds.
 
-- **Cousins:** Like a private companu that can both buy and sell shares
+- **Cousins:** Like a private company that can both buy and sell shares
   and which grants a special power to the companies it invests in.
 
 - **Free track system:** Cities & towns appear anywhere on the map
@@ -24,7 +24,7 @@ An 18xx game set in England.  Novel properties include:
 
 ## Game components
 
-While you can cerntainly make and cut out all the trains and trains
+While you can certainly make and cut out all the trains and trains
 yourself, there are rather a lot of them.  To save effort (if not
 money) those components are also available from The Game Crafter at:
 
@@ -32,8 +32,8 @@ money) those components are also available from The Game Crafter at:
 
 The rest you'll have to make by hand.
 
-Most components are avaiable formatted for either A4 or US letter
-siuzed paper.  A few, like the rules, track tiles, tile sheet, etc are
+Most components are available formatted for either A4 or US letter
+sized paper.  A few, like the rules, track tiles, tile sheet, etc are
 only available formatted for US letter but will print just fine on A4.
 
 Ensure that you print without scaling.  Do not select "scale to fit"
@@ -46,7 +46,7 @@ needed (eg trains).  Discard the extras -- they aren't needed.
 
 Most files (eg shares trains and player cards) are formatted for
 cutting with an Ellison Prestige Pro test die.  Use the "nooutline"
-files for those components if you are using such a die.  Eor
+files for those components if you are using such a die.  For
 everything else use the "outline" files which have thin lines
 outlining each component as a cutting guide.
 
@@ -80,7 +80,7 @@ count, storage pace, cost and manufacturing effort.
 
 For a 10-share company you need:
 
-  - Private certificate/xshare (black background).
+  - Private certificate/share (black background).
   - 10 public certificates/shares (white background)
   - 12 station markers
   - 1 stock marker
@@ -130,7 +130,7 @@ don't fit well in crowded areas.
 
   http://www.homedepot.com/p/General-Tools-1-2-in-Flat-Head-Plugs-315012/202252112
 
-Note: There are no stickers for the British Rail tokens.  You;ll need
+Note: There are no stickers for the British Rail tokens.  You'll need
 about 40 for British Rail.  In order to differentiate them from normal
 company tokens, I dyed mine a dark blue using cheap clothing dye:
 
