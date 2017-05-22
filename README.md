@@ -202,6 +202,18 @@ Note that while the total revenue of a final company with a FLOOD
 train can be up into the multiple thousands, neither of the revenue
 charts go that high.
 
+## Track Tile Storage
+
+I like and use these trays to store the track tiles:
+
+  https://www.amazon.com/gp/product/B001B0S2H6
+
+There are enough compartments with two trays to almost have have
+tile-type on its own.  Doubling up on a few closely related tile-types
+(e.g. all the OO tiles of a colour together with the Machester tile of
+that colour) has everything fitting easily. Just cut the kids off with
+a sharp knife and then secure afterward with a rubber band.
+
 ## Bank
 
 There is no set bank size in 1820.  A bank of 40,000 should suffice.
@@ -222,3 +234,13 @@ The poker chip bank distribution I use:
     Purple    40      500  20,000   29,000
     Orange    20     2000  40,000   69,000
              391
+
+## Further Discussion
+
+A mailing list for the game can be found at:
+
+  https://groups.google.com/forum/#!forum/1820-dev
+
+Please join the discussion!
+
+-- JCL
