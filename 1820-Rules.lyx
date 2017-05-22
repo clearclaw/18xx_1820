@@ -4087,7 +4087,7 @@ Passes.
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Companies that are acquired in a takeover or liquidated (see 
+Companies that are liquidated or acquired in a takeover (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Takeover-Auction"
@@ -8926,6 +8926,7 @@ reference "sub:Build-track"
 \end_inset
 
 ).
+ 
 \end_layout
 
 \begin_layout Description
@@ -9065,7 +9066,8 @@ reference "sub:Run-train(s)"
 \end_inset
 
 ).
- This can be done once per company per game.
+ This can be done no more than thrice per game, and once per company per
+ game.
  
 \end_layout
 

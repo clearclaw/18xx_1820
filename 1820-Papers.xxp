@@ -764,7 +764,8 @@ is paid to this treasury each time.""",
       "title": "James Holden",
       "desc": """
 Investments can buy a train from the supply
-& immediately run it, once per company per game.""",
+& immediately run it, thrice per game, once
+per company per game.""",
       "url": "https://en.wikipedia.org/wiki/James_Holden_(locomotive_engineer)",
       "face_value": "$130",
       "stripe_colour": "${M_RED}",
