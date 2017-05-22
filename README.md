@@ -45,7 +45,7 @@ While you can certainly make and cut out all the shares and trains
 yourself, there are rather a lot of them.  To save effort (if not
 money) those components are also available from The Game Crafter at:
 
-  URL GOES HERE
+  https://www.thegamecrafter.com/games/1820-shares-trains
 
 The rest you'll have to make by hand.
 
@@ -158,6 +158,12 @@ dye:
 
   https://www.boardgamegeek.com/thread/335295
 
+#### Trains
+
+Train prices are marked on the train cards with $-signs.  The software
+tools I'm currently using to generate the components can't handle £
+(pound) symbols.  Treat the $-signs as if they were £-signs.
+
 #### Loans
 
 I do not provide component art for loans.  You'll have to use
@@ -171,6 +177,18 @@ tiles from educational supply stores would also work well.
 You'll likely find your loan usage varying wildly across your initial
 games.  Wisdom aside, 37 is the highest loan count I've ever seen in a
 game.
+
+#### Lobby Markers
+
+I do not provide component art for lobby markers.  You'll have to use
+something of your own devising.  I use 1" coloured wood cubes:
+
+  https://www.amazon.com/ETA-hand2mind-Color-Cubes-Storage/dp/B016C3H9IY
+
+Really, you can use anything that convenient and which you have 10 of
+in 5 colours.  Small cards would work, wood cubes from other games,
+whatever.  Just dry-run how the lobby process would work with your
+choice of currency and lobby markers to ensure they work well.
 
 #### Revenue Charts
 
