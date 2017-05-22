@@ -8,7 +8,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${M_GRAY}",
       "tile_colour": "${H_GRAY}",
-      "company_type": 0,
+      "company_type": 100,
       "token_colour": "${BLACK}",
       "token_name_colour": "${WHITE}",
       "box_colour": "${P_BLUE}",
@@ -28,7 +28,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_YELLOW}",
       "url": "https://en.wikipedia.org/wiki/London_and_Southampton_Railway",
-      "company_type": 1,
+      "company_type": 50,
     },
     {
       "name": "Oxford, Worcester\n& Wolverhampton\nRailway",
@@ -41,7 +41,7 @@
       "description": "The Old Worse & Worse",
       "url": "https://en.wikipedia.org/wiki/Oxford,_Worcester_and_Wolverhampton_Railway",
       "token_name_font": '"Times-Roman", 7',
-      "company_type": 1,
+      "company_type": 50,
     },
     {
       "name": "Northampton\n& Peterborough\nRailway",
@@ -52,7 +52,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_BROWN}",
       "url": "https://en.wikipedia.org/wiki/Northampton_and_Peterborough_Railway",
-      "company_type": 1,
+      "company_type": 10,
     },
     {
       "name": "Lancashire Union\nRailway",
@@ -64,7 +64,7 @@
       "share_stripe": "${P_PURPLE}",
       "description": "The Whelley",
       "url": "https://en.wikipedia.org/wiki/Lancashire_Union_Railway",
-      "company_type": 1,
+      "company_type": 10,
     },
     {
       "name": "London, Chatham\n& Dover Railway",
@@ -76,7 +76,7 @@
       "share_stripe": "${P_GREEN}",
       "description": "The Chatham",
       "url": "https://en.wikipedia.org/wiki/London,_Chatham_and_Dover_Railway",
-      "company_type": 1,
+      "company_type": 10,
     },
     {
       "name": "Wrexham, Mold &\nConnah's Quay\nRailway",
@@ -89,7 +89,7 @@
       "description": "The Mid Wirral Line",
       "url": "https://en.wikipedia.org/wiki/Wrexham,_Mold_and_Connah%27s_Quay_Railway",
       "token_name_font": '"Times-Roman", 6',
-      "company_type": 1,
+      "company_type": 10,
     },
     {
       "name": "Manchester\n& Birmingham\nRailway",
@@ -100,7 +100,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_GRAY}",
       "url": "https://en.wikipedia.org/wiki/Manchester_and_Birmingham_Railway",
-      "company_type": 1,
+      "company_type": 10,
     },
   ]
 %}
@@ -116,7 +116,7 @@
       "share_stripe": "${P_GRAY}",
       "description": "The greatest public work\never executed either in\nancient or modern times",
       "url": "https://en.wikipedia.org/wiki/London_and_Birmingham_Railway",
-      "company_type": 2,
+      "company_type": 50,
     },
     {
       "name": "Liverpool, Ormskirk\n& Preston Railway",
@@ -127,7 +127,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_PURPLE}",
       "url": "https://en.wikipedia.org/wiki/Liverpool,_Ormskirk_and_Preston_Railway",
-      "company_type": 2,
+      "company_type": 50,
     },
     {
       "name": "Stockport, Timperley\n& Altrincham Junction\nRailway",
@@ -138,7 +138,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_RED}",
       "url": "https://en.wikipedia.org/wiki/Stockport,_Timperley_and_Altrincham_Junction_Railway",
-      "company_type": 2,
+      "company_type": 10,
     },
     {
       "name": "Yarmouth & Norwich\nRailway",
@@ -150,7 +150,7 @@
       "share_stripe": "${P_RED}",
       "description": "The first railway in Norfolk",
       "url": "https://en.wikipedia.org/wiki/Yarmouth_%26_Norwich_Railway",
-      "company_type": 2,
+      "company_type": 10,
     },
     {
       "name": "London & Brighton\nRailway",
@@ -161,7 +161,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_BLUE}",
       "url": "https://en.wikipedia.org/wiki/London_and_Brighton_Railway",
-      "company_type": 2,
+      "company_type": 10,
     },
     {
       "name": "Sheffield,\nAshton-under-Lyne\n& Manchester Railway",
@@ -173,7 +173,7 @@
       "share_stripe": "${P_BROWN}",
       "description": "The Woodhead Route",
       "url": "https://en.wikipedia.org/wiki/Sheffield,_Ashton-under-Lyne_and_Manchester_Railway",
-      "company_type": 2,
+      "company_type": 10,
     },
     {
       "name": "Bristol & Gloucester\nRailway",
@@ -185,7 +185,7 @@
       "share_stripe": "${P_BLUE}",
       "description": "Coalpit Heath Railway\nThe Dramway",
       "url": "https://en.wikipedia.org/wiki/Bristol_and_Gloucester_Railway",
-      "company_type": 2,
+      "company_type": 50,
     },
     {
       "name": "Somerset & Dorset\nJoint Railway",
@@ -197,7 +197,7 @@
       "share_stripe": "${P_GREEN}",
       "description": "The S&D",
       "url": "https://en.wikipedia.org/wiki/Somerset_and_Dorset_Joint_Railway",
-      "company_type": 2,
+      "company_type": 10,
     },
   ]
 %}
@@ -213,7 +213,7 @@
       "share_stripe": "${P_GREEN}",
       "description": "The Bluebell Line\nThe Bread & Herring Line",
       "url": "https://en.wikipedia.org/wiki/Charnwood_Forest_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "London & Greenwich\nRailway",
@@ -225,7 +225,7 @@
       "share_stripe": "${P_RED}",
       "description": "First steam railway in London",
       "url": "https://en.wikipedia.org/wiki/London_and_Greenwich_Railway",
-      "company_type": 3,
+      "company_type": 50,
     },
     {
       "name": "Sheffield, Rotherham,\nBarnsley, Wakefield,\nHuddersfield & Goole\nRailway",
@@ -237,7 +237,7 @@
       "share_stripe": "${P_GREEN}",
       "url": "https://en.wikipedia.org/wiki/Sheffield,_Rotherham,_Barnsley,_Wakefield,_Huddersfield_and_Goole_Railway",
       "token_name_font": '"Times-Roman", 6',
-      "company_type": 2,
+      "company_type": 50,
     },
     {
       "name": "Cromford\n& High Peak\nRailway",
@@ -248,7 +248,7 @@
       "token_bottom_stripe": "${L_BROWN}",
       "share_stripe": "${P_BLUE}",
       "url": "https://en.wikipedia.org/wiki/Cromford_and_High_Peak_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Mansfield & Pinxton\nRailway",
@@ -259,7 +259,7 @@
       "token_bottom_stripe": "${L_GREEN}",
       "share_stripe": "${P_BROWN}",
       "url": "https://en.wikipedia.org/wiki/Mansfield_and_Pinxton_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Midland &\nGreat Northern\nJoint Railway",
@@ -271,7 +271,7 @@
       "share_stripe": "${P_GRAY}",
       "description": "Muddle & Get Nowhere",
       "url": "https://en.wikipedia.org/wiki/Midland_and_Great_Northern_Joint_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Stockton & Darlington\nRailway",
@@ -283,7 +283,7 @@
       "share_stripe": "${P_BLUE}",
       "description": "Periculum privatum utilitas publica\nAt private risk for public service",
       "url": "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway",
-      "company_type": 3,
+      "company_type": 50,
     },
     {
       "name": "Southampton\n& Dorchester\nRailway",
@@ -295,7 +295,7 @@
       "share_stripe": "${P_YELLOW}",
       "description": "Castleman's Corkscrew",
       "url": "https://en.wikipedia.org/wiki/Southampton_and_Dorchester_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Preston & Wyre Joint\nRailway",
@@ -306,7 +306,7 @@
       "token_bottom_stripe": "${BLACK}",
       "share_stripe": "${P_RED}",
       "url": "https://en.wikipedia.org/wiki/Preston_and_Wyre_Joint_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Canterbury\n& Whitstable\nRailway",
@@ -318,7 +318,7 @@
       "share_stripe": "${P_GRAY}",
       "description": "The Crab and Winkle Line",
       "url": "https://en.wikipedia.org/wiki/Canterbury_and_Whitstable_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Colne Valley\n& Halstead Railway",
@@ -329,7 +329,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_PURPLE}",
       "url": "https://en.wikipedia.org/wiki/Colne_Valley_and_Halstead_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Manchester,\nSouth Junction &\nAltrincham Railway",
@@ -342,7 +342,7 @@
       "description": "Many Short Journeys\n& Absolute Reliability",
       "url": "https://en.wikipedia.org/wiki/Manchester,_South_Junction_and_Altrincham_Railway",
       "token_name_font": '"Times-Roman", 7',
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Birmingham & Derby\nJunction Railway",
@@ -354,7 +354,7 @@
       "share_stripe": "${P_BROWN}",
       "description": "First Class carriages were yellow,\nSecond Class blue, and the\nThird Class brown",
       "url": "https://en.wikipedia.org/wiki/Birmingham_and_Derby_Junction_Railway",
-      "company_type": 3,
+      "company_type": 50,
     },
     {
       "name": "Mid-Hants Railway",
@@ -366,7 +366,7 @@
       "share_stripe": "${P_PURPLE}",
       "description": "The Watercress Line",
       "url": "https://en.wikipedia.org/wiki/Watercress_Line",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Chipping Norton\nRailway",
@@ -377,7 +377,7 @@
       "token_bottom_stripe": "${BLACK}",
       "share_stripe": "${P_YELLOW}",
       "url": "https://en.wikipedia.org/wiki/Chipping_Norton_Railway",
-      "company_type": 3,
+      "company_type": 50,
     },
   ]
 %}
@@ -392,7 +392,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_RED}",
       "url": "https://en.wikipedia.org/wiki/Cheshire_Midland_Railway",
-      "company_type": 1,
+      "company_type": 10,
     },
     {
       "name": "Bolton & Leigh\nRailway",
@@ -404,7 +404,7 @@
       "share_stripe": "${P_YELLOW}",
       "description": "The first public railway in the\nhistoric county of Lancashire",
       "url": "https://en.wikipedia.org/wiki/Bolton_and_Leigh_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "London & Croydon\nRailway",
@@ -415,7 +415,7 @@
       "token_bottom_stripe": "${WHITE}",
       "share_stripe": "${P_PURPLE}",
       "url": "https://en.wikipedia.org/wiki/London_and_Croydon_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Norwich & Brandon\nRailway",
@@ -426,7 +426,7 @@
       "token_bottom_stripe": "${L_PURPLE}",
       "share_stripe": "${P_BROWN}",
       "url": "https://en.wikipedia.org/wiki/Norwich_%26_Brandon_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Wrexham, Mold &\nConnah's Quay\nRailway",
@@ -438,7 +438,7 @@
       "share_stripe": "${P_BLUE}",
       "description": "The Mid Wirral Line",
       "url": "https://en.wikipedia.org/wiki/Wrexham,_Mold_and_Connah%27s_Quay_Railway",
-      "company_type": 2,
+      "company_type": 10,
     },
     {
       "name": "Cheltenham &\nGreat Western Union\nRailway",
@@ -449,7 +449,7 @@
       "token_bottom_stripe": "${L_RED}",
       "share_stripe": "${P_GREEN}",
       "url": "https://en.wikipedia.org/wiki/Cheltenham_and_Great_Western_Union_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Sheffield\n& Lincolnshire\nJunction Railway",
@@ -460,7 +460,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_GRAY}",
       "url": "https://en.wikipedia.org/wiki/Sheffield_and_Lincolnshire_Junction_Railway",
-      "company_type": 2,
+      "company_type": 10,
     },
     {
       "name": "Canterbury\n& Whitstable\nRailway",
@@ -472,7 +472,7 @@
       "share_stripe": "${P_GRAY}",
       "description": "The Crab and Winkle Line",
       "url": "https://en.wikipedia.org/wiki/Canterbury_and_Whitstable_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Leicester\n& Swannington\nRailway",
@@ -483,7 +483,7 @@
       "token_bottom_stripe": "${L_GREEN}",
       "share_stripe": "${P_GRAY}",
       "url": "https://en.wikipedia.org/wiki/Leicester_and_Swannington_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "West Cheshire\nRailway",
@@ -494,7 +494,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_GRAY}",
       "url": "https://en.wikipedia.org/wiki/West_Cheshire_Railway",
-      "company_type": 1,
+      "company_type": 10,
     },
     {
       "name": "Great Grimsby\n& Sheffield Junction\nRailway",
@@ -505,7 +505,7 @@
       "token_bottom_stripe": "${L_YELLOW}",
       "share_stripe": "${P_PURPLE}",
       "url": "https://en.wikipedia.org/wiki/Great_Grimsby_and_Sheffield_Junction_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
     {
       "name": "Manchester & Leeds\nRailway",
@@ -516,7 +516,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_YELLOW}",
       "url": "https://en.wikipedia.org/wiki/Manchester_and_Leeds_Railway",
-      "company_type": 1,
+      "company_type": 10,
     },
     {
       "name": "Bristol & Gloucester\nRailway",
@@ -528,7 +528,7 @@
       "share_stripe": "${P_GREEN}",
       "description": "Coalpit Heath Railway\nThe Dramway",
       "url": "https://en.wikipedia.org/wiki/Bristol_and_Gloucester_Railway",
-      "company_type": 1,
+      "company_type": 10,
     },
     {
       "name": "Blackburn, Clitheroe &\nNorth Western Junction\nRailway",
@@ -539,7 +539,7 @@
       "token_bottom_stripe": "transparent",
       "share_stripe": "${P_BROWN}",
       "url": "https://en.wikipedia.org/wiki/Ribble_Valley_Line#Early_history",
-      "company_type": 2,
+      "company_type": 10,
     },
     {
       "name": "Fleetwood, Preston\n& West Riding\nJunction Railway",
@@ -551,7 +551,7 @@
       "share_stripe": "${P_PURPLE}",
       "url": "https://en.wikipedia.org/wiki/Preston_and_Longridge_Railway",
       "token_name_font": '"Times-Roman", 7',
-      "company_type": 2,
+      "company_type": 10,
     },
     {
       "name": "Sheffield, Rotherham,\nBarnsley, Wakefield,\nHuddersfield & Goole\nRailway",
@@ -563,7 +563,7 @@
       "share_stripe": "${P_RED}",
       "url": "https://en.wikipedia.org/wiki/Sheffield,_Rotherham,_Barnsley,_Wakefield,_Huddersfield_and_Goole_Railway",
       "token_name_font": '"Times-Roman", 6',
-      "company_type": 2,
+      "company_type": 10,
     },
     {
       "name": "Preston & Wyre Joint\nRailway",
@@ -574,7 +574,7 @@
       "token_bottom_stripe": "${D_GRAY}",
       "share_stripe": "${P_GRAY}",
       "url": "https://en.wikipedia.org/wiki/Preston_and_Wyre_Joint_Railway",
-      "company_type": 3,
+      "company_type": 10,
     },
   ]
 %}
@@ -1439,7 +1439,21 @@ sizes"""
   {% endif %}
   {% for sz in sl %}
   [[{{ company.token }}-sheet{{ sz }}]]
+    {% if company.company_type == 100 %}
+      {% if sz == 1 %}
+    print_instruction = "Print 4 copies of this page."
+      {% elif sz == 5 %}
+    print_instruction = "Print 2 copies of this page."
+      {% else %}
+    print_instruction = "OooopsBR-{{ sz }}"
+      {% endif %}
+    {% elif company.company_type == 50 %}
     print_instruction = "Print 6 copies of this page."
+    {% elif company.company_type == 10 %}
+    print_instruction = "Print 2 copies of this page."
+    {% else %}
+    print_instruction = "Oooops"
+    {% endif %}
     token_bottom_colour = {{ company.token_bottom }}
     token_bottom_stripe_colour = {{ company.token_bottom_stripe }}
     {% if company.get ("box_colour") %}
