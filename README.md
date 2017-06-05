@@ -93,9 +93,10 @@ Nominally, all the companies are identical.  They all have a charter,
 marker, and a revenue marker.  Because in practice the number of
 20-share and 50-share companies in simultaneous play is limited, it is
 not necessary to produce every component for all companies.  For my
-own use, I produce components for the following 10 companies to only
-10 shares, This greatly reduces component count, storage pace, cost
-and manufacturing effort.
+own use, I produce components for the following 10 companies for all
+50 shares and 20 tokens and then all the rest to only 10 shares and 14
+tokens, This greatly reduces component count, storage pace, cost and
+manufacturing effort.
 
   - B&DJR
   - B&GR
